@@ -2926,5 +2926,727 @@
     ],
     "classification_confidence": "high",
     "classification_reasoning": "Unigrid develops sodium-ion batteries for energy storage and e-mobility applications, which aligns with the battery chemistry and grid-scale energy storage domains."
+  },
+  {
+    "company_name": "Virtual Peaker",
+    "description": "Virtual Peaker is a cloud-based SaaS company that manages distributed energy resources for modern utilities.",
+    "location": "Louisville, Kentucky, United States",
+    "founded": "2015",
+    "industries": "Energy, Energy Management, Internet of Things, SaaS, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "distributed_energy",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Virtual Peaker is a cloud-based SaaS company that manages distributed energy resources for modern utilities, which aligns with the distributed energy and grid software domains."
+  },
+  {
+    "company_name": "The Nuclear Company",
+    "description": "The Nuclear Company enables the deployment of nuclear power plants at fleet-scale by integrating government and industry partners.",
+    "location": "Lexington, Kentucky, United States",
+    "founded": "2023",
+    "industries": "Clean Energy, Electrical Distribution, Nuclear",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "advanced_nuclear",
+      "nuclear_fuel",
+      "small_modular_reactors"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The Nuclear Company's focus on enabling the deployment of nuclear power plants at scale aligns with the advanced nuclear, nuclear fuel, and small modular reactor technology domains."
+  },
+  {
+    "company_name": "Zap Energy",
+    "description": "Zap Energy is developing compact fusion power that doesn't require magnets or lasers.",
+    "location": "Everett, Washington, United States",
+    "founded": "2017",
+    "industries": "Clean Energy, CleanTech, Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "nuclear_fusion",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Zap Energy is developing compact fusion power, which falls under the nuclear fusion domain. Its description also indicates it is working on broader clean energy technology, so it can be classified under the general energy domain."
+  },
+  {
+    "company_name": "Malta",
+    "description": "Malta is a provider of industrial-grade, grid-scale energy storage, and electro-thermal energy storage solutions for energy industry.",
+    "location": "Cambridge, Massachusetts, United States",
+    "founded": "2018",
+    "industries": "Energy, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Malta provides industrial-grade, grid-scale energy storage solutions, which aligns with the energy_storage_systems and grid_scale_energy_storage domains."
+  },
+  {
+    "company_name": "Iontra",
+    "description": "Iontra provides battery charging technology designed to enhance the performance of commercial lithium-ion batteries.",
+    "location": "Centennial, Colorado, United States",
+    "founded": "2013",
+    "industries": "Battery, Electronics, Energy Storage",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Iontra provides battery charging technology for commercial lithium-ion batteries, which falls under the battery chemistry and manufacturing domains."
+  },
+  {
+    "company_name": "Raptor Maps",
+    "description": "Raptor Maps provides performance intelligence solutions for solar asset management.",
+    "location": "Somerville, Massachusetts, United States",
+    "founded": "2015",
+    "industries": "Asset Management, Data Visualization, Drones, Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general",
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Raptor Maps provides solutions for solar asset management, which spans multiple energy domains including solar photovoltaics and broader energy technology and services."
+  },
+  {
+    "company_name": "Terawatt Infrastructure",
+    "description": "Terawatt develops high-powered charging infrastructure for commercial fleets, both on owned land as well as behind customers' fences.",
+    "location": "San Francisco, California, United States",
+    "founded": "2018",
+    "industries": "Charging Infrastructure, Electric Vehicle, Energy Management, Fleet Management, Industrial Engineering",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "ev_charging",
+      "electric_vehicles"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Terawatt develops high-powered charging infrastructure for commercial fleets, which spans electric vehicles, charging infrastructure, energy management, and fleet management domains."
+  },
+  {
+    "company_name": "Ionic Mineral Technologies",
+    "description": "Ionic Mineral Technologies is a nano-silicon anode powder producer that helps in charging speeds for lithium-ion batteries.",
+    "location": "Provo, Utah, United States",
+    "founded": "2020",
+    "industries": "Battery, Energy, Manufacturing",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ionic Mineral Technologies produces nano-silicon anode powder for lithium-ion batteries, which falls under battery chemistry and manufacturing domains."
+  },
+  {
+    "company_name": "Solarcycle",
+    "description": "SOLARCYCLE is a technology-driven company maximizing solar sustainability through recycling and repurposing.",
+    "location": "Oakland, California, United States",
+    "founded": "Jan 1, 2022",
+    "industries": "Energy, Recycling, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "solar_manufacturing",
+      "battery_recycling"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Solarcycle is a technology company focused on recycling and repurposing solar panels, which aligns with the solar PV, solar manufacturing, and battery recycling domains."
+  },
+  {
+    "company_name": "CarbonCapture",
+    "description": "CarbonCapture is a climate tech company that develops direct air capture (DAC) machines to remove CO2 directly from the atmosphere.",
+    "location": "Los Angeles, California, United States",
+    "founded": "2019",
+    "industries": "Advanced Materials, Carbon Capture, Environmental Consulting, Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "carbon_capture",
+      "carbon_removal"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "CarbonCapture develops direct air capture technology to remove CO2 from the atmosphere, which falls under the carbon capture and carbon removal domains."
+  },
+  {
+    "company_name": "Greentown Labs",
+    "description": "Greentown Labs is a climate technology incubator that seeks to invest in the clean technology, energy, and environmental industries.",
+    "location": "Somerville, Massachusetts, United States",
+    "founded": "May 1, 2011",
+    "industries": "Automotive, Clean Energy, Energy Efficiency, Incubators, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general",
+      "energy_industrial_base",
+      "energy_policy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Greentown Labs is a climate technology incubator that spans multiple energy-related domains, including general energy topics, the energy industrial base, and energy policy, in addition to its focus on incubating startups."
+  },
+  {
+    "company_name": "Coreshell Technologies",
+    "description": "Coreshell Technologies is a nanotechnology company that is a developer of nanolayer coating technology for rechargeable batteries.",
+    "location": "San Leandro, California, United States",
+    "founded": "2017",
+    "industries": "Battery, Electric Vehicle, Manufacturing, Nanotechnology, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing",
+      "electric_vehicles",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Coreshell Technologies is a nanotechnology company that develops nanolayer coating technology for rechargeable batteries, which is relevant to battery chemistry, manufacturing, and electric vehicles."
+  },
+  {
+    "company_name": "Summit Ridge Energy",
+    "description": "Summit Ridge Energy offers solar, battery storage project acquisition, project development, construction, land and rooftop leasing services.",
+    "location": "Arlington, Virginia, United States",
+    "founded": "2017",
+    "industries": "Energy, Leasing, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "energy_storage_systems",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Summit Ridge Energy offers solar and battery storage project development, construction, and leasing services, which aligns with the solar PV, energy storage systems, and distributed energy domains."
+  },
+  {
+    "company_name": "Cypress Creek Renewables",
+    "description": "Cypress Creek Renewables is an independent power producer that develops utility-scale and distributed solar and energy storage projects.",
+    "location": "Santa Monica, California, United States",
+    "founded": "2014",
+    "industries": "Energy, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Cypress Creek Renewables develops utility-scale and distributed solar projects, which aligns with the solar photovoltaics and distributed energy resource domains."
+  },
+  {
+    "company_name": "Terabase Energy",
+    "description": "Terabase Energy is a web-based tool that reduces cost and deployment timelines by digitalizing the solar power plant.",
+    "location": "Berkeley, California, United States",
+    "founded": "Jan 1, 2019",
+    "industries": "Energy, Software, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Terabase Energy provides a web-based tool for reducing the cost and deployment timelines of solar power plants, which aligns with the solar photovoltaics and distributed energy resources domains."
+  },
+  {
+    "company_name": "Lightshift Energy",
+    "description": "Lightshift Energy is a utility-scale energy storage development company.",
+    "location": "Arlington, Virginia, United States",
+    "founded": "2019",
+    "industries": "Energy, Energy Storage, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Lightshift Energy is a utility-scale energy storage development company, which aligns with the 'Energy Storage Systems' and 'Renewable Energy' domains."
+  },
+  {
+    "company_name": "PowerFlex Systems",
+    "description": "PowerFlex is a clean technology solutions company making the transformation to carbon-free electrification and transportation possible.",
+    "location": "San Diego, California, United States",
+    "founded": "Jan 1, 2016",
+    "industries": "CleanTech, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "PowerFlex Systems is a cleantech company focused on carbon-free electrification and transportation, which aligns with the renewable energy domain."
+  },
+  {
+    "company_name": "ZincFive",
+    "description": "ZincFive provides energy storage and delivery solutions, designing and supplying nickel-zinc (NiZn) battery systems.",
+    "location": "Tualatin, Oregon, United States",
+    "founded": "2015",
+    "industries": "Battery, Consumer Electronics, Energy, Energy Storage, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "ZincFive provides energy storage solutions based on nickel-zinc battery technology, which falls within the battery chemistry and grid-scale energy storage domains."
+  },
+  {
+    "company_name": "ControlRooms.ai",
+    "description": "AI-Assisted Troubleshooting for Heavy Industry",
+    "location": "Austin, Texas, United States",
+    "founded": "Oct 2021",
+    "industries": "Artificial Intelligence (AI), Chemical, Clean Energy, CleanTech, Energy, GreenTech, Industrial Manufacturing, Intelligent Systems, Oil and Gas, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "ControlRooms.ai provides AI-assisted troubleshooting solutions for heavy industry, which aligns with the domains of artificial intelligence, industrial manufacturing, and software."
+  },
+  {
+    "company_name": "Viridi Parente",
+    "description": "Viridi Parente is a fuel and engine company for the new century.",
+    "location": "Buffalo, New York, United States",
+    "founded": "2012",
+    "industries": "Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Viridi Parente is a fuel and engine company focused on renewable energy, which aligns with the 'renewable_energy' and 'energy' domains."
+  },
+  {
+    "company_name": "Membrion",
+    "description": "Membrion is a manufacturer of ultra-low cost, high performance ion exchange membranes.",
+    "location": "Seattle, Washington, United States",
+    "founded": "2016",
+    "industries": "Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Membrion manufactures ion exchange membranes, which are a key component in battery manufacturing processes."
+  },
+  {
+    "company_name": "Scanifly",
+    "description": "Create customized PV designs using the most accurate data available - that always fit on install day.",
+    "location": "Brooklyn, New York, United States",
+    "founded": "2015",
+    "industries": "Drones, Renewable Energy, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company's description indicates it provides software and drone-based tools for renewable energy applications, such as customized PV system designs."
+  },
+  {
+    "company_name": "EnergySage",
+    "description": "EnergySage is an online marketplace for energy systems, including rooftop solar, community solar, storage, and heat pumps.",
+    "location": "Boston, Massachusetts, United States",
+    "founded": "2009",
+    "industries": "Energy, Energy Storage, Marketplace, Price Comparison, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "distributed_energy",
+      "energy_general",
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "EnergySage operates an online marketplace for rooftop solar, community solar, and other distributed energy resources, which aligns with the 'distributed_energy' and 'solar_pv' categories. Additionally, its broad focus on various energy systems makes it relevant to the 'energy_general' category."
+  },
+  {
+    "company_name": "Centuri Group",
+    "description": "Centuri Construction Group, Inc. is a full service energy construction company.",
+    "location": "Phoenix, Arizona, United States",
+    "founded": "Aug 26, 2014",
+    "industries": "Energy, Infrastructure, Real Estate, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general",
+      "energy_industrial_base"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Centuri Group is a full-service energy construction company, indicating involvement across multiple energy-related domains."
+  },
+  {
+    "company_name": "Catalyze",
+    "description": "Catalyze is a renewable energy data analytics, development, and asset management platform.",
+    "location": "Houston, Texas, United States",
+    "founded": "2017",
+    "industries": "Analytics, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Catalyze is a renewable energy data analytics, development, and asset management platform, which falls under the renewable energy and analytics domains."
+  },
+  {
+    "company_name": "BlueOval SK",
+    "description": "BlueOval SK is an advanced EV battery manufacturer by creating an automotive manufacturing ecosystem.",
+    "location": "Stanton, Tennessee, United States",
+    "founded": "2022",
+    "industries": "Automotive, Battery, Electric Vehicle, Manufacturing",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "electric_vehicles"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "BlueOval SK is an advanced EV battery manufacturer, which aligns with the battery manufacturing and electric vehicles domains."
+  },
+  {
+    "company_name": "Prieto Battery",
+    "description": "Prieto Battery manufactures lithium ion batteries based on tiny or nanostructured materials.",
+    "location": "Fort Collins, Colorado, United States",
+    "founded": "2009",
+    "industries": "Battery, CleanTech, Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing",
+      "battery_recycling"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Prieto Battery manufactures lithium-ion batteries using nanostructured materials, which falls under the battery chemistry and battery manufacturing domains. The company's focus on battery recycling and circular economy also aligns with the battery recycling domain."
+  },
+  {
+    "company_name": "Sagepoint Energy",
+    "description": "Sagepoint Energy is a renewable energy company that produces energy from the waste.",
+    "location": "Carmel, Indiana, United States",
+    "founded": "2025",
+    "industries": "Energy, Renewable Energy, Waste Management",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "bioenergy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Sagepoint Energy produces energy from waste, which aligns with the bioenergy and waste management domains."
+  },
+  {
+    "company_name": "Patch",
+    "description": "Patch focuses on building infrastructure for a climate-positive economy, starting with an API for carbon removal.",
+    "location": "San Francisco, California, United States",
+    "founded": "Jan 1, 2020",
+    "industries": "Enterprise Software, Environmental Consulting, Renewable Energy, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "carbon_removal",
+      "carbon_capture",
+      "carbon_utilization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Patch focuses on building infrastructure for a climate-positive economy, with a focus on carbon removal, carbon capture, and carbon utilization."
+  },
+  {
+    "company_name": "Emrgy",
+    "description": "Emrgy designs and deploys modular, scalable hydroelectric solutions.",
+    "location": "Atlanta, Georgia, United States",
+    "founded": "2014",
+    "industries": "Energy, Environmental Engineering, Hydroelectric, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "hydropower"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Emrgy designs and deploys modular, scalable hydroelectric solutions, which falls under the hydropower and renewable energy domains."
+  },
+  {
+    "company_name": "Menlo Micro",
+    "description": "Menlo Micro is the developer of the Ideal Switch, an electromechanical switch technology used to switch AC/DC and RF.",
+    "location": "Irvine, California, United States",
+    "founded": "Dec 2, 2016",
+    "industries": "Consumer Electronics, Electronics, Hardware, Power Grid, Semiconductor",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Menlo Micro is a developer of electromechanical switch technology used in consumer electronics and semiconductors, which aligns with the electronics and semiconductor domains."
+  },
+  {
+    "company_name": "Noble Gas Systems",
+    "description": "Noble Gas Systems develops gas storage and delivery systems with conformable tank technology.",
+    "location": "Novi, Michigan, United States",
+    "founded": "2017",
+    "industries": "Energy, Energy Storage, Oil and Gas",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_storage_systems",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Noble Gas Systems develops gas storage and delivery systems, which is related to energy storage systems. Their technology is also broadly applicable across the energy sector."
+  },
+  {
+    "company_name": "David Energy",
+    "description": "David Energy is an energy company that leverages advanced technology to transform the way electricity is consumed, managed, and distributed.",
+    "location": "Brooklyn, New York, United States",
+    "founded": "2019",
+    "industries": "Energy, Energy Efficiency, Energy Management, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general",
+      "grid_software",
+      "distributed_energy",
+      "building_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "David Energy focuses on technology and software to transform energy consumption, management, and distribution, which covers broad energy-related topics as well as more specific domains like grid software, distributed energy, and building efficiency."
+  },
+  {
+    "company_name": "24M Technologies",
+    "description": "24M Technologies develops energy storage systems for grid and transportation applications.",
+    "location": "Cambridge, Massachusetts, United States",
+    "founded": "2010",
+    "industries": "Battery, Energy Storage, Manufacturing",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "24M Technologies develops energy storage systems, which aligns with the battery manufacturing and grid-scale energy storage domains."
+  },
+  {
+    "company_name": "NuMat Technologies",
+    "description": "NuMat Technologies builts an Operating System for the commercialization of programmable chemistries.",
+    "location": "Skokie, Illinois, United States",
+    "founded": "2013",
+    "industries": "Hardware, Nanotechnology, Renewable Energy, Semiconductor",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "NuMat Technologies operates in the hardware, nanotechnology, and semiconductor domains based on the information provided."
+  },
+  {
+    "company_name": "Gradiant",
+    "description": "Gradiant is a solutions provider and developer of cleantech water projects for advanced water and wastewater treatment.",
+    "location": "Woburn, Massachusetts, United States",
+    "founded": "2013",
+    "industries": "Clean Energy, CleanTech, Sustainability, Waste Management, Water, Water Purification",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Gradiant is a solutions provider and developer of cleantech water projects for advanced water and wastewater treatment, which aligns with the domains of water, cleantech, and sustainability."
+  },
+  {
+    "company_name": "CarbonQuest",
+    "description": "CarbonQuest provides advanced technologies and solutions that enable acceleration of global carbon reduction.",
+    "location": "New York, New York, United States",
+    "founded": "2019",
+    "industries": "Renewable Energy, Semiconductor",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "carbon_capture",
+      "carbon_removal",
+      "carbon_utilization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "CarbonQuest provides advanced technologies and solutions for accelerating global carbon reduction, which aligns with the domains of carbon capture, carbon removal, and carbon utilization."
+  },
+  {
+    "company_name": "Swift Solar",
+    "description": "Swift Solar designs and manufactures photovoltaic cells that are lightweight and more flexible than conventional panels.",
+    "location": "San Carlos, California, United States",
+    "founded": "2017",
+    "industries": "Energy, Manufacturing, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Swift Solar designs and manufactures photovoltaic cells, which falls under the solar photovoltaics and renewable energy domains."
+  },
+  {
+    "company_name": "NET Power",
+    "description": "NET Power is a clean energy technology company with a mission to globally deploy affordable and reliable zero-emissions energy solutions.",
+    "location": "Durham, North Carolina, United States",
+    "founded": "Apr 24, 2009",
+    "industries": "Carbon Capture, Clean Energy, Energy, Oil and Gas, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "carbon_capture"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "NET Power's focus on zero-emissions energy solutions through carbon capture technology aligns it with the carbon_capture domain."
+  },
+  {
+    "company_name": "LineVision",
+    "description": "LineVision equips utilities with unique monitoring and analytics that improve the capacity, resilience, and safety of the grid.",
+    "location": "Somerville, Massachusetts, United States",
+    "founded": "Jun 6, 2018",
+    "industries": "Analytics, Big Data, Clean Energy, Power Grid",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "grid_modernization",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "LineVision provides utilities with monitoring and analytics tools to improve the capacity, resilience, and safety of the power grid, which aligns with the grid modernization and grid software domains."
+  },
+  {
+    "company_name": "Sapphire Technologies",
+    "description": "Sapphire Technologies develops, manufactures, and sells energy recovery systems for both natural gas and hydrogen industrial applications.",
+    "location": "Cerritos, California, United States",
+    "founded": "2021",
+    "industries": "Energy Management, Industrial Manufacturing, Natural Resources",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Sapphire Technologies develops and sells energy recovery systems for natural gas and hydrogen applications, which spans the energy management, industrial manufacturing, and natural resources domains."
+  },
+  {
+    "company_name": "mPower Technology",
+    "description": "mPower Technology is an innovative solar cell technology startup.",
+    "location": "Albuquerque, New Mexico, United States",
+    "founded": "2015",
+    "industries": "Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "solar_manufacturing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "mPower Technology is an innovative solar cell technology startup, indicating its focus on solar photovoltaics and solar manufacturing."
+  },
+  {
+    "company_name": "Mitra Chem",
+    "description": "Mitra Chem is a lithium-ion battery material manufacturing company that innovates and commercializes iron-based cathode materials.",
+    "location": "Mountain View, California, United States",
+    "founded": "2021",
+    "industries": "Battery, Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Mitra Chem is a lithium-ion battery material manufacturing company that innovates and commercializes iron-based cathode materials, which falls under the battery chemistry and battery manufacturing domains."
+  },
+  {
+    "company_name": "REsurety",
+    "description": "REsurety is a provider of risk management and software products to the buyers and sellers of clean energy.",
+    "location": "Boston, Massachusetts, United States",
+    "founded": "2012",
+    "industries": "Clean Energy, Energy, Renewable Energy, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "grid_software",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "REsurety provides risk management and software products for the clean energy industry, spanning multiple domains including energy software and analytics, and broader energy-related topics."
+  },
+  {
+    "company_name": "Sesame Solar",
+    "description": "Sesame Solar manufactures the world\u2019s first mobile nanogrids that self-generate power for the integrated turnkey solutions in <15 minutes.",
+    "location": "Jackson, Michigan, United States",
+    "founded": "2017",
+    "industries": "Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "distributed_energy",
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Sesame Solar manufactures mobile nanogrids that self-generate power, which aligns with distributed energy and solar photovoltaic technologies."
+  },
+  {
+    "company_name": "Solestial",
+    "description": "Solestial exists to deliver abundant energy in space.",
+    "location": "Tempe, Arizona, United States",
+    "founded": "2013",
+    "industries": "Aerospace, National Security, Renewable Energy, Solar, Space Travel",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company Solestial focuses on delivering abundant energy in space, which spans several energy-related domains including aerospace, national security, renewable energy, solar, and space travel."
+  },
+  {
+    "company_name": "Sonocharge Energy",
+    "description": "Sonocharge Energy develops a technology that enables batteries to charge.",
+    "location": "San Diego, California, United States",
+    "founded": "Jan 1, 2022",
+    "industries": "Battery, Clean Energy, Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Sonocharge Energy develops technology to enable battery charging, which falls under the battery chemistry and grid-scale energy storage domains."
+  },
+  {
+    "company_name": "Anthro Energy",
+    "description": "Anthro Energy is a battery technology company that uses polymer electrolytes to improve the safety and adaptability of lithium-ion cells.",
+    "location": "San Jose, California, United States",
+    "founded": "2020",
+    "industries": "Battery, Energy Storage, Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Anthro Energy is a battery technology company that works on improving lithium-ion battery safety and adaptability through the use of polymer electrolytes, which falls under battery chemistry and manufacturing domains."
+  },
+  {
+    "company_name": "BoxPower",
+    "description": "BoxPower's software and hardware innovations allow utilities and commercial customers to reimagine how power is provided.",
+    "location": "Grass Valley, California, United States",
+    "founded": "Oct 2016",
+    "industries": "Energy, Manufacturing, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "BoxPower's focus on software and hardware innovations for utilities and commercial customers in the renewable energy and solar sectors aligns with the renewable energy, solar, and distributed energy domains."
+  },
+  {
+    "company_name": "Nanotech Energy",
+    "description": "Nanotech Energy is a supplier of graphene, graphene oxide, and graphene supper batteries.",
+    "location": "Los Angeles, California, United States",
+    "founded": "2014",
+    "industries": "Battery, Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Nanotech Energy is a supplier of graphene, graphene oxide, and graphene super batteries, which falls under the battery chemistry and energy storage systems domains."
   }
 ]
