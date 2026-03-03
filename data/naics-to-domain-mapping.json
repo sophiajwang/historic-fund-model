@@ -1,0 +1,510 @@
+{
+  "mapping_version": "1.0",
+  "note": "Complete NAICS code to domain mapping. Domains reference category_name from domains-*.csv files.",
+
+  "space": {
+    "336414": {
+      "description": "Guided Missile and Space Vehicle Manufacturing",
+      "domains": ["satellite_constellations", "small_satellite_engineering"],
+      "confidence": "high"
+    },
+    "336415": {
+      "description": "Guided Missile and Space Vehicle Propulsion Unit Manufacturing",
+      "domains": ["spacecraft_propulsion", "launch_vehicles"],
+      "confidence": "high"
+    },
+    "336419": {
+      "description": "Other Guided Missile and Space Vehicle Parts",
+      "domains": ["spacecraft_structures", "spacecraft_mechanisms"],
+      "confidence": "medium",
+      "note": "Generic parts - may need LLM for specifics"
+    },
+    "334220": {
+      "description": "Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing",
+      "domains": ["satellite_communications", "spacecraft_communications"],
+      "confidence": "medium",
+      "note": "Includes satellite manufacturing but also terrestrial equipment"
+    },
+    "334511": {
+      "description": "Search, Detection, Navigation, Guidance, Aeronautical, and Nautical System and Instrument Manufacturing",
+      "domains": ["positioning_navigation_timing", "spacecraft_adcs", "space_autonomy"],
+      "confidence": "medium"
+    },
+    "334515": {
+      "description": "Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals",
+      "domains": ["space_instrumentation", "product_assurance"],
+      "confidence": "low"
+    },
+    "334516": {
+      "description": "Analytical Laboratory Instrument Manufacturing",
+      "domains": ["space_instrumentation"],
+      "confidence": "low"
+    },
+    "517410": {
+      "description": "Satellite Telecommunications",
+      "domains": ["satellite_communications"],
+      "confidence": "high"
+    },
+    "517919": {
+      "description": "All Other Telecommunications",
+      "domains": ["satellite_communications", "spectrum_management"],
+      "confidence": "low"
+    },
+    "518210": {
+      "description": "Data Processing, Hosting, and Related Services",
+      "domains": ["earth_data_analytics"],
+      "confidence": "low",
+      "note": "Only space-relevant if processing satellite data"
+    },
+    "541360": {
+      "description": "Geophysical Surveying and Mapping Services",
+      "domains": ["earth_observation", "earth_data_analytics"],
+      "confidence": "medium"
+    },
+    "541370": {
+      "description": "Surveying and Mapping (except Geophysical) Services",
+      "domains": ["earth_data_analytics"],
+      "confidence": "low"
+    },
+    "541715": {
+      "description": "Research and Development in the Physical, Engineering, and Life Sciences",
+      "domains": null,
+      "confidence": "low",
+      "note": "Too broad - spans all sectors. Must use LLM."
+    },
+    "927110": {
+      "description": "Space Research and Technology",
+      "domains": ["space_general"],
+      "confidence": "high",
+      "note": "Government NAICS - general space R&D"
+    },
+    "336411": {
+      "description": "Aircraft Manufacturing",
+      "domains": null,
+      "confidence": "exclude",
+      "note": "Aviation, not space - exclude unless description mentions space"
+    },
+    "336412": {
+      "description": "Aircraft Engine and Engine Parts Manufacturing",
+      "domains": null,
+      "confidence": "exclude",
+      "note": "Aviation, not space"
+    },
+    "336413": {
+      "description": "Other Aircraft Parts and Auxiliary Equipment Manufacturing",
+      "domains": null,
+      "confidence": "exclude",
+      "note": "Aviation, not space"
+    }
+  },
+
+  "bio": {
+    "325411": {
+      "description": "Medicinal and Botanical Manufacturing",
+      "domains": ["drug_discovery"],
+      "confidence": "high"
+    },
+    "325412": {
+      "description": "Pharmaceutical Preparation Manufacturing",
+      "domains": ["drug_discovery", "drug_delivery"],
+      "confidence": "high"
+    },
+    "325413": {
+      "description": "In-Vitro Diagnostic Substance Manufacturing",
+      "domains": ["point_of_care", "biomarker_discovery"],
+      "confidence": "high"
+    },
+    "325414": {
+      "description": "Biological Product (except Diagnostic) Manufacturing",
+      "domains": ["bioprocessing", "vaccines"],
+      "confidence": "high"
+    },
+    "325199": {
+      "description": "All Other Basic Organic Chemical Manufacturing",
+      "domains": ["drug_discovery"],
+      "confidence": "low",
+      "note": "May include pharma intermediates"
+    },
+    "325193": {
+      "description": "Ethyl Alcohol Manufacturing",
+      "domains": null,
+      "confidence": "exclude",
+      "note": "Industrial, not biotech"
+    },
+    "325211": {
+      "description": "Plastics Material and Resin Manufacturing",
+      "domains": null,
+      "confidence": "exclude"
+    },
+    "339112": {
+      "description": "Surgical and Medical Instrument Manufacturing",
+      "domains": ["medical_devices", "surgical_robotics"],
+      "confidence": "high"
+    },
+    "339113": {
+      "description": "Surgical Appliance and Supplies Manufacturing",
+      "domains": ["medical_devices"],
+      "confidence": "high"
+    },
+    "339114": {
+      "description": "Dental Equipment and Supplies Manufacturing",
+      "domains": ["medical_devices"],
+      "confidence": "medium"
+    },
+    "339115": {
+      "description": "Ophthalmic Goods Manufacturing",
+      "domains": ["medical_devices"],
+      "confidence": "medium"
+    },
+    "334510": {
+      "description": "Electromedical and Electrotherapeutic Apparatus Manufacturing",
+      "domains": ["medical_devices", "diagnostic_imaging"],
+      "confidence": "high"
+    },
+    "334516": {
+      "description": "Analytical Laboratory Instrument Manufacturing",
+      "domains": ["lab_automation", "genomics"],
+      "confidence": "medium"
+    },
+    "334517": {
+      "description": "Irradiation Apparatus Manufacturing",
+      "domains": ["diagnostic_imaging"],
+      "confidence": "high"
+    },
+    "541711": {
+      "description": "Research and Development in Biotechnology (pre-2017)",
+      "domains": null,
+      "confidence": "low",
+      "note": "Broad biotech R&D - use LLM for domain classification"
+    },
+    "541714": {
+      "description": "Research and Development in Biotechnology (except Nanobiotechnology)",
+      "domains": null,
+      "confidence": "low",
+      "note": "Broad biotech R&D - use LLM for domain classification"
+    },
+    "541713": {
+      "description": "Research and Development in Nanotechnology",
+      "domains": ["drug_delivery"],
+      "confidence": "medium",
+      "note": "May include nano-bio applications"
+    },
+    "541715": {
+      "description": "Research and Development in the Physical, Engineering, and Life Sciences",
+      "domains": null,
+      "confidence": "low",
+      "note": "Too broad - must use LLM"
+    },
+    "621511": {
+      "description": "Medical Laboratories",
+      "domains": ["point_of_care", "genomics"],
+      "confidence": "medium"
+    },
+    "621512": {
+      "description": "Diagnostic Imaging Centers",
+      "domains": ["diagnostic_imaging"],
+      "confidence": "high"
+    },
+    "541380": {
+      "description": "Testing Laboratories",
+      "domains": ["clinical_trials", "regulatory_science"],
+      "confidence": "low"
+    },
+    "541940": {
+      "description": "Veterinary Services",
+      "domains": ["veterinary_biotech"],
+      "confidence": "medium"
+    },
+    "115210": {
+      "description": "Support Activities for Animal Production",
+      "domains": ["veterinary_biotech"],
+      "confidence": "low"
+    },
+    "111419": {
+      "description": "Other Food Crops Grown Under Cover",
+      "domains": ["crop_science"],
+      "confidence": "low"
+    },
+    "111998": {
+      "description": "All Other Miscellaneous Crop Farming",
+      "domains": ["crop_science"],
+      "confidence": "low"
+    },
+    "311221": {
+      "description": "Wet Corn Milling and Starch Manufacturing",
+      "domains": ["food_biotech"],
+      "confidence": "low"
+    }
+  },
+
+  "energy": {
+    "221111": {
+      "description": "Hydroelectric Power Generation",
+      "domains": ["hydropower"],
+      "confidence": "high"
+    },
+    "221112": {
+      "description": "Fossil Fuel Electric Power Generation",
+      "domains": null,
+      "confidence": "exclude",
+      "note": "Fossil fuels - out of scope"
+    },
+    "221113": {
+      "description": "Nuclear Electric Power Generation",
+      "domains": ["advanced_nuclear", "small_modular_reactors"],
+      "confidence": "high"
+    },
+    "221114": {
+      "description": "Solar Electric Power Generation",
+      "domains": ["solar_pv", "concentrated_solar"],
+      "confidence": "high"
+    },
+    "221115": {
+      "description": "Wind Electric Power Generation",
+      "domains": ["onshore_wind", "offshore_wind"],
+      "confidence": "high"
+    },
+    "221116": {
+      "description": "Geothermal Electric Power Generation",
+      "domains": ["geothermal"],
+      "confidence": "high"
+    },
+    "221117": {
+      "description": "Biomass Electric Power Generation",
+      "domains": ["bioenergy"],
+      "confidence": "high"
+    },
+    "221118": {
+      "description": "Other Electric Power Generation",
+      "domains": ["energy_general"],
+      "confidence": "low",
+      "note": "Catch-all - use LLM"
+    },
+    "221121": {
+      "description": "Electric Bulk Power Transmission and Control",
+      "domains": ["transmission", "grid_modernization"],
+      "confidence": "high"
+    },
+    "221122": {
+      "description": "Electric Power Distribution",
+      "domains": ["distributed_energy", "grid_modernization"],
+      "confidence": "high"
+    },
+    "221310": {
+      "description": "Water Supply and Irrigation Systems",
+      "domains": null,
+      "confidence": "exclude"
+    },
+    "335911": {
+      "description": "Storage Battery Manufacturing",
+      "domains": ["battery_manufacturing", "battery_chemistry"],
+      "confidence": "high"
+    },
+    "335912": {
+      "description": "Primary Battery Manufacturing",
+      "domains": ["battery_manufacturing"],
+      "confidence": "medium"
+    },
+    "335999": {
+      "description": "All Other Miscellaneous Electrical Equipment and Component Manufacturing",
+      "domains": ["inverters_power_electronics"],
+      "confidence": "low"
+    },
+    "335311": {
+      "description": "Power, Distribution, and Specialty Transformer Manufacturing",
+      "domains": ["transmission", "grid_modernization"],
+      "confidence": "high"
+    },
+    "335312": {
+      "description": "Motor and Generator Manufacturing",
+      "domains": ["wind_turbine_tech", "electric_vehicles"],
+      "confidence": "medium"
+    },
+    "335313": {
+      "description": "Switchgear and Switchboard Apparatus Manufacturing",
+      "domains": ["grid_modernization", "inverters_power_electronics"],
+      "confidence": "high"
+    },
+    "335314": {
+      "description": "Relay and Industrial Control Manufacturing",
+      "domains": ["grid_software", "demand_response"],
+      "confidence": "medium"
+    },
+    "333611": {
+      "description": "Turbine and Turbine Generator Set Units Manufacturing",
+      "domains": ["wind_turbine_tech", "hydropower"],
+      "confidence": "high"
+    },
+    "333612": {
+      "description": "Speed Changer, Industrial High-Speed Drive, and Gear Manufacturing",
+      "domains": ["wind_turbine_tech"],
+      "confidence": "medium"
+    },
+    "333613": {
+      "description": "Mechanical Power Transmission Equipment Manufacturing",
+      "domains": ["wind_turbine_tech"],
+      "confidence": "low"
+    },
+    "333414": {
+      "description": "Heating Equipment (except Warm Air Furnaces) Manufacturing",
+      "domains": ["heat_pumps", "building_efficiency"],
+      "confidence": "medium"
+    },
+    "333415": {
+      "description": "Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing",
+      "domains": ["heat_pumps", "building_efficiency"],
+      "confidence": "medium"
+    },
+    "334413": {
+      "description": "Semiconductor and Related Device Manufacturing",
+      "domains": ["solar_manufacturing", "perovskites"],
+      "confidence": "medium",
+      "note": "Includes solar cell manufacturing"
+    },
+    "334310": {
+      "description": "Audio and Video Equipment Manufacturing",
+      "domains": null,
+      "confidence": "exclude"
+    },
+    "336111": {
+      "description": "Automobile Manufacturing",
+      "domains": ["electric_vehicles"],
+      "confidence": "low",
+      "note": "Only relevant for EV manufacturers"
+    },
+    "336112": {
+      "description": "Light Truck and Utility Vehicle Manufacturing",
+      "domains": ["electric_vehicles"],
+      "confidence": "low"
+    },
+    "336120": {
+      "description": "Heavy Duty Truck Manufacturing",
+      "domains": ["electric_vehicles"],
+      "confidence": "low"
+    },
+    "336320": {
+      "description": "Motor Vehicle Electrical and Electronic Equipment Manufacturing",
+      "domains": ["electric_vehicles", "ev_charging"],
+      "confidence": "medium"
+    },
+    "336390": {
+      "description": "Other Motor Vehicle Parts Manufacturing",
+      "domains": ["electric_vehicles"],
+      "confidence": "low"
+    },
+    "423610": {
+      "description": "Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers",
+      "domains": ["ev_charging"],
+      "confidence": "low"
+    },
+    "541330": {
+      "description": "Engineering Services",
+      "domains": null,
+      "confidence": "low",
+      "note": "Too broad - use LLM"
+    },
+    "541715": {
+      "description": "Research and Development in the Physical, Engineering, and Life Sciences",
+      "domains": null,
+      "confidence": "low",
+      "note": "Too broad - spans all sectors. Must use LLM."
+    },
+    "541990": {
+      "description": "All Other Professional, Scientific, and Technical Services",
+      "domains": null,
+      "confidence": "low"
+    },
+    "212291": {
+      "description": "Uranium-Radium-Vanadium Ore Mining",
+      "domains": ["nuclear_fuel"],
+      "confidence": "high"
+    },
+    "212299": {
+      "description": "All Other Metal Ore Mining",
+      "domains": ["mining_critical_minerals"],
+      "confidence": "medium"
+    },
+    "212393": {
+      "description": "Other Chemical and Fertilizer Mineral Mining",
+      "domains": ["mining_critical_minerals"],
+      "confidence": "low"
+    },
+    "325120": {
+      "description": "Industrial Gas Manufacturing",
+      "domains": ["hydrogen_production"],
+      "confidence": "medium",
+      "note": "Includes hydrogen production"
+    },
+    "325110": {
+      "description": "Petrochemical Manufacturing",
+      "domains": null,
+      "confidence": "exclude",
+      "note": "Fossil fuel based"
+    },
+    "324110": {
+      "description": "Petroleum Refineries",
+      "domains": null,
+      "confidence": "exclude"
+    },
+    "324199": {
+      "description": "All Other Petroleum and Coal Products Manufacturing",
+      "domains": null,
+      "confidence": "exclude"
+    },
+    "327310": {
+      "description": "Cement and Concrete Product Manufacturing",
+      "domains": ["heavy_industry", "carbon_utilization"],
+      "confidence": "low",
+      "note": "Relevant for low-carbon cement"
+    },
+    "331110": {
+      "description": "Iron and Steel Mills and Ferroalloy Manufacturing",
+      "domains": ["heavy_industry"],
+      "confidence": "low",
+      "note": "Relevant for green steel"
+    },
+    "331313": {
+      "description": "Alumina Refining and Primary Aluminum Production",
+      "domains": ["heavy_industry"],
+      "confidence": "low"
+    },
+    "483111": {
+      "description": "Deep Sea Freight Transportation",
+      "domains": ["maritime_shipping"],
+      "confidence": "low"
+    },
+    "483113": {
+      "description": "Coastal and Great Lakes Freight Transportation",
+      "domains": ["maritime_shipping"],
+      "confidence": "low"
+    },
+    "561730": {
+      "description": "Landscaping Services",
+      "domains": null,
+      "confidence": "exclude"
+    }
+  },
+
+  "ambiguous_codes_require_llm": [
+    "541715",
+    "541714",
+    "541711",
+    "541713",
+    "541330",
+    "541990",
+    "221118",
+    "334220",
+    "336419",
+    "336111",
+    "336112",
+    "336120"
+  ],
+
+  "classification_logic": {
+    "step_1": "Check if NAICS code exists in this mapping",
+    "step_2": "If confidence is 'high', assign domains directly",
+    "step_3": "If confidence is 'medium' or 'low', or code is in ambiguous_codes_require_llm, send to LLM",
+    "step_4": "If confidence is 'exclude', skip the award",
+    "step_5": "If NAICS not in mapping, send to LLM with agency context"
+  }
+}

@@ -10,6 +10,43 @@ This document is intended to be used as a specification in Claude Code for build
 
 ---
 
+## Progress Tracker
+
+| Phase | Step | Description | Status |
+|-------|------|-------------|--------|
+| **Phase 0** | | **Taxonomy Construction** | |
+| | 0.1 | Define canonical taxonomy | ✅ Complete |
+| | 0.2 | Build Crunchbase mapping table | ✅ Complete |
+| | 0.3 | Build government classification ruleset | ✅ Complete |
+| | 0.4 | Validate taxonomy completeness | ✅ Complete |
+| **Pipeline 1** | | **Primary + Secondary Market** | |
+| | 1.1 | Export Crunchbase universe | ⬜ Not Started |
+| | 1.2 | Resolve EDGAR identities | ⬜ Not Started |
+| | 1.3 | Review EDGAR matches | ⬜ Not Started |
+| | 1.4 | Report universe coverage | ⬜ Not Started |
+| | 1.5 | Pull Form D filing index | ⬜ Not Started |
+| | 1.6 | Parse Form D XML | ⬜ Not Started |
+| | 1.7 | Deduplicate and chain amendments | ⬜ Not Started |
+| | 1.8 | Aggregate annual primary market | ⬜ Not Started |
+| | 1.9 | Pull public market data | ⬜ Not Started |
+| | 1.10 | Aggregate annual secondary market | ⬜ Not Started |
+| | 1.11 | S-1/S-4 valuation extraction | ⬜ Not Started |
+| **Pipeline 2** | | **Government Spending** | |
+| | 2.1 | Bulk download USASpending CSVs | ⬜ Not Started |
+| | 2.2 | Parse and normalize CSVs | ⬜ Not Started |
+| | 2.3 | Classify awards by sector/subsector | ⬜ Not Started |
+| | 2.4 | API cross-agency search | ⬜ Not Started |
+| | 2.5 | Aggregate annual government data | ⬜ Not Started |
+| **Pipeline 3** | | **Stitching** | |
+| | 3.1 | Validate source files | ⬜ Not Started |
+| | 3.2 | Join on (sector, subsector, year) | ⬜ Not Started |
+| | 3.3 | Compute derived metrics | ⬜ Not Started |
+| | 3.4 | Produce master file | ⬜ Not Started |
+
+**Legend:** ✅ Complete | 🔄 In Progress | ⬜ Not Started
+
+---
+
 ## Research Questions
 
 This pipeline exists to answer three specific questions.
@@ -58,12 +95,23 @@ Federal fiscal years run Oct 1 – Sep 30. Market and EDGAR data use calendar ye
 
 ## Phase 0: Taxonomy Construction
 
-The taxonomy is the foundation that makes stitching possible. It must be built before any data collection begins. This is a hybrid process: Claude can draft mappings and flag ambiguities, but a human must review and finalize every mapping decision.
+The taxonomy is the foundation that makes stitching possible. It must be built before any data collection begins.
 
-Phase 0 produces three outputs:
-1. **`taxonomy.json`** — The canonical sector/subsector definitions
-2. **`crunchbase-mapping.json`** — Rules for mapping Crunchbase categories/tags to canonical subsectors
-3. **`government-classification-rules.json`** — Rules for mapping NAICS codes, agency names, and keywords to canonical subsectors
+### Canonical Domain Taxonomy
+
+**The domain CSV files are the single source of truth for all classification:**
+- `data/domains-space.csv` — 51 space domains
+- `data/domains-bio.csv` — 51 bio domains
+- `data/domains-energy.csv` — 50 energy domains
+
+Every company (Crunchbase) and every government award (USASpending) gets classified into one or more domains from these files. The `category_name` column is the canonical identifier used across all data sources.
+
+### Phase 0 Outputs
+
+1. **`domains-*.csv`** — Canonical domain definitions (already complete)
+2. **`crunchbase-mapping.json`** — Rules for mapping Crunchbase tags to sectors, then LLM for domain classification
+3. **`naics-to-domain-mapping.json`** — Rules for mapping NAICS codes to domains, with LLM fallback for ambiguous codes
+4. **`taxonomy.json`** — Generated summary referencing the domain CSVs
 
 Changes to any of these files after data collection has started require reprocessing all downstream data.
 
@@ -76,192 +124,225 @@ Key decisions to make during this step:
 - Is the granularity right? Too few subsectors and you lose analytical power for RQ3 (leading indicator analysis). Too many and some subsectors will have too few data points to be meaningful.
 - Does each subsector have enough expected data volume across all three sources (private, public, government) to be useful? A subsector that has heavy government spending but zero private companies is still valid — that's an interesting finding — but a subsector with almost no data in any source should probably be merged into a neighboring one.
 
+#### Domain definitions
+
+The detailed domain taxonomy is defined in CSV files:
+- `data/domains-space.csv` (51 domains)
+- `data/domains-bio.csv` (51 domains)
+- `data/domains-energy.csv` (50 domains)
+
+Each CSV has columns: `category_name`, `label`, `description`
+
+These CSVs serve as the source of truth for classification. The `taxonomy.json` file is generated from them.
+
 Save as `data/taxonomy.json`:
 
 ```json
 {
   "taxonomy_version": "1.0",
+  "source_files": {
+    "space": "data/domains-space.csv",
+    "bio": "data/domains-bio.csv",
+    "energy": "data/domains-energy.csv"
+  },
   "sectors": {
     "space": {
-      "subsectors": {
-        "launch": "Launch vehicles & propulsion systems",
-        "satellite_mfg": "Satellite manufacturing & operations",
-        "earth_observation": "Earth observation & remote sensing",
-        "space_science": "Space science & exploration",
-        "ground_systems": "Ground systems & infrastructure",
-        "in_space_services": "In-space services, logistics & debris"
-      }
+      "domains": ["launch_vehicles", "small_launch_vehicles", "satellite_communications", "earth_observation", ...]
     },
     "bio": {
-      "subsectors": {
-        "therapeutics": "Therapeutics & drug development",
-        "diagnostics": "Diagnostics & medical devices",
-        "ag_biotech": "Agricultural biotech",
-        "synbio": "Synthetic biology & biomanufacturing",
-        "biodefense": "Biodefense & pandemic preparedness",
-        "genomics": "Genomics & bioinformatics"
-      }
+      "domains": ["therapeutics", "diagnostics", "genomics", "synbio_platforms", ...]
     },
     "energy": {
-      "subsectors": {
-        "solar": "Solar generation & technology",
-        "wind": "Wind generation & technology",
-        "nuclear": "Nuclear fission & fusion",
-        "storage": "Battery & energy storage",
-        "hydrogen": "Hydrogen & fuel cells",
-        "carbon_capture": "Carbon capture & sequestration",
-        "grid": "Grid infrastructure & modernization"
-      }
+      "domains": ["solar_pv", "offshore_wind", "onshore_wind", "nuclear_fusion", "advanced_nuclear", ...]
     }
   }
 }
 ```
 
-### Step 0.2 — Build Crunchbase mapping table `[MANUAL + CLAUDE]`
+Note: The full domain list is in the CSV files. The JSON references them rather than duplicating.
 
-Export the list of Crunchbase category tags and industry groups that appear in your target sectors. Use Claude to draft a mapping from each Crunchbase tag to one canonical subsector. Then manually review.
+### Step 0.2 — Crunchbase Search Filters & Domain Classification `[MANUAL + CLAUDE]`
 
-This is necessary because Crunchbase uses its own tag system (e.g., "Satellite Communication," "Space Travel," "Aerospace") which doesn't map 1:1 to your subsectors.
+#### How This Works
 
-Save as `data/crunchbase-mapping.json`:
+1. **Crunchbase tags = search filter only.** They pull relevant companies from Crunchbase. They do NOT classify anything.
+2. **Claude API = actual classification.** Every company gets classified into domains from the CSV files via LLM.
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│ STEP 1: FILTER                                                  │
+│ Search Crunchbase for companies with tags like "Space Travel",  │
+│ "Biotechnology", "Solar", etc.                                  │
+│ Output: List of companies with name + description               │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────────┐
+│ STEP 2: CLASSIFY (Claude API)                                   │
+│ For EACH company:                                               │
+│   Input: company name, description, sector                      │
+│   Output: domains from domains-{sector}.csv                     │
+│                                                                 │
+│ Example output: ["launch_vehicles", "spacecraft_propulsion"]    │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+#### Crunchbase Search Tags (Filter Only)
+
+These tags are used to SEARCH Crunchbase. They are NOT a classification system.
+
+**Space:** Space Travel, Satellite Communication, Remote Sensing, Geospatial, GPS, Aerospace, Drones
+
+**Bio:** Biopharma, Biotechnology, Genetics, Bioinformatics, Life Science, Neuroscience
+
+**Energy:** Solar, Wind Energy, Nuclear, Battery, Energy Storage, Fuel Cell, Power Grid, Electrical Distribution, Energy Management, Energy Efficiency, Hydroelectric, Geothermal Energy, Clean Energy, Renewable Energy
+
+**Exclude from search:** Biometrics, Quantified Self, Biofuel, Biomass Energy, Fossil Fuels, Oil and Gas
+
+#### Domain Classification via Claude API
+
+**Every company gets classified by Claude API.** No exceptions. No keyword matching. No shortcuts.
+
+The LLM sees the full list of ~50 domains from `domains-{sector}.csv` and picks one or more.
+
+**Prompt:**
+
+```
+You are classifying a company into domains for a research dataset.
+
+Company: {company_name}
+Description: {company_description}
+
+Classify into one or more domains from this list. Return ONLY category_name values from this list:
+
+{paste entire contents of domains-{sector}.csv here, formatted as:}
+- launch_vehicles: Launch Systems & Vehicles (LEO/MEO/GEO; expendable and reusable systems)
+- small_launch_vehicles: Responsive & Small Launch Vehicles (mobile, quick-turnaround launch systems for small payloads)
+- satellite_communications: Satellite Communications (Commsat, MSS/FSS/LEO; includes broadband, mobile SATCOM, tactical links)
+... [all 50 domains]
+
+Respond with JSON:
+{
+  "domains": ["category_name_1", "category_name_2"],
+  "confidence": "high" | "medium" | "low",
+  "reasoning": "One sentence explanation"
+}
+
+If out of scope, return: {"domains": [], "confidence": "high", "reasoning": "why"}
+```
+
+#### API Cost
+
+| Companies | Haiku cost | Sonnet cost |
+|-----------|------------|-------------|
+| 1,000 | ~$0.40 | ~$5 |
+| 2,000 | ~$0.75 | ~$10 |
+| 5,000 | ~$2 | ~$25 |
+
+**Time:** ~5 minutes for 2,000 companies at 1,000 req/min.
+
+#### Output Schema
 
 ```json
 {
-  "mapping_version": "1.0",
-  "note": "Maps Crunchbase category tags to canonical subsectors. One tag may map to one subsector. Tags not listed here are excluded.",
-  "mappings": [
-    {
-      "crunchbase_tag": "Space Travel",
-      "sector": "space",
-      "subsector": "launch",
-      "confidence": "high",
-      "notes": null
-    },
-    {
-      "crunchbase_tag": "Satellite Communication",
-      "sector": "space",
-      "subsector": "satellite_mfg",
-      "confidence": "high",
-      "notes": "Includes both satellite manufacturers and satellite-based service providers"
-    },
-    {
-      "crunchbase_tag": "Aerospace",
-      "sector": "space",
-      "subsector": null,
-      "confidence": "low",
-      "notes": "Ambiguous — includes aviation companies. Requires manual review per company."
-    },
-    {
-      "crunchbase_tag": "Biotechnology",
-      "sector": "bio",
-      "subsector": null,
-      "confidence": "low",
-      "notes": "Too broad — maps to multiple bio subsectors. Requires manual review per company."
-    },
-    {
-      "crunchbase_tag": "Solar",
-      "sector": "energy",
-      "subsector": "solar",
-      "confidence": "high",
-      "notes": null
-    }
-  ]
+  "company_name": "Rocket Lab USA, Inc.",
+  "crunchbase_slug": "rocket-lab",
+  "description": "Rocket Lab is a space company...",
+  "domains": ["launch_vehicles", "small_launch_vehicles"],
+  "confidence": "high",
+  "reasoning": "Manufactures Electron and Neutron launch vehicles."
 }
 ```
 
-`[MANUAL]` For tags that map with "low" confidence or map to `null` subsector, you will need to classify individual companies manually during Step 1.1.
+**Every `domains` value comes from `category_name` in domains-{sector}.csv. No other values are valid.**
 
 ### Step 0.3 — Build government classification ruleset `[MANUAL + CLAUDE]`
 
-Define the rules for classifying USASpending awards into canonical subsectors. This is the most complex mapping because it has three layers: agency assignment, NAICS code mapping, and keyword matching.
+Define the rules for classifying USASpending awards into domains. Classification uses a hybrid approach:
+1. **Rules-based** (NAICS codes, agency defaults) for clear cases — fast and free
+2. **LLM fallback** for ambiguous cases — handles edge cases robustly
 
-Use Claude to draft the initial ruleset. Then manually review, especially the keyword lists (too broad and you get false positives; too narrow and you miss relevant awards).
+Awards can belong to multiple domains.
 
-Save as `data/government-classification-rules.json`:
+#### Agency defaults
 
-```json
+| Agency | Default Sector |
+|--------|----------------|
+| NASA | space |
+| NIH | bio |
+| DOE | energy |
+| DARPA | ambiguous (use LLM) |
+| NSF | ambiguous (use LLM) |
+| DOD | ambiguous (use LLM) |
+
+#### NAICS-to-Domain Mapping
+
+Complete NAICS code mappings are in `data/naics-to-domain-mapping.json`.
+
+The mapping covers ~80 NAICS codes across all three sectors, with confidence levels:
+- **high**: Assign domains directly, no LLM needed
+- **medium**: Assign domains but flag for potential LLM review
+- **low**: Send to LLM for domain classification
+- **exclude**: Out of scope (e.g., fossil fuels, aviation)
+
+#### Classification Priority
+
+1. Agency default sets the sector (NASA → space, NIH → bio, DOE → energy)
+2. NAICS code sets domain(s) if confidence is "high"
+3. If NAICS confidence is "medium" or "low", or NAICS is missing/ambiguous, send to LLM
+4. LLM classifies into one or more domains from the sector's domain CSV
+
+#### LLM Fallback for Ambiguous Awards
+
+For awards where NAICS-based classification has low/medium confidence or is missing, use Claude API:
+
+```
+You are classifying government awards into domains for a research dataset.
+
+Award description: {award_description}
+Awarding agency: {agency}
+NAICS code: {naics_code}
+NAICS description: {naics_description}
+Sector: {sector}
+
+Classify this award into one or more domains for the {sector} sector:
+
+{domains_from_csv}
+
+Each domain is listed as: category_name | description
+
+Respond with JSON:
 {
-  "rules_version": "1.0",
+  "domains": ["<category_name>", ...],
+  "confidence": "high" | "medium" | "low",
+  "reasoning": "<one sentence>"
+}
 
-  "agency_rules": {
-    "note": "Awards from these agencies are assigned to a sector by default. Subsector is then determined by NAICS or keyword.",
-    "rules": [
-      { "agency": "NASA", "default_sector": "space" },
-      { "agency": "NIH", "default_sector": "bio" },
-      { "agency": "DOE", "default_sector": "energy" }
-    ]
-  },
-
-  "naics_to_subsector": {
-    "note": "Direct NAICS code to subsector mapping. These are high-confidence assignments.",
-    "mappings": [
-      { "naics": "336414", "description": "Guided Missile and Space Vehicle Manufacturing", "sector": "space", "subsector": "satellite_mfg", "confidence": "high" },
-      { "naics": "336415", "description": "Propulsion Unit Manufacturing", "sector": "space", "subsector": "launch", "confidence": "high" },
-      { "naics": "336419", "description": "Other Parts Manufacturing", "sector": "space", "subsector": "satellite_mfg", "confidence": "medium" },
-      { "naics": "517410", "description": "Satellite Telecommunications", "sector": "space", "subsector": "satellite_mfg", "confidence": "high" },
-      { "naics": "325411", "description": "Medicinal and Botanical Manufacturing", "sector": "bio", "subsector": "therapeutics", "confidence": "high" },
-      { "naics": "325414", "description": "Biological Product Manufacturing", "sector": "bio", "subsector": "therapeutics", "confidence": "high" },
-      { "naics": "541711", "description": "R&D in Biotechnology", "sector": "bio", "subsector": null, "confidence": "medium", "note": "Subsector determined by keyword" },
-      { "naics": "221114", "description": "Solar Electric Power Generation", "sector": "energy", "subsector": "solar", "confidence": "high" },
-      { "naics": "221115", "description": "Wind Electric Power Generation", "sector": "energy", "subsector": "wind", "confidence": "high" },
-      { "naics": "221116", "description": "Geothermal Electric Power Generation", "sector": "energy", "subsector": "grid", "confidence": "medium" },
-      { "naics": "335911", "description": "Storage Battery Manufacturing", "sector": "energy", "subsector": "storage", "confidence": "high" },
-      { "naics": "541715", "description": "R&D in Physical/Engineering/Life Sciences", "sector": null, "subsector": null, "confidence": "low", "note": "Ambiguous — covers all three sectors. Must be classified by keyword on award description." }
-    ]
-  },
-
-  "keyword_rules": {
-    "note": "Used for cross-agency classification and for resolving ambiguous NAICS codes. Keywords are matched against the award description field. Order matters: first match wins.",
-    "space": {
-      "launch":            ["launch vehicle", "space launch", "rocket propulsion", "launch services", "propulsion system"],
-      "satellite_mfg":     ["satellite", "spacecraft", "space vehicle", "on-orbit"],
-      "earth_observation": ["remote sensing", "earth observation", "earth science", "land imaging"],
-      "space_science":     ["lunar", "cislunar", "Mars", "planetary", "deep space", "space exploration", "heliophysics"],
-      "ground_systems":    ["ground station", "ground segment", "tracking station", "mission control"],
-      "in_space_services": ["orbital debris", "space debris", "space situational awareness", "on-orbit servicing", "space logistics"]
-    },
-    "bio": {
-      "therapeutics":  ["drug discovery", "clinical trial", "therapeutic", "pharmaceutical", "mRNA", "gene therapy", "cell therapy", "biologic", "biosimilar"],
-      "diagnostics":   ["diagnostic", "medical device", "point-of-care", "assay", "biomarker detection"],
-      "ag_biotech":    ["agricultural biotech", "crop", "plant genomics", "soil microbiome", "agricultural biology"],
-      "synbio":        ["synthetic biology", "biomanufacturing", "fermentation", "metabolic engineering", "enzyme engineering"],
-      "biodefense":    ["biodefense", "pandemic preparedness", "medical countermeasure", "biological threat", "biosurveillance"],
-      "genomics":      ["genomics", "genome sequencing", "bioinformatics", "CRISPR", "gene editing", "proteomics"]
-    },
-    "energy": {
-      "solar":          ["solar", "photovoltaic", "PV module", "concentrated solar"],
-      "wind":           ["wind energy", "wind turbine", "offshore wind", "wind farm"],
-      "nuclear":        ["nuclear fusion", "nuclear fission", "advanced nuclear", "small modular reactor", "SMR", "tokamak", "nuclear energy"],
-      "storage":        ["battery storage", "energy storage", "lithium-ion", "solid state battery", "grid-scale storage"],
-      "hydrogen":       ["hydrogen fuel", "fuel cell", "green hydrogen", "electrolyzer", "hydrogen production"],
-      "carbon_capture": ["carbon capture", "CCS", "CCUS", "direct air capture", "carbon sequestration", "carbon removal"],
-      "grid":           ["grid modernization", "smart grid", "EV charging", "electrification", "transmission", "distribution grid", "grid resilience"]
-    }
-  },
-
-  "classification_priority": {
-    "note": "When multiple classification methods apply, use this priority order.",
-    "order": [
-      "1. Agency default (NASA → space, NIH → bio, DOE → energy) sets the sector.",
-      "2. NAICS code sets the subsector if a high-confidence mapping exists.",
-      "3. Keyword matching on award description sets or overrides subsector if NAICS is ambiguous or missing.",
-      "4. Awards that cannot be classified to a subsector after all three layers are flagged for manual review."
-    ]
-  }
+If the award does not fit any domain or is out of scope, respond:
+{
+  "domains": [],
+  "confidence": "high",
+  "reasoning": "<why excluded>"
 }
 ```
 
-`[MANUAL]` Review the full ruleset. Test it against a sample of actual USASpending awards to check for false positives and false negatives. Iterate on keyword lists. Pay particular attention to:
-- Keywords that are too generic and would match non-relevant awards (e.g., "solar" might match "solar panel for a military building" which is a facilities contract, not an energy industry award)
-- NAICS codes marked "medium" or "low" confidence
-- The catch-all NAICS 541715 (R&D in Physical/Engineering/Life Sciences), which spans all three sectors and must be resolved by keyword
+#### Cost Estimate for LLM Fallback
+
+Assuming ~20% of awards need LLM classification (the rest handled by high-confidence NAICS rules):
+
+| Total awards | Ambiguous (~20%) | Haiku cost | Sonnet cost |
+|--------------|------------------|------------|-------------|
+| 50,000 | 10,000 | ~$4 | ~$50 |
+| 100,000 | 20,000 | ~$8 | ~$105 |
+
+`[MANUAL]` Review the NAICS mappings. Add more high-confidence NAICS codes to reduce the % sent to LLM. Test against a sample of awards to validate.
 
 ### Step 0.4 — Validate taxonomy completeness `[MANUAL + CLAUDE]`
 
 Before proceeding to data collection, do a quick sanity check:
-- Does every Crunchbase tag in your export map to a subsector (or get flagged for manual review)?
-- Do the top 20 NAICS codes by award volume in USASpending for each primary agency map to a subsector?
-- Are there obvious gaps in the keyword lists that would cause significant awards to be missed?
+- Does every Crunchbase tag in your export map to a sector (or get flagged for exclusion)?
+- Do the top 20 NAICS codes by award volume in USASpending for each primary agency have high-confidence domain mappings?
+- Are the domain definitions in the CSVs comprehensive enough to cover the expected company/award types?
 
 Use Claude to identify potential gaps by reviewing the taxonomy against known companies and programs in each sector.
 
@@ -273,11 +354,11 @@ Save a summary of this validation as `data/taxonomy-validation-notes.md` for aud
 
 These are built together because the company universe is shared and secondary market tracking is a direct extension of the primary market work (we track companies that went public).
 
-### Step 1.1 — Export Crunchbase universe `[MANUAL]`
+### Step 1.1 — Export Crunchbase universe & classify via LLM `[MANUAL + AUTOMATED]`
 
-Export all companies from Crunchbase tagged under space, bio, and energy verticals. For each company, capture: company name, Crunchbase slug, sector, subsector, founded year, HQ country, status (active/closed/IPO), and Crunchbase UUID.
+**Manual:** Export all companies from Crunchbase using the search tags defined in Step 0.2. For each company, capture: company name, Crunchbase slug, description, founded year, HQ country, status (active/closed/IPO), and Crunchbase UUID.
 
-`[MANUAL]` Assign each company a subsector from the shared taxonomy using `crunchbase-mapping.json` (produced in Phase 0). For Crunchbase tags that mapped with high confidence, this is a direct lookup. For tags flagged as "low" confidence or `null` subsector in the mapping file, classify the company manually based on its description and business model.
+**Automated:** For EACH company, call Claude API to classify into domains from `domains-{sector}.csv`. Use the prompt defined in Step 0.2.
 
 Save as `data/source/universe.json`. Each record:
 
@@ -285,8 +366,11 @@ Save as `data/source/universe.json`. Each record:
 {
   "company_name": "Rocket Lab USA, Inc.",
   "crunchbase_slug": "rocket-lab",
+  "description": "Rocket Lab is an aerospace manufacturer...",
   "sector": "space",
-  "subsector": "launch",
+  "domains": ["launch_vehicles", "small_launch_vehicles"],
+  "classification_confidence": "high",
+  "classification_reasoning": "Manufactures Electron and Neutron launch vehicles.",
   "founded_year": 2006,
   "hq_country": "US",
   "status": "public",
@@ -313,7 +397,7 @@ Output appended to each record in `universe.json`:
   "company_name": "Rocket Lab USA, Inc.",
   "crunchbase_slug": "rocket-lab",
   "sector": "space",
-  "subsector": "launch",
+  "domains": ["launch_vehicles", "small_launch_vehicles"],
   "cik": "0001819994",
   "legal_names_on_file": ["Rocket Lab USA, Inc."],
   "edgar_match_confidence": "high",
@@ -329,7 +413,7 @@ For unmatched companies:
   "company_name": "ICEYE",
   "crunchbase_slug": "iceye",
   "sector": "space",
-  "subsector": "earth_observation",
+  "domains": ["earth_observation", "earth_data_analytics"],
   "cik": null,
   "edgar_match_confidence": "no_match",
   "has_form_d_post_2008": false,
@@ -397,7 +481,7 @@ Store the filing index (accession numbers, dates, URLs) per company.
 
 Download each Form D filing and parse the structured XML. All post-2008 filings are machine-readable XML with well-defined fields. No LLM needed.
 
-Extract per filing:
+Extract per filing (domain classification comes from universe.json, not from Form D):
 
 ```json
 {
@@ -405,7 +489,7 @@ Extract per filing:
   "cik": "0001819994",
   "company_name": "Rocket Lab USA, Inc.",
   "sector": "space",
-  "subsector": "launch",
+  "domains": ["launch_vehicles", "small_launch_vehicles"],
   "filing_date": "2018-11-15",
   "is_amendment": false,
   "offering": {
@@ -435,7 +519,7 @@ Output per company — a clean list of distinct offerings:
   "cik": "0001819994",
   "company_name": "Rocket Lab USA, Inc.",
   "sector": "space",
-  "subsector": "launch",
+  "domains": ["launch_vehicles", "small_launch_vehicles"],
   "offerings": [
     {
       "offering_id": "offering_001",
@@ -456,7 +540,9 @@ Output per company — a clean list of distinct offerings:
 
 ### Step 1.8 — Aggregate into annual primary market time series `[AUTOMATED]`
 
-Roll up individual offerings into annual totals by sector, subsector, and year. This produces the primary market source file.
+Roll up individual offerings into annual totals by sector, domain, and year. This produces the primary market source file.
+
+**Multi-domain handling:** If a company has multiple domains, its capital is attributed to each domain (may result in double-counting at sector level—track `unique_companies` separately).
 
 Save as `data/source/{sector}-private.json`:
 
@@ -464,7 +550,7 @@ Save as `data/source/{sector}-private.json`:
 [
   {
     "sector": "space",
-    "subsector": "launch",
+    "domain": "launch_vehicles",
     "year": 2021,
     "total_capital_raised": 1840000000,
     "number_of_offerings": 14,
@@ -487,7 +573,7 @@ Pull daily historical price and market cap data from a free stock API (Yahoo Fin
   "ticker": "RKLB",
   "company_name": "Rocket Lab USA, Inc.",
   "sector": "space",
-  "subsector": "launch",
+  "domains": ["launch_vehicles", "small_launch_vehicles"],
   "listing_date": "2021-08-25",
   "exit_type": "SPAC",
   "market_data": [
@@ -503,7 +589,9 @@ Pull daily historical price and market cap data from a free stock API (Yahoo Fin
 
 ### Step 1.10 — Aggregate into annual secondary market time series `[AUTOMATED]`
 
-Roll up daily market data into annual totals by sector, subsector, and year. Use end-of-year market cap as the point-in-time value.
+Roll up daily market data into annual totals by sector, domain, and year. Use end-of-year market cap as the point-in-time value.
+
+**Multi-domain handling:** Same as Step 1.8—companies with multiple domains contribute to each domain's totals.
 
 Save as `data/source/{sector}-public.json`:
 
@@ -511,7 +599,7 @@ Save as `data/source/{sector}-public.json`:
 [
   {
     "sector": "space",
-    "subsector": "launch",
+    "domain": "launch_vehicles",
     "year": 2021,
     "companies_listed_this_year": 2,
     "total_listed_companies_eoy": 4,
@@ -535,7 +623,7 @@ Extracted per company:
   "cik": "0001819994",
   "company_name": "Rocket Lab USA, Inc.",
   "sector": "space",
-  "subsector": "launch",
+  "domains": ["launch_vehicles", "small_launch_vehicles"],
   "filing_type": "S-4",
   "funding_rounds": [
     {
