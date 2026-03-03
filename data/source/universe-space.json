@@ -10906,5 +10906,727 @@
     "domains": [],
     "classification_confidence": "high",
     "classification_reasoning": "eHawk is a monitoring platform that helps supervise criminal defendants, which aligns with the legal tech and software domains."
+  },
+  {
+    "company_name": "Magma Space",
+    "description": "Magma Space is developing cutting-edge control systems to achieve unmatched aiming accuracy.",
+    "location": "Washington, District of Columbia, United States",
+    "founded": "2020",
+    "industries": "Aerospace",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "launch_vehicles",
+      "space_autonomy",
+      "spacecraft_adcs"
+    ],
+    "classification_confidence": "medium",
+    "classification_reasoning": "Magma Space is developing cutting-edge control systems for aiming accuracy, which suggests they are working on launch vehicle systems, autonomous navigation and guidance, and attitude determination and control for spacecraft."
+  },
+  {
+    "company_name": "MITS",
+    "description": "MITS develops multiscale integrated technology solutions to improve mechanical, thermal, and electrical performance.",
+    "location": "Carmel, Indiana, United States",
+    "founded": "2019",
+    "industries": "Aerospace, Industrial, Mechanical Engineering",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "product_assurance",
+      "space_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "MITS develops multiscale integrated technology solutions to improve mechanical, thermal, and electrical performance, which spans aerospace, industrial, and mechanical engineering domains. The focus on product assurance and reliability also aligns with the space domain."
+  },
+  {
+    "company_name": "Airborne Motorworks",
+    "description": "Airborne Motorworks offers and designs electric vehicle, Personal Air Vehicles around innovative propulsion system.",
+    "location": "Spokane, Washington, United States",
+    "founded": "Nov 1, 2018",
+    "industries": "Aerospace",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Airborne Motorworks designs electric vehicles and personal air vehicles, which are within the aerospace domain."
+  },
+  {
+    "company_name": "Freefly Systems",
+    "description": "Freefly Systems develops M\u014dVI camera gimbals and aerial UAV solutions for motion, picture & video.",
+    "location": "Woodinville, Washington, United States",
+    "founded": "2011",
+    "industries": "Aerospace, Robotics, Video",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "satellite_constellations",
+      "small_satellite_engineering",
+      "space_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Freefly Systems develops camera gimbals and aerial UAV solutions, which are relevant to the aerospace, robotics, and small satellite engineering domains. Their products could also be part of satellite constellations and contribute to general space-related technologies."
+  },
+  {
+    "company_name": "ASKA",
+    "description": "Developer of the ASKA\u2122 A5, a hybrid-electric VTOL Flying Car",
+    "location": "Firebaugh, California, United States",
+    "founded": "Mar 2018",
+    "industries": "Aerospace, Air Transportation",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company develops a hybrid-electric VTOL flying car, which falls under the aerospace and air transportation domains."
+  },
+  {
+    "company_name": "Positron Dynamics",
+    "description": "Positron dynamics develops positron beam technologies used in the testing of critical components in the aerospace and defense markets.",
+    "location": "Port Angeles, Washington, United States",
+    "founded": "2012",
+    "industries": "Aerospace, Information Technology, Manufacturing",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "product_assurance",
+      "space_instrumentation"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Positron Dynamics develops positron beam technologies for aerospace and defense applications, which aligns with the 'Product Assurance, Reliability & EMC Engineering' and 'Multispectral & Hyperspectral Instrumentation' domains."
+  },
+  {
+    "company_name": "ZEVA AERO",
+    "description": "ZEVA designs and builds electric aircraft for mission critical travel.",
+    "location": "Tacoma, Washington, United States",
+    "founded": "Jan 10, 2018",
+    "industries": "Aerospace, Consumer Goods, Drones, Logistics, Transportation",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "ZEVA designs and builds electric aircraft, which falls under the aerospace, drones, and transportation domains."
+  },
+  {
+    "company_name": "Urban Electronics, Inc.",
+    "description": "Urban Electronics, Inc. creates games and hyper local-based experiential apps using emerging technologies",
+    "location": "Detroit, Michigan, United States",
+    "founded": "2022",
+    "industries": "Augmented Reality, Blockchain, Gaming, Geospatial, Mobile Apps, Web3",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company is focused on creating games and hyper local-based experiential apps using emerging technologies like augmented reality, blockchain, and web3, which aligns with the provided domains."
+  },
+  {
+    "company_name": "ACAS",
+    "description": "Generalized aircraft collision avoidance system for all powered aircraft.",
+    "location": "Cambridge, Massachusetts, United States",
+    "founded": "2018",
+    "industries": "Aerospace, Hardware, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company's description indicates it is focused on developing a collision avoidance system for aircraft, which falls under the aerospace domain. Additionally, the mention of hardware and software components suggests it spans multiple technical domains related to aerospace engineering and software development."
+  },
+  {
+    "company_name": "Voltela",
+    "description": "Connectivity assurance for commercial drones.",
+    "location": "New York, New York, United States",
+    "founded": "2021",
+    "industries": "Aerospace, Drones, Information and Communications Technology (ICT), Information Technology, Telecommunications",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "satellite_communications",
+      "satellite_constellations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Voltela provides connectivity assurance services for commercial drones, which involves satellite communications and small satellite systems/constellations for aerial applications."
+  },
+  {
+    "company_name": "TerraNexum",
+    "description": "Developing efficient computational approaches for solving complex systems challenges",
+    "location": "Evergreen, Colorado, United States",
+    "founded": "Jul 18, 2022",
+    "industries": "Analytics, Geospatial, Intelligent Systems, Quantum Computing, Sustainability",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The description indicates that TerraNexum develops computational approaches for complex systems, which aligns with analytics, geospatial, intelligent systems, quantum computing, and sustainability domains."
+  },
+  {
+    "company_name": "Stratodyne",
+    "description": "Balloons capturing real-time aerial imagery",
+    "location": "Saint Louis, Missouri, United States",
+    "founded": "Apr 20, 2020",
+    "industries": "Developer Platform, Machine Learning, Space Travel",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "satellite_constellations",
+      "space_ai"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Stratodyne's focus on balloons capturing real-time aerial imagery aligns with earth data analytics and satellite constellation applications, while its description as a 'developer platform' suggests AI-driven capabilities for space missions."
+  },
+  {
+    "company_name": "Paterson Aerospace Systems",
+    "description": "Paterson Aerospace Systems raises environmental awareness in the aerospace sector through research and innovation.",
+    "location": "Wilmington, Delaware, United States",
+    "founded": "2019",
+    "industries": "Aerospace, Drones",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_observation",
+      "satellite_constellations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Paterson Aerospace Systems focuses on environmental awareness and innovation in the aerospace sector, which aligns with earth observation and small satellite systems."
+  },
+  {
+    "company_name": "Kochav Defense Acquisition Corp.",
+    "description": "Kochav Defense Acquisition Corp. is a blank check company company that acquires businesses in the defense and aerospace industries.",
+    "location": "New York, New York, United States",
+    "founded": "2024",
+    "industries": "Aerospace, Consulting, Public Safety",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "launch_vehicles",
+      "satellite_communications",
+      "military_satcom",
+      "space_industrial_base"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Kochav Defense Acquisition Corp. is a blank check company focused on acquiring businesses in the defense and aerospace industries, which suggests involvement in launch systems, satellite communications, military communications satellites, and supporting the overall space industrial base."
+  },
+  {
+    "company_name": "DBT Aero",
+    "description": "Making sustainable, technologically advanced flight affordable, safe & quiet",
+    "location": "Riverton, Utah, United States",
+    "founded": "Jun 7, 2019",
+    "industries": "Aerospace, Commercial, Energy Efficiency, Manufacturing",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company's description indicates it is focused on developing sustainable and technologically advanced aerospace technologies, which aligns with the aerospace, energy efficiency, and manufacturing domains."
+  },
+  {
+    "company_name": "Reebeez",
+    "description": "Reebeez builds engines for drones and robots that increase flight times and endurance by 6x.",
+    "location": "Austin, Texas, United States",
+    "founded": "2014",
+    "industries": "Aerospace, Drones, Robotics",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company builds engines for drones and robots, which aligns with the aerospace, drones, and robotics domains."
+  },
+  {
+    "company_name": "Sandac",
+    "description": "Sandac is on a mission to revolutionize businesses and governments through innovation.",
+    "location": "Delaware, Ohio, United States",
+    "founded": "May 4, 2021",
+    "industries": "Artificial Intelligence (AI), Cloud Data Services, Hardware, Health Care, Satellite Communication, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "satellite_communications"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company operates in multiple diverse domains, including AI, cloud services, hardware, healthcare, satellite communications, and software, which are all relevant to the space industry."
+  },
+  {
+    "company_name": "VOA",
+    "description": "VOA is a platform for pilots and farmers, offering a drone service delivery for biological agents, fertilisers and chemical products.",
+    "location": "Dover, Delaware, United States",
+    "founded": "Jul 25, 2018",
+    "industries": "Agriculture, Drone Management, Drones, Farming",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_observation"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company VOA provides drone services for agriculture, which falls under the earth observation and remote sensing domain."
+  },
+  {
+    "company_name": "Drisit",
+    "description": "Drisit is an online platform helps to control drones remotely from any mobile or computer.",
+    "location": "Beverly Hills, California, United States",
+    "founded": "2021",
+    "industries": "Artificial Intelligence (AI), Drone Management, Drones, Internet of Things",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Drisit is an online platform that helps control drones remotely, which aligns with the drone management, internet of things, and artificial intelligence domains."
+  },
+  {
+    "company_name": "United Aircraft Technologies",
+    "description": "UAT provides the aerospace and electrical vehicle industry with a solution that decreases weight and improves maintenance through AR and AI.",
+    "location": "Troy, New York, United States",
+    "founded": "Dec 4, 2017",
+    "industries": "Aerospace, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company description indicates that UAT provides solutions for the aerospace and electric vehicle industries, which aligns with the aerospace and software domains."
+  },
+  {
+    "company_name": "DronePort Network",
+    "description": "DronePort Network focuses on autonomous drone services ecosystem, including delivery and infrastructure development.",
+    "location": "Oklahoma City, Oklahoma, United States",
+    "founded": "2018",
+    "industries": "Aerospace, Autonomous Vehicles, Consulting, Infrastructure",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "ground_operations",
+      "launch_support",
+      "satellite_communications",
+      "satellite_constellations",
+      "small_satellite_engineering"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "DronePort Network focuses on autonomous drone services, which involves technologies and capabilities in the areas of data analytics, ground infrastructure, satellite communications, and small satellite systems."
+  },
+  {
+    "company_name": "SeaDrone",
+    "description": "SeaDrone reduces subsea lifecycle infrastructure inspections costs",
+    "location": "Menlo Park, California, United States",
+    "founded": "2015",
+    "industries": "Drones, Marine Technology, Photography, Robotics, Video",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_observation",
+      "satellite_constellations",
+      "earth_data_analytics"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "SeaDrone operates drones and provides marine technology, photography, and video services, which align with Earth observation, satellite constellations, and geospatial data analytics domains."
+  },
+  {
+    "company_name": "Aphelion Orbitals",
+    "description": "Aphelion provides full lifecycle launch services that allow regular, scheduled orbital access at an unprecedented rate and low cost.",
+    "location": "Union City, New Jersey, United States",
+    "founded": "2015",
+    "industries": "Aerospace, Gaming, Satellite Communication",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "launch_vehicles",
+      "launch_support",
+      "satellite_communications"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Aphelion Orbitals provides launch services and satellite communications, which aligns with the 'launch vehicles', 'launch support', and 'satellite communications' domains."
+  },
+  {
+    "company_name": "Max Space",
+    "description": "Max Space develops inflatable habitats that provide the maximum amount of space, in space.",
+    "location": "Miami, Florida, United States",
+    "founded": "2023",
+    "industries": "Aerospace, Machinery Manufacturing, Manufacturing",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "inspace_manufacturing",
+      "space_habitats"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Max Space develops inflatable habitats for space, which aligns with the domains of in-space manufacturing and space habitats."
+  },
+  {
+    "company_name": "FiberSense",
+    "description": "Fiber Sense is launching a digital platform for digitising city mobility and activities.",
+    "location": "San Francisco, California, United States",
+    "founded": "2015",
+    "industries": "Aerospace, Oil and Gas, Optical Communication, Sensor",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "satellite_communications",
+      "satellite_constellations",
+      "earth_data_analytics"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "FiberSense is developing a digital platform for digitizing city mobility and activities, which aligns with satellite communications, satellite constellations, and earth data analytics domains."
+  },
+  {
+    "company_name": "SkyMul",
+    "description": "SkyMul is a robotics company that is revolutionizing the construction industry by introducing modular robots.",
+    "location": "Atlanta, Georgia, United States",
+    "founded": "2018",
+    "industries": "Aerospace",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "human_systems",
+      "ground_operations"
+    ],
+    "classification_confidence": "medium",
+    "classification_reasoning": "SkyMul is a robotics company that operates in the construction industry, which involves both human-robot collaboration and ground-based operations."
+  },
+  {
+    "company_name": "ProStar Geocorp",
+    "description": "ProStar Geocorp is a software company that provides cloud and mobile technology for transparency and geospatial intelligence.",
+    "location": "Grand Junction, Colorado, United States",
+    "founded": "2014",
+    "industries": "Asset Management, Geospatial, Mapping Services, Navigation, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "satellite_communications",
+      "satellite_constellations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "ProStar Geocorp provides cloud and mobile technology for transparency and geospatial intelligence, which aligns with the earth data analytics, satellite communications, and satellite constellations domains."
+  },
+  {
+    "company_name": "Valqari",
+    "description": "Valqari is a hardware company offering autonomous logistics solutions for drone and logistic problems.",
+    "location": "Lombard, Illinois, United States",
+    "founded": "Aug 2017",
+    "industries": "Delivery, Drones, Logistics, Robotics, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Valqari is a hardware company offering autonomous logistics solutions for drone and logistic problems, which aligns with the domains of delivery, drones, logistics, robotics, and software."
+  },
+  {
+    "company_name": "Identified Technologies",
+    "description": "Identified Technologies offers its industrial customers with a mapping drone solution to increase project visibility and team productivity.",
+    "location": "Pittsburgh, Pennsylvania, United States",
+    "founded": "Jul 10, 2013",
+    "industries": "Construction, Drones, Oil and Gas, Robotics, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "ground_operations",
+      "human_systems",
+      "launch_support",
+      "satellite_constellations",
+      "small_satellite_engineering",
+      "space_robotics"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Identified Technologies offers drone-based mapping solutions for construction, oil and gas, and other industrial applications, which aligns with several space-related domains including earth data analytics, ground operations, human-system collaboration, satellite constellations, and small satellite engineering."
+  },
+  {
+    "company_name": "Source Energy",
+    "description": "Source Energy Provides reliable, financially sustainable energy solutions for the space economy.",
+    "location": "Longmont, Colorado, United States",
+    "founded": "2021",
+    "industries": "Manufacturing, Power Grid, Satellite Communication, Solar, Space Travel",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "satellite_communications",
+      "space_based_energy",
+      "space_resource_utilization",
+      "space_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Source Energy provides reliable energy solutions for the space economy, which spans satellite communications, space-based energy generation, and space resource utilization."
+  },
+  {
+    "company_name": "Alpine Advanced Materials",
+    "description": "Alpine Advanced Materials specializes in best-in-class lightweight and affordable structural thermoplastic nanocomposites.",
+    "location": "Dallas, Texas, United States",
+    "founded": "2018",
+    "industries": "Aerospace, Manufacturing, Military, Nanotechnology",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company specializes in lightweight and affordable structural thermoplastic nanocomposites, which are relevant to the aerospace, manufacturing, and nanotechnology domains."
+  },
+  {
+    "company_name": "Exo-Space",
+    "description": "Exo-Space is a hardware and software for new age satellites.",
+    "location": "Los Angeles, California, United States",
+    "founded": "Jan 6, 2020",
+    "industries": "Artificial Intelligence (AI), Computer Vision, Hardware, Information Services, Machine Learning, Satellite Communication, Software, Space Travel",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "satellite_communications",
+      "spacecraft_communications",
+      "space_ai",
+      "space_autonomy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Exo-Space develops hardware and software for new-age satellites, which aligns with domains related to satellite communications, spacecraft communications, space AI, and space autonomy."
+  },
+  {
+    "company_name": "Aerialoop Corp",
+    "description": "Aerialoop builds drone-based urban aerial logistic networks. With one of the worlds largest daily urban operations in multiple cities.",
+    "location": "Miami, Florida, United States",
+    "founded": "Nov 25, 2020",
+    "industries": "Delivery Service, Drone Management, Drones, Logistics, Robotics",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Aerialoop Corp is a company that builds drone-based urban aerial logistics networks, which aligns with the domains of delivery service, drone management, drones, logistics, and robotics."
+  },
+  {
+    "company_name": "GotYu",
+    "description": "GotYu is a wearable-tech company that develops AI-powered live trackers and health-monitoring devices.",
+    "location": "Santa Monica, California, United States",
+    "founded": "2016",
+    "industries": "Consumer Electronics, GPS, Hardware, Pet, Wearables",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "GotYu develops wearable-tech devices and health-monitoring hardware, which aligns with the consumer electronics, GPS, and wearables domains."
+  },
+  {
+    "company_name": "AirWise Solutions",
+    "description": "AirWise Solutions is a drone analytics company that offers data analytics platform,flight planning, photogrammetry, distribution, storage.",
+    "location": "Tulsa, Oklahoma, United States",
+    "founded": "2021",
+    "industries": "Analytics, Business Intelligence, Drones, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "satellite_constellations",
+      "small_satellite_engineering"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "AirWise Solutions provides data analytics, flight planning, and photogrammetry services, which aligns with the earth data analytics, satellite constellations, and small satellite engineering domains."
+  },
+  {
+    "company_name": "Y Bird Airways",
+    "description": "Drone Service/Consultant",
+    "location": "East Elmhurst, New York, United States",
+    "founded": "Apr 4, 2017",
+    "industries": "Consulting, Drones, Real Estate",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "satellite_constellations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Y Bird Airways provides drone-based consulting services, which involves the use of space-derived data and small satellite systems for applications like real estate monitoring."
+  },
+  {
+    "company_name": "LocusLabs",
+    "description": "LocusLabs is a geospatial data service that enables venues and enterprises to create location aware experiences.",
+    "location": "Oakland, California, United States",
+    "founded": "2014",
+    "industries": "Geospatial, Indoor Positioning, Internet of Things, Location Based Services, Mapping Services, Navigation, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "positioning_navigation_timing",
+      "satellite_communications",
+      "satellite_constellations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "LocusLabs provides geospatial data services and location-based experiences, which aligns with earth data analytics, positioning/navigation/timing, satellite communications, and satellite constellation domains."
+  },
+  {
+    "company_name": "Nxbeam",
+    "description": "Nxbeam delivers the next generation of wireless communications products.",
+    "location": "Los Alamitos, California, United States",
+    "founded": "2018",
+    "industries": "Satellite Communication, Telecommunications, Wireless",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "satellite_communications"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Nxbeam delivers wireless communications products, which aligns with the satellite communications, telecommunications, and wireless domains."
+  },
+  {
+    "company_name": "Mira",
+    "description": "Mira is the crowd analytics platform",
+    "location": "New York, New York, United States",
+    "founded": "Aug 22, 2014",
+    "industries": "Advertising, Analytics, Big Data, Geospatial, Location Based Services",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "satellite_constellations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Mira's business in crowd analytics and geospatial data services is relevant to the Earth Data Analytics and Satellite Constellations domains."
+  },
+  {
+    "company_name": "Drone Racing League",
+    "description": "Drone Racing League organizes global drone races featuring top pilots, streamed on various platforms.",
+    "location": "New York, New York, United States",
+    "founded": "2015",
+    "industries": "Drones, Gaming, Racing, Robotics, Sports Leagues and Teams, Virtual Reality",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The Drone Racing League organizes global drone races, which spans the domains of drones, gaming, racing, robotics, sports leagues and teams, and virtual reality."
+  },
+  {
+    "company_name": "Off Planet Research",
+    "description": "Off Planet Research provides an extraterrestrial research facility for testing space technology and conducting research and development.",
+    "location": "Lacey, Washington, United States",
+    "founded": "2015",
+    "industries": "Consulting, Space Travel, Test and Measurement",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "space_general",
+      "space_instrumentation",
+      "launch_support"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Off Planet Research provides an extraterrestrial research facility for testing space technology, which falls under the broader 'space general' domain. Their work on space instrumentation and facilities for launch support are also relevant."
+  },
+  {
+    "company_name": "GuardianSat",
+    "description": "GuardianSat is a revolutionary company with critical patents focuses on orbital asset protection",
+    "location": "Tampa, Florida, United States",
+    "founded": "Dec 9, 2019",
+    "industries": "Satellite Communication",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "counterspace_capabilities",
+      "satellite_communications"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "GuardianSat focuses on orbital asset protection and satellite communication, which aligns with the counterspace capabilities and satellite communications domains."
+  },
+  {
+    "company_name": "Rarefied Studios",
+    "description": "Aerospace and Defense",
+    "location": "Houston, Texas, United States",
+    "founded": "2021",
+    "industries": "Aerospace, Satellite Communication, Software, Space Travel",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "satellite_communications",
+      "space_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Rarefied Studios appears to be a company working in the aerospace and defense industry, with expertise in satellite communications, software, and general space-related activities."
+  },
+  {
+    "company_name": "Volterman Smart Wallet",
+    "description": "Volterman\u00ae is the World\u2019s most powerful smart wallet with 5 smart functions.",
+    "location": "San Francisco, California, United States",
+    "founded": "2017",
+    "industries": "Consumer Electronics, GPS, Information Technology, Wearables",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Volterman Smart Wallet is a consumer electronics product with GPS and IT capabilities, fitting into the wearables domain."
+  },
+  {
+    "company_name": "Tesserol",
+    "description": "Tesserol creates lightweight fuel cells to power commercial drones in surveillance, agriculture, and delivery.",
+    "location": "Goleta, California, United States",
+    "founded": "2020",
+    "industries": "Drones, Fuel Cell, Manufacturing",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_observation",
+      "satellite_constellations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Tesserol creates lightweight fuel cells for commercial drones, which can be used for earth observation and surveillance applications, as well as leveraging small satellite systems and constellations."
+  },
+  {
+    "company_name": "Catalyst Accelerator",
+    "description": "The Catalyst Space Accelerator trains innovative space technology companies to apply their technology to solve stated problems by the DoD.",
+    "location": "Colorado Springs, Colorado, United States",
+    "founded": "Jan 2018",
+    "industries": "Aerospace",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "ground_operations",
+      "military_satcom",
+      "satellite_communications"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The Catalyst Space Accelerator trains companies in space technology, focusing on the aerospace industry, ground operations, military communications satellites, and satellite communications."
+  },
+  {
+    "company_name": "Toledo Express Airport",
+    "description": "Toledo Express Airport is an airport provides a crowd-free and easy alternative to larger less convenient airports services.",
+    "location": "Swanton, Ohio, United States",
+    "founded": "2020",
+    "industries": "Aerospace, Air Transportation",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "launch_support",
+      "satellite_communications"
+    ],
+    "classification_confidence": "medium",
+    "classification_reasoning": "The company operates an airport that supports aerospace and air transportation activities, which can include launch support services and satellite communications."
+  },
+  {
+    "company_name": "Angel Aerial Systems",
+    "description": "Angel Aerial Systems is an aircraft parts manufacturing company that offers advanced industrial drone airframes and control systems.",
+    "location": "Cincinnati, Ohio, United States",
+    "founded": "2022",
+    "industries": "Drones, Manufacturing, Mechanical Engineering",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company is focused on manufacturing aircraft parts and advanced industrial drone systems, which aligns with the domains of drones, manufacturing, and mechanical engineering."
+  },
+  {
+    "company_name": "Paradigm Parachute & Defense",
+    "description": "Paradigm Parachute & Defense provides precision manufactured, military-style parachute systems, and associated defense products.",
+    "location": "Pensacola, Florida, United States",
+    "founded": "2019",
+    "industries": "Aerospace, Air Transportation, Manufacturing",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "launch_vehicles",
+      "military_isr_satellites",
+      "military_missile_tracking",
+      "product_assurance"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Paradigm Parachute & Defense provides precision manufactured, military-style parachute systems and associated defense products, which falls under the aerospace, launch vehicle, military ISR satellite, military missile tracking, and product assurance domains."
+  },
+  {
+    "company_name": "Planck Aerosystems",
+    "description": "Planck technology ushers in a new era of drone flight, unlocking a world of new applications.",
+    "location": "San Diego, California, United States",
+    "founded": "May 5, 2014",
+    "industries": "Aerospace, Artificial Intelligence (AI), Automotive, Computer Vision, Drones, Information Technology, Navigation, Robotics",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Planck Aerosystems is a company that develops drone technology, utilizing artificial intelligence, computer vision, and robotics to enable new applications in navigation and flight."
   }
 ]
