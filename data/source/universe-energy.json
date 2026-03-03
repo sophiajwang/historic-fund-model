@@ -7264,5 +7264,750 @@
     ],
     "classification_confidence": "high",
     "classification_reasoning": "MicroEra Power's focus on resilient and efficient thermal energy storage for commercial and industrial buildings aligns with the building efficiency, energy storage systems, and thermal storage domains."
+  },
+  {
+    "company_name": "Cosmos Innovation",
+    "description": "Cosmos Innovation specialize in full stack software development, product design, cloud hosting, and MVP deployment.",
+    "location": "Seattle, Washington, United States",
+    "founded": "2019",
+    "industries": "Artificial Intelligence (AI), Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Cosmos Innovation's focus on software development, AI, and cloud hosting services aligns with the categories of artificial intelligence, software development, and cloud computing."
+  },
+  {
+    "company_name": "Ampcera",
+    "description": "Ampcera focuses on the development and commercialization of solid-state electrolyte and battery technologies.",
+    "location": "Milpitas, California, United States",
+    "founded": "Aug 17, 2017",
+    "industries": "Advanced Materials, Battery, Chemical, Electric Vehicle, Energy Storage, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "energy_storage_systems",
+      "electric_vehicles"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ampcera focuses on the development and commercialization of solid-state electrolyte and battery technologies, which aligns with the battery chemistry, energy storage systems, and electric vehicles domains."
+  },
+  {
+    "company_name": "Acceleron Fusion",
+    "description": "Acceleron Fusion provides clean energy solutions by using fusion technology.",
+    "location": "Cambridge, Massachusetts, United States",
+    "founded": "2023",
+    "industries": "CleanTech, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "nuclear_fusion",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Acceleron Fusion provides clean energy solutions using fusion technology, which falls under the nuclear fusion domain, as well as the broader energy-related category."
+  },
+  {
+    "company_name": "KORE Power",
+    "description": "Kore Power manufactures energy storage, electric vehicles, microgrids, utilities, and e-mobility systems for the clean energy industries.",
+    "location": "Coeur D'alene, Idaho, United States",
+    "founded": "2018",
+    "industries": "Electric Vehicle, Energy, Energy Storage, Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "distributed_energy",
+      "electric_vehicles",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "KORE Power manufactures energy storage, electric vehicles, and microgrids for the clean energy industries, which aligns with the specified domains."
+  },
+  {
+    "company_name": "N-SMART",
+    "description": "Empowering Resilient, Smarter Grids with Grid-Edge Intelligence",
+    "location": "Sterling, Virginia, United States",
+    "founded": "Jan 2022",
+    "industries": "Artificial Intelligence (AI), Internet of Things, Power Grid",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "grid_modernization",
+      "distributed_energy",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "N-SMART's focus on empowering smarter power grids with grid-edge intelligence aligns with the domains of grid modernization, distributed energy resources, and broader energy technology and applications."
+  },
+  {
+    "company_name": "Sapient Industries",
+    "description": "Sapient is an enterprise plug load management system powered by machine learning.",
+    "location": "Philadelphia, Pennsylvania, United States",
+    "founded": "Apr 12, 2017",
+    "industries": "Energy Management, Enterprise Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Sapient Industries provides an enterprise plug load management system powered by machine learning, which aligns with building energy efficiency and grid software/analytics domains."
+  },
+  {
+    "company_name": "Hypercraft",
+    "description": "Hypercraft provides turn-key electric drive systems for today's e-mobility demands and tomorrow's wildest creations.",
+    "location": "Provo, Utah, United States",
+    "founded": "2019",
+    "industries": "Automotive, Battery, Electronics, Transportation",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "battery_manufacturing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Hypercraft provides turn-key electric drive systems, which aligns with the electric vehicles and battery manufacturing domains."
+  },
+  {
+    "company_name": "Sepion Technologies",
+    "description": "Sepion is an advanced membrane company offering a platform suite of highly-tunable nanoscale membranes for multiple industrial markets.",
+    "location": "Emeryville, California, United States",
+    "founded": "Sep 1, 2015",
+    "industries": "Advanced Materials, Energy Storage, Water Purification",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Sepion Technologies develops advanced membranes for industrial applications in energy storage and water purification, which are relevant to the specified energy technology domains."
+  },
+  {
+    "company_name": "Yotta Energy",
+    "description": "Yotta is a a renewable energy storage company.",
+    "location": "Austin, Texas, United States",
+    "founded": "2016",
+    "industries": "Energy, Mining, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "energy_storage_systems",
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Yotta Energy is a renewable energy storage company that focuses on battery chemistry, grid-scale energy storage, and solar photovoltaic technologies."
+  },
+  {
+    "company_name": "DSD Renewables",
+    "description": "DSD Renewables is a renewable energy solutions company that develops, constructs, and operates renewable energy projects.",
+    "location": "San Francisco, California, United States",
+    "founded": "2019",
+    "industries": "Energy, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "DSD Renewables develops, constructs, and operates renewable energy projects, with a focus on solar photovoltaics."
+  },
+  {
+    "company_name": "Advanced Microgrid Solutions",
+    "description": "Advanced Microgrid Solutions installs advanced energy storage systems in buildings to lower energy costs for consumers and provide clean.",
+    "location": "San Francisco, California, United States",
+    "founded": "2013",
+    "industries": "Clean Energy, Energy, Energy Storage, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "distributed_energy",
+      "energy_storage_systems",
+      "building_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Advanced Microgrid Solutions installs advanced energy storage systems in buildings to lower energy costs and provide clean energy, which aligns with the domains of distributed energy, energy storage systems, and building efficiency."
+  },
+  {
+    "company_name": "Clearway Energy Group",
+    "description": "Clearway Energy Group delivers renewable power solutions through engineering, procurement, and construction management.",
+    "location": "San Francisco, California, United States",
+    "founded": "2018",
+    "industries": "Construction, Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Clearway Energy Group delivers renewable power solutions through engineering, procurement, and construction management, indicating that it operates in the renewable energy, construction, and energy domains."
+  },
+  {
+    "company_name": "Guzman Energy",
+    "description": "Guzman Energy is a wholesale power provider and energy trading company.",
+    "location": "Denver, Colorado, United States",
+    "founded": "2013",
+    "industries": "Electronics, Energy, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general",
+      "power_markets"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Guzman Energy is a wholesale power provider and energy trading company, which indicates it is involved in energy markets and grid operations rather than a specific energy technology."
+  },
+  {
+    "company_name": "Plural Energy",
+    "description": "Plural Energy helps investors invest directly in renewable energy projects.",
+    "location": "San Francisco, California, United States",
+    "founded": "2023",
+    "industries": "Energy, Impact Investing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Plural Energy helps investors invest directly in renewable energy projects, which covers multiple energy domains including general energy, impact investing, and renewable energy."
+  },
+  {
+    "company_name": "Copia Power",
+    "description": "Copia Power is an energy transition firm focused on creating, building, and owning large-scale infrastructure assets in the United States.",
+    "location": "Washington, District of Columbia, United States",
+    "founded": "2021",
+    "industries": "Energy, Renewable Energy, Semiconductor",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general",
+      "energy_industrial_base"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Copia Power is an energy transition firm focused on creating, building, and owning large-scale infrastructure assets, which spans multiple energy-related domains."
+  },
+  {
+    "company_name": "Estuary Power",
+    "description": "Estuary Power develops, sponsors, and finances energy projects.",
+    "location": "Reno, Nevada, United States",
+    "founded": "2013",
+    "industries": "Clean Energy, Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Estuary Power develops, sponsors, and finances energy projects, which covers a broad range of energy-related topics and renewable energy technologies."
+  },
+  {
+    "company_name": "Smart Wires",
+    "description": "Smart Wires is a grid solutions company that offers monitoring and power flow control in meshed networks.",
+    "location": "Durham, North Carolina, United States",
+    "founded": "2010",
+    "industries": "Electrical Distribution, Electronics, Manufacturing",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "grid_modernization",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Smart Wires is a company that offers grid solutions, including monitoring and power flow control in meshed networks, which aligns with the grid modernization and grid software domains."
+  },
+  {
+    "company_name": "Paladin Power",
+    "description": "Paladin Power provides an innovative energy solution for residential and commercial properties.",
+    "location": "Temecula, California, United States",
+    "founded": "2022",
+    "industries": "Battery, Clean Energy, Renewable Energy, Semiconductor",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Paladin Power provides innovative energy solutions, including battery manufacturing and grid-scale energy storage, which are key components of the renewable energy domain."
+  },
+  {
+    "company_name": "HEVO",
+    "description": "HEVO provides a seamless, safe, and universal wireless charging solution for electric vehicles.",
+    "location": "Brooklyn, New York, United States",
+    "founded": "Nov 1, 2011",
+    "industries": "Automotive, Charging Infrastructure, CleanTech, Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "ev_charging"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "HEVO provides wireless charging solutions for electric vehicles, which aligns with the electric vehicles, EV charging infrastructure, and renewable energy domains."
+  },
+  {
+    "company_name": "Hgen",
+    "description": "Hgen provides affordable green hydrogen for deep decarbonization.",
+    "location": "Hawthorne, California, United States",
+    "founded": "2021",
+    "industries": "Clean Energy, Environmental Engineering, Sustainability",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "hydrogen_production",
+      "carbon_capture",
+      "carbon_utilization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Hgen provides affordable green hydrogen for deep decarbonization, which aligns with hydrogen production, carbon capture, and carbon utilization domains. The company's focus on sustainability also makes it relevant to that broader domain."
+  },
+  {
+    "company_name": "Roofer.com",
+    "description": "A modern roofing experience for homeowners and enterprise property owners nationwide.",
+    "location": "Dallas, Texas, United States",
+    "founded": "2020",
+    "industries": "Construction, Energy, Internet, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "solar_pv",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Roofer.com provides roofing services for residential and commercial buildings, which relates to building energy efficiency. It also mentions solar, indicating involvement in solar photovoltaic systems. The company's broad focus on energy-related services across multiple domains suggests it is generally within the energy industry."
+  },
+  {
+    "company_name": "Sparkfund",
+    "description": "Sparkfund is the deployment layer for the built environment, transforming buildings into a valuable extension of the grid.",
+    "location": "Washington, District of Columbia, United States",
+    "founded": "Sep 5, 2013",
+    "industries": "Energy, Energy Storage, Finance, Financial Services, Power Grid",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "distributed_energy",
+      "energy_storage_systems",
+      "grid_modernization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Sparkfund's focus on transforming buildings into valuable grid resources aligns with building energy efficiency, distributed energy resources, energy storage, and grid modernization domains."
+  },
+  {
+    "company_name": "Clear Current",
+    "description": "Clear Current is an AI-driven platform designed to serve as the \"nerve center\" for energy operations.",
+    "location": "Bridgehampton, New York, United States",
+    "founded": "2024",
+    "industries": "Artificial Intelligence (AI), Automotive, Clean Energy, Energy, Enterprise, Marketing, Operating Systems, Renewable Energy, SaaS, Service Industry",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general",
+      "grid_software",
+      "distributed_energy",
+      "electric_vehicles",
+      "building_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Clear Current's AI-driven platform serves as a nerve center for energy operations, spanning multiple domains including energy software, distributed energy resources, electric vehicles, building efficiency, and renewable energy."
+  },
+  {
+    "company_name": "Ionworks",
+    "description": "Ionworks is a Software Development firm offering simulation software used by battery and automotive companies.",
+    "location": "Pittsburgh, Pennsylvania, United States",
+    "founded": "2023",
+    "industries": "Energy Storage, Enterprise Software, Open Source, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ionworks provides simulation software for battery and automotive companies, which aligns with the electric vehicles, energy storage systems, and enterprise software domains."
+  },
+  {
+    "company_name": "SunShare",
+    "description": "SunShare is a renewables and environment company specializing in solar garden development services.",
+    "location": "Denver, Colorado, United States",
+    "founded": "2011",
+    "industries": "Energy, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "SunShare is a company specializing in solar garden development services, which aligns with the solar photovoltaics and distributed energy resources domains."
+  },
+  {
+    "company_name": "King Energy",
+    "description": "King Energy is a next-generation energy company that brings solar power to multi-tenant commercial properties.",
+    "location": "Durango, Colorado, United States",
+    "founded": "2020",
+    "industries": "Clean Energy, Energy, Energy Storage, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "King Energy focuses on providing solar power solutions for multi-tenant commercial properties, which falls under the solar photovoltaics, distributed energy, and renewable energy domains."
+  },
+  {
+    "company_name": "Forum Mobility",
+    "description": "Forum Mobility provides zero-emission drayage turnkey battery electric truck and charging solutions for fleets and drivers.",
+    "location": "Oakland, California, United States",
+    "founded": "2021",
+    "industries": "Battery, Electric Vehicle, Transportation",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "ev_charging"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Forum Mobility provides electric vehicle solutions, including battery electric trucks and charging infrastructure, which aligns with the electric vehicles and EV charging infrastructure domains."
+  },
+  {
+    "company_name": "Spear Power Systems",
+    "description": "Spear Power Systems designs and manufactures safe, reliable lithium-ion battery storage systems.",
+    "location": "Grandview, Missouri, United States",
+    "founded": "2013",
+    "industries": "Battery, Energy, Manufacturing, Oil and Gas",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "battery_chemistry"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Spear Power Systems designs and manufactures lithium-ion battery storage systems, which falls under the battery manufacturing and battery chemistry domains."
+  },
+  {
+    "company_name": "Ecoplexus",
+    "description": "Ecoplexus is engaged in the development, design, construction, and financing of solar power projects.",
+    "location": "San Francisco, California, United States",
+    "founded": "Jan 1, 2009",
+    "industries": "Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ecoplexus is engaged in the development, design, construction, and financing of solar power projects, which falls under the solar photovoltaics and renewable energy domains."
+  },
+  {
+    "company_name": "Primrose Bio",
+    "description": "Primrose Bio is a biotechnology company that focuses on discovery, development, and manufacturing of new molecules.",
+    "location": "San Diego, California, United States",
+    "founded": "2023",
+    "industries": "Biotechnology, Clean Energy, Genetics, Medical, Therapeutics",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Primrose Bio is a biotechnology company focused on discovery, development, and manufacturing of new molecules, which aligns with the biotechnology, medical, and therapeutics domains."
+  },
+  {
+    "company_name": "Direct Kinetic Solutions",
+    "description": "Persistent Power Sources providing continues power everywhere",
+    "location": "El Paso, Texas, United States",
+    "founded": "2019",
+    "industries": "Battery, Electronics, Manufacturing, Power Grid",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Direct Kinetic Solutions provides persistent power sources, including battery manufacturing and grid-scale energy storage, which are relevant to the power grid domain."
+  },
+  {
+    "company_name": "Applied Atomics, Inc.",
+    "description": "Co-located nuclear power plants to unlock the next 1,000 years of advanced industry.",
+    "location": "Anchorage, Alaska, United States",
+    "founded": "Jan 2, 2025",
+    "industries": "Clean Energy, Nuclear",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "advanced_nuclear",
+      "nuclear_fuel"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company specializes in developing and deploying advanced nuclear power plants, which aligns with the advanced nuclear and nuclear fuel domains."
+  },
+  {
+    "company_name": "Voltaiq",
+    "description": "Voltaiq is the industry\u2019s first Enterprise Battery Intelligence\u2122 (EBI) software platform helping optimize battery performance & reliability",
+    "location": "Berkeley, California, United States",
+    "founded": "Apr 1, 2012",
+    "industries": "Analytics, Battery, Big Data, Energy, Energy Storage, Predictive Analytics, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "battery_chemistry",
+      "energy_storage_systems",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Voltaiq's software platform helps optimize battery performance and reliability, which spans battery manufacturing, battery chemistry, energy storage systems, and grid software analytics."
+  },
+  {
+    "company_name": "Orange Charger",
+    "description": "An affordable electric vechile and energy platfrom for commercial properties",
+    "location": "Menlo Park, California, United States",
+    "founded": "Aug 20, 2020",
+    "industries": "Charging Infrastructure, Electric Vehicle, Energy, Energy Efficiency, Energy Management",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "ev_charging",
+      "distributed_energy",
+      "building_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company is involved in electric vehicles, charging infrastructure, energy platforms, and energy efficiency solutions for commercial properties, spanning multiple energy-related domains."
+  },
+  {
+    "company_name": "Dividend Finance",
+    "description": "Dividend Finance is a Technology-enabled finance platform supporting the energy transition with lending and other financial solutions.",
+    "location": "San Francisco, California, United States",
+    "founded": "Oct 2013",
+    "industries": "Energy, Energy Efficiency, Finance, Financial Services, FinTech, Green Consumer Goods, Home Improvement, Home Renovation, Power Grid, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_finance",
+      "building_efficiency",
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Dividend Finance provides financing and lending solutions to support the energy transition, including for renewable energy, energy efficiency, and home improvement projects."
+  },
+  {
+    "company_name": "Greenwood Sustainable Infrastructure",
+    "description": "GSI is focused on the development and operation of utility-scale solar energy and battery storage projects in North America.",
+    "location": "New York, New York, United States",
+    "founded": "2010",
+    "industries": "Energy, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company is focused on developing and operating utility-scale solar energy and battery storage projects, which falls under the solar PV, energy storage systems, and renewable energy domains."
+  },
+  {
+    "company_name": "Switched Source",
+    "description": "Switched Source is a manufacturing company that develops medium-voltage devices to enhance utility operations through automation.",
+    "location": "Chicago, Illinois, United States",
+    "founded": "2015",
+    "industries": "Electrical Distribution, Electronics, Energy Management",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company Switched Source develops medium-voltage devices to enhance utility operations, which falls under the domains of electrical distribution, electronics, and energy management."
+  },
+  {
+    "company_name": "Imprint Energy",
+    "description": "Imprint Energy is commercializing a breakthrough low cost, flexible, rechargeable battery technology that would change portable power.",
+    "location": "Alameda, California, United States",
+    "founded": "Nov 23, 2010",
+    "industries": "Advanced Materials, Energy, Energy Efficiency, Energy Management",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Imprint Energy is developing a new battery technology, which aligns with the battery chemistry and manufacturing domains."
+  },
+  {
+    "company_name": "Calicat",
+    "description": "Calicat is a clean-energy company developing a proprietary electrocatalyst discovery process for electrolyser.",
+    "location": "Chatsworth, California, United States",
+    "founded": "2020",
+    "industries": "Clean Energy, CleanTech, Energy, GreenTech, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electrochemical",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Calicat is developing an electrocatalyst discovery process for electrolysers, which falls under the electrochemical systems domain. The company's broad focus on clean energy also makes it relevant to the energy_general domain."
+  },
+  {
+    "company_name": "Blueprint Power",
+    "description": "Blueprint Power is a real estate and energy tech company that turns buildings into urban power plants.",
+    "location": "New York, New York, United States",
+    "founded": "2017",
+    "industries": "Energy, Real Estate, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Blueprint Power is a real estate and energy tech company that turns buildings into urban power plants, which aligns with the building efficiency and distributed energy domains."
+  },
+  {
+    "company_name": "Advanced Silicon Group",
+    "description": "Advanced Silicon Group offers silicon nanotechnology services.",
+    "location": "Lowell, Massachusetts, United States",
+    "founded": "Jan 1, 2015",
+    "industries": "Battery, Nanotechnology, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Advanced Silicon Group offers silicon nanotechnology services for batteries and solar applications, which aligns with the battery chemistry, nanotechnology, and solar PV domains."
+  },
+  {
+    "company_name": "Adden Energy",
+    "description": "Adden Energy is a developer of stable, lithium-metal, solid-state batteries.",
+    "location": "Waltham, Massachusetts, United States",
+    "founded": "2021",
+    "industries": "Battery, Energy Storage, GreenTech",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Adden Energy is developing stable, lithium-metal, solid-state batteries, which is a key focus area in the battery chemistry and energy storage systems domains."
+  },
+  {
+    "company_name": "Feon",
+    "description": "Feon develops new-molecule-based liquid electrolytes for lithium-ion and lithium-metal batteries.",
+    "location": "Woburn, Massachusetts, United States",
+    "founded": "2022",
+    "industries": "Battery, Clean Energy, CleanTech, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Feon develops new-molecule-based liquid electrolytes for lithium-ion and lithium-metal batteries, which falls under the battery chemistry and materials domain. The company's description also suggests it has a broader focus on energy technology, which would classify it under the general energy domain."
+  },
+  {
+    "company_name": "Birch Creek Development",
+    "description": "Birch Creek is a service management company that provides value-adding products & services to Utility scale solar energy systems developers.",
+    "location": "El Segundo, California, United States",
+    "founded": "2019",
+    "industries": "Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Birch Creek provides services to utility-scale solar energy system developers, which falls under the solar photovoltaics (PV) domain. Its broad service offering also makes it relevant to the broader energy sector."
+  },
+  {
+    "company_name": "Talus Renewables",
+    "description": "Talus Renewables offers new pathways to chemicals, fertilizers, and fuels with its green ammonia production technology.",
+    "location": "Austin, Texas, United States",
+    "founded": "2021",
+    "industries": "Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "bioenergy",
+      "hydrogen_production"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Talus Renewables offers green ammonia production technology, which aligns with the bioenergy and hydrogen production domains."
+  },
+  {
+    "company_name": "Titan Advanced Energy Solutions",
+    "description": "Titan Advanced Energy Solutions is a provider of ultrasound-based battery management solutions",
+    "location": "Salem, Massachusetts, United States",
+    "founded": "Oct 2016",
+    "industries": "Automotive, Electronics, Energy, Energy Storage, Manufacturing, Renewable Energy, Semiconductor",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Titan Advanced Energy Solutions provides ultrasound-based battery management solutions, which are relevant to both battery manufacturing and grid-scale energy storage domains."
+  },
+  {
+    "company_name": "Coperniq Inc.",
+    "description": "Workflow software for solar & energy contractors",
+    "location": "San Francisco, California, United States",
+    "founded": "2019",
+    "industries": "Project Management, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company provides workflow software for solar and energy contractors, which aligns with the 'project_management' and 'solar' domains."
+  },
+  {
+    "company_name": "Flair",
+    "description": "Flair makes smart vents and wireless thermostats and advanced software for residential heating and cooling.",
+    "location": "Berkeley, California, United States",
+    "founded": "Sep 18, 2014",
+    "industries": "Energy Management, Energy Storage, Internet of Things",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Flair makes smart vents, wireless thermostats, and advanced software for residential heating and cooling, which aligns with building energy efficiency, energy storage systems, and internet of things technologies."
+  },
+  {
+    "company_name": "Pearlx Infrastructure",
+    "description": "Pearlx Infrastructure is specialized in digitally connecting global infrastructure assets and offers energy leasing position.",
+    "location": "Charlottesville, Virginia, United States",
+    "founded": "2019",
+    "industries": "Energy, Energy Management, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general",
+      "energy_industrial_base",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Pearlx Infrastructure is a company that specializes in digitally connecting global infrastructure assets and offering energy leasing positions, which broadly aligns with the energy industry. Its focus on energy management and renewable energy suggests it is involved in distributed energy resources and the energy industrial base."
+  },
+  {
+    "company_name": "Qnetic",
+    "description": "Flywheel energy storage system",
+    "location": "New York, New York, United States",
+    "founded": "Sep 28, 2021",
+    "industries": "Energy Storage",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Flywheel energy storage systems are a form of grid-scale energy storage, which falls under the 'Energy Storage Systems' domain."
   }
 ]
