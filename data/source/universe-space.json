@@ -13865,5 +13865,537 @@
     ],
     "classification_confidence": "high",
     "classification_reasoning": "Robotic Imaging provides reality capture applications for construction and sustainable infrastructure, which involves geospatial data analytics, human-robot collaboration, small satellite systems, and space robotics."
+  },
+  {
+    "company_name": "Gradient",
+    "description": "Building an aircraft that never has to land.",
+    "location": "Newport News, Virginia, United States",
+    "founded": "Feb 18, 2015",
+    "industries": "Aerospace, Drones, Telecommunications",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_observation",
+      "satellite_constellations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Gradient is building an aircraft that never has to land, which suggests they are working on persistent aerial platforms for Earth observation and potentially communications using small satellite constellations."
+  },
+  {
+    "company_name": "Airstrike Firefighters",
+    "description": "Airstrike Firefighters provide safe, efficient, accurate, and lift capable turboprop air tankers.",
+    "location": "Anchorage, Alaska, United States",
+    "founded": "2016",
+    "industries": "Aerospace, Military",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company provides turboprop air tankers, which are aerospace and military-related products."
+  },
+  {
+    "company_name": "Multiverse Publishing",
+    "description": "Multiverse Publishing is an integrated media company that specializes in space exploration, science, and technology.",
+    "location": "Denver, Colorado, United States",
+    "founded": "2020",
+    "industries": "Film Production, Media and Entertainment, Publishing, Space Travel",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Multiverse Publishing is an integrated media company that specializes in space exploration, science, and technology, spanning the publishing, film production, and space travel domains."
+  },
+  {
+    "company_name": "Leo Aerospace",
+    "description": "Leo Aerospace is building a dedicated delivery service for microsatellites.",
+    "location": "Los Angeles, California, United States",
+    "founded": "Oct 16, 2017",
+    "industries": "Aerospace, Satellite Communication, Space Travel",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "satellite_communications",
+      "satellite_constellations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Leo Aerospace is building a dedicated delivery service for microsatellites, which falls under the domains of satellite communications and small satellite systems & constellations."
+  },
+  {
+    "company_name": "Dynamic Map Platform North America",
+    "description": "Dynamic Map Platform North America is a geospatial measurement and software company that provides advanced driver assistance and road data.",
+    "location": "Livonia, Michigan, United States",
+    "founded": "2017",
+    "industries": "Geospatial, Mapping Services, Transportation",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "positioning_navigation_timing",
+      "satellite_communications"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Dynamic Map Platform North America provides geospatial measurement and software services for advanced driver assistance and road data, which aligns with the earth data analytics, positioning/navigation/timing, and satellite communications domains."
+  },
+  {
+    "company_name": "vRotors",
+    "description": "vRotors is a real time, live drone racing platform. From home, gamers use their PC or VR headsets to enter virtual cockpits and fly.",
+    "location": "Los Angeles, California, United States",
+    "founded": "Nov 2018",
+    "industries": "Drones, Robotics, Software, Video Games, Video Streaming",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "vRotors provides a real-time, live drone racing platform that allows gamers to use their PCs or VR headsets to virtually fly drones, which aligns with the video games, video streaming, software, drones, and robotics domains."
+  },
+  {
+    "company_name": "Hoversurf inc.",
+    "description": "The Hoversurf is a manned transportation company.",
+    "location": "San Francisco, California, United States",
+    "founded": "2015",
+    "industries": "Air Transportation, Drones, Electric Vehicle",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Hoversurf inc. is a manned transportation company focused on air transportation, drones, and electric vehicles, which are not directly related to space-based domains."
+  },
+  {
+    "company_name": "AirBoard",
+    "description": "WORLD'S MOST POWERFUL DRONE \u2013 AUTOMATED AGTECH PESTICIDE SPRAYING",
+    "location": "San Mateo, California, United States",
+    "founded": "Jan 13, 2017",
+    "industries": "AgTech, Apps, Drones, Electronics, Software, Travel",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_observation",
+      "satellite_constellations",
+      "launch_vehicles",
+      "ground_operations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "AirBoard develops drones and software for automated agricultural spraying, which aligns with earth observation, satellite constellations, and ground operations domains. The description also mentions electronics and software, which could relate to launch vehicle development."
+  },
+  {
+    "company_name": "Game of Drones",
+    "description": "Game of Drones is a DIY drone kit selling company that offers design, build drone kits for consumers and arranges fight battles.",
+    "location": "San Francisco, California, United States",
+    "founded": "Jan 1, 2012",
+    "industries": "Consumer Electronics, Consumer Goods, Drones, Gaming",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company is a DIY drone kit selling company that offers design, build drone kits for consumers and arranges fight battles, which falls under consumer electronics, consumer goods, and gaming domains."
+  },
+  {
+    "company_name": "Space Interactions Inc.",
+    "description": "Modeling, Simulation, and Predictive Analytics Platform",
+    "location": "Sterling Heights, Michigan, United States",
+    "founded": "Oct 27, 2021",
+    "industries": "Aerospace, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "satellite_communications",
+      "satellite_constellations",
+      "space_ai",
+      "space_autonomy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Space Interactions Inc. is a company that provides a modeling, simulation, and predictive analytics platform for the aerospace and software industries, which aligns with domains such as satellite communications, satellite constellations, space AI, and space autonomy."
+  },
+  {
+    "company_name": "GeoFrenzy",
+    "description": "GeoFrenzy enables applications and devices with geospacial context, in order to make autonomous decisions",
+    "location": "Belvedere Tiburon, California, United States",
+    "founded": "Jan 1, 2015",
+    "industries": "Geospatial, Local, Location Based Services, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "satellite_constellations",
+      "positioning_navigation_timing",
+      "satellite_communications"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "GeoFrenzy enables applications and devices with geospatial context, suggesting expertise in earth data analytics, satellite constellations, positioning/navigation/timing, and satellite communications."
+  },
+  {
+    "company_name": "OmniPreSense",
+    "description": "OmniPreSense is developing radar based Smart City traffic monitoring sensors to help make our cities safer.",
+    "location": "San Jose, California, United States",
+    "founded": "Feb 2016",
+    "industries": "Drones, Electronics, Information Services, Information Technology, Internet of Things, Robotics, Smart Cities, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "satellite_constellations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "OmniPreSense develops radar-based traffic monitoring sensors for smart cities, which aligns with the earth data analytics, satellite constellations, and smart cities domains."
+  },
+  {
+    "company_name": "UBIQWIFI",
+    "description": "UBIQWIFI is a Platform as a Service (PaaS) that utilizes artificial intelligence and geospatial intelligence.",
+    "location": "California City, California, United States",
+    "founded": "2016",
+    "industries": "Artificial Intelligence (AI), Geospatial, Machine Learning, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "UBIQWIFI's description indicates it is a Platform as a Service (PaaS) that utilizes artificial intelligence and geospatial intelligence, which aligns with the domains of Artificial Intelligence, Geospatial, Machine Learning, and Software."
+  },
+  {
+    "company_name": "Torre Space and Power Systems",
+    "description": "Torre Space and Power Systems develops electrical power generation for spacecraft, orbiting platforms, and planetary bases.",
+    "location": "Sherwood, Arkansas, United States",
+    "founded": "2020",
+    "industries": "Aerospace, Industrial Engineering",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "spacecraft_power_thermal"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Torre Space and Power Systems develops electrical power generation for spacecraft, which aligns with the 'spacecraft_power_thermal' and 'aerospace' domains."
+  },
+  {
+    "company_name": "Up Sonder LLC",
+    "description": "Up Sonder is an on-demand drone rental marketplace using UberRUSH.",
+    "location": "Los Angeles, California, United States",
+    "founded": "Oct 12, 2015",
+    "industries": "Drones, Marketplace, Rental",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "satellite_constellations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Up Sonder is a drone rental marketplace that leverages on-demand delivery services, which aligns with the 'Earth Data Analytics' and 'Small Satellite Systems & Constellations' domains."
+  },
+  {
+    "company_name": "Pixspan",
+    "description": "The fastest and easiest software products to accelerate data of any type on-site and to, from, and within the Cloud, globally and on demand.",
+    "location": "Rockville, Maryland, United States",
+    "founded": "2010",
+    "industries": "Computer, Enterprise Software, Media and Entertainment, Medical, Satellite Communication, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "satellite_communications",
+      "earth_data_analytics"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Pixspan's software products are used to accelerate data processing and transfer for various industries, including media and entertainment, medical, and satellite communication, which aligns with the satellite communications and earth data analytics domains."
+  },
+  {
+    "company_name": "Republic Jet Center",
+    "description": "Republic Jet Center provides thunderbolt programs, aircraft maintenance, and aircraft sales services.",
+    "location": "Farmingdale, New York, United States",
+    "founded": "2015",
+    "industries": "Aerospace, Customer Service, Sales",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Republic Jet Center provides services related to aircraft maintenance, sales, and customer support, which are within the aerospace and commercial aviation domains, but do not directly relate to the space-related categories in the list."
+  },
+  {
+    "company_name": "Advanced Shooting Analytics",
+    "description": "Advanced Shooting Analytics utilizes Aerospace grade analysis techniques to improve performance within the Precision Rifle space.",
+    "location": "Boulder, Colorado, United States",
+    "founded": "2019",
+    "industries": "Aerospace, Analytics",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "product_assurance"
+    ],
+    "classification_confidence": "medium",
+    "classification_reasoning": "Advanced Shooting Analytics utilizes aerospace-grade analysis techniques, which suggests it may have capabilities in data analytics and product assurance for space applications, though its primary focus appears to be on the precision rifle industry."
+  },
+  {
+    "company_name": "Synapse ITS",
+    "description": "Synapse ITS is a transportation equipment manufacturing industry.",
+    "location": "Greenville, Texas, United States",
+    "founded": "2023",
+    "industries": "Digital Signage, Manufacturing, Remote Sensing, Transportation",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "earth_observation",
+      "satellite_communications",
+      "satellite_constellations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Synapse ITS operates in the transportation equipment manufacturing industry, which includes digital signage, remote sensing, and transportation applications, indicating expertise in earth observation, data analytics, and satellite communications."
+  },
+  {
+    "company_name": "eVinh",
+    "description": "All-electric flying car with vertical takeoff & landing like a helicopter & forward flight like an airplane.",
+    "location": "Milpitas, California, United States",
+    "founded": "Nov 2017",
+    "industries": "Aerospace, Electric Vehicle",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company's description indicates that it is developing an all-electric flying car, which aligns with the aerospace and electric vehicle domains."
+  },
+  {
+    "company_name": "Blocnets",
+    "description": "Blocnets is a Privately funded software and technology company .",
+    "location": "Alpharetta, Georgia, United States",
+    "founded": "2018",
+    "industries": "Software, Space Travel",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "satellite_communications"
+    ],
+    "classification_confidence": "medium",
+    "classification_reasoning": "Blocnets is a software and technology company, which aligns with the 'software' domain. Additionally, the description mentions 'space travel', which suggests involvement in satellite communications."
+  },
+  {
+    "company_name": "Rosotics",
+    "description": "Rosotics produces the largest metal 3D printers in the world for air, sea, and defense.",
+    "location": "Mesa, Arizona, United States",
+    "founded": "Jun 17, 2019",
+    "industries": "3D Printing, Aerospace, Industrial Automation, Industrial Manufacturing, Manufacturing",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "inspace_manufacturing",
+      "product_assurance"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Rosotics produces large-scale 3D printers for aerospace and defense applications, which aligns with in-space manufacturing and product assurance domains."
+  },
+  {
+    "company_name": "Space Crystals LLC",
+    "description": "Space Crystals LLC offers customer a chance to be immortal by sending their DNA infused crystals to the surface of the moon.",
+    "location": "Houston, Texas, United States",
+    "founded": "Sep 2021",
+    "industries": "Aerospace, Jewelry, Training",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "microgravity_manufacturing",
+      "space_tourism"
+    ],
+    "classification_confidence": "medium",
+    "classification_reasoning": "Space Crystals LLC offers to send customer DNA infused crystals to the moon, which aligns with microgravity manufacturing and space tourism domains."
+  },
+  {
+    "company_name": "ONEOQ",
+    "description": "ONEOQ provides Automotive, Smart Lighting, Nano-illumination technology and Lidar, Autonomous Vehicles, Drone Navigation technology.",
+    "location": "Terre Haute, Indiana, United States",
+    "founded": "2019",
+    "industries": "Automotive, Autonomous Vehicles, Drones, Lighting",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company's activities span the automotive, autonomous vehicles, drones, and lighting industries, which are not directly related to the space technology domains in the provided list."
+  },
+  {
+    "company_name": "Consolidated Aerospace Manufacturing",
+    "description": "Consolidated Aerospace Manufacturing produces precision aerospace hardware and engineered components for aircraft and defense applications.",
+    "location": "Brea, California, United States",
+    "founded": "2012",
+    "industries": "Aerospace, Manufacturing, Mechanical Engineering, Product Design",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Consolidated Aerospace Manufacturing produces precision aerospace hardware and engineered components, which aligns with the aerospace, manufacturing, mechanical engineering, and product design domains."
+  },
+  {
+    "company_name": "Pod Trackers",
+    "description": "Pod Trackers is a smallest & lightest GPS + WiFi pet tracker.",
+    "location": "Santa Monica, California, United States",
+    "founded": "Jul 18, 2014",
+    "industries": "GPS, Hardware, Internet of Things, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "satellite_constellations",
+      "positioning_navigation_timing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Pod Trackers provides a GPS + WiFi pet tracker, which aligns with small satellite systems, positioning/navigation systems, and the internet of things domain."
+  },
+  {
+    "company_name": "Hazon Solutions, LLC",
+    "description": "Hazon Solutions develops small UAV inspection service operations, capability development, training, safety, and testing programs.",
+    "location": "Virginia Beach, Virginia, United States",
+    "founded": "Feb 1, 2015",
+    "industries": "Aerospace, Air Transportation, Training, Web Design",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company provides UAV inspection services, capability development, training, and web design, which do not directly align with the specified space technology domains."
+  },
+  {
+    "company_name": "Vector Atomic",
+    "description": "Vector Atomic offers quantum technology for applications that include GPS-free navigation, telecommunications, and computing.",
+    "location": "Pleasanton, California, United States",
+    "founded": "2018",
+    "industries": "GPS, Mechanical Design, Quantum Computing",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "positioning_navigation_timing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Vector Atomic offers quantum technology for GPS-free navigation and computing, which aligns with the 'Positioning, Navigation & Timing' and 'Quantum Computing' domains."
+  },
+  {
+    "company_name": "Hawkeye Systems",
+    "description": "Hawkeye Systems is develops cutting edge optical imaging products for military and law enforcement markets.",
+    "location": "Los Angeles, California, United States",
+    "founded": "2018",
+    "industries": "Aerospace, Hardware",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "military_isr_satellites"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Hawkeye Systems develops cutting-edge optical imaging products for military and law enforcement markets, which aligns with the 'military_isr_satellites' domain. Additionally, the company operates in the aerospace and hardware industries, which are relevant to the space industry."
+  },
+  {
+    "company_name": "Solid State Ceramics",
+    "description": "Solid State Ceramics produces piezoelectric multilayer co-fired materials and devices for conventional piezoelectric business.",
+    "location": "State College, Pennsylvania, United States",
+    "founded": "Jan 1, 2011",
+    "industries": "Advanced Materials, Aerospace, Manufacturing",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Solid State Ceramics produces piezoelectric materials and devices for the aerospace industry, which falls under the advanced materials, aerospace, and manufacturing domains."
+  },
+  {
+    "company_name": "Converge",
+    "description": "AI-fueled software so drones can take on the dull, dirty and dangerous work, allowing businesses to focus on their customers",
+    "location": "San Francisco, California, United States",
+    "founded": "Jan 2015",
+    "industries": "Artificial Intelligence (AI), Drones, Product Design, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company's focus on AI-powered software for drone applications aligns with the domains of Artificial Intelligence, Drones, Product Design, and Software."
+  },
+  {
+    "company_name": "PortEngine",
+    "description": "PortEngine is a SaaS-based platform that helps buyers to review all property data and connect directly with sellers.",
+    "location": "Ridgefield, Washington, United States",
+    "founded": "Apr 2017",
+    "industries": "CivicTech, Document Management, Document Preparation, Geospatial, GovTech, Information Technology, Property Management, SaaS, Smart Cities, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "PortEngine provides a SaaS-based platform for real estate data and property management, which aligns with several domains related to geospatial data, information technology, and smart city solutions."
+  },
+  {
+    "company_name": "Space Initiatives",
+    "description": "Space Initiatives is a new start-up with a business model focused on the development and deployment of 50-gram femtosatellites in LEO.",
+    "location": "Palm Bay, Florida, United States",
+    "founded": "2018",
+    "industries": "Aerospace",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "launch_vehicles",
+      "satellite_constellations",
+      "small_satellite_engineering"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Space Initiatives is developing and deploying femtosatellites in low-Earth orbit, which falls under the domains of launch vehicles, satellite constellations, and small satellite engineering."
+  },
+  {
+    "company_name": "FX Aviation",
+    "description": "FX Aviation was founded to give every advantage in the market.",
+    "location": "Greenville, South Carolina, United States",
+    "founded": "2018",
+    "industries": "Aerospace, Service Industry",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "FX Aviation is a company operating in the aerospace and service industry domains, but does not appear to be directly involved in any of the specific space-related domains listed."
+  },
+  {
+    "company_name": "ARYA Labs",
+    "description": "Arya Labs is creating deterinisyworld models for mission critical individuals",
+    "location": "New York, New York, United States",
+    "founded": "Jul 2, 2025",
+    "industries": "Aerospace, Biotechnology, Energy, Foundational AI, Generative AI",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Arya Labs is described as creating deterministic world models for mission-critical individuals, which aligns with the domains of Foundational AI and Generative AI."
+  },
+  {
+    "company_name": "AnalySwift",
+    "description": "AnalySwift provides multiphysics modeling of composite materials and structures.",
+    "location": "West Lafayette, Indiana, United States",
+    "founded": "2011",
+    "industries": "Aerospace, Industrial, Manufacturing",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "product_assurance",
+      "spacecraft_structures"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "AnalySwift provides multiphysics modeling of composite materials and structures, which is relevant to product assurance and spacecraft structures domains."
+  },
+  {
+    "company_name": "Silent Falcon UAS Technologies",
+    "description": "SF is using proprietary generative AI and predictive analytics to lower airport management cost and improve safety.",
+    "location": "Front Royal, Virginia, United States",
+    "founded": "2010",
+    "industries": "Analytics, Computer, Data Visualization, Drones, Generative AI, Information Technology, Predictive Analytics, Security, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "satellite_constellations",
+      "space_ai"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company is using proprietary generative AI and predictive analytics to lower airport management cost and improve safety, which aligns with earth data analytics and satellite constellations for space-derived data and AI-driven decision support."
+  },
+  {
+    "company_name": "Seer Aerospace",
+    "description": "Seer Aerospace provides software and data tools for the aviation industry.",
+    "location": "New York, New York, United States",
+    "founded": "Jul 2016",
+    "industries": "Aerospace, Air Transportation, Enterprise Software, Software, Supply Chain Management",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "satellite_communications",
+      "space_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Seer Aerospace provides software and data tools for the aviation industry, which aligns with earth data analytics and satellite communications domains. Its broad focus on the aerospace industry also makes it relevant to the general space domain."
   }
 ]
