@@ -7,17 +7,34 @@ Usage:
     python scripts/classify_companies.py --sector bio
     python scripts/classify_companies.py --sector energy
     python scripts/classify_companies.py --all
+    python scripts/classify_companies.py --sector space --resume  # Resume from checkpoint
 
 Output:
     data/source/universe-{sector}.json
+
+Features:
+    - Checkpoints every 50 companies (saves progress + git commit/push)
+    - Resume capability (--resume flag)
+    - Rate limiting (1 req/sec for Tier 1 API limits)
 """
 
 import argparse
 import json
 import os
 import re
+import subprocess
 import time
 from pathlib import Path
+
+# Load environment variables from .env file
+try:
+    from dotenv import load_dotenv
+    load_dotenv(Path(__file__).parent.parent / '.env')
+except ImportError:
+    pass  # python-dotenv not installed, rely on environment variables
+
+# Checkpoint interval (save and commit every N companies)
+CHECKPOINT_INTERVAL = 50
 
 try:
     import anthropic
@@ -123,7 +140,51 @@ def load_domains(sector: str) -> list[dict]:
     return domains
 
 
-def classify_company(client: anthropic.Anthropic, company: dict, sector: str, domains: list[dict]) -> dict:
+def get_valid_domain_names(domains: list[dict]) -> set:
+    """Get set of valid domain category_names."""
+    return {d['category_name'] for d in domains if d['category_name'] not in ['all_space', 'all_bio', 'all_energy']}
+
+
+def save_checkpoint(results: list[dict], output_path: Path, sector: str):
+    """Save current results to file."""
+    print(f"\n  💾 Saving checkpoint ({len(results)} companies)...")
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(results, f, indent=2)
+
+
+def git_commit_and_push(sector: str, count: int):
+    """Commit and push checkpoint to git."""
+    try:
+        output_file = f"data/source/universe-{sector}.json"
+        subprocess.run(['git', 'add', output_file], check=True, capture_output=True)
+
+        commit_msg = f"Checkpoint: {sector} sector - {count} companies classified"
+        subprocess.run(['git', 'commit', '-m', commit_msg], check=True, capture_output=True)
+
+        subprocess.run(['git', 'push'], check=True, capture_output=True)
+        print(f"  ✓ Committed and pushed checkpoint")
+    except subprocess.CalledProcessError as e:
+        print(f"  ⚠ Git operation failed (continuing anyway): {e}")
+    except Exception as e:
+        print(f"  ⚠ Git error (continuing anyway): {e}")
+
+
+def load_existing_results(output_path: Path) -> tuple[list[dict], set]:
+    """Load existing results for resume capability."""
+    if not output_path.exists():
+        return [], set()
+
+    try:
+        with open(output_path, 'r', encoding='utf-8') as f:
+            results = json.load(f)
+        classified_names = {r['company_name'] for r in results}
+        return results, classified_names
+    except Exception as e:
+        print(f"Warning: Could not load existing results: {e}")
+        return [], set()
+
+
+def classify_company(client: anthropic.Anthropic, company: dict, sector: str, domains: list[dict], valid_domains: set) -> dict:
     """Classify a single company into domains via Claude API."""
 
     # Build domain list for prompt
@@ -152,7 +213,7 @@ If out of scope for {sector}, return: {{"domains": [], "confidence": "high", "re
 
     try:
         response = client.messages.create(
-            model="claude-3-5-haiku-20241022",
+            model="claude-3-haiku-20240307",
             max_tokens=256,
             messages=[{"role": "user", "content": prompt}]
         )
@@ -166,6 +227,15 @@ If out of scope for {sector}, return: {{"domains": [], "confidence": "high", "re
             response_text = re.sub(r'\n?```$', '', response_text)
 
         result = json.loads(response_text)
+
+        # Validate domains against allowed list
+        if result.get('domains'):
+            valid = [d for d in result['domains'] if d in valid_domains]
+            invalid = [d for d in result['domains'] if d not in valid_domains]
+            if invalid:
+                print(f"(filtered invalid: {invalid})", end=' ')
+            result['domains'] = valid
+
         return result
 
     except json.JSONDecodeError as e:
@@ -176,7 +246,7 @@ If out of scope for {sector}, return: {{"domains": [], "confidence": "high", "re
         return {"domains": [], "confidence": "low", "reasoning": f"API error: {str(e)}"}
 
 
-def process_sector(sector: str, dry_run: bool = False, limit: int = None):
+def process_sector(sector: str, dry_run: bool = False, limit: int = None, resume: bool = False):
     """Process all companies for a sector."""
 
     # Paths
@@ -198,7 +268,16 @@ def process_sector(sector: str, dry_run: bool = False, limit: int = None):
 
     # Load domains
     domains = load_domains(sector)
-    print(f"Loaded {len(domains)} domains")
+    valid_domains = get_valid_domain_names(domains)
+    print(f"Loaded {len(domains)} domains ({len(valid_domains)} valid)")
+
+    # Resume from existing checkpoint if requested
+    results = []
+    already_classified = set()
+    if resume:
+        results, already_classified = load_existing_results(output_path)
+        if results:
+            print(f"Resuming from checkpoint: {len(results)} companies already classified")
 
     if dry_run:
         print("\nDry run - showing first 3 companies:")
@@ -210,13 +289,18 @@ def process_sector(sector: str, dry_run: bool = False, limit: int = None):
     client = anthropic.Anthropic()  # Uses ANTHROPIC_API_KEY env var
 
     # Classify each company
-    results = []
     total = len(companies)
+    new_count = 0  # Track new classifications for checkpoint logic
 
     for i, company in enumerate(companies):
+        # Skip already classified companies
+        if company['name'] in already_classified:
+            print(f"[{i+1}/{total}] Skipping {company['name']} (already classified)")
+            continue
+
         print(f"[{i+1}/{total}] Classifying {company['name']}...", end=' ')
 
-        classification = classify_company(client, company, sector, domains)
+        classification = classify_company(client, company, sector, domains, valid_domains)
 
         result = {
             "company_name": company['name'],
@@ -232,15 +316,25 @@ def process_sector(sector: str, dry_run: bool = False, limit: int = None):
         }
 
         results.append(result)
+        new_count += 1
         print(f"→ {result['domains']}")
 
-        # Rate limiting - be conservative
-        time.sleep(0.1)
+        # Checkpoint: save and commit every N companies
+        if new_count > 0 and new_count % CHECKPOINT_INTERVAL == 0:
+            save_checkpoint(results, output_path, sector)
+            git_commit_and_push(sector, len(results))
 
-    # Save results
+        # Rate limiting - 1 request/second to stay within Tier 1 limits (60 RPM)
+        time.sleep(1.0)
+
+    # Final save
     print(f"\nSaving {len(results)} companies to {output_path}...")
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=2)
+
+    # Final commit
+    if new_count > 0:
+        git_commit_and_push(sector, len(results))
 
     # Summary stats
     total_domains = sum(len(r['domains']) for r in results)
@@ -248,6 +342,7 @@ def process_sector(sector: str, dry_run: bool = False, limit: int = None):
 
     print(f"\nSummary:")
     print(f"  Total companies: {len(results)}")
+    print(f"  New classifications: {new_count}")
     print(f"  Total domain assignments: {total_domains}")
     print(f"  Avg domains per company: {total_domains/len(results):.2f}")
     print(f"  Companies with no domains: {empty_domains}")
@@ -263,6 +358,10 @@ def main():
                         help='Parse files without calling API')
     parser.add_argument('--limit', type=int,
                         help='Limit number of companies to process (for testing)')
+    parser.add_argument('--resume', action='store_true',
+                        help='Resume from existing checkpoint (skip already classified companies)')
+    parser.add_argument('--checkpoint-interval', type=int, default=50,
+                        help='Save and commit every N companies (default: 50)')
 
     args = parser.parse_args()
 
@@ -270,10 +369,14 @@ def main():
         parser.print_help()
         return
 
+    # Allow customizing checkpoint interval
+    global CHECKPOINT_INTERVAL
+    CHECKPOINT_INTERVAL = args.checkpoint_interval
+
     sectors = ['space', 'bio', 'energy'] if args.all else [args.sector]
 
     for sector in sectors:
-        process_sector(sector, dry_run=args.dry_run, limit=args.limit)
+        process_sector(sector, dry_run=args.dry_run, limit=args.limit, resume=args.resume)
 
 
 if __name__ == '__main__':
