@@ -13001,5 +13001,772 @@
     ],
     "classification_confidence": "high",
     "classification_reasoning": "Prolific Machines is focused on developing a light-controlled gene expression system and closed-loop control for next-generation therapeutics production, which aligns with the domains of bioprocessing, biosensors, health AI, lab automation, and manufacturing."
+  },
+  {
+    "company_name": "Modicus Prime",
+    "description": "Modicus Prime enables pharmaceutical manufacturers to deploy AI systems that are auditable and compliant by design.",
+    "location": "Austin, Texas, United States",
+    "founded": "Apr 20, 2020",
+    "industries": "Artificial Intelligence (AI), Biopharma",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "health_ai",
+      "regulatory_science"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Modicus Prime enables pharmaceutical manufacturers to deploy AI systems that are auditable and compliant, indicating expertise in both AI/ML in healthcare and regulatory science."
+  },
+  {
+    "company_name": "Biome Makers",
+    "description": "Biome Makers develops neural biocomputing applications that enable sustainable and productive farming.",
+    "location": "West Sacramento, California, United States",
+    "founded": "2015",
+    "industries": "Agriculture, Bioinformatics, Biotechnology, Data Visualization, Farming, Sustainability",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "bioinformatics",
+      "crop_science",
+      "plant_microbiome"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Biome Makers develops neural biocomputing applications for sustainable and productive farming, which spans bioinformatics, agricultural genetics, and plant-microbiome interactions."
+  },
+  {
+    "company_name": "Switchback Systems",
+    "description": "Switchback Systems is an early stage startup working to democratize DNA synthesis.",
+    "location": "San Francisco, California, United States",
+    "founded": "Nov 2019",
+    "industries": "Biopharma, Biotechnology, Life Science",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "synbio_platforms",
+      "bioprocessing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Switchback Systems is working on democratizing DNA synthesis, which aligns with the 'Synthetic Biology Platforms' domain. Their focus on bioprocessing and biomanufacturing also places them in the 'Bioprocessing & Biomanufacturing Scale-Up' domain."
+  },
+  {
+    "company_name": "Evolved By Nature",
+    "description": "Evolved By Nature is a biotech company that focuses on creating Activated Silk technology.",
+    "location": "Medford, Massachusetts, United States",
+    "founded": "2013",
+    "industries": "Biotechnology, Chemical, Product Research, Sustainability",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "bioprocessing",
+      "enzyme_engineering",
+      "bio_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Evolved By Nature focuses on creating Activated Silk technology, which involves bioprocessing and enzyme engineering to produce novel biomaterials."
+  },
+  {
+    "company_name": "Pluton Biosciences",
+    "description": "Pluton Biosciences tests and discovers microbes for the production of a variety of products, primarily pesticides, and pharmaceuticals.",
+    "location": "Saint Louis, Missouri, United States",
+    "founded": "Jan 17, 2017",
+    "industries": "AgTech, Biotechnology, Pharmaceutical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "crop_science",
+      "plant_microbiome"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Pluton Biosciences tests and discovers microbes for the production of products, primarily pesticides, indicating expertise in agricultural applications and the plant microbiome."
+  },
+  {
+    "company_name": "Daisy Genomics",
+    "description": "Daisy Genomics is an medtech focused on developing its proprietary long-read DNA sequencing technology for precision medicine applications.",
+    "location": "Carlsbad, California, United States",
+    "founded": "2015",
+    "industries": "Biotechnology, Information Technology, Medical, Precision Medicine",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "bioinformatics",
+      "genomics",
+      "precision_medicine"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Daisy Genomics is a medtech company focused on developing long-read DNA sequencing technology for precision medicine applications, which aligns with the bioinformatics, genomics, and precision medicine domains."
+  },
+  {
+    "company_name": "Ajax Therapeutics",
+    "description": "Ajax Therapeutics is a biotechnology company developing therapies to target cytokine signaling pathways that drive hematologic malignancies.",
+    "location": "Cambridge, Massachusetts, United States",
+    "founded": "2019",
+    "industries": "Biotechnology, Life Science, Medical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "oncology",
+      "immunology"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ajax Therapeutics is a biotechnology company developing therapies to target cytokine signaling pathways that drive hematologic malignancies, which falls under the oncology and immunology domains."
+  },
+  {
+    "company_name": "Saluda Medical",
+    "description": "Saluda Medical is a commercial-stage medical device company that develops treatments for chronic neurological conditions.",
+    "location": "Bloomington, Minnesota, United States",
+    "founded": "2010",
+    "industries": "Health Care, Medical, Medical Device, Neuroscience, Therapeutics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "medical_devices",
+      "neurology"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Saluda Medical develops medical devices for treating chronic neurological conditions, which aligns with the 'Medical Devices' and 'Neurology' domains."
+  },
+  {
+    "company_name": "Microgenesis",
+    "description": "Microgenesis offers a new fertility test and treatment that restores the fertility potential of women everywhere.",
+    "location": "San Francisco, California, United States",
+    "founded": "2019",
+    "industries": "Biotechnology, Fertility, Health Care, Health Diagnostics, Women's",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Microgenesis is a biotechnology company focused on fertility testing and treatment for women, which aligns with the domains of fertility, health diagnostics, and women's health."
+  },
+  {
+    "company_name": "Instylla",
+    "description": "Instylla is a medical equipment supplier that provides liquid embolics of the next generation for interventional radiology.",
+    "location": "Waltham, Massachusetts, United States",
+    "founded": "2017",
+    "industries": "Biotechnology, Commercial, Medical Device",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "medical_devices",
+      "diagnostic_imaging"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Instylla is a medical equipment supplier that provides liquid embolics for interventional radiology, which falls under the domains of medical devices and diagnostic imaging."
+  },
+  {
+    "company_name": "Mana.bio",
+    "description": "Mana.bio is an AI based drug delivery startup, focusing on gene therapy including DNA and RNA-based therapeutics, and vaccines.",
+    "location": "San Francisco, California, United States",
+    "founded": "2021",
+    "industries": "Artificial Intelligence (AI), Biotechnology",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "gene_therapy",
+      "mrna_therapeutics"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Mana.bio is an AI-based drug delivery startup focused on gene therapy including DNA and RNA-based therapeutics, and vaccines, which aligns with the 'AI & Machine Learning in Healthcare', 'Biotechnology', 'Gene Therapy', and 'mRNA & RNA Therapeutics' domains."
+  },
+  {
+    "company_name": "Quince Therapeutics",
+    "description": "Quince Therapeutics is developing treatments for Alzheimer's and other degenerative disorders.",
+    "location": "South San Francisco, California, United States",
+    "founded": "2012",
+    "industries": "Biotechnology, Health Care, Medical, Pharmaceutical, Therapeutics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "neurology",
+      "drug_discovery"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Quince Therapeutics is developing treatments for Alzheimer's and other degenerative disorders, which falls under the domain of neurological therapeutics. As a pharmaceutical company, it is also involved in small molecule drug discovery and therapeutics development."
+  },
+  {
+    "company_name": "Vytelle",
+    "description": "Vytelle is a precision livestock company reshaping how cattle producers worldwide optimize their herds.",
+    "location": "Lenexa, Kansas, United States",
+    "founded": "2015",
+    "industries": "Agriculture, Biotechnology, Livestock",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "crop_science",
+      "veterinary_biotech"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Vytelle is a precision livestock company focused on optimizing cattle herds, which aligns with the crop science and veterinary biotechnology domains."
+  },
+  {
+    "company_name": "BRAINBox Solutions",
+    "description": "BRAINBox provides objective evidence of injury and prediction of patient recovery.",
+    "location": "Richmond, Virginia, United States",
+    "founded": "2018",
+    "industries": "Biotechnology, Health Care, Wellness",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "biomarker_discovery"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "BRAINBox provides objective evidence of injury and prediction of patient recovery, which suggests capabilities in biomarker identification and validation for diagnostic applications."
+  },
+  {
+    "company_name": "RIVANNA",
+    "description": "RIVANNA commercializes ultrasound technologies that reduce the patient risk caused by radiation from X-ray-based medical imaging.",
+    "location": "Crozet, Virginia, United States",
+    "founded": "2010",
+    "industries": "Biotechnology, Commercial, Health Care, Information Technology, Medical, Medical Device",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "medical_devices",
+      "diagnostic_imaging"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "RIVANNA commercializes ultrasound technologies that reduce radiation exposure, which falls under the medical devices and diagnostic imaging domains."
+  },
+  {
+    "company_name": "NeuExcell Therapeutics",
+    "description": "NeuExcell Therapeutics is a medical organization that provides diagnostic and research services.",
+    "location": "State College, Pennsylvania, United States",
+    "founded": "2016",
+    "industries": "Biotechnology, Health Diagnostics, Medical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "biomarker_discovery",
+      "diagnostic_imaging",
+      "health_ai",
+      "point_of_care",
+      "precision_medicine"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "NeuExcell Therapeutics provides diagnostic and research services in the biomedical domain, with a focus on areas like biomarker discovery, diagnostic imaging, AI-powered healthcare, point-of-care diagnostics, and precision medicine."
+  },
+  {
+    "company_name": "Rapport Therapeutics",
+    "description": "Rapport Therapeutics is a clinical-stage biotechnology company that discovers and develops precision medicines for neurological disorders.",
+    "location": "Boston, Massachusetts, United States",
+    "founded": "2022",
+    "industries": "Biotechnology, Health Care, Life Science, Medical, Neuroscience, Precision Medicine",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "neurology",
+      "precision_medicine"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Rapport Therapeutics is focused on developing precision medicines for neurological disorders, which falls under the neurology and precision medicine domains."
+  },
+  {
+    "company_name": "Halia Therapeutics",
+    "description": "Halia Therapeutics is a biopharmaceutical company manufacturing therapies to improve the lives of patients with inflammatory disorders.",
+    "location": "Lehi, Utah, United States",
+    "founded": "2017",
+    "industries": "Biotechnology, Medical, Neuroscience, Pharmaceutical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "drug_discovery",
+      "immunology",
+      "neurology"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Halia Therapeutics is a biopharmaceutical company developing therapies for inflammatory disorders, which aligns with the drug discovery, immunology, and neurology domains."
+  },
+  {
+    "company_name": "I Peace",
+    "description": "I Peace is a technology company that provides research and development services for GMP products, drug discovery, and personal iPSC banking.",
+    "location": "Palo Alto, California, United States",
+    "founded": "2015",
+    "industries": "Biotechnology, Genetics, Health Care, Manufacturing",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "bioprocessing",
+      "cell_therapy",
+      "drug_discovery",
+      "regenerative_medicine"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "I Peace provides research and development services for GMP products, drug discovery, and personal iPSC banking, which span multiple biotech domains including bioprocessing, cell therapy, drug discovery, and regenerative medicine."
+  },
+  {
+    "company_name": "Shinobi Therapeutics",
+    "description": "Shinobi Therapeutics develops immune-evasive iPS cell therapies for cancer treatment.",
+    "location": "South San Francisco, California, United States",
+    "founded": "2023",
+    "industries": "Biotechnology, Health Care, Therapeutics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "cell_therapy",
+      "oncology"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Shinobi Therapeutics develops immune-evasive iPS cell therapies for cancer treatment, which aligns with the cell therapy and oncology domains."
+  },
+  {
+    "company_name": "Earnest Agriculture",
+    "description": "Earnest Agriculture\u2019s microbe-matching platform creates probiotic seed coatings that improve farm productivity.",
+    "location": "Rantoul, Illinois, United States",
+    "founded": "Aug 14, 2018",
+    "industries": "Agriculture, AgTech, Biotechnology, Farming, Sustainability",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "crop_science",
+      "plant_microbiome",
+      "food_biotech"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Earnest Agriculture develops probiotic seed coatings to improve farm productivity, which aligns with crop science, plant microbiome, and sustainable agriculture domains."
+  },
+  {
+    "company_name": "Genialis",
+    "description": "Genialis is a computational precision medicines company that develops a clinical biomarker discovery platform.",
+    "location": "Boston, Massachusetts, United States",
+    "founded": "2015",
+    "industries": "Bioinformatics, Biotechnology, Health Care, Medical, Precision Medicine",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "bioinformatics",
+      "biomarker_discovery",
+      "precision_medicine"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Genialis is a computational precision medicines company that develops a clinical biomarker discovery platform, which aligns with the bioinformatics, biomarker discovery, and precision medicine domains."
+  },
+  {
+    "company_name": "Lucence Health",
+    "description": "Lucence Health is a liquid biopsy company detecting the hallmarks of cancer for earlier detection and targeted treatment.",
+    "location": "Palo Alto, California, United States",
+    "founded": "Apr 2016",
+    "industries": "Biotechnology, Genetics, Health Care, Health Diagnostics, Medical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "biomarker_discovery",
+      "health_ai",
+      "oncology",
+      "point_of_care",
+      "precision_medicine"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Lucence Health is a liquid biopsy company focused on earlier cancer detection and targeted treatment, which aligns with multiple domains related to biomarkers, AI in healthcare, oncology therapeutics, point-of-care diagnostics, and precision medicine."
+  },
+  {
+    "company_name": "ProFound Therapeutics",
+    "description": "ProFound Therapeutics is creating profound impacts on the understanding of biology and disease and the ability to create therapeutics.",
+    "location": "Cambridge, Massachusetts, United States",
+    "founded": "2019",
+    "industries": "Biotechnology, Health Care, Therapeutics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company description indicates that ProFound Therapeutics is a biotechnology company focused on developing therapeutics, which aligns with the provided domains."
+  },
+  {
+    "company_name": "iotaMotion",
+    "description": "IotaMotion is a medical technology company developing robotics-assisted solutions for cochlear implant surgery.",
+    "location": "Saint Paul, Minnesota, United States",
+    "founded": "2015",
+    "industries": "Biotechnology, Medical, Medical Device, Robotics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "medical_devices",
+      "surgical_robotics"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "IotaMotion is developing robotics-assisted solutions for cochlear implant surgery, which falls under the medical devices and surgical robotics domains."
+  },
+  {
+    "company_name": "Cognoa",
+    "description": "Cognoa is a behavioral health company.",
+    "location": "Palo Alto, California, United States",
+    "founded": "2013",
+    "industries": "Biotechnology, Health Care, Health Diagnostics, Therapeutics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "health_ai",
+      "biosensors"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Cognoa is a behavioral health company that develops AI-powered digital health solutions and biosensors for diagnostic and therapeutic applications."
+  },
+  {
+    "company_name": "Pebble Labs Inc.",
+    "description": "Pebble Labs is creating safe and effective biological solutions to sustainably protect yields and quality in food production.",
+    "location": "Los Alamos, New Mexico, United States",
+    "founded": "Jul 17, 2017",
+    "industries": "Agriculture, Aquaculture, Biotechnology, Life Science",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "crop_science",
+      "food_biotech",
+      "plant_microbiome"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Pebble Labs is focused on developing safe and effective biological solutions for sustainable food production, spanning agriculture, aquaculture, and plant-microbiome applications."
+  },
+  {
+    "company_name": "Solid Biosciences",
+    "description": "Solid Biosciences is a life science company that conducts research for the treatment of Duchenne muscular dystrophy.",
+    "location": "Charlestown, Massachusetts, United States",
+    "founded": "2014",
+    "industries": "Biotechnology, Genetics, Health Care, Medical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "neurology",
+      "rare_disease",
+      "gene_therapy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Solid Biosciences is focused on developing treatments for Duchenne muscular dystrophy, which is a rare neuromuscular disorder. The company's research involves gene therapy approaches, which aligns with the domains of neurology, rare disease, and gene therapy."
+  },
+  {
+    "company_name": "REGENXBIO",
+    "description": "REGENXBIO develops adeno-associated viral vector-based therapeutics and research tools, offering NAV, a recombinant AAV-vector.",
+    "location": "Rockville, Maryland, United States",
+    "founded": "2009",
+    "industries": "Biopharma, Biotechnology, Genetics, Therapeutics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "gene_therapy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "REGENXBIO develops adeno-associated viral vector-based therapeutics, which falls under the gene therapy and viral vectors domains."
+  },
+  {
+    "company_name": "Geltor",
+    "description": "One Platform, Many Proteins",
+    "location": "Emeryville, California, United States",
+    "founded": "2015",
+    "industries": "Advanced Materials, Beauty, Biotechnology, Food and Beverage",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "food_biotech",
+      "protein_engineering"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Geltor is a biotechnology company that engineers proteins for food, beauty, and advanced materials applications, which aligns with the food biotech and protein engineering domains."
+  },
+  {
+    "company_name": "VeriSIM Life",
+    "description": "VeriSIM Life is a computational bioplatform that predicts the clinical outcomes of new drugs before clinical trials.",
+    "location": "San Francisco, California, United States",
+    "founded": "2017",
+    "industries": "Biotechnology, Health Care",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "bioinformatics",
+      "health_ai",
+      "clinical_trials"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "VeriSIM Life is a computational bioplatform that predicts clinical outcomes of drugs, indicating its focus on bioinformatics, use of AI/ML in healthcare, and involvement in clinical trial design and operations."
+  },
+  {
+    "company_name": "Gain Therapeutics",
+    "description": "Gain Therapeutics is a biotech company developing pharmacological chaperones drugs designed to treat rare metabolic disorders.",
+    "location": "Bethesda, Maryland, United States",
+    "founded": "2017",
+    "industries": "Biotechnology, Health Care, Pharmaceutical, Therapeutics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "rare_disease",
+      "drug_discovery",
+      "metabolic_engineering",
+      "bioprocessing",
+      "regulatory_science"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Gain Therapeutics is a biotech company developing pharmacological chaperones for rare metabolic disorders, which falls under the rare disease, drug discovery, metabolic engineering, and regulatory science domains. The company's focus on bioprocessing and scale-up for drug production is also relevant."
+  },
+  {
+    "company_name": "Element Science",
+    "description": "Element Science is a medical device and digital health start-up that develops lifesaving wearable solutions.",
+    "location": "San Francisco, California, United States",
+    "founded": "2011",
+    "industries": "Biotechnology, Health Care, Medical, Medical Device, Wearables",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "biosensors",
+      "medical_devices"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Element Science develops lifesaving wearable solutions, which falls under the domains of biosensors, medical devices, and wearables."
+  },
+  {
+    "company_name": "TAU Systems",
+    "description": "TAU Systems provides medical imaging technology.",
+    "location": "Austin, Texas, United States",
+    "founded": "2021",
+    "industries": "Biotechnology",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "diagnostic_imaging"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "TAU Systems provides medical imaging technology, which falls under the 'diagnostic_imaging' domain."
+  },
+  {
+    "company_name": "Ablative Solutions",
+    "description": "Ablative Solutions is a medical device firm that offers an alternative to surgical renal denervation for treating hypertension.",
+    "location": "Wakefield, Massachusetts, United States",
+    "founded": "2011",
+    "industries": "Biotechnology, Health Care, Medical Device",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "medical_devices",
+      "health_ai"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ablative Solutions is a medical device company that offers an alternative to surgical renal denervation for treating hypertension, which falls under the medical devices domain. Additionally, their use of alternative, potentially AI-assisted technologies suggests they may be involved in health AI applications."
+  },
+  {
+    "company_name": "Shape Therapeutics",
+    "description": "A biotechnology company developing RNA technologies to shape the future of gene therapy",
+    "location": "Seattle, Washington, United States",
+    "founded": "Apr 5, 2018",
+    "industries": "Biotechnology",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "gene_therapy",
+      "mrna_therapeutics"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Shape Therapeutics is a biotechnology company developing RNA technologies for gene therapy, which aligns with the 'gene_therapy' and 'mrna_therapeutics' domains."
+  },
+  {
+    "company_name": "Prelude",
+    "description": "Prelude delivers actionable tools to manage early stage breast cancer with the DCIS test that enables personalized treatment.",
+    "location": "Laguna Hills, California, United States",
+    "founded": "2009",
+    "industries": "Biotechnology, Health Care, Life Science, Pharmaceutical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "biomarker_discovery",
+      "diagnostic_imaging",
+      "oncology",
+      "precision_medicine"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Prelude develops a diagnostic test for early-stage breast cancer, which aligns with biomarker discovery, diagnostic imaging, oncology, and precision medicine domains."
+  },
+  {
+    "company_name": "BIOMILQ",
+    "description": "Unlocking human potential with breakthrough mammary biotechnology.",
+    "location": "Durham, North Carolina, United States",
+    "founded": "Jan 2020",
+    "industries": "AgTech, Baby, Biotechnology, Food and Beverage",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "food_biotech",
+      "bioprocessing",
+      "crop_science"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "BIOMILQ is a biotechnology company focused on developing human milk substitutes, which aligns with the food biotech and bioprocessing domains. Its description also mentions agricultural biotechnology, which corresponds to the crop science domain."
+  },
+  {
+    "company_name": "Trace Genomics",
+    "description": "Trace Genomics provides genetic insights into soil, helping farmers optimize their agricultural practices for better crop yield.",
+    "location": "Burlingame, California, United States",
+    "founded": "2015",
+    "industries": "Agriculture, AgTech, Biotechnology, Farming",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "crop_science",
+      "plant_microbiome"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Trace Genomics provides genetic insights into soil to help optimize agricultural practices, which falls under crop improvement and plant/soil microbiome domains."
+  },
+  {
+    "company_name": "Autobahn Therapeutics",
+    "description": "Clinical stage biotechnology company developing restorative treatments for people affected by neuropsychiatric & neuroimmunologic disorders",
+    "location": "San Diego, California, United States",
+    "founded": "2017",
+    "industries": "Biotechnology, Health Care, Life Science, Therapeutics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "neurology",
+      "immunology"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Autobahn Therapeutics is a clinical-stage biotechnology company developing restorative treatments for neuropsychiatric and neuroimmunologic disorders, which aligns with the neurology and immunology domains."
+  },
+  {
+    "company_name": "Capacity Bio",
+    "description": "Capacity Bio is a therapeutics company that is focused on mitophagy.",
+    "location": "Palo Alto, California, United States",
+    "founded": "2021",
+    "industries": "Biotechnology, Life Science, Medical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "cell_therapy",
+      "oncology",
+      "rare_disease"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Capacity Bio is a therapeutics company focused on mitophagy, which is relevant to cell therapy, oncology, and rare disease treatments."
+  },
+  {
+    "company_name": "Ring Therapeutics",
+    "description": "Ring Therapeutics is a gene therapy company focused on discovering and developing programmable genetic medicines.",
+    "location": "Cambridge, Massachusetts, United States",
+    "founded": "2017",
+    "industries": "Biotechnology, Health Care, Therapeutics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "gene_therapy",
+      "mrna_therapeutics"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ring Therapeutics is focused on discovering and developing programmable genetic medicines, which aligns with the gene therapy and mRNA therapeutics domains."
+  },
+  {
+    "company_name": "Azalea Therapeutics",
+    "description": "Azalea Therapeutics is a biotechnology company with a primary focus on developing cancer immunotherapies.",
+    "location": "Berkeley, California, United States",
+    "founded": "2023",
+    "industries": "Biotechnology, Information Technology, Medical, Product Research",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "oncology",
+      "immunology",
+      "cell_therapy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Azalea Therapeutics is a biotechnology company focused on developing cancer immunotherapies, which aligns with the oncology, immunology, and cell therapy domains."
+  },
+  {
+    "company_name": "ExcepGen",
+    "description": "RNA based vaccines with tolerability close to the standard of care by dampening an excessive innate immune response",
+    "location": "San Francisco, California, United States",
+    "founded": "2018",
+    "industries": "Biopharma, Biotechnology, Health Care, Life Science",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "mrna_therapeutics",
+      "vaccines"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "ExcepGen is a biopharma company focused on RNA-based vaccines, which falls under the mRNA therapeutics and vaccines domains."
+  },
+  {
+    "company_name": "General Proximity",
+    "description": "General Proximity is a pioneering future-oriented proximity medicine that envisions the future of medicine.",
+    "location": "San Francisco, California, United States",
+    "founded": "2019",
+    "industries": "Biotechnology, Medical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "precision_medicine",
+      "health_ai"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "General Proximity is a biotechnology company focused on proximity medicine, which involves using AI and machine learning for personalized disease prediction and prevention."
+  },
+  {
+    "company_name": "Cyprium Therapeutics",
+    "description": "Cyprium Therapeutics focuses on the development of novel therapies treatment for Menkes disease and related copper metabolism disorders.",
+    "location": "New York, New York, United States",
+    "founded": "2017",
+    "industries": "Biotechnology, Health Care, Medical, Therapeutics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "rare_disease",
+      "drug_discovery"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Cyprium Therapeutics is focused on developing novel therapies for Menkes disease and related copper metabolism disorders, which are rare genetic conditions. This aligns with the 'Rare & Orphan Disease Therapeutics' domain. Additionally, the company's work on developing new treatments suggests involvement in the 'Small Molecule Drug Discovery' domain."
+  },
+  {
+    "company_name": "Tiamat Sciences",
+    "description": "Tiamat Sciences makes plant-based growth factors & proteins for cell-culture",
+    "location": "Durham, North Carolina, United States",
+    "founded": "Sep 2019",
+    "industries": "AgTech, Biotechnology, Food and Beverage, Medical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "food_biotech"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Tiamat Sciences makes plant-based growth factors and proteins for cell culture, which aligns with the food biotechnology domain."
+  },
+  {
+    "company_name": "BeiGene",
+    "description": "BeiGene is a global oncology company.",
+    "location": "Cambridge, Massachusetts, United States",
+    "founded": "2010",
+    "industries": "Biotechnology, Health Care, Life Science, Medical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "oncology",
+      "drug_discovery",
+      "cell_therapy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "BeiGene is a global oncology company that develops cancer therapies, including small molecule drugs and cell therapies, indicating expertise in oncology, drug discovery, and cell therapy."
+  },
+  {
+    "company_name": "Instil Bio",
+    "description": "Instil Bio is a biotechnology company that develops cell therapies for solid tumor cures.",
+    "location": "Dallas, Texas, United States",
+    "founded": "2018",
+    "industries": "Biotechnology, Health Care, Life Science, Medical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "oncology",
+      "cell_therapy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Instil Bio develops cell therapies for solid tumor treatment, which falls under the oncology and cell therapy domains."
+  },
+  {
+    "company_name": "Biometry",
+    "description": "Biometry is a health technology company that develops diagnostic tools to support patients with chronic respiratory conditions.",
+    "location": "Boston, Massachusetts, United States",
+    "founded": "2013",
+    "industries": "Analytics, Artificial Intelligence (AI), Biotechnology, Medical Device, Software",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "biosensors",
+      "medical_devices",
+      "health_ai"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Biometry develops diagnostic tools to support patients with chronic respiratory conditions, which aligns with biosensors, medical devices, and the use of AI in healthcare."
   }
 ]
