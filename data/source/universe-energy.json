@@ -1473,5 +1473,740 @@
     "domains": [],
     "classification_confidence": "high",
     "classification_reasoning": "AirJoule Technologies develops a climate-solution technology that harvests the untapped supply of renewable energy, which aligns with the renewable energy and cleantech domains."
+  },
+  {
+    "company_name": "Amogy",
+    "description": "Amogy offers carbon-free energy solutions using ammonia cracking technology.",
+    "location": "Brooklyn, New York, United States",
+    "founded": "Nov 25, 2020",
+    "industries": "Clean Energy, CleanTech, Energy, Renewable Energy, Sustainability",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Amogy offers carbon-free energy solutions using ammonia cracking technology, which aligns with the renewable energy, cleantech, and sustainability domains."
+  },
+  {
+    "company_name": "Electrified Thermal Solutions",
+    "description": "Electrified Thermal Solutions replace fossil fuels with renewable heat in every furnace, turbine, boiler and kiln to decarbonize industry.",
+    "location": "Medford, Massachusetts, United States",
+    "founded": "2021",
+    "industries": "Energy, Fossil Fuels, Fuel, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "bioenergy",
+      "carbon_capture",
+      "carbon_utilization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Electrified Thermal Solutions' focus on replacing fossil fuels with renewable heat in industrial processes aligns with the bioenergy, carbon capture, and carbon utilization domains."
+  },
+  {
+    "company_name": "Hecate Energy",
+    "description": "Hecate Energy is a developer of solar, wind, and energy storage projects.",
+    "location": "Chicago, Illinois, United States",
+    "founded": "2012",
+    "industries": "Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "wind_turbine_tech",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Hecate Energy is a developer of solar, wind, and energy storage projects, which aligns with the domains of solar photovoltaics, wind turbine technology, and grid-scale energy storage."
+  },
+  {
+    "company_name": "Torus",
+    "description": "Torus empowers individuals and communities to become their renewable energy providers.",
+    "location": "Lehi, Utah, United States",
+    "founded": "2021",
+    "industries": "Energy, Energy Management, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Torus empowers individuals and communities to become their renewable energy providers, which aligns with the renewable energy and distributed energy domains."
+  },
+  {
+    "company_name": "Princeton NuEnergy",
+    "description": "Princeton NuEnergy is a clean-tech startup focused on direct recycling technology for lithium-ion batteries.",
+    "location": "Bordentown, New Jersey, United States",
+    "founded": "2019",
+    "industries": "Advanced Materials, Battery, CleanTech, Recycling",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_recycling",
+      "battery_chemistry"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Princeton NuEnergy is a clean-tech startup focused on direct recycling technology for lithium-ion batteries, which falls under the battery recycling and battery chemistry domains."
+  },
+  {
+    "company_name": "Reflect Orbital",
+    "description": "Reflect Orbital is a solar company that offers solar powered tech and products.",
+    "location": "Hawthorne, California, United States",
+    "founded": "2021",
+    "industries": "Aerospace, Energy, Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Reflect Orbital is a solar company that offers solar-powered tech and products, which falls under the solar photovoltaics and renewable energy domains."
+  },
+  {
+    "company_name": "Plume",
+    "description": "Plume makes it easy to improve home energy efficiency by assessing home, suggesting upgrades, and finding trusted contractors.",
+    "location": "San Francisco, California, United States",
+    "founded": "2024",
+    "industries": "Artificial Intelligence (AI), Home Renovation, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Plume provides home energy efficiency assessments and upgrades, which aligns with the building_efficiency domain. Additionally, the company's focus on renewable energy solutions places it in the renewable_energy domain."
+  },
+  {
+    "company_name": "CVector",
+    "description": "CVector connects live controls data from industrial sites with dynamic market signals.",
+    "location": "New York, New York, United States",
+    "founded": "2024",
+    "industries": "Consulting, Life Science, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "grid_software",
+      "energy_general"
+    ],
+    "classification_confidence": "medium",
+    "classification_reasoning": "CVector connects live industrial data with market signals, which could involve energy software and analytics, as well as broader energy applications."
+  },
+  {
+    "company_name": "TS Conductor",
+    "description": "TS Conductor specializes in high-performance conductors that increase the ampacity of electric transmission and distribution.",
+    "location": "Arcadia, California, United States",
+    "founded": "2018",
+    "industries": "Electrical Distribution, Energy, Power Grid",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "TS Conductor specializes in high-performance conductors for electric transmission and distribution, which is relevant to the electrical distribution, energy, and power grid domains."
+  },
+  {
+    "company_name": "GridX",
+    "description": "GridX is a provider of cloud-based business operations support tools to utilities and energy suppliers.",
+    "location": "Milpitas, California, United States",
+    "founded": "2010",
+    "industries": "Big Data, Clean Energy, Cloud Infrastructure, Cloud Management, Consulting, Energy, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "GridX provides cloud-based business operations support tools to utilities and energy suppliers, which aligns with the grid software, cloud infrastructure, and cloud management domains."
+  },
+  {
+    "company_name": "Epirus",
+    "description": "Epirus builds directed energy and power management systems to solve some of the world\u2019s most complex problems.",
+    "location": "Torrance, California, United States",
+    "founded": "2018",
+    "industries": "Aerospace, Energy Management, Machinery Manufacturing, Military, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Epirus builds directed energy and power management systems, which span aerospace, energy management, and military applications, as well as software development."
+  },
+  {
+    "company_name": "Odyssey",
+    "description": "Odyssey provides technology and finance solutions for distributed renewable energy companies at every stage of project deployment.",
+    "location": "Boulder, Colorado, United States",
+    "founded": "2017",
+    "industries": "Finance, Procurement, Project Management, Renewable Energy, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Odyssey provides technology and finance solutions for distributed renewable energy companies, spanning renewable energy, software, finance, and project management."
+  },
+  {
+    "company_name": "itselectric",
+    "description": "itselectric is electric vehicle charging purpose-built for drivers who park their cars on city streets.",
+    "location": "Brooklyn, New York, United States",
+    "founded": "Jul 5, 2021",
+    "industries": "Clean Energy, CleanTech, Electric Vehicle, Power Grid",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "ev_charging"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "itselectric is focused on electric vehicle charging infrastructure, which is a key enabling technology for the adoption of electric vehicles."
+  },
+  {
+    "company_name": "ADS-TEC Energy",
+    "description": "ADS-TEC Energy develops, manufactures, and services battery-backed ecosystems.",
+    "location": "Sarasota, Florida, United States",
+    "founded": "2017",
+    "industries": "Battery, Electronics, Energy, Manufacturing",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "ADS-TEC Energy develops and manufactures battery-backed ecosystems, which aligns with the battery manufacturing and energy storage systems domains."
+  },
+  {
+    "company_name": "ChargerHelp!",
+    "description": "ChargerHelp! provides on-demand repairs and maintenance support from trained and supported local workforces.",
+    "location": "Los Angeles, California, United States",
+    "founded": "Jan 1, 2020",
+    "industries": "Clean Energy, CleanTech, Software, Transportation",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "ev_charging",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "ChargerHelp! provides on-demand repairs and maintenance support for electric vehicles and EV charging infrastructure, which are part of the electric vehicles, EV charging, and distributed energy domains."
+  },
+  {
+    "company_name": "Redwood Materials",
+    "description": "Redwood Materials is a battery recycling startup that makes electric vehicles and sustainable materials for circular supply chains.",
+    "location": "Carson City, Nevada, United States",
+    "founded": "2017",
+    "industries": "Advanced Materials, Battery, Electric Vehicle, Renewable Energy, Sustainability",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_recycling",
+      "electric_vehicles"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Redwood Materials is a battery recycling startup that makes electric vehicles and sustainable materials for circular supply chains, indicating it is primarily focused on battery recycling, electric vehicles, and sustainability."
+  },
+  {
+    "company_name": "Voltus",
+    "description": "Voltus provides cash-generating energy products to commercial, institutional, and industrial customers.",
+    "location": "San Francisco, California, United States",
+    "founded": "Jul 2016",
+    "industries": "Energy, Energy Efficiency, Energy Management, Oil and Gas, Power Grid, Smart Building",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "demand_response",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Voltus provides energy efficiency and demand response products, as well as software and analytics for distributed energy resources, indicating its focus on building efficiency, energy management, and grid integration."
+  },
+  {
+    "company_name": "Curio",
+    "description": "CURIO is a nuclear technology company that develops NuCycle systems to recycle nuclear waste into clean energy.",
+    "location": "Washington, District of Columbia, United States",
+    "founded": "2021",
+    "industries": "Energy, Environmental Engineering, Fuel, Nuclear",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "nuclear_fuel",
+      "nuclear_fusion"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Curio is a nuclear technology company that develops systems to recycle nuclear waste into clean energy, which aligns with the nuclear fuel cycle and nuclear fusion domains."
+  },
+  {
+    "company_name": "VEIR",
+    "description": "VEIR develops superconducting wires for electrical transmission that are used in data centers and renewable energy sectors.",
+    "location": "Woburn, Massachusetts, United States",
+    "founded": "2019",
+    "industries": "Electrical Distribution, Power Grid, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "superconductors",
+      "transmission",
+      "grid_modernization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "VEIR develops superconducting wires for electrical transmission, which aligns with the superconductors, transmission infrastructure, and grid modernization domains."
+  },
+  {
+    "company_name": "Sealed",
+    "description": "Sealed is a residential energy efficiency startup that designs, manages, and finances home weatherization and electrification projects.",
+    "location": "New York, New York, United States",
+    "founded": "Dec 1, 2012",
+    "industries": "Clean Energy, CleanTech, Consumer Lending, Energy Efficiency, GreenTech, Home Improvement, Sustainability",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Sealed is a residential energy efficiency startup that designs, manages, and finances home weatherization and electrification projects, which aligns with the building efficiency and energy efficiency domains."
+  },
+  {
+    "company_name": "Noon Energy",
+    "description": "Noon Energy develops a flow battery technology that enables economical long-duration energy storage.",
+    "location": "Palo Alto, California, United States",
+    "founded": "2018",
+    "industries": "Battery, Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "flow_batteries",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Noon Energy develops a flow battery technology for long-duration energy storage, which falls under the flow batteries and grid-scale energy storage categories."
+  },
+  {
+    "company_name": "Quaise Energy",
+    "description": "Quaise is an energy company that develops a millimeter-wave drilling technology to access deep geothermal energy.",
+    "location": "Houston, Texas, United States",
+    "founded": "2018",
+    "industries": "Advanced Materials, Clean Energy, Construction, Data Visualization, Energy, Geothermal Energy, Industrial",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "geothermal"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Quaise Energy develops a millimeter-wave drilling technology to access deep geothermal energy, which aligns with the geothermal energy domain."
+  },
+  {
+    "company_name": "Loop Global Inc.",
+    "description": "Electric Vehicle Charging Hardware & Software Technologies",
+    "location": "El Segundo, California, United States",
+    "founded": "Dec 1, 2019",
+    "industries": "Electric Vehicle, Information Technology, Renewable Energy, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "ev_charging",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Loop Global Inc. is involved in electric vehicle charging hardware and software technologies, which aligns with the electric vehicles, EV charging infrastructure, and energy software and analytics domains."
+  },
+  {
+    "company_name": "Lydian Energy",
+    "description": "Lydian Energy is a independent power producer specializing in the development, construction, and operation of utility-scale solar.",
+    "location": "Washington, District of Columbia, United States",
+    "founded": "2023",
+    "industries": "Battery, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Lydian Energy is a solar energy company, specializing in the development, construction, and operation of utility-scale solar projects, which falls under the solar photovoltaics and renewable energy domains."
+  },
+  {
+    "company_name": "Carbice Corporation",
+    "description": "Carbice is developing a product used to dissipate heat away from product packaging to stop electronic devices from overheating.",
+    "location": "Atlanta, Georgia, United States",
+    "founded": "2012",
+    "industries": "Energy Management, Industrial Design, Industrial Engineering, Semiconductor",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "heat_pumps",
+      "industrial_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Carbice Corporation develops a product used to dissipate heat away from product packaging, which aligns with the heat pumps and industrial energy efficiency domains."
+  },
+  {
+    "company_name": "Dandelion Energy",
+    "description": "Dandelion Energy is a home geothermal company that offers geothermal heating and cooling installations.",
+    "location": "Mount Kisco, New York, United States",
+    "founded": "2017",
+    "industries": "CleanTech, Energy, GreenTech, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "geothermal"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Dandelion Energy is a home geothermal company that offers geothermal heating and cooling installations, which falls under the geothermal energy domain."
+  },
+  {
+    "company_name": "Last Energy",
+    "description": "Last Energy is a nuclear technology company that provides nuclear energy through its modular micro nuclear power plants.",
+    "location": "Washington, District of Columbia, United States",
+    "founded": "2020",
+    "industries": "Clean Energy, Energy, Energy Management, Nuclear, Renewable Energy, Sustainability",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "advanced_nuclear",
+      "small_modular_reactors",
+      "nuclear_fuel",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Last Energy is a nuclear technology company that provides modular micro nuclear power plants, indicating expertise in advanced nuclear reactors and small modular reactors, as well as the nuclear fuel cycle."
+  },
+  {
+    "company_name": "Group14 Technologies",
+    "description": "Group14 Technologies is a commercial manufacturer and supplier of advanced silicon battery technology.",
+    "location": "Woodinville, Washington, United States",
+    "founded": "2015",
+    "industries": "Battery, Chemical Engineering, Electric Vehicle, Energy Storage, Nanotechnology",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing",
+      "electric_vehicles",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Group14 Technologies is a manufacturer of advanced silicon battery technology for applications in electric vehicles and energy storage systems."
+  },
+  {
+    "company_name": "Gridmatic",
+    "description": "Gridmatic is an AI-enabled power marketer that accelerates the ascent of clean energy.",
+    "location": "Cupertino, California, United States",
+    "founded": "Mar 2, 2016",
+    "industries": "Artificial Intelligence (AI), Clean Energy, Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Gridmatic is an AI-enabled power marketer that accelerates the ascent of clean energy, indicating it operates in the fields of artificial intelligence, clean energy, and energy in general."
+  },
+  {
+    "company_name": "Bluedot",
+    "description": "Bluedot is a software company that develops applications for fleet management solutions and payment platforms for EV charging stations.",
+    "location": "Palo Alto, California, United States",
+    "founded": "2021",
+    "industries": "Automotive, Charging Infrastructure, Energy Management, Software, Transportation",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "ev_charging"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Bluedot develops fleet management solutions and payment platforms for EV charging stations, which are within the electric vehicles and EV charging infrastructure domains."
+  },
+  {
+    "company_name": "Endeavour",
+    "description": "Endeavour develops breakthrough technologies, and launches the companies that harness them, to make clean water and renewable energy.",
+    "location": "New City, New York, United States",
+    "founded": "2019",
+    "industries": "Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Endeavour develops technologies for clean water and renewable energy, which falls under the renewable energy and broader energy domains."
+  },
+  {
+    "company_name": "Treaty Oak Clean Energy",
+    "description": "Treaty Oak Clean Energy is an energy platform focusing on the development of solar based storage projects and sustainable energy.",
+    "location": "Austin, Texas, United States",
+    "founded": "2021",
+    "industries": "Energy, Energy Storage, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company is focused on developing solar-based energy storage projects, which falls under the solar PV and grid-scale energy storage domains."
+  },
+  {
+    "company_name": "Linea Energy",
+    "description": "Linea Energy is an independent power producer.",
+    "location": "San Francisco, California, United States",
+    "founded": "2022",
+    "industries": "Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Linea Energy is an independent power producer, which indicates it is focused on renewable energy generation."
+  },
+  {
+    "company_name": "Qnovo",
+    "description": "Award-winning battery intelligence software provider",
+    "location": "Milpitas, California, United States",
+    "founded": "2010",
+    "industries": "Automotive, Battery, Consumer Electronics, Electric Vehicle, Enterprise Software, Mobile Devices",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "electric_vehicles",
+      "battery_manufacturing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Qnovo provides battery intelligence software for automotive and consumer electronics industries, which aligns with the battery chemistry, electric vehicles, and battery manufacturing domains."
+  },
+  {
+    "company_name": "Aether Fuels",
+    "description": "Aether Fuels is a cutting-edge climate technology startup.",
+    "location": "San Francisco, California, United States",
+    "founded": "2022",
+    "industries": "Energy, Power Grid, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "carbon_utilization",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Aether Fuels is a climate technology startup focused on renewable energy and carbon utilization, which aligns with multiple domains in the list."
+  },
+  {
+    "company_name": "Redaptive",
+    "description": "Redaptive is an Energy-as-a-Service provider that funds and installs energy-saving and energy-generating equipment.",
+    "location": "Denver, Colorado, United States",
+    "founded": "2015",
+    "industries": "Energy, Energy Efficiency, Renewable Energy, Sustainability",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Redaptive is an Energy-as-a-Service provider that funds and installs energy-saving and energy-generating equipment, which aligns with the building efficiency, energy efficiency, renewable energy, and sustainability domains."
+  },
+  {
+    "company_name": "FTC Solar",
+    "description": "FTC Solar is a\u202ffast-growing, global provider of solar tracker systems, technology, software, and engineering services.",
+    "location": "Austin, Texas, United States",
+    "founded": "2017",
+    "industries": "Energy, Energy Efficiency, Software, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "solar_manufacturing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "FTC Solar is a provider of solar tracker systems and engineering services, which aligns with the solar photovoltaics and solar manufacturing domains."
+  },
+  {
+    "company_name": "Qcells",
+    "description": "Qcells is a solar and storage development, construction, and operations firm.",
+    "location": "Irvine, California, United States",
+    "founded": "Jan 1, 2015",
+    "industries": "Energy, Procurement, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Qcells is a solar development, construction, and operations firm, which falls under the solar photovoltaics and broader energy-related categories."
+  },
+  {
+    "company_name": "Utilidata",
+    "description": "Utilidata is a grid technology startup that integrates AI capabilities to enhance data utilization and operational efficiency.",
+    "location": "Providence, Rhode Island, United States",
+    "founded": "2012",
+    "industries": "Artificial Intelligence (AI), Clean Energy, Energy, Power Grid, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "grid_modernization",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Utilidata integrates AI capabilities to enhance data utilization and operational efficiency in the power grid, which aligns with the grid modernization and grid software domains."
+  },
+  {
+    "company_name": "Fourier",
+    "description": "Fourier is develops a modular and fully automated hydrogen production system.",
+    "location": "Palo Alto, California, United States",
+    "founded": "May 1, 2022",
+    "industries": "Energy, Renewable Energy, Sustainability",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "hydrogen_production"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Fourier develops a modular and fully automated hydrogen production system, which aligns with the 'hydrogen_production' domain. The company's focus on renewable energy and sustainability also places it in the 'renewable_energy' and 'sustainability' domains."
+  },
+  {
+    "company_name": "AM Batteries",
+    "description": "AM Batteries manufactures Li-ion batteries using solvent-free electrode manufacturing technology.",
+    "location": "Chelmsford, Massachusetts, United States",
+    "founded": "2016",
+    "industries": "Electronics, Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "AM Batteries manufactures Li-ion batteries, which falls under the battery chemistry and battery manufacturing domains."
+  },
+  {
+    "company_name": "BlocPower",
+    "description": "BlocPower is an energy technology startup that focuses on developing healthy, green, and smart cities.",
+    "location": "Brooklyn, New York, United States",
+    "founded": "2014",
+    "industries": "Clean Energy, CleanTech, Energy, Energy Efficiency, Smart Cities",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "BlocPower focuses on developing smart and energy-efficient buildings, which aligns with the 'Building Energy Efficiency' and 'Distributed Energy Resources' domains."
+  },
+  {
+    "company_name": "Mast Reforestation",
+    "description": "Mast Reforestation is a tech-led reforestation company that provides seedling, project management, and carbon removal credits for forests.",
+    "location": "Seattle, Washington, United States",
+    "founded": "2016",
+    "industries": "CleanTech, Environmental Engineering, Forestry, Natural Resources, Renewable Energy, Social Impact",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "carbon_removal"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Mast Reforestation is a tech-led reforestation company that provides seedling, project management, and carbon removal credits for forests, which aligns with the carbon removal, forestry, natural resources, renewable energy, and social impact domains."
+  },
+  {
+    "company_name": "Brimstone",
+    "description": "Brimstone is a hardware cleantech startup that aims to reduce CO2 emissions through innovative technologies.",
+    "location": "Berkeley, California, United States",
+    "founded": "2019",
+    "industries": "Chemical, Clean Energy, Energy, Natural Resources",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "carbon_capture",
+      "carbon_utilization",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Brimstone is a cleantech startup focused on reducing CO2 emissions, which aligns with carbon capture, carbon utilization, and broader energy-related technologies."
+  },
+  {
+    "company_name": "Rebound Technologies",
+    "description": "Rebound Technologies develops a supply chain solution that empowers food and beverage manufacturers to optimize production.",
+    "location": "Commerce City, Colorado, United States",
+    "founded": "2012",
+    "industries": "Battery, Energy, Energy Storage, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Rebound Technologies develops supply chain solutions for food and beverage manufacturers, which suggests expertise in areas like battery manufacturing and grid-scale energy storage to optimize production processes."
+  },
+  {
+    "company_name": "South 8 Technologies",
+    "description": "South 8 sells LiGas\u00ae, a liquefied gas electrolyte for Lithium-ion batteries. LiGas functions in extreme cold while decreasing cost.",
+    "location": "San Diego, California, United States",
+    "founded": "Jan 1, 2016",
+    "industries": "Battery, Clean Energy, Electronics, Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "South 8 Technologies develops liquefied gas electrolytes for lithium-ion batteries, which falls under battery chemistry and energy storage systems."
+  },
+  {
+    "company_name": "Ample",
+    "description": "Ample offers modular battery-swapping technology for efficient energy delivery and scalable power solutions in the electric vehicles sector.",
+    "location": "San Francisco, California, United States",
+    "founded": "2014",
+    "industries": "Automotive, Charging Infrastructure, Electric Vehicle, Energy, Energy Storage, Transportation",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "energy_storage_systems",
+      "ev_charging"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ample offers modular battery-swapping technology for electric vehicles, which relates to the electric vehicles, energy storage systems, and EV charging infrastructure domains."
+  },
+  {
+    "company_name": "Hadron Energy",
+    "description": "Hadron Energy is a manufacturing company that specializes in Micro Nuclear Reactor (MNR) development, design, and research services.",
+    "location": "San Francisco, California, United States",
+    "founded": "Jul 8, 2024",
+    "industries": "Energy, Manufacturing, Mechanical Design, Mechanical Engineering, Nuclear",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "advanced_nuclear",
+      "nuclear_fuel",
+      "small_modular_reactors"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Hadron Energy is focused on the development, design, and research of Micro Nuclear Reactors, which aligns with the advanced nuclear, nuclear fuel, and small modular reactors domains."
+  },
+  {
+    "company_name": "Palmetto",
+    "description": "Palmetto accelerates the clean energy transition with software and financial services that make home electrification easy.",
+    "location": "Charleston, South Carolina, United States",
+    "founded": "2009",
+    "industries": "Clean Energy, CleanTech, Consumer Software, Energy, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "distributed_energy",
+      "electric_vehicles",
+      "ev_charging",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Palmetto provides software and financial services to accelerate the clean energy transition, with a focus on home electrification, distributed energy resources, and electric vehicles, which aligns with multiple energy technology domains."
+  },
+  {
+    "company_name": "L-Charge",
+    "description": "L-Charge provide charge as a service based on power generation modules from clean fuels",
+    "location": "Sunnyvale, California, United States",
+    "founded": "2020",
+    "industries": "Electric Vehicle, Energy, Power Grid",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "grid_modernization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "L-Charge provides charging as a service using clean power generation, which spans electric vehicles, energy, and grid modernization domains."
   }
 ]
