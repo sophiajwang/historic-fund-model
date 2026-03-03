@@ -46,15 +46,40 @@ Research infrastructure for analyzing capital flows across space, biotechnology,
 ## Current Status
 
 - **Phase 0 (Taxonomy):** Complete
-- **Pipeline 1 (Private/Public Markets):** Not started
+- **Pipeline 1 (Private/Public Markets):** Step 1.1 in progress (Crunchbase data collected, classification pending)
 - **Pipeline 2 (Government Spending):** Not started
 - **Pipeline 3 (Stitching):** Not started
 
 Progress tracked in `data/data-collection.md:14-42`
 
+## IMPORTANT: Keep Documentation Updated
+
+**Always update `data/data-collection.md` as work progresses:**
+- Update the Progress Tracker table when steps change status
+- Document any methodology changes discovered during implementation
+- Note data quality issues or coverage gaps
+
 ## Commands
 
-No build system yet. When implementing:
+**Classification script:**
+```bash
+# Set API key first
+export ANTHROPIC_API_KEY="your-key-here"
+
+# Dry run (test parser, no API calls)
+python3 scripts/classify_companies.py --sector space --dry-run
+
+# Process single sector
+python3 scripts/classify_companies.py --sector space
+
+# Process all sectors
+python3 scripts/classify_companies.py --all
+
+# Test with limit
+python3 scripts/classify_companies.py --sector space --limit 10
+```
+
+**API rate limits:**
 
 ```bash
 # API rate limits
