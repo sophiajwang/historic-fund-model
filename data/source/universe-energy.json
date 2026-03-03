@@ -4376,5 +4376,712 @@
     ],
     "classification_confidence": "high",
     "classification_reasoning": "ReJoule's fast battery diagnostics platform is focused on enabling insights into electric vehicle batteries throughout their lifecycle, which spans battery manufacturing, recycling, and grid-scale energy storage."
+  },
+  {
+    "company_name": "Paces",
+    "description": "Paces provides software and services to accelerate power and infrastructure developments.",
+    "location": "Brooklyn, New York, United States",
+    "founded": "Mar 15, 2022",
+    "industries": "Artificial Intelligence (AI), Battery, Data Center, PropTech, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Paces provides software and services for power and infrastructure developments, which spans multiple energy domains including data centers, battery manufacturing, solar photovoltaics, and artificial intelligence."
+  },
+  {
+    "company_name": "Symbium",
+    "description": "Symbium's Citizen's Dashboard incorporates zoning & building regulations so that anyone can obtain a permit in seconds!",
+    "location": "San Francisco, California, United States",
+    "founded": "2018",
+    "industries": "Clean Energy, Construction, Government, Legal, Professional Services, Real Estate, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Symbium's Citizen's Dashboard incorporates zoning and building regulations, suggesting it is focused on improving building energy efficiency and enabling government and real estate software services."
+  },
+  {
+    "company_name": "IUNU",
+    "description": "IUNU is an industrial computer vision company that connects plants, facilities, and people through a single interface.",
+    "location": "Seattle, Washington, United States",
+    "founded": "2013",
+    "industries": "Agriculture, Artificial Intelligence (AI), Computer, Industrial, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "industrial_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "IUNU's focus on industrial computer vision and connecting plants, facilities, and people suggests it is in the industrial efficiency and AI domains."
+  },
+  {
+    "company_name": "Chemix",
+    "description": "Battery safety, observability, and predictability powered by Chemix\u2019s industry-first proprietary foundation model.",
+    "location": "Sunnyvale, California, United States",
+    "founded": "2021",
+    "industries": "Artificial Intelligence (AI), Battery, Manufacturing, Renewable Energy, Semiconductor",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company's description indicates it is working on battery safety, observability, and predictability using proprietary AI models, which aligns with the battery chemistry, battery manufacturing, and artificial intelligence domains."
+  },
+  {
+    "company_name": "Dragonfly Energy",
+    "description": "Dragonfly Energy is a Reno based lithium ion battery technology company.",
+    "location": "Reno, Nevada, United States",
+    "founded": "2016",
+    "industries": "Automotive, Battery, Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Dragonfly Energy is a lithium-ion battery technology company, covering both battery chemistry and manufacturing domains. Its work on renewable energy also makes it relevant to the broader energy technology sector."
+  },
+  {
+    "company_name": "Arbor",
+    "description": "Arbor is an intelligent electricity marketplace that lowers energy costs for homes and businesses.",
+    "location": "Austin, Texas, United States",
+    "founded": "2020",
+    "industries": "Energy Efficiency, Energy Management, Energy Storage, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Arbor provides an intelligent electricity marketplace that lowers energy costs for homes and businesses, which aligns with the domains of building efficiency, distributed energy, energy management, energy storage, and renewable energy."
+  },
+  {
+    "company_name": "Constanellis Aerospace",
+    "description": "Space Infrastructure, lunar based power distribution hardware and services, end to end small satellite solutions and defense solutions",
+    "location": "Washington, District of Columbia, United States",
+    "founded": "Jul 29, 2019",
+    "industries": "Aerospace, Artificial Intelligence (AI), Cloud Computing, Cloud Infrastructure, Communications Infrastructure, Energy Storage, Information Technology, Satellite Communication, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Constanellis Aerospace provides space infrastructure, lunar power distribution, small satellite solutions, and defense solutions, which are primarily in the aerospace, satellite communication, and software domains."
+  },
+  {
+    "company_name": "Cloverleaf Infrastructure",
+    "description": "Cloverleaf Infrastructure develops clean-powered, ready-to-build sites for large electric customers.",
+    "location": "Houston, Texas, United States",
+    "founded": "2023",
+    "industries": "Electrical Distribution, Energy, Infrastructure",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Cloverleaf Infrastructure develops clean-powered, ready-to-build sites for large electric customers, which aligns with the domains of electrical distribution, energy, and infrastructure."
+  },
+  {
+    "company_name": "Ampere",
+    "description": "Ampere is an AI-native SaaS platform for industrial operations",
+    "location": "Washington, District of Columbia, United States",
+    "founded": "Jan 17, 2023",
+    "industries": "Artificial Intelligence (AI), Manufacturing, Renewable Energy, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ampere is an AI-native SaaS platform for industrial operations, which aligns with the domains of artificial intelligence, manufacturing, renewable energy, and software."
+  },
+  {
+    "company_name": "Rhizome",
+    "description": "Rhizome is helping electric utilities assess and prevent climate-induced power grid failures.",
+    "location": "Washington, District of Columbia, United States",
+    "founded": "Mar 1, 2023",
+    "industries": "Artificial Intelligence (AI), Enterprise Software, Facilities Support Services, Infrastructure, Power Grid",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "grid_modernization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Rhizome is helping electric utilities assess and prevent climate-induced power grid failures, which aligns with the grid modernization and power grid domains."
+  },
+  {
+    "company_name": "Charge Robotics",
+    "description": "Charge Robotics is a robotics company that offers robots for labor-intensive solar construction automaition.",
+    "location": "Oakland, California, United States",
+    "founded": "2021",
+    "industries": "Artificial Intelligence (AI), Construction, Robotics, Solar, Sustainability",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Charge Robotics is a robotics company that offers robots for labor-intensive solar construction automation, which aligns with the solar PV, robotics, construction, and sustainability domains."
+  },
+  {
+    "company_name": "COI Energy Services",
+    "description": "COI Energy Services provides energy technology solutions to electric utility companies.",
+    "location": "Tampa, Florida, United States",
+    "founded": "2016",
+    "industries": "Electronics, Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "COI Energy Services provides energy technology solutions to electric utility companies, which is a broad energy-related topic that spans multiple areas, including distributed energy resources like microgrids and community solar."
+  },
+  {
+    "company_name": "Wunder",
+    "description": "Wunder is a Modern Energy Company",
+    "location": "Boulder, Colorado, United States",
+    "founded": "2014",
+    "industries": "Energy, Finance, Impact Investing, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Wunder is a modern energy company that operates in the energy, finance, and impact investing domains, with a focus on solar power."
+  },
+  {
+    "company_name": "PVComplete",
+    "description": "PVComplete is a developer and provider of a residential, commercial and utility solar design platform.",
+    "location": "Oakland, California, United States",
+    "founded": "2015",
+    "industries": "Energy, Software, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "PVComplete develops a solar design platform, which falls under the solar photovoltaics and energy software/analytics domains."
+  },
+  {
+    "company_name": "Flatiron Energy",
+    "description": "Flatiron Energy develops, builds, owns, and operates standalone utility-scale energy storage.",
+    "location": "Boulder, Colorado, United States",
+    "founded": "2022",
+    "industries": "Energy, Infrastructure, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_storage_systems",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Flatiron Energy develops, builds, owns, and operates standalone utility-scale energy storage, which aligns with the energy storage systems, distributed energy, and renewable energy domains."
+  },
+  {
+    "company_name": "OCOchem",
+    "description": "OCOchem develops technology that electrochemically converts CO2 into Green Formic, a platform chemical",
+    "location": "Richland, Washington, United States",
+    "founded": "Oct 2016",
+    "industries": "Chemical, CleanTech, Energy Storage, Sustainability",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "carbon_utilization",
+      "electrochemical"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "OCOchem develops technology that electrochemically converts CO2 into green chemicals, which falls under the carbon utilization and electrochemical systems domains."
+  },
+  {
+    "company_name": "Copper",
+    "description": "Copper is a a battery solutions startup.",
+    "location": "Berkeley, California, United States",
+    "founded": "2022",
+    "industries": "Battery, Electronics",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Copper is a battery solutions startup, so it is likely involved in battery chemistry and battery manufacturing technologies."
+  },
+  {
+    "company_name": "Janta Power",
+    "description": "Janta Power focuses on 3D solar tech for efficient energy in limited spaces, with remote management features.",
+    "location": "Dallas, Texas, United States",
+    "founded": "May 2021",
+    "industries": "Manufacturing, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Janta Power focuses on 3D solar tech for efficient energy in limited spaces, which falls under the solar photovoltaics and renewable energy domains."
+  },
+  {
+    "company_name": "LifeLabs Design",
+    "description": "LifeLabs Design is a materials science company that develops technology designed to reduce energy consumption.",
+    "location": "Sunnyvale, California, United States",
+    "founded": "2020",
+    "industries": "Energy, Energy Efficiency, Energy Management",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "LifeLabs Design develops technology to reduce energy consumption, which aligns with the 'energy efficiency' and 'building efficiency' domains."
+  },
+  {
+    "company_name": "Heelstone Renewable Energy",
+    "description": "Heelstone Energy is a leading independent power producer and solar developer with expertise in developing, financing, constructing.",
+    "location": "Chapel Hill, North Carolina, United States",
+    "founded": "2012",
+    "industries": "Energy, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Heelstone Renewable Energy is a solar developer, indicating it is primarily focused on solar photovoltaic technology, which is a renewable energy domain."
+  },
+  {
+    "company_name": "Hunt Energy Network",
+    "description": "Hunt Energy Network develops and operates dispatchable energy resources.",
+    "location": "Lake Dallas, Texas, United States",
+    "founded": "2019",
+    "industries": "Power Grid",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Hunt Energy Network develops and operates dispatchable energy resources, which are broadly relevant to power grid operations and the overall energy industry."
+  },
+  {
+    "company_name": "Ubiquitous Energy",
+    "description": "Ubiquitous Energy makes transparent solar technology for windows, electronics, and other applications.",
+    "location": "Redwood City, California, United States",
+    "founded": "2011",
+    "industries": "Building Material, Clean Energy, Energy, Renewable Energy, Solar, Windows",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "distributed_energy",
+      "energy_general",
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ubiquitous Energy develops transparent solar technology for windows and other applications, which relates to building energy efficiency, distributed energy resources, and solar photovoltaics."
+  },
+  {
+    "company_name": "Nanoramic Laboratories",
+    "description": "Nanoramic Laboratories is a an energy storage and advanced materials company that provides an electrode solution.",
+    "location": "Woburn, Massachusetts, United States",
+    "founded": "2009",
+    "industries": "Advanced Materials, Energy, Energy Storage, Hardware, Manufacturing, Nanotechnology",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_storage_systems",
+      "battery_manufacturing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Nanoramic Laboratories provides electrode solutions for energy storage, indicating expertise in advanced materials and battery manufacturing."
+  },
+  {
+    "company_name": "Cala Systems",
+    "description": "We design, manufacture, and sell the world's first intelligent heat pump water heater.",
+    "location": "Boston, Massachusetts, United States",
+    "founded": "2020",
+    "industries": "Energy, Energy Efficiency, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "heat_pumps",
+      "building_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Cala Systems designs and manufactures intelligent heat pump water heaters, which are a key technology for building energy efficiency and electrification."
+  },
+  {
+    "company_name": "Autogrid",
+    "description": "AutoGrid Systems organizes energy data and employs big data analytics to generate real-time predictions that create actionable data.",
+    "location": "Redwood City, California, United States",
+    "founded": "2011",
+    "industries": "Analytics, Artificial Intelligence (AI), Cloud Computing, Electric Vehicle, Energy, Energy Storage, Internet of Things, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "AutoGrid Systems is a data analytics and software company that specializes in energy data management and real-time forecasting for the electricity grid."
+  },
+  {
+    "company_name": "Renewable Properties",
+    "description": "Developing and investing in small-scale utility and commercial solar energy projects throughout the United States.",
+    "location": "San Francisco, California, United States",
+    "founded": "2017",
+    "industries": "Environmental Engineering, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Renewable Properties develops and invests in small-scale solar energy projects, which falls under the solar photovoltaics and distributed energy domains, as well as the broader renewable energy category."
+  },
+  {
+    "company_name": "Adapture Renewables",
+    "description": "Adapture Renewables develops, owns, and operates utility-scale solar facilities and energy storage systems.",
+    "location": "Oakland, California, United States",
+    "founded": "2011",
+    "industries": "Energy, Manufacturing, Project Management, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Adapture Renewables develops, owns, and operates utility-scale solar facilities and energy storage systems, which falls under the solar PV, energy storage systems, and renewable energy domains."
+  },
+  {
+    "company_name": "247Solar",
+    "description": "247Solar offers a complete solution for high-temperature, modular solar power with overnight storage.",
+    "location": "Great Falls, Virginia, United States",
+    "founded": "2015",
+    "industries": "Energy, Energy Storage, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "247Solar offers a complete solution for high-temperature, modular solar power with overnight storage, which aligns with the solar PV and energy storage systems domains."
+  },
+  {
+    "company_name": "Kairos Power",
+    "description": "Kairos Power is an ancient Greek word that relates the importance of timeliness and a call to action.",
+    "location": "Alameda, California, United States",
+    "founded": "Jan 1, 2016",
+    "industries": "Energy, Environmental Engineering, Nuclear, Oil and Gas",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "advanced_nuclear",
+      "nuclear_fuel"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Kairos Power is focused on advanced nuclear technology and the nuclear fuel cycle, which aligns with the 'advanced_nuclear' and 'nuclear_fuel' domains."
+  },
+  {
+    "company_name": "Evergreen Climate Innovations",
+    "description": "Evergreen Climate Innovations supports entrepreneurs and startups that are bringing impactful climate technologies to market.",
+    "location": "Chicago, Illinois, United States",
+    "founded": "2010",
+    "industries": "Clean Energy, CleanTech, Impact Investing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Evergreen Climate Innovations supports startups in the clean energy, cleantech, and renewable energy sectors, which aligns with the given categories."
+  },
+  {
+    "company_name": "Material",
+    "description": "Hybrid Manufacturing, 3D printing, Batteries",
+    "location": "Miami, Florida, United States",
+    "founded": "May 2023",
+    "industries": "3D Printing, Consumer Electronics, Energy Storage, Manufacturing",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company is involved in hybrid manufacturing, 3D printing, and battery technologies, which fall under the battery chemistry, battery manufacturing, and 3D printing domains."
+  },
+  {
+    "company_name": "Tidal Metals",
+    "description": "Tidal Metals produces decarbonized magnesium metal from seawater and desalination waste to reduce salinity.",
+    "location": "Princeton, New Jersey, United States",
+    "founded": "2016",
+    "industries": "Mining, Renewable Energy, Water",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Tidal Metals produces decarbonized magnesium metal from seawater and desalination waste, which spans the mining, renewable energy, and water domains."
+  },
+  {
+    "company_name": "Spearmint Energy",
+    "description": "Spearmint Energy is a merchant energy trading company founded to combine innovative financial solutions.",
+    "location": "Miami, Florida, United States",
+    "founded": "2022",
+    "industries": "Battery, Energy Storage, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "energy_storage_systems",
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Spearmint Energy is a merchant energy trading company that focuses on battery, energy storage, and solar technologies."
+  },
+  {
+    "company_name": "Peregrine Energy",
+    "description": "Peregrine Energy is a manufacturing company that specializes in the acquisition, development, and operations of renewable assets.",
+    "location": "Boulder, Colorado, United States",
+    "founded": "2022",
+    "industries": "Clean Energy, Consulting, Energy, Manufacturing",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Peregrine Energy is a manufacturing company that specializes in renewable energy assets, which aligns with the 'energy_general', 'renewable_energy', and 'manufacturing' domains."
+  },
+  {
+    "company_name": "Terraform Industries",
+    "description": "Terraform Industries manufactures carbon-negative natural gas by extracting CO2 from the atmosphere.",
+    "location": "Burbank, California, United States",
+    "founded": "Nov 10, 2021",
+    "industries": "Clean Energy, Energy, Oil and Gas, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "carbon_capture",
+      "carbon_removal",
+      "carbon_utilization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Terraform Industries manufactures carbon-negative natural gas by extracting CO2 from the atmosphere, which aligns with the domains of carbon capture, carbon removal, and carbon utilization."
+  },
+  {
+    "company_name": "enSights",
+    "description": "enSights provides a centralized picture of the status and requirements of your renewable energy assets.",
+    "location": "Centralia, Illinois, United States",
+    "founded": "2021",
+    "industries": "Manufacturing, Renewable Energy, Semiconductor",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company provides centralized monitoring and management for renewable energy assets, which aligns with the renewable energy domain. Additionally, its involvement in manufacturing and semiconductor industries is indicated."
+  },
+  {
+    "company_name": "Six One Commodities",
+    "description": "Six One Commodities is a global energy trading merchant with offices in Stamford, CT, Houston, TX, Berlin and Singapore.",
+    "location": "Stamford, Connecticut, United States",
+    "founded": "Aug 1, 2018",
+    "industries": "Energy, Energy Management, Oil and Gas",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Six One Commodities is a global energy trading merchant, indicating it operates in the energy and oil and gas domains."
+  },
+  {
+    "company_name": "SYSO Technologies",
+    "description": "SYSO Technologies provides end-to-end renewable energy and storage management technology and services.",
+    "location": "Cambridge, Massachusetts, United States",
+    "founded": "2019",
+    "industries": "Energy, Environmental Consulting, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "SYSO Technologies provides end-to-end renewable energy and storage management technology and services, which aligns with the 'renewable_energy' and 'energy_storage_systems' domains."
+  },
+  {
+    "company_name": "EarthGrid PBC",
+    "description": "EarthGrid revolutionizes grid infrastructure with tunneling and trenching solutions through the power of plasma.",
+    "location": "Richmond, California, United States",
+    "founded": "2016",
+    "industries": "GreenTech, Infrastructure, Power Grid, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "EarthGrid provides plasma-based tunneling and trenching solutions for grid infrastructure, which aligns with the 'Power Grid' and 'Renewable Energy' domains."
+  },
+  {
+    "company_name": "Verdagy",
+    "description": "Verdagy enables the large-scale production of green hydrogen by innovating water electrolysis technology.",
+    "location": "Moss Landing, California, United States",
+    "founded": "2021",
+    "industries": "Energy, Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "hydrogen_production",
+      "electrochemical"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Verdagy enables large-scale production of green hydrogen through water electrolysis technology, which falls under the hydrogen production and electrochemical systems domains."
+  },
+  {
+    "company_name": "Ocean Aero",
+    "description": "Ocean Aero is an autonomous underwater and surface vehicle (AUSV) driven by wind and solar energy.",
+    "location": "San Diego, California, United States",
+    "founded": "Oct 15, 2012",
+    "industries": "Marine Technology, Nanotechnology, Robotics, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "maritime_shipping"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ocean Aero is focused on autonomous underwater and surface vehicles powered by wind and solar energy, which aligns with maritime decarbonization, renewable energy systems, and robotics domains."
+  },
+  {
+    "company_name": "Sinovia Technologies",
+    "description": "Sinovia Technologies manufactures flexible printed OLED displays.",
+    "location": "San Carlos, California, United States",
+    "founded": "2011",
+    "industries": "Manufacturing, Renewable Energy, Semiconductor",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Sinovia Technologies manufactures flexible printed OLED displays, which falls under the manufacturing and semiconductor domains."
+  },
+  {
+    "company_name": "Rodatherm Energy",
+    "description": "A geothermal company that plumbs its boreholes with a closed loop",
+    "location": "Salt Lake City, Utah, United States",
+    "founded": "2021",
+    "industries": "Energy, Renewable Energy, Sustainability",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "geothermal"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Rodatherm Energy is a geothermal company that plumbs its boreholes with a closed loop, which falls under the geothermal energy domain."
+  },
+  {
+    "company_name": "Critical Loop",
+    "description": "Critical Loop develops deployable microgrids and software-driven power solutions that provide on-demand energy for constrained sites.",
+    "location": "Long Beach, California, United States",
+    "founded": "Jan 1, 2023",
+    "industries": "Energy, Energy Storage, Industrial, Manufacturing, Power Grid, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "distributed_energy",
+      "energy_storage_systems",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Critical Loop develops deployable microgrids and software-driven power solutions, which aligns with the distributed energy, energy storage systems, and grid software domains."
+  },
+  {
+    "company_name": "C-Motive Technologies",
+    "description": "C-Motive Technologies is a venture-backed cleantech startup that develops electrostatic motor technology.",
+    "location": "Madison, Wisconsin, United States",
+    "founded": "Jun 2012",
+    "industries": "Automotive, CleanTech, Machinery Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "C-Motive Technologies develops electrostatic motor technology for automotive and clean energy applications, which spans the electric vehicles, machinery manufacturing, and renewable energy domains."
+  },
+  {
+    "company_name": "HOPE Hydration",
+    "description": "HOPE Hydration is a water-tech & media startup transforming global hydration.",
+    "location": "Miami, Florida, United States",
+    "founded": "May 2020",
+    "industries": "Clean Energy, Water, Water Purification",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company's focus on transforming global hydration through water technology and media aligns with the water purification domain."
+  },
+  {
+    "company_name": "PosiGen",
+    "description": "PosiGen is on a mission to make solar affordable and easy to access for homeowners.",
+    "location": "Metairie, Louisiana, United States",
+    "founded": "2011",
+    "industries": "Clean Energy, Energy, GreenTech, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "PosiGen is a solar energy company that focuses on making solar affordable and accessible for homeowners, which falls under the solar PV and distributed energy domains."
+  },
+  {
+    "company_name": "Inductive Robotics",
+    "description": "Inductive Robotics offers a cost-free, scalable EV charging solution for parking lots.",
+    "location": "Austin, Texas, United States",
+    "founded": "2023",
+    "industries": "Autonomous Vehicles, Electric Vehicle, Energy Management",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "ev_charging",
+      "electric_vehicles"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Inductive Robotics offers a scalable EV charging solution for parking lots, which aligns with the 'EV Charging Infrastructure' and 'Electric Vehicles & Mobility' domains."
+  },
+  {
+    "company_name": "Skyven Technologies",
+    "description": "Skyven Technologies is an energy-as-a-service company with a mission to decarbonize industrial process heat.",
+    "location": "Farmers Branch, Texas, United States",
+    "founded": "2013",
+    "industries": "Clean Energy, CleanTech, Energy, Energy Efficiency, Industrial, Renewable Energy, Sustainability",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Skyven Technologies is an energy-as-a-service company focused on decarbonizing industrial process heat, which aligns with the domains of building efficiency, industrial energy efficiency, renewable energy, and sustainability."
+  },
+  {
+    "company_name": "GlacierGrid",
+    "description": "GlacierGrid deploys innovative energy-efficient solutions to save restaurants thousands of dollars per location per year.",
+    "location": "San Francisco, California, United States",
+    "founded": "2014",
+    "industries": "Energy Efficiency, Energy Management, GreenTech, SaaS, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "GlacierGrid provides energy-efficient solutions for restaurants, which aligns with the building efficiency and energy efficiency domains."
   }
 ]
