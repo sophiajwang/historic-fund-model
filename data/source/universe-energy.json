@@ -1,0 +1,749 @@
+[
+  {
+    "company_name": "X-energy",
+    "description": "X-energy is a nuclear energy company that develops small modular nuclear reactors and nuclear fuels for clean energy generation.",
+    "location": "Rockville, Maryland, United States",
+    "founded": "2009",
+    "industries": "Clean Energy, CleanTech, Energy, Nuclear, Renewable Energy",
+    "cb_rank": 71,
+    "sector": "energy",
+    "domains": [
+      "advanced_nuclear",
+      "nuclear_fuel",
+      "small_modular_reactors"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "X-energy is a nuclear energy company that develops small modular nuclear reactors and nuclear fuels, which falls under the advanced nuclear, nuclear fuel, and small modular reactor domains."
+  },
+  {
+    "company_name": "Radiant",
+    "description": "Radiant develops portable nuclear microreactors designed to generate electricity and heat in a compact, factory-built form.",
+    "location": "El Segundo, California, United States",
+    "founded": "May 16, 2019",
+    "industries": "Clean Energy, Energy, Energy Efficiency, Renewable Energy",
+    "cb_rank": 88,
+    "sector": "energy",
+    "domains": [
+      "advanced_nuclear",
+      "small_modular_reactors"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Radiant develops portable nuclear microreactors, which falls under the domains of advanced nuclear reactors and small modular reactors."
+  },
+  {
+    "company_name": "Oklo",
+    "description": "Oklo specializes in designing and developing small modular reactors for advanced fission power plants.",
+    "location": "Santa Clara, California, United States",
+    "founded": "2013",
+    "industries": "Clean Energy, Energy, Manufacturing, Nuclear, Renewable Energy",
+    "cb_rank": 95,
+    "sector": "energy",
+    "domains": [
+      "small_modular_reactors"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Oklo specializes in designing and developing small modular reactors for advanced fission power plants, which falls under the small modular reactors and nuclear domains."
+  },
+  {
+    "company_name": "Beta Technologies",
+    "description": "Beta Technologies builds electric VTOL and CTOL aircraft, charging systems, and training programs focused on operational simplicity.",
+    "location": "South Burlington, Vermont, United States",
+    "founded": "Apr 1, 2017",
+    "industries": "Aerospace, Air Transportation, Battery, Machinery Manufacturing, Manufacturing",
+    "cb_rank": 156,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Beta Technologies builds electric VTOL and CTOL aircraft, which aligns with the electric vehicles and aerospace domains."
+  },
+  {
+    "company_name": "Inertia",
+    "description": "Inertia is a fusion-energy company that builds and generates commercialized fusion powers.",
+    "location": "San Francisco, California, United States",
+    "founded": "2024",
+    "industries": "Clean Energy, Energy Management, Power Grid, Renewable Energy",
+    "cb_rank": 238,
+    "sector": "energy",
+    "domains": [
+      "nuclear_fusion",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Inertia is a fusion-energy company, which falls under the nuclear fusion domain. Its broader work in commercializing fusion power also makes it relevant to the energy_general domain."
+  },
+  {
+    "company_name": "Form Energy",
+    "description": "Form Energy is an energy technology company that produces electric grids and accelerates the transition to clean energy.",
+    "location": "Somerville, Massachusetts, United States",
+    "founded": "2017",
+    "industries": "Battery, Energy, Energy Storage, Power Grid, Renewable Energy",
+    "cb_rank": 271,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "energy_storage_systems",
+      "grid_modernization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Form Energy develops battery and energy storage technologies to accelerate the transition to clean power grids, which aligns with several energy technology domains."
+  },
+  {
+    "company_name": "Helion Energy",
+    "description": "Helion Energy develops fusion power technology for clean electricity generation.",
+    "location": "Everett, Washington, United States",
+    "founded": "2013",
+    "industries": "Energy, Environmental Engineering, Renewable Energy",
+    "cb_rank": 291,
+    "sector": "energy",
+    "domains": [
+      "nuclear_fusion",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Helion Energy develops fusion power technology, which falls under the nuclear fusion domain, and its focus on clean electricity generation is a broad, cross-cutting energy-related topic."
+  },
+  {
+    "company_name": "Fermi America",
+    "description": "Fermi America builds energy and AI infrastructure to power next-gen data centers using nuclear, gas, solar, and grid-based solutions.",
+    "location": "Amarillo, Texas, United States",
+    "founded": "2025",
+    "industries": "Artificial Intelligence (AI), Data Center, Energy, Energy Management, Power Grid",
+    "cb_rank": 294,
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Fermi America builds energy and AI infrastructure to power next-gen data centers, covering a range of energy technologies and applications."
+  },
+  {
+    "company_name": "DG Matrix",
+    "description": "DG Matrix develops solid-state power conversion systems for electric vehicle charging and distributed energy applications.",
+    "location": "Raleigh, North Carolina, United States",
+    "founded": "2022",
+    "industries": "Charging Infrastructure, Clean Energy, Data Center, Electrical Distribution, Energy Efficiency, Energy Management, Manufacturing, Power Grid, Sustainability",
+    "cb_rank": 309,
+    "sector": "energy",
+    "domains": [
+      "distributed_energy",
+      "ev_charging",
+      "grid_software",
+      "inverters_power_electronics",
+      "power_markets"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "DG Matrix develops solid-state power conversion systems for electric vehicle charging and distributed energy applications, which aligns with several energy technology domains."
+  },
+  {
+    "company_name": "Heron Power",
+    "description": "Heron Power develops advanced power electronics and hardware solutions tailored for the modern electrical grid.",
+    "location": "Scotts Valley, California, United States",
+    "founded": "2024",
+    "industries": "Electrical Distribution, Energy, Industrial Engineering",
+    "cb_rank": 316,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Heron Power develops power electronics and hardware solutions for the electrical grid, which aligns with the domains of electrical distribution, energy, and industrial engineering."
+  },
+  {
+    "company_name": "Base Power",
+    "description": "Base Power is a modern energy provider that specializes in residential backup battery systems and electricity plans.",
+    "location": "Austin, Texas, United States",
+    "founded": "Jan 2, 2023",
+    "industries": "Battery, Electrical Distribution, Energy, Energy Management, Energy Storage, Industrial, Power Grid",
+    "cb_rank": 348,
+    "sector": "energy",
+    "domains": [
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Base Power specializes in residential backup battery systems and electricity plans, which aligns with the battery, energy storage, and energy domains."
+  },
+  {
+    "company_name": "Span",
+    "description": "Span develops residential energy storage devices that provide renewable electricity and charging services for electric vehicles.",
+    "location": "San Francisco, California, United States",
+    "founded": "Jun 12, 2018",
+    "industries": "Energy, Hardware, Internet of Things, Renewable Energy, Software",
+    "cb_rank": 361,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "distributed_energy",
+      "electric_vehicles",
+      "energy_storage_systems",
+      "ev_charging",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Span develops residential energy storage devices, provides renewable electricity, and offers electric vehicle charging services, spanning several energy technology domains."
+  },
+  {
+    "company_name": "Commonwealth Fusion Systems",
+    "description": "Commonwealth Fusion Systems designs and develops commercial fusion energy systems to produce clean energy.",
+    "location": "Cambridge, Massachusetts, United States",
+    "founded": "2017",
+    "industries": "Clean Energy, Electrical Distribution, Energy, Environmental Engineering, Renewable Energy",
+    "cb_rank": 370,
+    "sector": "energy",
+    "domains": [
+      "nuclear_fusion",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Commonwealth Fusion Systems designs and develops commercial fusion energy systems, which falls under the nuclear fusion domain. Its work on clean energy production also makes it relevant to the broader energy general category."
+  },
+  {
+    "company_name": "Crusoe",
+    "description": "Crusoe is a vertically integrated AI infrastructure company that builds and operates data centers powered by energy sources.",
+    "location": "Denver, Colorado, United States",
+    "founded": "Aug 23, 2018",
+    "industries": "AI Infrastructure, Artificial Intelligence (AI), Data Center, Energy, Energy Management, Oil and Gas",
+    "cb_rank": 403,
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Crusoe is a vertically integrated AI infrastructure company that builds and operates data centers powered by energy sources, which aligns with the energy general, data center, and artificial intelligence domains."
+  },
+  {
+    "company_name": "ESS",
+    "description": "ESS is an energy storage company that designs and produces iron flow batteries for commercial and utility-scale energy storage applications.",
+    "location": "Wilsonville, Oregon, United States",
+    "founded": "Jan 1, 2011",
+    "industries": "Electronics, Energy, Energy Management, Energy Storage, Renewable Energy",
+    "cb_rank": 408,
+    "sector": "energy",
+    "domains": [
+      "energy_storage_systems",
+      "flow_batteries"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "ESS designs and produces iron flow batteries for commercial and utility-scale energy storage applications, which falls under the domains of grid-scale energy storage systems and flow batteries."
+  },
+  {
+    "company_name": "Solstice",
+    "description": "Solstice provides turnkey customer solutions for shared solar.",
+    "location": "Cambridge, Massachusetts, United States",
+    "founded": "2014",
+    "industries": "Clean Energy, CleanTech, Energy, SaaS, Solar",
+    "cb_rank": 413,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "distributed_energy",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Solstice provides turnkey customer solutions for shared solar, which aligns with the solar PV, distributed energy, and broader energy-related categories."
+  },
+  {
+    "company_name": "Deep Fission",
+    "description": "Deep Fission is transforming the energy landscape by installing modular nuclear power reactors a mile deep.",
+    "location": "Berkeley, California, United States",
+    "founded": "2023",
+    "industries": "Electrical Distribution, Electronics, Energy, Nuclear",
+    "cb_rank": 437,
+    "sector": "energy",
+    "domains": [
+      "advanced_nuclear",
+      "nuclear_fuel",
+      "small_modular_reactors"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Deep Fission is focused on transforming the energy landscape through the installation of modular nuclear power reactors, which falls under the advanced nuclear, nuclear fuel, and small modular reactor domains."
+  },
+  {
+    "company_name": "Factorial Energy",
+    "description": "Factorial Energy focuses on sustainable future with safe, high performance batteries for EVs, homes, and critical applications.",
+    "location": "Woburn, Massachusetts, United States",
+    "founded": "2021",
+    "industries": "Battery, Electric Vehicle, Renewable Energy",
+    "cb_rank": 447,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "electric_vehicles"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Factorial Energy focuses on developing safe and high-performance batteries for electric vehicles and other sustainable applications, which aligns with the battery chemistry, electric vehicles, and renewable energy domains."
+  },
+  {
+    "company_name": "Sage Geosystems",
+    "description": "Sage Geosystems develops geothermal and energy storage technologies that use subsurface heat and pressure to generate and store electricity.",
+    "location": "Houston, Texas, United States",
+    "founded": "2020",
+    "industries": "Clean Energy, Energy Storage, Geothermal Energy, Oil and Gas, Sustainability",
+    "cb_rank": 490,
+    "sector": "energy",
+    "domains": [
+      "geothermal",
+      "energy_storage_systems",
+      "carbon_utilization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Sage Geosystems develops geothermal and energy storage technologies, which aligns with the geothermal and energy storage systems domains. The company also utilizes carbon dioxide in its energy generation and storage processes, which falls under the carbon utilization domain."
+  },
+  {
+    "company_name": "NUBURU",
+    "description": "NUBURU provides a disruptive welding technology for battery manufacturing and 3D metal printing.",
+    "location": "Centennial, Colorado, United States",
+    "founded": "Jan 2015",
+    "industries": "3D Printing, Battery, Laser, Manufacturing",
+    "cb_rank": 606,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "NUBURU provides a disruptive welding technology for battery manufacturing and 3D metal printing, which aligns with the battery manufacturing, laser, and manufacturing domains."
+  },
+  {
+    "company_name": "Atlas Renewable Energy",
+    "description": "Atlas Renewable Energy is a renewable energy company that develops, builds, and operates solar and wind projects.",
+    "location": "Miami, Florida, United States",
+    "founded": "2017",
+    "industries": "Clean Energy, CleanTech, Renewable Energy, Solar, Wind Energy",
+    "cb_rank": 667,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "onshore_wind"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Atlas Renewable Energy develops and operates solar and wind projects, which aligns with the solar PV and onshore wind technology domains."
+  },
+  {
+    "company_name": "NANO Nuclear Energy",
+    "description": "NANO Nuclear Energy is an energy company that builds micro-small modular reactors and advanced nuclear reactors.",
+    "location": "New York, New York, United States",
+    "founded": "2021",
+    "industries": "Energy, Nuclear, Renewable Energy",
+    "cb_rank": 721,
+    "sector": "energy",
+    "domains": [
+      "small_modular_reactors",
+      "advanced_nuclear"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "NANO Nuclear Energy builds micro-small modular reactors and advanced nuclear reactors, which falls under the 'Small Modular Reactors' and 'Advanced Nuclear' domains."
+  },
+  {
+    "company_name": "ElectricFish",
+    "description": "We build resilient and flexible EV charging infrastructure to accelerate decarbonization, and support community adaptation to climate risks.",
+    "location": "San Carlos, California, United States",
+    "founded": "Dec 7, 2019",
+    "industries": "Charging Infrastructure, Clean Energy, Electric Vehicle, Energy Management, Energy Storage, Power Grid",
+    "cb_rank": 725,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "ev_charging",
+      "distributed_energy",
+      "grid_modernization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "ElectricFish builds EV charging infrastructure, which supports electric vehicles and distributed energy resources, and contributes to grid modernization."
+  },
+  {
+    "company_name": "Lunar Energy",
+    "description": "Lunar Energy powers homes around the world with endless clean energy.",
+    "location": "Mountain View, California, United States",
+    "founded": "2020",
+    "industries": "Clean Energy, CleanTech, Electrical Distribution, Energy Management, Renewable Energy",
+    "cb_rank": 754,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Lunar Energy is a company that powers homes with clean, renewable energy, which aligns with the domains of renewable energy, clean energy, energy management, and electrical distribution."
+  },
+  {
+    "company_name": "Zero Homes",
+    "description": "Zero Homes is a technology company that develops an end-to-end digital platform that supports homeowners and contractors.",
+    "location": "Denver, Colorado, United States",
+    "founded": "2021",
+    "industries": "Clean Energy, Energy, Energy Efficiency, Home Services, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "distributed_energy",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Zero Homes develops a digital platform that supports homeowners and contractors, which aligns with building energy efficiency, distributed energy, and energy software and analytics domains."
+  },
+  {
+    "company_name": "Alva Energy",
+    "description": "Alva Energy is a startup focused on accelerating nuclear power deployment through efficient project management.",
+    "location": "Cambridge, Massachusetts, United States",
+    "founded": "2024",
+    "industries": "Electrical Distribution, Nuclear, Power Grid",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "advanced_nuclear"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Alva Energy is a startup focused on accelerating nuclear power deployment, which falls under the advanced nuclear and nuclear power domains."
+  },
+  {
+    "company_name": "Nithio Holdings",
+    "description": "Nithio Holdings a Washington, DC-based energy finance company focused on the off-grid sector in Africa.",
+    "location": "Washington, District of Columbia, United States",
+    "founded": "2018",
+    "industries": "Energy, Environmental Engineering, Finance, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_finance"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Nithio Holdings is an energy finance company focused on the off-grid sector in Africa, with a focus on renewable energy and solar technologies."
+  },
+  {
+    "company_name": "Solid Power",
+    "description": "Solid Power is a developer of all-solid-state battery cells that provide enhancements over traditional lithium-ion batteries.",
+    "location": "Louisville, Colorado, United States",
+    "founded": "2011",
+    "industries": "Battery, Electric Vehicle, Energy, Energy Storage, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "electric_vehicles",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Solid Power develops all-solid-state battery cells for electric vehicles and energy storage applications."
+  },
+  {
+    "company_name": "Emerald AI",
+    "description": "Emerald AI develops software that aligns AI data center workloads with real-time power grid conditions to manage energy use.",
+    "location": "Washington, District of Columbia, United States",
+    "founded": "2024",
+    "industries": "Artificial Intelligence (AI), Energy, Power Grid, SaaS, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Emerald AI develops software that aligns AI data center workloads with real-time power grid conditions, which falls under the domains of artificial intelligence, energy, and grid software."
+  },
+  {
+    "company_name": "Exowatt",
+    "description": "Powering AI with 24-hour Dispatchable Solar",
+    "location": "Miami, Florida, United States",
+    "founded": "2023",
+    "industries": "Artificial Intelligence (AI), Data Center, Energy, Energy Storage, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Exowatt is a company working on powering AI with 24-hour dispatchable solar, which spans the domains of artificial intelligence, energy, and renewable energy."
+  },
+  {
+    "company_name": "BLUETTI",
+    "description": "BLUETTI is a clean energy company that builds a producer storage system of high-quality power for homes.",
+    "location": "Chino, California, United States",
+    "founded": "2019",
+    "industries": "Battery, Clean Energy, Electronics, Energy Storage",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "distributed_energy",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "BLUETTI manufactures battery storage systems for homes and distributed energy applications, which aligns with the battery manufacturing, distributed energy, and energy storage systems domains."
+  },
+  {
+    "company_name": "Sensera Systems",
+    "description": "Sensera Systems provides solar-powered wireless cameras and software for remote jobsite monitoring and visual data management.",
+    "location": "Golden, Colorado, United States",
+    "founded": "Dec 1, 2013",
+    "industries": "Analytics, Artificial Intelligence (AI), Construction, IT Infrastructure, Software, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Sensera Systems provides solar-powered wireless cameras and software for remote jobsite monitoring and visual data management, which spans the construction, solar, distributed energy, and energy software and analytics domains."
+  },
+  {
+    "company_name": "Lyten",
+    "description": "Lyten is a supermaterial applications company that develops, sources, and manufactures low-carbon footprint products.",
+    "location": "San Jose, California, United States",
+    "founded": "2015",
+    "industries": "Advanced Materials, Battery, Industrial, Manufacturing",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "carbon_utilization",
+      "industrial_efficiency",
+      "superconductors"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Lyten develops advanced materials and products with a focus on low-carbon footprint, which aligns with battery chemistry, carbon utilization, industrial efficiency, and superconductors."
+  },
+  {
+    "company_name": "Electra",
+    "description": "Electra is a a clean iron company that uses a low-temperature, electrochemical-hydrometallurgical system to refine iron ore.",
+    "location": "Boulder, Colorado, United States",
+    "founded": "2020",
+    "industries": "Industrial, Industrial Manufacturing, Manufacturing, Precious Metals, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "industrial_efficiency",
+      "mining_critical_minerals"
+    ],
+    "classification_confidence": "medium",
+    "classification_reasoning": "Electra uses a low-temperature, electrochemical-hydrometallurgical system to refine iron ore, which relates to industrial efficiency and critical mineral mining."
+  },
+  {
+    "company_name": "Standard Nuclear",
+    "description": "Standard Nuclear manufactures advanced nuclear fuel for next-generation reactors and high-temperature applications.",
+    "location": "Oak Ridge, Tennessee, United States",
+    "founded": "Oct 2024",
+    "industries": "Energy, Energy Efficiency, Nuclear",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "advanced_nuclear",
+      "nuclear_fuel"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Standard Nuclear manufactures advanced nuclear fuel for next-generation reactors, which falls under the 'Advanced Nuclear Reactors' and 'Nuclear Fuel Cycle' domains."
+  },
+  {
+    "company_name": "Valar Atomics",
+    "description": "Valar Atomics is a company focused on scaling nuclear energy beyond the traditional electricity grid.",
+    "location": "El Segundo, California, United States",
+    "founded": "2023",
+    "industries": "Energy, Nuclear, Oil and Gas, Power Grid",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "advanced_nuclear",
+      "nuclear_fuel"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Valar Atomics is focused on scaling nuclear energy, which spans advanced nuclear reactors, nuclear fuel cycle, and power grid applications."
+  },
+  {
+    "company_name": "Emobi",
+    "description": "Emobi is an electric vehicle company that designs, manufactures, and markets zero-emission urban mobility solutions.",
+    "location": "San Francisco, California, United States",
+    "founded": "2020",
+    "industries": "Artificial Intelligence (AI), Business Intelligence, Charging Infrastructure, Clean Energy, Electric Vehicle",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "ev_charging",
+      "battery_manufacturing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Emobi is an electric vehicle company that designs, manufactures, and markets zero-emission urban mobility solutions, which aligns with the electric vehicles, EV charging, and battery manufacturing domains. The company's focus on clean energy also places it in the broader clean energy domain."
+  },
+  {
+    "company_name": "Crux",
+    "description": "Crux is a capital market company that provides debit marketplace,transferable tax credits, and market intelligence for tax credit transfers.",
+    "location": "New York, New York, United States",
+    "founded": "2023",
+    "industries": "Clean Energy, Finance, Lending, Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Crux provides capital market services, including a debit marketplace and market intelligence for tax credit transfers, which are finance and lending-related activities."
+  },
+  {
+    "company_name": "Utility Global",
+    "description": "Utility Global is an off-gas-to-value company that reduces emissions and improves energy efficiency through clean energy generation systems.",
+    "location": "Houston, Texas, United States",
+    "founded": "2018",
+    "industries": "Clean Energy, Energy, Energy Efficiency, Energy Management, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "bioenergy",
+      "carbon_utilization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Utility Global is an off-gas-to-value company that reduces emissions and improves energy efficiency through clean energy generation systems, which aligns with the domains of bioenergy, carbon utilization, clean energy, energy efficiency, energy management, and renewable energy."
+  },
+  {
+    "company_name": "TeraWulf",
+    "description": "TeraWulf is a bitcoin mining company that produces zero-carbon energy for crypto mining.",
+    "location": "Easton, Maryland, United States",
+    "founded": "Feb 2021",
+    "industries": "Bitcoin, Cryptocurrency, Energy, Mining, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "TeraWulf is a bitcoin mining company that produces zero-carbon energy for crypto mining, spanning multiple energy-related domains."
+  },
+  {
+    "company_name": "Zanskar",
+    "description": "Zanskar develops data-driven technology to identify and develop geothermal energy resources.",
+    "location": "Salt Lake City, Utah, United States",
+    "founded": "2019",
+    "industries": "Analytics, Artificial Intelligence (AI), Geothermal Energy, GreenTech, Information Technology, Predictive Analytics, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "geothermal"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Zanskar develops data-driven technology to identify and develop geothermal energy resources, which aligns with the geothermal domain. The company also utilizes analytics, AI, and predictive analytics, which are relevant domains."
+  },
+  {
+    "company_name": "Stardust Power",
+    "description": "Stardust Power specializes in manufacturing battery-grade lithium products that are produced sustainably for electric vehicles.",
+    "location": "Oklahoma City, Oklahoma, United States",
+    "founded": "2022",
+    "industries": "Battery, Electric Vehicle, Electronics, Manufacturing",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing",
+      "electric_vehicles"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Stardust Power specializes in manufacturing battery-grade lithium products for electric vehicles, which aligns with the battery chemistry, battery manufacturing, and electric vehicles domains."
+  },
+  {
+    "company_name": "Fervo Energy",
+    "description": "Fervo Energy develops and operates clean energy technology to generate carbon-free energy from geothermal systems.",
+    "location": "Houston, Texas, United States",
+    "founded": "2017",
+    "industries": "Energy, Energy Efficiency, Energy Management, Nuclear, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "geothermal"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Fervo Energy develops and operates clean energy technology to generate carbon-free energy from geothermal systems, which falls under the geothermal energy domain."
+  },
+  {
+    "company_name": "NeoVolta",
+    "description": "NeoVolta is a developer of smart residential energy storage solutions.",
+    "location": "Poway, California, United States",
+    "founded": "2018",
+    "industries": "Computer, Energy, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "energy_storage_systems",
+      "distributed_energy",
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "NeoVolta develops smart residential energy storage solutions, which aligns with battery manufacturing, grid-scale energy storage, distributed energy resources, and solar photovoltaics."
+  },
+  {
+    "company_name": "Bidgely",
+    "description": "Bidgely offers energy analytics and customer engagement solutions for utilities and energy providers.",
+    "location": "Los Altos, California, United States",
+    "founded": "2011",
+    "industries": "Analytics, Artificial Intelligence (AI), Consumer Software, Energy, GovTech, Information Technology, Internet, Machine Learning, Renewable Energy, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "grid_modernization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Bidgely offers energy analytics and customer engagement solutions for utilities and energy providers, which aligns with the grid modernization and energy software/analytics domains."
+  },
+  {
+    "company_name": "SB Energy",
+    "description": "SB Energy is a digital infrastructure and energy platform that develops, constructs, and operates energy and digital solutions.",
+    "location": "Redwood City, California, United States",
+    "founded": "2015",
+    "industries": "Clean Energy, CleanTech, Energy, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "distributed_energy",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "SB Energy develops, constructs, and operates renewable energy solutions, with a focus on solar photovoltaic systems and distributed energy resources. Their platform also includes energy software and analytics capabilities."
+  },
+  {
+    "company_name": "SunPower",
+    "description": "SunPower is a solar company with a distinct end-to-end customer offering, technology, and service.",
+    "location": "Fremont, California, United States",
+    "founded": "2022",
+    "industries": "Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "SunPower is a solar company, so it falls under the solar photovoltaics and broader energy-related categories."
+  },
+  {
+    "company_name": "Solidion Technology",
+    "description": "Solidion Technology is a battery technology company that manufactures battery materials, components, and next-generation batteries.",
+    "location": "Dallas, Texas, United States",
+    "founded": "2021",
+    "industries": "Battery, Energy Storage, Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Solidion Technology is a battery technology company that manufactures battery materials, components, and next-generation batteries, which aligns with the battery chemistry, battery manufacturing, and energy storage systems domains."
+  },
+  {
+    "company_name": "Arcadia",
+    "description": "Arcadia is a climate software and data company that specializes in decarbonizing the electric grid.",
+    "location": "Greenwood Village, Colorado, United States",
+    "founded": "2014",
+    "industries": "Clean Energy, CleanTech, Database, Renewable Energy, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "grid_software",
+      "carbon_capture"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Arcadia specializes in decarbonizing the electric grid, which aligns with domains related to grid software, renewable energy, and carbon capture."
+  },
+  {
+    "company_name": "Avalanche Energy",
+    "description": "Avalanche Energy is a fusion energy startup that develops micro-fusion reactors for distributed energy and mobility.",
+    "location": "Seattle, Washington, United States",
+    "founded": "2018",
+    "industries": "Electrical Distribution, Energy, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "nuclear_fusion",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Avalanche Energy is a fusion energy startup, which falls under the nuclear fusion domain, and its work on micro-fusion reactors for distributed energy and mobility is a broad, cross-cutting energy-related topic."
+  }
+]
