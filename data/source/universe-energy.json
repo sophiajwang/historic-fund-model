@@ -745,5 +745,733 @@
     ],
     "classification_confidence": "high",
     "classification_reasoning": "Avalanche Energy is a fusion energy startup, which falls under the nuclear fusion domain, and its work on micro-fusion reactors for distributed energy and mobility is a broad, cross-cutting energy-related topic."
+  },
+  {
+    "company_name": "Arevon",
+    "description": "Arevon develops, finances, builds, and operates solar and energy storage projects for utilities, businesses, and communities.",
+    "location": "Scottsdale, Arizona, United States",
+    "founded": "2017",
+    "industries": "Clean Energy, Energy Storage, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Arevon develops, finances, builds, and operates solar and energy storage projects, which aligns with the solar PV, energy storage systems, and renewable energy domains."
+  },
+  {
+    "company_name": "Peak Energy",
+    "description": "Peak Energy is a pioneering firm that is industrializing sodium-ion to expedite the shift to renewable energy.",
+    "location": "Denver, Colorado, United States",
+    "founded": "2023",
+    "industries": "Energy, Energy Storage, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Peak Energy is focused on industrializing sodium-ion technology, which falls under battery chemistry and energy storage systems. Additionally, its mission to expedite the shift to renewable energy places it within the renewable energy domain."
+  },
+  {
+    "company_name": "SES",
+    "description": "SES builds AI-powered lithium-metal batteries for EVs, drones, and energy storage.",
+    "location": "Woburn, Massachusetts, United States",
+    "founded": "2012",
+    "industries": "Battery, Electric Vehicle, Energy Storage, Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing",
+      "electric_vehicles",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "SES builds AI-powered lithium-metal batteries for EVs, drones, and energy storage, which aligns with the battery chemistry, manufacturing, electric vehicles, and energy storage systems domains."
+  },
+  {
+    "company_name": "Mainspring Energy",
+    "description": "Mainspring Energy provides power generation technology using linear generators for clean energy.",
+    "location": "Menlo Park, California, United States",
+    "founded": "2010",
+    "industries": "Clean Energy, Energy, Oil and Gas",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Mainspring Energy provides power generation technology using linear generators for clean energy, which aligns with the 'energy_general' and 'clean_energy' domains."
+  },
+  {
+    "company_name": "Fleetzero",
+    "description": "Fleetzero is building battery electric cargo ships to affordably decarbonize ocean freight.",
+    "location": "Auburn, Alabama, United States",
+    "founded": "2021",
+    "industries": "Battery, Freight Service, Marine Transportation",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "maritime_shipping",
+      "battery_manufacturing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Fleetzero is building battery electric cargo ships, which falls under maritime decarbonization and battery manufacturing."
+  },
+  {
+    "company_name": "Cambium",
+    "description": "Cambium specializes in advanced materials for defense and aerospace, focusing on AI-driven designs and agile manufacturing practices.",
+    "location": "El Segundo, California, United States",
+    "founded": "2019",
+    "industries": "Advanced Materials, Aerospace, Law Enforcement, National Security, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Cambium specializes in advanced materials for defense and aerospace, focusing on AI-driven designs and agile manufacturing practices, which align with the domains of advanced materials, aerospace, national security, and renewable energy."
+  },
+  {
+    "company_name": "Deep Isolation",
+    "description": "Deep Isolation develops and commercializes technology to safely dispose of nuclear waste using deep horizontal boreholes.",
+    "location": "Berkeley, California, United States",
+    "founded": "Oct 27, 2016",
+    "industries": "Clean Energy, Environmental Engineering, Nuclear, Renewable Energy, Waste Management",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "nuclear_fuel"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Deep Isolation develops and commercializes technology for the safe disposal of nuclear waste, which spans the nuclear fuel cycle, environmental engineering, and waste management domains."
+  },
+  {
+    "company_name": "EcoFlow Tech",
+    "description": "EcoFlow provides designs, develops and manufactures eco-friendly and affordable portable power stations for personal and professional use.",
+    "location": "San Francisco, California, United States",
+    "founded": "Nov 2016",
+    "industries": "Clean Energy, Consumer Electronics, Electronics, Energy, Energy Efficiency, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_storage_systems",
+      "distributed_energy",
+      "solar_pv",
+      "ev_charging"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "EcoFlow provides portable power stations that are eco-friendly and cover energy storage, distributed energy, solar PV, and EV charging technologies."
+  },
+  {
+    "company_name": "Aspen Power",
+    "description": "Aspen Power Partners is a distributed generation platform with the dual mission of accelerating and democratizing decarbonization.",
+    "location": "Dallas, Texas, United States",
+    "founded": "2020",
+    "industries": "Clean Energy, Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Aspen Power Partners is a distributed generation platform focused on accelerating decarbonization, with a specific focus on solar power."
+  },
+  {
+    "company_name": "Swift Current Energy",
+    "description": "Swift Current Energy is a renewable energy company that develops and operates clean energy projects.",
+    "location": "Boston, Massachusetts, United States",
+    "founded": "2016",
+    "industries": "Energy, Energy Storage, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Swift Current Energy is a renewable energy company that develops and operates clean energy projects, including solar energy."
+  },
+  {
+    "company_name": "Glydways",
+    "description": "Glydways designs and implements personal rapid transit systems using self-driving vehicles.",
+    "location": "South San Francisco, California, United States",
+    "founded": "2016",
+    "industries": "Clean Energy, Electric Vehicle, Manufacturing, Transportation",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Glydways designs and implements personal rapid transit systems using self-driving vehicles, which falls under the electric vehicles and transportation domains."
+  },
+  {
+    "company_name": "Mitra EV",
+    "description": "Mitra EV offers electric fleet solutions for businesses, focusing on commercial fleet electrification.",
+    "location": "Los Angeles, California, United States",
+    "founded": "2023",
+    "industries": "Electronics, Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "energy_storage_systems",
+      "ev_charging"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Mitra EV offers electric fleet solutions and focuses on commercial fleet electrification, which falls under the electric vehicles, energy storage systems, and EV charging infrastructure domains."
+  },
+  {
+    "company_name": "Type One Energy",
+    "description": "Stellarator technology to transform energy markets with fusion power.",
+    "location": "Oak Ridge, Tennessee, United States",
+    "founded": "2019",
+    "industries": "Clean Energy, Energy, Nuclear",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "nuclear_fusion",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Type One Energy is focused on stellarator technology for fusion power, which falls under the nuclear fusion domain. Its broader goal of transforming energy markets with fusion power also makes it relevant to the energy_general domain."
+  },
+  {
+    "company_name": "Jupiter Power",
+    "description": "Jupiter Power is an energy storage independent power producer with deep trading, analytics, development, finance, and operations.",
+    "location": "Austin, Texas, United States",
+    "founded": "2017",
+    "industries": "Commercial, Energy, Energy Management, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_storage_systems",
+      "distributed_energy",
+      "power_markets"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Jupiter Power is an energy storage independent power producer, indicating expertise in grid-scale energy storage and distributed energy resources. Its focus on trading and analytics also suggests involvement in power markets."
+  },
+  {
+    "company_name": "Gridware",
+    "description": "Gridware is a grid\u2011technology company dedicated to improving safety and reliability on the electrical transmission and distribution systems.",
+    "location": "San Francisco, California, United States",
+    "founded": "Aug 26, 2020",
+    "industries": "Energy, Internet of Things, Power Grid, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "grid_modernization",
+      "grid_software",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Gridware is a grid technology company focused on improving electrical transmission and distribution systems, which aligns with the grid modernization and software domains. Its broad energy industry focus also makes it relevant to the general energy category."
+  },
+  {
+    "company_name": "FlexGen",
+    "description": "FlexGen designs and operates the battery storage energy management software platform enabling today's energy transition - HybridOS",
+    "location": "Durham, North Carolina, United States",
+    "founded": "2009",
+    "industries": "Battery, Energy, Energy Storage, Renewable Energy, Semiconductor, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "energy_storage_systems",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "FlexGen designs and operates battery storage energy management software, which aligns with battery manufacturing, grid-scale energy storage, and energy software domains."
+  },
+  {
+    "company_name": "Derapi",
+    "description": "Derapi is the universal, enterprise-grade API for distributed energy resource (DER) devices.",
+    "location": "San Francisco, California, United States",
+    "founded": "Aug 2, 2022",
+    "industries": "Developer APIs, Electric Vehicle, Energy Management, Energy Storage, Information Technology, Power Grid, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "distributed_energy",
+      "electric_vehicles",
+      "energy_storage_systems",
+      "grid_software",
+      "power_markets"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Derapi provides a platform for distributed energy resources, electric vehicles, energy storage systems, grid software, and energy trading, spanning multiple energy technology and market domains."
+  },
+  {
+    "company_name": "Eagle Nuclear Energy",
+    "description": "Eagle Nuclear Energy is an energy company focused on developing a significant uranium asset.",
+    "location": "Reno, Nevada, United States",
+    "founded": "2024",
+    "industries": "Energy, Energy Management",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "nuclear_fuel",
+      "advanced_nuclear"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Eagle Nuclear Energy is focused on developing a uranium asset, which indicates involvement in the nuclear fuel cycle and advanced nuclear reactor technologies."
+  },
+  {
+    "company_name": "NextPower (formerly Nextracker)",
+    "description": "NextPower is a global energy-technology company that delivers integrated solutions for utility-scale and distributed solar power plants.",
+    "location": "Fremont, California, United States",
+    "founded": "Oct 8, 2013",
+    "industries": "Natural Resources, Renewable Energy, Software, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "NextPower provides integrated solutions for utility-scale and distributed solar power plants, which aligns with the solar PV domain. It also offers software and analytics for managing distributed energy resources, which is relevant to the grid software domain."
+  },
+  {
+    "company_name": "Sublime Systems",
+    "description": "Sublime Systems develops technology to decarbonize cement-making.",
+    "location": "Somerville, Massachusetts, United States",
+    "founded": "Mar 2020",
+    "industries": "CleanTech, Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "carbon_capture",
+      "carbon_utilization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Sublime Systems develops technology to decarbonize cement-making, which aligns with the carbon capture and carbon utilization domains."
+  },
+  {
+    "company_name": "EnergyX",
+    "description": "EnergyX is a clean technology company that optimizes the lithium extraction process.",
+    "location": "Fort Lauderdale, Florida, United States",
+    "founded": "2018",
+    "industries": "Chemical Engineering, Environmental Engineering, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "mining_critical_minerals"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "EnergyX focuses on optimizing the lithium extraction process, which falls under battery chemistry and critical minerals mining."
+  },
+  {
+    "company_name": "Aalo Atomics",
+    "description": "Aalo Atomics manufactures and develops nuclear power plants for clean energy production.",
+    "location": "Austin, Texas, United States",
+    "founded": "Jan 1, 2023",
+    "industries": "Energy, Manufacturing, Nuclear",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "nuclear_fuel",
+      "nuclear_fusion",
+      "advanced_nuclear"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Aalo Atomics manufactures and develops nuclear power plants, which aligns with the 'nuclear_fuel', 'nuclear_fusion', and 'advanced_nuclear' domains."
+  },
+  {
+    "company_name": "Scale Microgrids",
+    "description": "Scale Microgrids is a distributed clean energy and microgrid platform.",
+    "location": "Ridgewood, New Jersey, United States",
+    "founded": "2016",
+    "industries": "Clean Energy, Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Scale Microgrids is focused on distributed clean energy and microgrid solutions, which aligns with the 'Distributed Energy Resources' domain."
+  },
+  {
+    "company_name": "Focused Energy",
+    "description": "Focused Energy pioneers laser-driven fusion for clean power, using inertial confinement to develop sustainable, commercial energy solutions.",
+    "location": "Austin, Texas, United States",
+    "founded": "Jul 1, 2021",
+    "industries": "Clean Energy, Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "nuclear_fusion",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Focused Energy's focus on laser-driven fusion for clean power generation makes it relevant to the nuclear fusion and broader energy technology domains."
+  },
+  {
+    "company_name": "Aetherflux",
+    "description": "Aetherflux develops a novel design for space.",
+    "location": "San Carlos, California, United States",
+    "founded": "2024",
+    "industries": "Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Aetherflux develops a novel design for space, which likely includes solar energy technologies, and its work spans multiple energy-related areas."
+  },
+  {
+    "company_name": "Plus Power",
+    "description": "Plus Power specializes in creating battery energy storage systems that enhance the efficiency and reliability of the electrical grid.",
+    "location": "Houston, Texas, United States",
+    "founded": "2018",
+    "industries": "Battery, Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Plus Power specializes in creating battery energy storage systems, which falls under the battery manufacturing and grid-scale energy storage domains."
+  },
+  {
+    "company_name": "Xona Systems",
+    "description": "Xona is the frictionless zero-trust user access platform purpose-built for critical infrastructure.",
+    "location": "Hanover, Maryland, United States",
+    "founded": "2017",
+    "industries": "Cyber Security, Industrial Automation, Information Technology, Internet of Things, Oil and Gas, Renewable Energy, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Xona Systems provides zero-trust user access platform solutions for critical infrastructure, which aligns with the domains of cybersecurity, industrial automation, information technology, and internet of things."
+  },
+  {
+    "company_name": "Lydian",
+    "description": "Lydian is the electric fuels company, developing the lowest cost SAF from CO2, water, and renewable energy in record time",
+    "location": "Salem, Massachusetts, United States",
+    "founded": "2021",
+    "industries": "Chemical, Chemical Engineering, Clean Energy, Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "bioenergy",
+      "carbon_utilization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Lydian is developing the lowest cost sustainable aviation fuel (SAF) from CO2, water, and renewable energy, which falls under the bioenergy and carbon utilization domains."
+  },
+  {
+    "company_name": "Turntide Technologies",
+    "description": "Turntide Technologies develops an electric motor system designed to drive down energy consumption.",
+    "location": "Sunnyvale, California, United States",
+    "founded": "2013",
+    "industries": "CleanTech, Electrical Distribution, Energy, Energy Efficiency, GreenTech, Industrial, Industrial Automation, Machinery Manufacturing",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "industrial_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Turntide Technologies develops an electric motor system designed to drive down energy consumption, which aligns with the building efficiency and industrial efficiency domains."
+  },
+  {
+    "company_name": "Radial Power",
+    "description": "Radial Power provides distributed energy and sustainability solutions to commercial and industrial real estate asset owners.",
+    "location": "Houston, Texas, United States",
+    "founded": "2022",
+    "industries": "Environmental Consulting, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Radial Power provides distributed energy and sustainability solutions, which aligns with the distributed energy and renewable energy domains."
+  },
+  {
+    "company_name": "VoltaGrid",
+    "description": "VoltaGrid is ushering in a new era of power generation and permanently changing the landscape of mobile power.",
+    "location": "Bellaire, Texas, United States",
+    "founded": "Jul 2020",
+    "industries": "Mobile, Power Grid, Wired Telecommunications",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "VoltaGrid's focus on mobile power generation and changing the power grid landscape aligns with the 'mobile', 'power_grid', and 'wired_telecommunications' domains."
+  },
+  {
+    "company_name": "NineDot Energy",
+    "description": "NineDot Energy develops battery storage sites and other energy solutions.",
+    "location": "Brooklyn, New York, United States",
+    "founded": "2015",
+    "industries": "Clean Energy, CleanTech, Energy, Energy Efficiency",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "distributed_energy",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "NineDot Energy develops battery storage sites and other energy solutions, indicating involvement in battery manufacturing, distributed energy resources, and grid-scale energy storage systems."
+  },
+  {
+    "company_name": "Powerline",
+    "description": "Powerline is an AI for the future electricity grid.",
+    "location": "Palo Alto, California, United States",
+    "founded": "2021",
+    "industries": "Electrical Distribution, Electronics, Information Technology, Power Grid, Smart Cities",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company's description indicates it is focused on AI solutions for the future electricity grid, which aligns with the listed domains."
+  },
+  {
+    "company_name": "Aether",
+    "description": "Aether Energy is an AI-powered end-to-end platform for rooftop solar installers",
+    "location": "San Francisco, California, United States",
+    "founded": "Jul 1, 2023",
+    "industries": "Artificial Intelligence (AI), Renewable Energy, SaaS, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Aether Energy is an AI-powered platform for rooftop solar installers, covering multiple energy technology and business domains."
+  },
+  {
+    "company_name": "Eion",
+    "description": "Eion removes atmospheric CO2, permanently and verifiably, with enhanced rock weathering on the soil.",
+    "location": "Princeton, New Jersey, United States",
+    "founded": "Feb 2021",
+    "industries": "Environmental Consulting, Farming, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "carbon_removal",
+      "carbon_utilization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Eion's business of removing atmospheric CO2 using enhanced rock weathering on soil aligns with the carbon removal and carbon utilization domains."
+  },
+  {
+    "company_name": "Natura Resources",
+    "description": "Natura Resources is a advanced reactor developer.",
+    "location": "Abilene, Texas, United States",
+    "founded": "2020",
+    "industries": "Energy, Nuclear",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "advanced_nuclear"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Natura Resources is an advanced reactor developer, which falls under the advanced nuclear domain."
+  },
+  {
+    "company_name": "General Matter",
+    "description": "General Matter is a nuclear energy company that produces enriched uranium fuel for nuclear energy applications.",
+    "location": "San Francisco, California, United States",
+    "founded": "2024",
+    "industries": "Energy, Fuel, Manufacturing, Nuclear",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "nuclear_fuel",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "General Matter is a nuclear energy company that produces enriched uranium fuel, which falls under the nuclear fuel cycle domain. Its broad focus on nuclear energy also makes it relevant to the broader energy domain."
+  },
+  {
+    "company_name": "Ukhi",
+    "description": "Ukhi produces bioplastic products using hemp and bamboo, reducing plastic pollution and environmental impacts.",
+    "location": "Miami Beach, Florida, United States",
+    "founded": "2019",
+    "industries": "Environmental Consulting, Renewable Energy, Waste Management",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "bioenergy",
+      "carbon_utilization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ukhi produces bioplastic products using renewable biomass (hemp and bamboo), reducing plastic pollution, which aligns with the bioenergy, carbon utilization, and waste management domains."
+  },
+  {
+    "company_name": "T1 Energy",
+    "description": "T1 Energy is a solar and battery manufacturing company for commercial and industrial sectors.",
+    "location": "Austin, Texas, United States",
+    "founded": "2018",
+    "industries": "Battery, Energy, Manufacturing, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "solar_manufacturing",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "T1 Energy is a solar and battery manufacturing company, which aligns with the 'battery_manufacturing', 'solar_manufacturing', and 'energy_general' domains."
+  },
+  {
+    "company_name": "GameChange Solar",
+    "description": "GameChange Solar are changing the world by making the solar affordable.",
+    "location": "New York, New York, United States",
+    "founded": "2012",
+    "industries": "Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "GameChange Solar is a company that focuses on making solar energy more affordable, which aligns with the renewable energy and solar photovoltaics domains."
+  },
+  {
+    "company_name": "Sceye",
+    "description": "Sceye is a material science company that is leading the development of a new generation of high-altitude platform stations",
+    "location": "Moriarty, New Mexico, United States",
+    "founded": "2014",
+    "industries": "3D Technology, Aerospace, Internet, Sensor, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Sceye is a material science company developing high-altitude platform stations, which aligns with the aerospace, sensor, and solar energy domains."
+  },
+  {
+    "company_name": "Electrify America",
+    "description": "Electrify America provides a network of convenient fast-charging stations to power electric vehicles.",
+    "location": "Reston, Virginia, United States",
+    "founded": "2016",
+    "industries": "Automotive, Charging Infrastructure, Electric Vehicle, Energy, Energy Management",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "ev_charging",
+      "electric_vehicles",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Electrify America provides a network of fast-charging stations to power electric vehicles, which aligns with the 'EV Charging Infrastructure' and 'Electric Vehicles & Mobility' domains. Its broad focus on energy infrastructure and services also makes it relevant to the 'Energy General' domain."
+  },
+  {
+    "company_name": "Greenbacker Group",
+    "description": "Greenbacker Group empowers a sustainable world by connecting individuals and institutions with investments in clean energy.",
+    "location": "New York, New York, United States",
+    "founded": "Jan 1, 2010",
+    "industries": "Energy, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Greenbacker Group is focused on investing in clean energy, specifically renewable energy and solar, which aligns with the provided description."
+  },
+  {
+    "company_name": "Ralliant",
+    "description": "Ralliant is a global tech company specializing in precision instruments and engineered product design, manufacturing, and service.",
+    "location": "Raleigh, North Carolina, United States",
+    "founded": "2025",
+    "industries": "Electrical Distribution, Manufacturing, Service Industry",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ralliant is a global tech company specializing in precision instruments and engineered product design, manufacturing, and service, which aligns with the manufacturing and service industry domains."
+  },
+  {
+    "company_name": "Inlyte Energy",
+    "description": "Inlyte Energy is a company that creates grid storage batteries.",
+    "location": "Berkeley, California, United States",
+    "founded": "2021",
+    "industries": "Energy, Power Grid",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_storage_systems",
+      "battery_manufacturing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Inlyte Energy creates grid storage batteries, which falls under the energy storage systems and battery manufacturing domains."
+  },
+  {
+    "company_name": "Pacific Fusion",
+    "description": "Pacific Fusion focuses on renewable energy generation, emphasizing affordable fusion power inspired by nature.",
+    "location": "Fremont, California, United States",
+    "founded": "2023",
+    "industries": "Energy, Natural Resources, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "nuclear_fusion"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Pacific Fusion focuses on renewable energy generation, with a specific emphasis on affordable fusion power, which falls under the nuclear fusion and renewable energy domains."
+  },
+  {
+    "company_name": "On.Energy",
+    "description": "Battery storage IPP. A fully-integrated energy storage developer, technology company and asset owner. using proprietary software.",
+    "location": "Miami, Florida, United States",
+    "founded": "2016",
+    "industries": "Analytics, Energy, Energy Management, Energy Storage, Renewable Energy, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "energy_storage_systems",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "On.Energy is a battery storage IPP and technology company that develops proprietary software for energy storage, indicating its focus on battery manufacturing, grid-scale energy storage, and energy software and analytics."
+  },
+  {
+    "company_name": "NuCube Energy",
+    "description": "NuCube is an innovative technology company designing a revolutionary nuclear fission reactor.",
+    "location": "Idaho Falls, Idaho, United States",
+    "founded": "2023",
+    "industries": "Energy, Nuclear, Power Grid",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "advanced_nuclear",
+      "nuclear_fuel",
+      "small_modular_reactors",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "NuCube is developing a revolutionary nuclear fission reactor, which falls under the advanced nuclear, nuclear fuel, and small modular reactor domains. The company's description also indicates it is involved in broader energy-related topics."
+  },
+  {
+    "company_name": "Critical Metals Corp",
+    "description": "Critical Metals Corp is a mining company that provides sustainable supplies of critical minerals and metals.",
+    "location": "New York, New York, United States",
+    "founded": "2022",
+    "industries": "Clean Energy, Hospitality, Mining, Restaurants, Sustainability",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "mining_critical_minerals",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Critical Metals Corp is a mining company that provides sustainable supplies of critical minerals and metals, which are essential for various clean energy technologies."
+  },
+  {
+    "company_name": "AirJoule Technologies",
+    "description": "AirJoule Technologies develops a climate-solution technology that harvests the untapped supply of renewable energy.",
+    "location": "Montana Mines, West Virginia, United States",
+    "founded": "2014",
+    "industries": "Clean Energy, CleanTech, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "AirJoule Technologies develops a climate-solution technology that harvests the untapped supply of renewable energy, which aligns with the renewable energy and cleantech domains."
   }
 ]
