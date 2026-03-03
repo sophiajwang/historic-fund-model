@@ -10696,5 +10696,783 @@
     ],
     "classification_confidence": "high",
     "classification_reasoning": "Eolo Pharma focuses on developing drugs targeting the molecular and cellular basis of inflammation-related diseases, which falls under the domains of drug discovery, immunology, and inflammatory disease therapeutics."
+  },
+  {
+    "company_name": "Etiome",
+    "description": "Etiome, a company redefining how we detect and preempt disease progression.",
+    "location": "Cambridge, Massachusetts, United States",
+    "founded": "2021",
+    "industries": "Biotechnology, Health Care",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "biomarker_discovery",
+      "precision_medicine"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Etiome is a biotechnology company focused on detecting and preventing disease progression, which aligns with the domains of biomarker discovery and precision medicine."
+  },
+  {
+    "company_name": "BioPhy",
+    "description": "BioPhy\u2019s patent pending AI brings predictability and quantifiable risk to drug development",
+    "location": "Philadelphia, Pennsylvania, United States",
+    "founded": "2019",
+    "industries": "Artificial Intelligence (AI), Biotechnology, Health Care, Information Technology",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "health_ai",
+      "drug_discovery"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "BioPhy's patent pending AI technology for drug development indicates involvement in AI applications in healthcare and small molecule drug discovery."
+  },
+  {
+    "company_name": "Fasikl",
+    "description": "Fasikl is a neuro-AI company that creates interfaces for the nervous system.",
+    "location": "Bloomington, Minnesota, United States",
+    "founded": "2019",
+    "industries": "Artificial Intelligence (AI), Biotechnology, Medical, Neuroscience",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "neurology",
+      "health_ai"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Fasikl is a neuro-AI company that creates interfaces for the nervous system, which aligns with the 'Neurological Therapeutics' and 'AI & Machine Learning in Healthcare' domains."
+  },
+  {
+    "company_name": "AltrixBio",
+    "description": "AltrixBio is a pharmaceutical company focused on oral drug that replicates the metabolic success of bariatric surgery.",
+    "location": "Cambridge, Massachusetts, United States",
+    "founded": "2019",
+    "industries": "Biotechnology, Medical, Pharmaceutical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "drug_delivery",
+      "metabolic_engineering"
+    ],
+    "classification_confidence": "medium",
+    "classification_reasoning": "AltrixBio is a pharmaceutical company focused on developing oral drugs that replicate the metabolic effects of bariatric surgery, which suggests both drug delivery and metabolic engineering as relevant domains."
+  },
+  {
+    "company_name": "Carna Health",
+    "description": "Carna Health is a biotech company that brings common clinical whole blood tests into the comfort of the patient\u2019s home.",
+    "location": "Boston, Massachusetts, United States",
+    "founded": "2021",
+    "industries": "Biotechnology, Health Care, Health Diagnostics, Medical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "biosensors",
+      "point_of_care",
+      "diagnostic_imaging",
+      "health_ai",
+      "medical_devices"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Carna Health is a biotech company that develops home-based diagnostic tests, which aligns with the biosensors, point-of-care, and diagnostic imaging domains. The company's use of AI and medical devices also place it in the health_ai and medical_devices domains."
+  },
+  {
+    "company_name": "Proov",
+    "description": "Proov offers the most advanced system for women to evaluate their hormones at home, built upon patented, FDA cleared medical devices.",
+    "location": "Boulder, Colorado, United States",
+    "founded": "2018",
+    "industries": "Biotechnology, Fertility, Health Care, Medical Device, Wellness, Women's",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "medical_devices",
+      "biosensors"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Proov offers at-home hormone evaluation devices for women, which aligns with the medical devices, biosensors, and women's health domains."
+  },
+  {
+    "company_name": "NovaSignal",
+    "description": "NovaSignal is a medical technology company commercializing a robotic cerebral ultrasound system.",
+    "location": "Los Angeles, California, United States",
+    "founded": "Feb 6, 2013",
+    "industries": "Artificial Intelligence (AI), Biotechnology, Health Care, Medical Device",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "medical_devices",
+      "health_ai",
+      "diagnostic_imaging"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "NovaSignal is developing a robotic cerebral ultrasound system, which falls under medical devices and diagnostic imaging. The use of AI in their technology also aligns with the health AI domain."
+  },
+  {
+    "company_name": "Peptinovo Biopharma",
+    "description": "Peptinovo develops novel nanoparticles targeting anti-cancer drugs to tumors for improved therapeutic outcomes and reduced side effects.",
+    "location": "Ann Arbor, Michigan, United States",
+    "founded": "2014",
+    "industries": "Biopharma, Biotechnology, Therapeutics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "drug_delivery",
+      "oncology"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Peptinovo develops nanoparticle-based drug delivery systems targeting anti-cancer drugs to tumors, which aligns with the 'drug_delivery' and 'oncology' domains."
+  },
+  {
+    "company_name": "Seraphina Therapeutics",
+    "description": "Seraphina Therapeutics provides therapeutics services using natural products.",
+    "location": "San Diego, California, United States",
+    "founded": "2017",
+    "industries": "Biotechnology, Health Care, Therapeutics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Seraphina Therapeutics provides therapeutics services using natural products, which aligns with the 'therapeutics' and 'natural_products' domains."
+  },
+  {
+    "company_name": "Novel Farms",
+    "description": "Novel Farms develops cruelty-free, inexpensive and tunable scaffolds for the production of whole cuts of gourmet cell-based meat.",
+    "location": "Berkeley, California, United States",
+    "founded": "Apr 14, 2020",
+    "industries": "Alternative Protein, Biotechnology, Food and Beverage, Retail",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "food_biotech"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Novel Farms develops cell-based meat, which falls under the food biotechnology and alternative protein domain."
+  },
+  {
+    "company_name": "Celularity",
+    "description": "Celularity is a clinical-stage biotechnology company developing off-the-shelf placental-derived allogeneic cell therapies.",
+    "location": "Florham Park, New Jersey, United States",
+    "founded": "Sep 2017",
+    "industries": "Biotechnology, Health Care, Therapeutics, Wellness",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "cell_therapy",
+      "regenerative_medicine"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Celularity is a biotechnology company developing placental-derived allogeneic cell therapies, which fall under the domains of cell therapy and regenerative medicine."
+  },
+  {
+    "company_name": "Tentarix Biotherapeutics",
+    "description": "Tentarix creates innovative protein therapeutics with uniquely combined bioactivities that leverage synthetic biology.",
+    "location": "San Diego, California, United States",
+    "founded": "2020",
+    "industries": "Biotechnology, Life Science, Medical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "antibody_engineering",
+      "bioprocessing",
+      "cell_therapy",
+      "protein_engineering",
+      "synbio_platforms"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Tentarix Biotherapeutics is a biotechnology company focused on developing innovative protein therapeutics, which aligns with domains in antibody engineering, bioprocessing, cell therapy, protein engineering, and synthetic biology platforms."
+  },
+  {
+    "company_name": "Shennon Biotechnologies",
+    "description": "ShennonBio analyzes and manipulates a massive number of cells on the single cell level to develop better treatments for human diseases.",
+    "location": "San Francisco, California, United States",
+    "founded": "Apr 2021",
+    "industries": "Biotechnology, Life Science, Medical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "cell_therapy",
+      "single_cell"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "ShennonBio analyzes and manipulates single cells to develop better treatments for human diseases, which aligns with the cell therapy and single-cell analysis domains."
+  },
+  {
+    "company_name": "Day Zero Diagnostics",
+    "description": "The future of infectious disease diagnostics starts at Day Zero.",
+    "location": "Boston, Massachusetts, United States",
+    "founded": "2016",
+    "industries": "Biotechnology, Health Care, Health Diagnostics, Medical Device",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "infectious_disease",
+      "health_ai",
+      "diagnostic_imaging",
+      "point_of_care"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Day Zero Diagnostics operates in the infectious disease diagnostics space, using AI and machine learning for medical imaging and point-of-care diagnostics."
+  },
+  {
+    "company_name": "Ratio Therapeutics",
+    "description": "Ratio Therapeutics is a clinical phase pharmaceutical company that develops radiopharmaceuticals for solid tumors.",
+    "location": "Boston, Massachusetts, United States",
+    "founded": "2021",
+    "industries": "Biopharma, Biotechnology, Life Science, Medical, Pharmaceutical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "oncology",
+      "diagnostic_imaging"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ratio Therapeutics develops radiopharmaceuticals for solid tumors, which falls under the oncology domain. Its focus on medical imaging for cancer diagnosis also aligns with the diagnostic imaging domain."
+  },
+  {
+    "company_name": "Hinge Bio",
+    "description": "Hinge Bio specializes in leveraging its proprietary Flex-Hinge antibody platform to develop bispecific and multispecific antibodies.",
+    "location": "Burlingame, California, United States",
+    "founded": "2015",
+    "industries": "Biotechnology, Life Science, Medical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "antibody_engineering",
+      "bioprocessing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Hinge Bio specializes in developing bispecific and multispecific antibodies, which falls under the 'Antibody Engineering' domain. Additionally, the company works on the bioprocessing and manufacturing scale-up of these antibody therapies."
+  },
+  {
+    "company_name": "Biostate AI",
+    "description": "Biostate AI is a company focused on providing AI-powered solutions for the life sciences and healthcare industries.",
+    "location": "Palo Alto, California, United States",
+    "founded": "2023",
+    "industries": "Artificial Intelligence (AI), Biotechnology, Health Care, Life Science, Medical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "health_ai",
+      "diagnostic_imaging"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Biostate AI provides AI-powered solutions for the life sciences and healthcare industries, which aligns with the health AI and medical imaging domains."
+  },
+  {
+    "company_name": "LUCID DIAGNOSTICS INC.",
+    "description": "Lucid Diagnostics develops a non-invasive, office based diagnostic test for biomarkers to esophageal cancer.",
+    "location": "New York, New York, United States",
+    "founded": "May 30, 2018",
+    "industries": "Biotechnology, Health Care, Health Diagnostics, Therapeutics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "biomarker_discovery",
+      "diagnostic_imaging",
+      "point_of_care",
+      "precision_medicine"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company develops a non-invasive, office-based diagnostic test for esophageal cancer biomarkers, which aligns with the domains of biomarker discovery, diagnostic imaging, point-of-care diagnostics, and precision medicine."
+  },
+  {
+    "company_name": "Cue",
+    "description": "Cue is a healthcare technology company that enables people to manage their health through actionable and connected health data.",
+    "location": "San Diego, California, United States",
+    "founded": "2010",
+    "industries": "Health Care, Health Diagnostics, Life Science, Medical, Wellness",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "health_ai",
+      "biosensors",
+      "biomarker_discovery",
+      "medical_devices",
+      "diagnostic_imaging",
+      "point_of_care",
+      "precision_medicine"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Cue is a healthcare technology company that enables people to manage their health through actionable and connected health data, which aligns with several bio-related domains such as AI and machine learning in healthcare, biosensors and wearable diagnostics, biomarker identification, medical devices, diagnostic imaging, point-of-care diagnostics, and precision medicine."
+  },
+  {
+    "company_name": "OmniAb",
+    "description": "OmniAb\u00ae provides access to diverse antibody repertoires and screening technologies to enable discovery of next-generation therapeutics.",
+    "location": "Emeryville, California, United States",
+    "founded": "Feb 2021",
+    "industries": "Biotechnology, Information Technology",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "antibody_engineering",
+      "bioinformatics"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "OmniAb provides access to diverse antibody repertoires and screening technologies for antibody discovery and engineering, as well as bioinformatics capabilities for sequence analysis and biological databases."
+  },
+  {
+    "company_name": "Gestalt Diagnostics",
+    "description": "Gestalt Diagnostics is an AI-powered digital pathology company that provides pathology solutions to diagnose diseases efficiently.",
+    "location": "Spokane, Washington, United States",
+    "founded": "2015",
+    "industries": "Artificial Intelligence (AI), Biotechnology, Health Care, Life Science, Medical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "health_ai",
+      "diagnostic_imaging",
+      "biomarker_discovery"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Gestalt Diagnostics provides AI-powered digital pathology solutions for disease diagnosis, which aligns with the 'Health AI', 'Diagnostic Imaging', and 'Biomarker Discovery' domains."
+  },
+  {
+    "company_name": "Blade Therapeutics",
+    "description": "Blade Therapeutics is a discovery stage drug development company.",
+    "location": "South San Francisco, California, United States",
+    "founded": "2013",
+    "industries": "Biopharma, Health Care, Pharmaceutical, Therapeutics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "drug_discovery",
+      "oncology"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Blade Therapeutics is a drug development company focused on discovering new therapeutics, particularly in the field of oncology."
+  },
+  {
+    "company_name": "Curie Co",
+    "description": "Curie Co is a life science company that engineers enzymes and marine biomaterials to replace harmful and banned chemicals.",
+    "location": "New York, New York, United States",
+    "founded": "2017",
+    "industries": "Beauty, Biotechnology, Chemical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "enzyme_engineering",
+      "bioprocessing",
+      "bio_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Curie Co develops enzymes and marine biomaterials to replace harmful chemicals, indicating expertise in enzyme engineering and bioprocessing, which are relevant bio-related domains."
+  },
+  {
+    "company_name": "Karius",
+    "description": "Karius delivers genomic insights into infectious diseases, helping clinicians make critical, life-saving treatment decisions.",
+    "location": "Redwood City, California, United States",
+    "founded": "2014",
+    "industries": "Biotechnology, Genetics, Health Care, Information Technology, Life Science, Precision Medicine",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "genomics",
+      "precision_medicine",
+      "infectious_disease",
+      "health_ai"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Karius provides genomic insights for infectious disease diagnostics, leveraging AI and machine learning to aid clinical decision-making in precision medicine."
+  },
+  {
+    "company_name": "Immune-Onc Therapeutics",
+    "description": "Immune-Onc Therapeutics is a newly established biopharmaceutical company that develops therapeutic antibodies for cancer treatment.",
+    "location": "Palo Alto, California, United States",
+    "founded": "2016",
+    "industries": "Biopharma, Biotechnology, Health Care, Medical, Oncology, Therapeutics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "oncology",
+      "immunology"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Immune-Onc Therapeutics is a biopharmaceutical company developing therapeutic antibodies for cancer treatment, which aligns with the oncology and immunology domains."
+  },
+  {
+    "company_name": "Aspargo Laboratories",
+    "description": "Aspargo Laboratories is a developer of an oral spray that treats erectile dysfunction.",
+    "location": "Englewood, New Jersey, United States",
+    "founded": "Jan 1, 2019",
+    "industries": "Biopharma, Biotechnology, Medical, Pharmaceutical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "drug_delivery",
+      "medical_devices"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Aspargo Laboratories develops an oral spray to treat erectile dysfunction, which involves drug delivery technologies and medical device components."
+  },
+  {
+    "company_name": "CoreMap",
+    "description": "CoreMap exists to improve patient outcomes by delivering advanced diagnostic technology to electrophysiologists and patients.",
+    "location": "Burlington, Massachusetts, United States",
+    "founded": "2016",
+    "industries": "Biotechnology, Health Care, Medical Device",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "medical_devices",
+      "biosensors"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "CoreMap develops advanced diagnostic technology for electrophysiologists and patients, which aligns with the medical devices and biosensors domains."
+  },
+  {
+    "company_name": "Arcaea",
+    "description": "Arcaea's mission is to build a new foundation for the beauty industry through expressive biology.",
+    "location": "Boston, Massachusetts, United States",
+    "founded": "Jul 2021",
+    "industries": "Beauty, Biotechnology, Cosmetics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Arcaea's mission is to build a new foundation for the beauty industry through expressive biology, which aligns with the beauty, biotechnology, and cosmetics domains."
+  },
+  {
+    "company_name": "Paragonix Technologies",
+    "description": "Paragonix Technologies is a medical device company specialized in organ preservation devices for the improvement of donor organ quality.",
+    "location": "North Waltham, Massachusetts, United States",
+    "founded": "2010",
+    "industries": "Biotechnology, Health Care, Manufacturing, Medical Device",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "medical_devices",
+      "bioprocessing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Paragonix Technologies is a medical device company specialized in organ preservation devices, which aligns with the 'medical_devices' and 'bioprocessing' domains."
+  },
+  {
+    "company_name": "Link Cell Therapies",
+    "description": "Link Cell Therapies is a biotechnology company that specializes in cancer cell therapy research and development services.",
+    "location": "San Francisco, California, United States",
+    "founded": "2022",
+    "industries": "Biotechnology, Life Science, Medical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "cell_therapy",
+      "oncology"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Link Cell Therapies focuses on cancer cell therapy research and development, which falls under the cell therapy and oncology domains."
+  },
+  {
+    "company_name": "Peptilogics",
+    "description": "Peptilogics is a clinical-stage therapeutics company that develops peptide-based therapeutics using AI and computational biology.",
+    "location": "Pittsburgh, Pennsylvania, United States",
+    "founded": "2013",
+    "industries": "Artificial Intelligence (AI), Biotechnology, Health Care, Therapeutics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "health_ai",
+      "drug_discovery",
+      "bioprocessing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Peptilogics is a clinical-stage therapeutics company that develops peptide-based therapeutics using AI and computational biology, which aligns with the domains of health AI, drug discovery, and bioprocessing."
+  },
+  {
+    "company_name": "Arbor Biotechnologies",
+    "description": "Arbor Biotechnologies is a biotechnology company specializing in next-generation gene editing therapeutics to treat genetic diseases.",
+    "location": "Cambridge, Massachusetts, United States",
+    "founded": "2016",
+    "industries": "Artificial Intelligence (AI), Biopharma, Biotechnology, Life Science",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "crispr_gene_editing",
+      "gene_therapy",
+      "genomics",
+      "health_ai"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Arbor Biotechnologies specializes in next-generation gene editing therapeutics, which covers CRISPR and gene editing technologies, as well as gene therapy and genomics. The company also utilizes AI and machine learning in its healthcare applications."
+  },
+  {
+    "company_name": "Pillar Biosciences",
+    "description": "Pillar Biosciences specializes in sequencing technology platform and proprietary data analysis toolkit.",
+    "location": "Natick, Massachusetts, United States",
+    "founded": "2014",
+    "industries": "Biotechnology, Health Care, Health Diagnostics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "bioinformatics",
+      "biomarker_discovery",
+      "genomics"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Pillar Biosciences specializes in sequencing technology and data analysis toolkit, which aligns with the domains of bioinformatics, biomarker discovery, and genomics."
+  },
+  {
+    "company_name": "Lifordi Immunotherapeutics",
+    "description": "Lifordi Immunotherapeutics is a biotech company that provides antibody-drug conjugates for autoimmune and inflammatory disorders.",
+    "location": "Burlington, Massachusetts, United States",
+    "founded": "2023",
+    "industries": "Biotechnology, Health Care, Therapeutics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "antibody_engineering",
+      "immunology"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Lifordi Immunotherapeutics is a biotech company that provides antibody-drug conjugates for autoimmune and inflammatory disorders, indicating expertise in antibody engineering and immunology."
+  },
+  {
+    "company_name": "Tr1x",
+    "description": "Tr1x is a biotechnology company developing novel cellular immunotherapies for patients with autoimmune and inflammatory diseases.",
+    "location": "San Diego, California, United States",
+    "founded": "2018",
+    "industries": "Biotechnology, Health Care, Life Science, Medical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "cell_therapy",
+      "immunology"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Tr1x is a biotechnology company developing cellular immunotherapies for autoimmune and inflammatory diseases, which aligns with the cell therapy and immunology domains."
+  },
+  {
+    "company_name": "Ampersand Biomedicines",
+    "description": "Ampersand Biomedicines is a multi-product platform that develops programmable medicines that target disease sites precisely.",
+    "location": "Boston, Massachusetts, United States",
+    "founded": "2020",
+    "industries": "Biopharma, Biotechnology, Medical, Therapeutics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "drug_delivery",
+      "precision_medicine",
+      "oncology"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ampersand Biomedicines develops programmable medicines that target disease sites precisely, which aligns with the domains of drug delivery, precision medicine, and oncology therapeutics."
+  },
+  {
+    "company_name": "SyntheX",
+    "description": "SyntheX is a biotechnology company reimagining precision therapeutics with new drug discovery technologies focused on protein modulation.",
+    "location": "San Francisco, California, United States",
+    "founded": "2016",
+    "industries": "Biotechnology, Life Science, Pharmaceutical, Therapeutics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "drug_discovery",
+      "protein_engineering"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "SyntheX is a biotechnology company focused on precision therapeutics and new drug discovery technologies, which aligns with the drug discovery, protein engineering, and therapeutics domains."
+  },
+  {
+    "company_name": "Tenon Medical",
+    "description": "Tenon Medical is a biotechnology company that optimizes SI joint surgical solutions.",
+    "location": "Morgan Hill, California, United States",
+    "founded": "2012",
+    "industries": "Biotechnology, Health Care, Medical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "medical_devices"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Tenon Medical is a biotechnology company that optimizes SI joint surgical solutions, which falls under the medical devices domain."
+  },
+  {
+    "company_name": "Inflammatix",
+    "description": "Inflammatix develops rapid immune system diagnostics to improve patient care and public health.",
+    "location": "Burlingame, California, United States",
+    "founded": "2016",
+    "industries": "Bioinformatics, Biotechnology, Health Care, Health Diagnostics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "bioinformatics",
+      "biomarker_discovery",
+      "health_ai",
+      "point_of_care"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Inflammatix develops rapid immune system diagnostics, which involves bioinformatics, biomarker discovery, and AI-assisted healthcare applications, as well as point-of-care diagnostics."
+  },
+  {
+    "company_name": "Labviva",
+    "description": "Labviva is a life sciences purchasing and inventory platform that enhances transparency in supply chain and procurement processes.",
+    "location": "Boston, Massachusetts, United States",
+    "founded": "2017",
+    "industries": "Artificial Intelligence (AI), Health Care, Life Science, Marketplace, Procurement, Supply Chain Management",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "health_ai",
+      "lab_automation",
+      "point_of_care"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Labviva provides a life sciences purchasing and inventory platform that leverages artificial intelligence and automation to enhance supply chain and procurement processes, which aligns with the specified domains."
+  },
+  {
+    "company_name": "AnimalBiome",
+    "description": "AnimalBiome is a biotechnology company that creates microbiome restorative supplements to dogs and cats.",
+    "location": "Oakland, California, United States",
+    "founded": "Sep 16, 2016",
+    "industries": "Biotechnology, Health Care, Pet, Wellness",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "microbiome",
+      "veterinary_biotech"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "AnimalBiome is a biotechnology company that creates microbiome restorative supplements for dogs and cats, which falls within the microbiome and veterinary biotechnology domains."
+  },
+  {
+    "company_name": "Atarraya Inc",
+    "description": "Atarraya uses Biotech, AI & Automation to make shrimp into the most sustainable, accesible & nutritious animal protein source for the world",
+    "location": "Indianapolis, Indiana, United States",
+    "founded": "Mar 18, 2019",
+    "industries": "AgTech, Artificial Intelligence (AI), Biotechnology, Seafood",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "food_biotech",
+      "crop_science",
+      "health_ai"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Atarraya uses biotech, AI, and automation to produce sustainable and nutritious shrimp, which aligns with the food biotech and crop science domains. Additionally, the use of AI and automation suggests relevance to the health AI domain."
+  },
+  {
+    "company_name": "Florence Healthcare",
+    "description": "Florence is a clinical trials platform that connects pharmaceutical companies and study sites to decentralize trials for drug development.",
+    "location": "Atlanta, Georgia, United States",
+    "founded": "Aug 14, 2014",
+    "industries": "Biotechnology, Health Care, Pharmaceutical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "clinical_trials",
+      "health_ai"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Florence Healthcare provides a clinical trials platform that leverages technology and AI to decentralize drug development, which aligns with the 'Clinical Trial Design & Operations' and 'AI & Machine Learning in Healthcare' domains."
+  },
+  {
+    "company_name": "Quantgene",
+    "description": "Genomics, A.I., Cancer Diagnostics, Liquid Biopsy",
+    "location": "Santa Monica, California, United States",
+    "founded": "2016",
+    "industries": "Bioinformatics, Biotechnology, Genetics, Health Care, Health Diagnostics",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "bioinformatics",
+      "genomics",
+      "health_ai",
+      "oncology"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Quantgene is a company focused on genomics, AI, and cancer diagnostics, which aligns with the domains of bioinformatics, genomics, health AI, and oncology."
+  },
+  {
+    "company_name": "Cellgenemedix",
+    "description": "Cellgenemedix provides molecular testing with next generation sequencing, multiplex PCR solutions in cancer and infectious diseases",
+    "location": "Newark, New Jersey, United States",
+    "founded": "May 2, 2020",
+    "industries": "Biotechnology, Genetics, Health Care, Life Science, Marketplace, SaaS",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "biomarker_discovery",
+      "genomics",
+      "health_ai",
+      "infectious_disease"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Cellgenemedix provides molecular testing and sequencing solutions for cancer and infectious diseases, indicating expertise in biomarkers, diagnostics, genomics, and AI-powered healthcare applications."
+  },
+  {
+    "company_name": "CellFE",
+    "description": "CellFE is a company developing a microfluidics based device to deliver gene-editing molecules.",
+    "location": "Alameda, California, United States",
+    "founded": "2018",
+    "industries": "Biotechnology, Health Care",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "crispr_gene_editing",
+      "cell_therapy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "CellFE is developing a microfluidics-based device to deliver gene-editing molecules, which aligns with CRISPR/gene editing technologies and cell therapy applications."
+  },
+  {
+    "company_name": "Revalia Bio",
+    "description": "Launching a new category of pre-clinical research with AI-driven insights from functional human organs in 'Human Data Trials'.",
+    "location": "New Haven, Connecticut, United States",
+    "founded": "Mar 2023",
+    "industries": "Artificial Intelligence (AI), Biotechnology, Health Care, Medical, Pharmaceutical, SaaS",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "health_ai",
+      "biomarker_discovery",
+      "clinical_trials"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Revalia Bio is developing AI-driven insights from functional human organs for pre-clinical research, which falls under the domains of health AI, biomarker discovery, clinical trials, and diagnostics."
+  },
+  {
+    "company_name": "Hazel Technologies",
+    "description": "Hazel Technologies develops biotechnology for reducing waste in the agricultural supply chain.",
+    "location": "Chicago, Illinois, United States",
+    "founded": "Jan 2015",
+    "industries": "Agriculture, AgTech, Biotechnology",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "crop_science",
+      "food_biotech",
+      "plant_microbiome"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Hazel Technologies develops biotechnology for reducing waste in the agricultural supply chain, which aligns with the domains of crop improvement, food biotechnology, and plant microbiome."
+  },
+  {
+    "company_name": "Crossbow Therapeutics",
+    "description": "Crossbow Therapeutics is a biotech company developing a new type of cancer treatment.",
+    "location": "Cambridge, Massachusetts, United States",
+    "founded": "2021",
+    "industries": "Biotechnology, Health Care, Life Science, Medical, Oncology",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "oncology",
+      "cell_therapy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Crossbow Therapeutics is a biotech company developing a new type of cancer treatment, which indicates it is working on oncology therapeutics. The description also suggests they may be developing cell-based cancer therapies."
+  },
+  {
+    "company_name": "Rivus Pharmaceuticals",
+    "description": "Rivus Pharmaceuticals operates as a biopharmaceutical company dedicated to improving cardio-metabolic health.",
+    "location": "Charlottesville, Virginia, United States",
+    "founded": "2019",
+    "industries": "Biotechnology, Health Care, Medical, Pharmaceutical",
+    "cb_rank": null,
+    "sector": "bio",
+    "domains": [
+      "oncology",
+      "metabolic_engineering",
+      "drug_discovery"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Rivus Pharmaceuticals operates in the biopharmaceutical industry, focusing on improving cardio-metabolic health, which indicates its involvement in oncology, metabolic engineering, and small molecule drug discovery."
   }
 ]
