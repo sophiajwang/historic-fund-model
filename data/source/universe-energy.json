@@ -8732,5 +8732,747 @@
     ],
     "classification_confidence": "high",
     "classification_reasoning": "Electrum operates an online marketplace for home solar, battery, and electrification products, which spans multiple energy technology and industry domains."
+  },
+  {
+    "company_name": "Singularity Energy",
+    "description": "Singularity Energy uses real-time carbon data to make better energy decisions.",
+    "location": "Somerville, Massachusetts, United States",
+    "founded": "2018",
+    "industries": "Clean Energy, CleanTech, Energy, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Singularity Energy uses real-time carbon data to help make better energy decisions, which aligns with the clean energy, cleantech, and energy domains. Its focus on software and analytics also fits the grid software domain."
+  },
+  {
+    "company_name": "3V Infrastructure",
+    "description": "3V Infrastructure is eliminating the upfront capital expenditures and ongoing operational costs to facilitate the rapid level 2 EV Chargers.",
+    "location": "New York, New York, United States",
+    "founded": "2024",
+    "industries": "Charging Infrastructure, Electric Vehicle, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "ev_charging"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "3V Infrastructure focuses on providing rapid level 2 EV charging infrastructure, which aligns with the electric vehicles, EV charging, and renewable energy domains."
+  },
+  {
+    "company_name": "AMPYR Energy",
+    "description": "AMPYR Energy is a global developer and operator of renewable energy assets.",
+    "location": "New York, New York, United States",
+    "founded": "2022",
+    "industries": "Electrical Distribution, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "AMPYR Energy is a global developer and operator of renewable energy assets, with a specific focus on solar energy."
+  },
+  {
+    "company_name": "Novocycle Technologies",
+    "description": "Novocycle Technologies provides sustainable lithium-ion battery recycling and creates a circular battery supply chain.",
+    "location": "Sacramento, California, United States",
+    "founded": "2021",
+    "industries": "Battery, CleanTech, Energy Storage, Recycling",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_recycling",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Novocycle Technologies provides sustainable lithium-ion battery recycling, which aligns with the 'battery_recycling' domain. Additionally, the company creates a circular battery supply chain, which is a broader energy-related topic not fitting neatly into a specific technology or market category, so it is also classified under 'energy_general'."
+  },
+  {
+    "company_name": "Gritt Robotics",
+    "description": "Gritt Robotics is an Automating construction of renewable energy infrastructure using Robotics and AI",
+    "location": "New York, New York, United States",
+    "founded": "2023",
+    "industries": "Construction, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Gritt Robotics is focused on automating the construction of renewable energy infrastructure using robotics and AI, which aligns with the construction and renewable energy domains."
+  },
+  {
+    "company_name": "Kazadi Enterprises Ltd.",
+    "description": "Kazadi Enterprises is improving resilience and sustainability with its unique atmospheric heat harvesting technology.",
+    "location": "Batavia, Illinois, United States",
+    "founded": "Mar 1, 2020",
+    "industries": "Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Kazadi Enterprises is focused on improving resilience and sustainability with its atmospheric heat harvesting technology, which falls under the renewable energy domain."
+  },
+  {
+    "company_name": "Modern Energy Management",
+    "description": "Modern Energy is an energy asset management firm that invests in businesses that bring emerging energy technologies.",
+    "location": "Durham, North Carolina, United States",
+    "founded": "2010",
+    "industries": "Energy, Environmental Engineering, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Modern Energy Management is a firm that invests in emerging energy technologies, which spans multiple energy domains including renewable energy."
+  },
+  {
+    "company_name": "GDI",
+    "description": "GDI develops and manufactures silicon anodes for Li-ion batteries.",
+    "location": "Rochester, New York, United States",
+    "founded": "2009",
+    "industries": "Battery, Chemical, Developer Platform, Electronics, Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company develops and manufactures silicon anodes for Li-ion batteries, which falls under the battery chemistry and battery manufacturing domains."
+  },
+  {
+    "company_name": "SunVest Solar",
+    "description": "SunVest Solar design-build solar developer committed to powering America\u2019s future on sustainable energy technologies.",
+    "location": "Pewaukee, Wisconsin, United States",
+    "founded": "2009",
+    "industries": "Project Management, Renewable Energy, Semiconductor, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "SunVest Solar is a solar developer, so it fits into the solar photovoltaics and renewable energy domains."
+  },
+  {
+    "company_name": "SorbiForce",
+    "description": "SorbiForce is a World`s first non-metal battery, made from renewable raw materials, cost-effective, safe and with zero environmental impact.",
+    "location": "Tucson, Arizona, United States",
+    "founded": "Jan 25, 2017",
+    "industries": "Battery, Clean Energy, Energy, Energy Storage, Industrial, Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "SorbiForce is developing a non-metal battery made from renewable raw materials, which aligns with the battery chemistry and manufacturing domains. The company's focus on clean energy and zero environmental impact also makes it broadly relevant to the energy sector."
+  },
+  {
+    "company_name": "Solect Energy",
+    "description": "Solect Energy is a provider of commercial solar solutions, offering installation, financing, and maintenance services.",
+    "location": "Hopkinton, Massachusetts, United States",
+    "founded": "2009",
+    "industries": "Energy, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Solect Energy is a provider of commercial solar solutions, which falls under the solar photovoltaics domain. The company's broad range of services, including installation, financing, and maintenance, also makes it relevant to the broader energy-related topics domain."
+  },
+  {
+    "company_name": "Epic Charging",
+    "description": "Epic Charging is a leading B2B SaaS EV charging software company specifically designed to address the critical issues of EVSE uptime.",
+    "location": "Menlo Park, California, United States",
+    "founded": "Jan 4, 2022",
+    "industries": "Charging Infrastructure, Electric Vehicle, Energy Efficiency, Energy Management, SaaS, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "ev_charging",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Epic Charging provides EV charging software and solutions, which aligns with the 'EV Charging Infrastructure' and 'Energy Software & Analytics' domains."
+  },
+  {
+    "company_name": "Hyliion",
+    "description": "Creating innovative generator solutions that enable clean, flexible, and affordable electricity production.",
+    "location": "Cedar Park, Texas, United States",
+    "founded": "Mar 15, 2015",
+    "industries": "Clean Energy, CleanTech, Energy, Power Grid",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "distributed_energy",
+      "energy_storage_systems",
+      "grid_modernization",
+      "power_markets"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Hyliion is developing innovative generator solutions that enable clean, flexible, and affordable electricity production, which spans multiple energy technology domains including distributed energy resources, energy storage, grid modernization, and power markets."
+  },
+  {
+    "company_name": "MAD Energy",
+    "description": "Clean, Abundant, Affordable Energy For All",
+    "location": "Sandpoint, Idaho, United States",
+    "founded": "Feb 27, 2020",
+    "industries": "Clean Energy, Data Center, Data Storage, Energy, Oil and Gas, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "MAD Energy is a clean energy company that focuses on providing affordable and abundant renewable energy solutions."
+  },
+  {
+    "company_name": "OxEon Energy",
+    "description": "OxEon Energy is a cleantech start-up that works on alternative energy storage, synthetic fuels, and high purity gas production.",
+    "location": "North Salt Lake, Utah, United States",
+    "founded": "2017",
+    "industries": "Clean Energy, CleanTech, Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "bioenergy",
+      "carbon_capture",
+      "carbon_utilization",
+      "electrochemical",
+      "energy_general",
+      "energy_industrial_base"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "OxEon Energy works on alternative energy storage, synthetic fuels, and high purity gas production, which aligns with several energy technology domains."
+  },
+  {
+    "company_name": "Ferveret",
+    "description": "Liquid cooling solutions inspired by nuclear power plant cooling.",
+    "location": "San Jose, California, United States",
+    "founded": "2021",
+    "industries": "Data Center, Energy Management, Hardware",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company provides liquid cooling solutions for data centers and energy management, which are relevant to the energy industry, but its core business appears to be hardware manufacturing rather than advanced energy technologies."
+  },
+  {
+    "company_name": "Solara Energy",
+    "description": "Solara Energy offers solar solutions with payment plans for businesses\u2019 energy savings.",
+    "location": "Walnut, California, United States",
+    "founded": "2021",
+    "industries": "Clean Energy, Energy, Subscription Service",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "energy_finance",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Solara Energy offers solar solutions and payment plans, which falls under solar photovoltaics and distributed energy domains, and its business model involves financing, which is relevant to the energy finance domain."
+  },
+  {
+    "company_name": "TRL11",
+    "description": "TRL11 is an aviation and aerospace component manufacturing company that provides next-generation technology solutions for the space economy.",
+    "location": "Los Angeles, California, United States",
+    "founded": "2022",
+    "industries": "Aerospace, Battery, Manufacturing, Sensor",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company is an aviation and aerospace component manufacturer, which aligns with the aerospace and manufacturing domains."
+  },
+  {
+    "company_name": "Hydrogen Innovations Co",
+    "description": "hydrogen, energy, swappable",
+    "location": "Tarpon Springs, Florida, United States",
+    "founded": "2021",
+    "industries": "Blockchain, Clean Energy, Energy Storage, Fossil Fuels, Fuel Cell, Power Grid, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "hydrogen_production",
+      "hydrogen_storage",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Hydrogen Innovations Co is focused on hydrogen energy, energy storage, and renewable energy, which aligns with the listed domains."
+  },
+  {
+    "company_name": "Sunwealth Power",
+    "description": "Sunwealth Power is a operator of a tech-driven clean energy investment firm created to invest in clean and solar energy projects",
+    "location": "Somerville, Massachusetts, United States",
+    "founded": "2015",
+    "industries": "Clean Energy, Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Sunwealth Power is a clean energy investment firm that invests in solar energy projects, which aligns with the solar photovoltaics (solar PV) and clean energy domains."
+  },
+  {
+    "company_name": "Stratus Materials",
+    "description": "Stratus Materials is a developer and manufacturer of manganese-rich, cobalt-free cathode active materials for lithium-ion batteries.",
+    "location": "Pittsburgh, Pennsylvania, United States",
+    "founded": "2022",
+    "industries": "Battery, Manufacturing",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Stratus Materials is a developer and manufacturer of cathode active materials for lithium-ion batteries, which falls within the battery chemistry and battery manufacturing domains."
+  },
+  {
+    "company_name": "SolAmerica Energy",
+    "description": "A leading solar, development and construction firm.",
+    "location": "Atlanta, Georgia, United States",
+    "founded": "2009",
+    "industries": "Building Material, Consulting, Energy, Government, Real Estate, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "SolAmerica Energy is a solar development and construction firm, which falls under the solar photovoltaics and renewable energy domains. As a broad energy company, it also fits the energy general category."
+  },
+  {
+    "company_name": "Virtual Facility",
+    "description": "Virtual Facility offers institutional customers an ML powered building intelligence solution to better understand, control, predict.",
+    "location": "New York, New York, United States",
+    "founded": "2018",
+    "industries": "Artificial Intelligence (AI), Energy Management, Facility Management, Real Estate, SaaS, Smart Building",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "demand_response",
+      "distributed_energy",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Virtual Facility's ML-powered building intelligence solution for institutional customers aligns with the building efficiency, demand response, distributed energy, and grid software domains."
+  },
+  {
+    "company_name": "Scalvy",
+    "description": "Scalvy is a modular power electronics company delivering ultra-high, grid-interactive power for data centers, energy storage, and EVs.",
+    "location": "Austin, Texas, United States",
+    "founded": "2022",
+    "industries": "Data Center, Electronic Design Automation (EDA), Energy Storage, Industrial, Transportation",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "inverters_power_electronics"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Scalvy is a modular power electronics company delivering high-power solutions for data centers, energy storage, and electric vehicles, which aligns with the listed technology domains."
+  },
+  {
+    "company_name": "Dig Energy",
+    "description": "Dig Energy produces purpose-built drilling technology to create highly efficient geothermal heating and cooling systems.",
+    "location": "Manchester, New Hampshire, United States",
+    "founded": "2023",
+    "industries": "Fossil Fuels, Geothermal Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "geothermal"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Dig Energy produces technology for geothermal heating and cooling systems, which falls under the geothermal energy domain."
+  },
+  {
+    "company_name": "WiBotic",
+    "description": "WiBotic provides the most reliable wireless power solutions to charge your aerial, mobile and aquatic robot systems.",
+    "location": "Seattle, Washington, United States",
+    "founded": "2015",
+    "industries": "Battery, Hardware, Mobile, Robotics, Software, Wireless",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "electric_vehicles"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "WiBotic provides wireless power solutions for charging aerial, mobile, and aquatic robot systems, which spans battery manufacturing, electric vehicles, robotics, and wireless technology domains."
+  },
+  {
+    "company_name": "Zeta Energy",
+    "description": "Zeta Energy develop and commercialize safe rechargeable batteries that are higher performing, lower cost and sustainably manufactured.",
+    "location": "Houston, Texas, United States",
+    "founded": "2014",
+    "industries": "Battery, Energy, Energy Efficiency, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Zeta Energy develops and commercializes rechargeable batteries, which falls under the battery chemistry, battery manufacturing, and energy storage systems domains."
+  },
+  {
+    "company_name": "Clean Power Alliance",
+    "description": "Clean Power Alliance is a locally-operated electricity provider, offering renewable energy at competitive rates across LA & Ventura.",
+    "location": "Los Angeles, California, United States",
+    "founded": "2017",
+    "industries": "Electrical Distribution, Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "distributed_energy",
+      "electric_vehicles",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Clean Power Alliance is a locally-operated electricity provider that offers renewable energy, which aligns with distributed energy resources, electric vehicles, and broader energy-related topics."
+  },
+  {
+    "company_name": "Ampliform",
+    "description": "Ampliform specializes in utility-scale solar and solar plus storage projects in the U.S.",
+    "location": "Ardmore, Pennsylvania, United States",
+    "founded": "2022",
+    "industries": "Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ampliform specializes in utility-scale solar and solar plus storage projects, which fall under the solar photovoltaics and grid-scale energy storage domains."
+  },
+  {
+    "company_name": "Connecticut Green Bank",
+    "description": "Connecticut Green Bank is accelerating the growth of green energy for home and building owners across Connecticut.",
+    "location": "Rocky Hill, Connecticut, United States",
+    "founded": "2011",
+    "industries": "Commercial, Financial Services, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Connecticut Green Bank is focused on accelerating the growth of green energy for home and building owners, which aligns with the building efficiency and renewable energy domains."
+  },
+  {
+    "company_name": "Aquicore",
+    "description": "Aquicore is an information technology company that offers a cloud-based software designed for asset operations platform for the CRE sector.",
+    "location": "Washington, District of Columbia, United States",
+    "founded": "Oct 1, 2012",
+    "industries": "Commercial Real Estate, Energy Efficiency, Energy Management, Enterprise Software, Internet of Things, SaaS, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "grid_software",
+      "distributed_energy",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Aquicore provides a cloud-based software platform for asset operations in the commercial real estate sector, which aligns with building energy efficiency, distributed energy resources, and energy software and analytics."
+  },
+  {
+    "company_name": "Zero Industrial",
+    "description": "Zero Industrial is decarbonizing industrial heat for customers looking to reduce emissions, lower costs and reduce energy volatility.",
+    "location": "Charleston, South Carolina, United States",
+    "founded": "2024",
+    "industries": "Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "industrial_efficiency",
+      "heavy_industry"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Zero Industrial's focus on decarbonizing industrial heat for customers aligns with the domains of industrial energy efficiency and heavy industry decarbonization."
+  },
+  {
+    "company_name": "WasteFuel",
+    "description": "WasteFuel generates sustainable fuels using technologies to address the climate emergency and revolutionize mobility.",
+    "location": "Los Angeles, California, United States",
+    "founded": "2018",
+    "industries": "Biomass Energy, Renewable Energy, Sustainability, Waste Management",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "bioenergy",
+      "carbon_utilization",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "WasteFuel generates sustainable fuels from waste, which aligns with the bioenergy and carbon utilization domains. Additionally, the company's focus on addressing climate change and revolutionizing mobility is a broader, cross-cutting energy topic."
+  },
+  {
+    "company_name": "EVerged",
+    "description": "EVerged a provider of converged renewable energy.",
+    "location": "Vienna, Virginia, United States",
+    "founded": "2022",
+    "industries": "Electric Vehicle, Energy, Information Technology, Renewable Energy, Service Industry",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "EVerged is a provider of converged renewable energy, which includes electric vehicles and renewable energy services."
+  },
+  {
+    "company_name": "AmpUp",
+    "description": "AmpUp is an electric vehicle charging company that enables drivers, hosts, and fleets to charge stress-free.",
+    "location": "Santa Clara, California, United States",
+    "founded": "Jan 2018",
+    "industries": "Automotive, Clean Energy, Electric Vehicle, Fleet Management, Transportation",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "ev_charging",
+      "electric_vehicles",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "AmpUp is an electric vehicle charging company that enables charging infrastructure, which aligns with the 'EV Charging Infrastructure', 'Electric Vehicles & Mobility', and 'Distributed Energy Resources' domains."
+  },
+  {
+    "company_name": "Lithium Battery Co",
+    "description": "The Lithium Battery Company is a worldwide manufacturer of the most advanced generation lithium-ion Phosphate battery.",
+    "location": "Tampa, Florida, United States",
+    "founded": "Jan 1, 2013",
+    "industries": "Battery, Electronics, Manufacturing",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "battery_chemistry"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The Lithium Battery Company is a manufacturer of lithium-ion phosphate batteries, which falls under the battery manufacturing and battery chemistry domains."
+  },
+  {
+    "company_name": "SGP BioEnergy",
+    "description": "SGP BioEnergy is a bioenergy development company that produces integrated bioenergy products and renewable biofuel for a sustainable future.",
+    "location": "New York, New York, United States",
+    "founded": "2012",
+    "industries": "Biofuel, Renewable Energy, Sustainability",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "bioenergy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "SGP BioEnergy's focus on bioenergy, biofuels, and sustainability aligns with the bioenergy, renewable energy, and sustainability domains."
+  },
+  {
+    "company_name": "Tobe Energy",
+    "description": "Tobe Energy is a hydrogen production technology company that manufactures electrolysis and power electronics systems.",
+    "location": "Tulsa, Oklahoma, United States",
+    "founded": "2024",
+    "industries": "Energy, Energy Storage, Manufacturing",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "hydrogen_production",
+      "electrochemical"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Tobe Energy is a hydrogen production technology company that manufactures electrolysis and power electronics systems, which aligns with the domains of hydrogen production and electrochemical systems."
+  },
+  {
+    "company_name": "Prism Worldwide",
+    "description": "Prism Worldwide manufactures circular polymer from the tire and recycled plastic material to reduce carbon footprints.",
+    "location": "Kirkland, Washington, United States",
+    "founded": "2019",
+    "industries": "Manufacturing, Recycling, Renewable Energy, Sustainability",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Prism Worldwide manufactures circular polymer from tire and recycled plastic material to reduce carbon footprints, indicating it is involved in recycling, renewable energy, and sustainability."
+  },
+  {
+    "company_name": "DG Fuels",
+    "description": "DG Fuels focuses on the production of synthetic jet fuel then later synthetic diesel fuel.",
+    "location": "Washington, District of Columbia, United States",
+    "founded": "2019",
+    "industries": "Fuel, Oil and Gas, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "bioenergy",
+      "carbon_utilization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "DG Fuels focuses on the production of synthetic jet fuel and diesel fuel, which aligns with bioenergy and carbon utilization domains."
+  },
+  {
+    "company_name": "Satelytics",
+    "description": "Satelytics is a big data SaaS that allows companies to monitor their assets on the ground and alerts them to critical issues.",
+    "location": "Perrysburg, Ohio, United States",
+    "founded": "2009",
+    "industries": "Chemical, Electrical Distribution, Forestry, Mining Technology, Oil and Gas, SaaS, Software, Water",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "grid_software",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Satelytics provides big data software-as-a-service solutions for monitoring assets and critical issues, which aligns with software, SaaS, and energy analytics domains."
+  },
+  {
+    "company_name": "Power Global",
+    "description": "Enabling efficient, reliable, cost competitive, and industry leading electrification for global markets",
+    "location": "Pasadena, California, United States",
+    "founded": "Oct 11, 2019",
+    "industries": "Battery, Clean Energy, Electrical Distribution, Electric Vehicle, Energy, Energy Management, Energy Storage, Service Industry, Subscription Service, Transportation",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "electric_vehicles",
+      "energy_storage_systems",
+      "ev_charging",
+      "grid_modernization",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Power Global is enabling efficient, reliable, cost-competitive electrification across energy, transportation, and grid domains, including battery manufacturing, electric vehicles, energy storage, EV charging, grid modernization, and energy software."
+  },
+  {
+    "company_name": "Kulr Technology Group",
+    "description": "Kulr Technology Group is an electronics company that offers battery designs, testing services, thermal containment, and robotics support.",
+    "location": "Webster, Texas, United States",
+    "founded": "2013",
+    "industries": "Battery, Computer, Energy, Hardware, Manufacturing, Robotics",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Kulr Technology Group offers battery designs, testing services, and thermal containment, which are related to battery manufacturing. The company also provides robotics support, which is a broader energy-related technology."
+  },
+  {
+    "company_name": "Headwater Energy",
+    "description": "Headwater Energy develops utility-scale solar and energy storage systems.",
+    "location": "Raleigh, North Carolina, United States",
+    "founded": "Dec 2023",
+    "industries": "Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Headwater Energy develops utility-scale solar and energy storage systems, which fall under the Solar Photovoltaics and Grid-Scale Energy Storage domains."
+  },
+  {
+    "company_name": "Bluestem Biosciences",
+    "description": "Bluestem Biosciences is building tomorrow's renewable chemicals, from organisms, not oil",
+    "location": "Omaha, Nebraska, United States",
+    "founded": "Jan 24, 2022",
+    "industries": "AgTech, Biotechnology, Chemical, Life Science, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "bioenergy",
+      "carbon_utilization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Bluestem Biosciences is working on renewable chemicals and biofuels, which fall under the bioenergy and carbon utilization domains, and its focus on renewable energy aligns with the renewable energy domain."
+  },
+  {
+    "company_name": "Ampera",
+    "description": "Ampera is a clean energy company that offers fusion-powered, subcritical breeder reactor system for nuclear energy for the AI era.",
+    "location": "Palm Beach Gardens, Florida, United States",
+    "founded": "2025",
+    "industries": "Clean Energy, Energy Efficiency, Nuclear",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "advanced_nuclear",
+      "nuclear_fusion"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ampera develops fusion-powered, subcritical breeder reactor systems, which are classified as advanced nuclear reactors and nuclear fusion technologies."
+  },
+  {
+    "company_name": "Holu Hou Energy",
+    "description": "Holu Hou Energy is a provider of consulting to system design and financing to complete installation and construction management.",
+    "location": "Honolulu, Hawaii, United States",
+    "founded": "2019",
+    "industries": "Energy, Energy Management, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general",
+      "solar_pv",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Holu Hou Energy provides consulting, design, and installation services for solar energy systems, which aligns with the solar PV, distributed energy, and energy management domains."
+  },
+  {
+    "company_name": "Eta Compute",
+    "description": "At Eta Compute, by building energy-efficient, accurate, and easy-to-deploy edge vision sensors, we help enterprises monitor their resources.",
+    "location": "Sunnyvale, California, United States",
+    "founded": "2015",
+    "industries": "Artificial Intelligence (AI), Battery, Energy, Internet of Things, Machine Learning, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Eta Compute develops energy-efficient edge vision sensors for enterprises, which aligns with the domains of artificial intelligence, internet of things, machine learning, and software."
+  },
+  {
+    "company_name": "Skip Technology",
+    "description": "Skip Technology develops a battery for large-scale electrical storage.",
+    "location": "Portland, Oregon, United States",
+    "founded": "2018",
+    "industries": "Battery, Energy Storage, Product Research",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Skip Technology develops battery technology for large-scale electrical storage, which falls under the battery chemistry and grid-scale energy storage domains."
+  },
+  {
+    "company_name": "LO3 Energy",
+    "description": "LO3 Energy is a technology and business development consulting firm with a focus on emerging decentralized business models.",
+    "location": "Brooklyn, New York, United States",
+    "founded": "2012",
+    "industries": "Consulting, Environmental Consulting, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "LO3 Energy is a technology and business development consulting firm focused on emerging decentralized business models, which aligns with the 'energy_general' and 'distributed_energy' domains."
   }
 ]
