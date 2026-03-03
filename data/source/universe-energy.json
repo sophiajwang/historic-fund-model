@@ -10201,5 +10201,732 @@
     "domains": [],
     "classification_confidence": "high",
     "classification_reasoning": "Eckard Enterprises is an asset management company focused on alternative investments, including in the oil and gas and renewable energy sectors."
+  },
+  {
+    "company_name": "Repurpose",
+    "description": "To get rid of single use petroleum based plastic products.",
+    "location": "Los Angeles, California, United States",
+    "founded": "2009",
+    "industries": "Environmental Consulting, Manufacturing, Renewable Energy, Sustainability",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "carbon_utilization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company aims to get rid of single-use petroleum-based plastic products, which aligns with carbon utilization, recycling, and sustainability domains."
+  },
+  {
+    "company_name": "Elevate Renewable Energy",
+    "description": "Elevate Renewable Energy Dedicated to the strategic deployment of battery energy storage resources.",
+    "location": "Boston, Massachusetts, United States",
+    "founded": "2022",
+    "industries": "Battery, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Elevate Renewable Energy is focused on the strategic deployment of battery energy storage resources, which spans multiple domains related to battery technology, manufacturing, and grid-scale energy storage systems, as well as the broader renewable energy industry."
+  },
+  {
+    "company_name": "EVident Battery",
+    "description": "EVident Battery offers inspection hardware and analytics software for EV battery packs.",
+    "location": "New Haven, Connecticut, United States",
+    "founded": "2023",
+    "industries": "Battery, Hardware, Manufacturing",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "battery_chemistry",
+      "electric_vehicles"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "EVident Battery offers inspection hardware and analytics software for EV battery packs, which aligns with the battery manufacturing, battery chemistry, and electric vehicles domains."
+  },
+  {
+    "company_name": "Renovate Robotics",
+    "description": "Better roofs, through brilliant robotics.",
+    "location": "New York, New York, United States",
+    "founded": "Jul 1, 2021",
+    "industries": "Construction, Industrial Automation, Machinery Manufacturing, Robotics, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Renovate Robotics operates in construction, industrial automation, machinery manufacturing, robotics, and solar, which are relevant energy technology domains."
+  },
+  {
+    "company_name": "WinBat",
+    "description": "WinBat is a corporation that conducts research, develops, and manufactures clean, renewable energy storage alternatives.",
+    "location": "Portage, Michigan, United States",
+    "founded": "2023",
+    "industries": "Battery, Machinery Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "battery_chemistry",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "WinBat is engaged in research, development, and manufacturing of clean, renewable energy storage alternatives, which encompasses battery manufacturing, battery chemistry, and grid-scale energy storage."
+  },
+  {
+    "company_name": "Jackery",
+    "description": "Jackery designs, develops and manufactures portable power solutions.",
+    "location": "Fremont, California, United States",
+    "founded": "2012",
+    "industries": "Consumer Electronics, Manufacturing, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Jackery designs and manufactures portable power solutions, which aligns with the renewable energy and solar domains."
+  },
+  {
+    "company_name": "Posh",
+    "description": "Building the AI and automation platform to bring energy costs zero and get us to net zero",
+    "location": "Hayward, California, United States",
+    "founded": "Sep 14, 2021",
+    "industries": "Electric Vehicle, Industrial Automation, Renewable Energy, Robotics, Sustainability",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "industrial_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company is building an AI and automation platform focused on reducing energy costs and achieving net zero, which aligns with the specified domains."
+  },
+  {
+    "company_name": "EarthEn",
+    "description": "EarthEn works on technology to provide a carbon-negative, climate-positive long-duration energy storage solution.",
+    "location": "Phoenix, Arizona, United States",
+    "founded": "2021",
+    "industries": "Electrical Distribution, Energy, Energy Storage",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_storage_systems",
+      "carbon_removal"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "EarthEn works on long-duration energy storage and carbon-negative solutions, which align with the 'Energy Storage Systems' and 'Carbon Dioxide Removal' domains."
+  },
+  {
+    "company_name": "Novel Energy Solutions",
+    "description": "Novel Energy Solutions provides solar energy design, installation, and maintenance services.",
+    "location": "Saint Paul, Minnesota, United States",
+    "founded": "2012",
+    "industries": "Energy, Environmental Engineering, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Novel Energy Solutions provides solar energy design, installation, and maintenance services, which aligns with the solar photovoltaics, renewable energy, and broader energy technology domains."
+  },
+  {
+    "company_name": "Lucid Energy Group",
+    "description": "Lucid Energy Group is a midstream company that provides oil and natural gas producers with a range of midstream services.",
+    "location": "Dallas, Texas, United States",
+    "founded": "2011",
+    "industries": "Energy, Infrastructure, Oil and Gas, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Lucid Energy Group is a midstream company that provides oil and natural gas producers with a range of services, which falls under the energy general, oil and gas, and infrastructure domains."
+  },
+  {
+    "company_name": "FirstElement Fuel",
+    "description": "Low temperature fuel cell and liquid fuel reformer technology",
+    "location": "Newport Beach, California, United States",
+    "founded": "2014",
+    "industries": "Fuel, Renewable Energy, Retail",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "bioenergy",
+      "fuel_cells",
+      "hydrogen_production"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "FirstElement Fuel develops low-temperature fuel cell and liquid fuel reformer technology, which aligns with bioenergy, fuel cells, hydrogen production, and renewable energy domains."
+  },
+  {
+    "company_name": "Vutility",
+    "description": "Vutility gathers and provides real-time information on utility usage.",
+    "location": "Sandy, Utah, United States",
+    "founded": "Jun 30, 2015",
+    "industries": "Energy, Energy Efficiency, Finance, Natural Resources, Renewable Energy, Smart Cities",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Vutility gathers and provides real-time information on utility usage, which aligns with building energy efficiency, smart city technologies, and broader energy-related domains."
+  },
+  {
+    "company_name": "enVerid Systems",
+    "description": "enVerid Systems provides indoor air quality and HVAC energy-saving technologies for commercial buildings.",
+    "location": "Westwood, Massachusetts, United States",
+    "founded": "2010",
+    "industries": "Clean Energy, Energy, Energy Management, Heating, Ventilation, and Air Conditioning (HVAC)",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "enVerid Systems provides indoor air quality and HVAC energy-saving technologies for commercial buildings, which falls under the building energy efficiency and HVAC domains."
+  },
+  {
+    "company_name": "Ojjo",
+    "description": "Ojjo revolutionizes large-scale solar energy with innovative foundation technology and services that reduce costs and complexity.",
+    "location": "San Rafael, California, United States",
+    "founded": "2018",
+    "industries": "Field Support, Mechanical Engineering, Solar, Training",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ojjo is focused on large-scale solar energy with innovative foundation technology and services, which aligns with the 'solar_pv' and 'mechanical_engineering' domains."
+  },
+  {
+    "company_name": "Suntria",
+    "description": "Suntria is a residential storage & solar energy solutions provider.",
+    "location": "Tempe, Arizona, United States",
+    "founded": "2017",
+    "industries": "Energy, Energy Storage, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Suntria provides residential solar energy and energy storage solutions, which align with the solar PV and grid-scale energy storage domains."
+  },
+  {
+    "company_name": "Sunpin Solar",
+    "description": "Sunpin Solar is a solar energy development and investment company that offers development, financing, and acquisition of solar projects.",
+    "location": "Irvine, California, United States",
+    "founded": "2012",
+    "industries": "Clean Energy, Energy, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Sunpin Solar is a solar energy development and investment company, which aligns with the solar photovoltaics and renewable energy domains."
+  },
+  {
+    "company_name": "Nightpeak Energy",
+    "description": "Nightpeak Energy develops and operates dispatchable power plants.",
+    "location": "Oakland, California, United States",
+    "founded": "2022",
+    "industries": "Energy, Energy Efficiency, Manufacturing, Oil and Gas, Renewable Energy, Semiconductor",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general",
+      "grid_modernization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Nightpeak Energy develops and operates dispatchable power plants, which spans multiple energy technology and market areas including grid modernization, energy efficiency, renewable energy, and oil and gas."
+  },
+  {
+    "company_name": "Highland Materials",
+    "description": "Highland Materials is a manufacturing firm that produces polysilicon and aluminum products for the automotive and aerospace industries.",
+    "location": "Johnson City, Tennessee, United States",
+    "founded": "2023",
+    "industries": "Industrial Design, Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "industrial_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Highland Materials is a manufacturing firm that produces polysilicon and aluminum products, which are relevant to industrial efficiency and manufacturing domains."
+  },
+  {
+    "company_name": "Elevation",
+    "description": "Elevation is a provider of residential solar, storage, energy efficiency, and energy intelligence technology.",
+    "location": "Chandler, Arizona, United States",
+    "founded": "2014",
+    "industries": "Energy, Energy Efficiency, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "distributed_energy",
+      "solar_pv",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Elevation provides residential solar, energy storage, and energy efficiency technologies, which aligns with the listed domains."
+  },
+  {
+    "company_name": "Steelhead Composites",
+    "description": "Steelhead Composites is a provider of hydrogen storage solutions used to allow widespread zero-emission fuel cell electrification.",
+    "location": "Golden, Colorado, United States",
+    "founded": "Aug 1, 2012",
+    "industries": "Aerospace, Automotive, Clean Energy, CleanTech, Manufacturing",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "hydrogen_production",
+      "hydrogen_storage"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Steelhead Composites provides hydrogen storage solutions to enable zero-emission fuel cell electrification, which is relevant to hydrogen production and storage technologies as well as the clean energy and cleantech domains."
+  },
+  {
+    "company_name": "FRAM",
+    "description": "FRAM Energy provides energy efficiency and renewable solutions for rental homes, focusing on de-risking energy retrofits.",
+    "location": "New York, New York, United States",
+    "founded": "2023",
+    "industries": "Energy Efficiency, Real Estate, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "FRAM Energy provides energy efficiency and renewable solutions for rental homes, indicating its focus on building efficiency, distributed energy, and renewable energy for the real estate sector."
+  },
+  {
+    "company_name": "Enzinc",
+    "description": "Enzinc is an advanced battery developer that offers rechargeable zinc-air batteries.",
+    "location": "Richmond, California, United States",
+    "founded": "Nov 9, 2011",
+    "industries": "Battery, Electric Vehicle, Manufacturing",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing",
+      "electric_vehicles"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Enzinc develops rechargeable zinc-air batteries, which fall under battery chemistry and manufacturing domains. Additionally, its batteries are targeted towards electric vehicles, which is another relevant domain."
+  },
+  {
+    "company_name": "Energetic Capital",
+    "description": "Energetic Capital provides renewable energy financing services for commercial and industrial projects.",
+    "location": "Boston, Massachusetts, United States",
+    "founded": "2016",
+    "industries": "Big Data, Clean Energy, CleanTech, Credit, Energy Efficiency, FinTech, Insurance, Renewable Energy, Risk Management, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_finance",
+      "carbon_capture",
+      "grid_software",
+      "battery_manufacturing",
+      "energy_policy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Energetic Capital provides financing and services for renewable energy projects, which aligns with the energy finance, renewable energy, and carbon capture domains. Its involvement in software and analytics for the grid also fits the grid software domain. The company's description also mentions battery manufacturing and the broader policy and regulatory aspects of the energy industry."
+  },
+  {
+    "company_name": "NICE Holdings",
+    "description": "NICE Holdings is a renewable energy semiconductor manufacturing company focusing on designing and producing semiconductor components",
+    "location": "St Louis, Missouri, United States",
+    "founded": "2017",
+    "industries": "Manufacturing, Renewable Energy, Semiconductor",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "NICE Holdings is a renewable energy semiconductor manufacturing company, so it falls under the semiconductor, manufacturing, and renewable energy domains."
+  },
+  {
+    "company_name": "Monarch Energy",
+    "description": "Monarch Energy is an operator of a green hydrogen project development platform.",
+    "location": "San Diego, California, United States",
+    "founded": "2022",
+    "industries": "Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "hydrogen_production"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Monarch Energy is involved in green hydrogen project development, which falls under the hydrogen production and renewable energy domains."
+  },
+  {
+    "company_name": "Bigmoon",
+    "description": "Bigmoon provides electricity through tidal energy and the ability to harness the power of the moon.",
+    "location": "West Jordan, Utah, United States",
+    "founded": "Jan 1, 2015",
+    "industries": "B2B, Clean Energy, Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company provides electricity through tidal energy and the ability to harness the power of the moon, which falls under the categories of tidal energy and clean energy."
+  },
+  {
+    "company_name": "OBE Power",
+    "description": "OBE Power operates and manages through its digital platform and app as aa smart ev charging solution where ev drivers live, work, and play.",
+    "location": "Miami, Florida, United States",
+    "founded": "2017",
+    "industries": "Battery, Clean Energy, Electric Vehicle, Energy, PropTech, Renewable Energy, SaaS, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "ev_charging",
+      "grid_software",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "OBE Power operates a smart EV charging platform and app, which covers the electric vehicles, EV charging, and energy software domains, as well as broader energy-related services."
+  },
+  {
+    "company_name": "Renewance",
+    "description": "Renewance provides software solutions, consultancy, and project management services to manage the battery end of life liabilities.",
+    "location": "Chicago, Illinois, United States",
+    "founded": "2016",
+    "industries": "Battery, Electronics, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_recycling",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Renewance provides software solutions, consultancy, and project management services to manage the battery end of life liabilities, which falls under battery recycling and broader energy-related services."
+  },
+  {
+    "company_name": "Moss Creek Resources Holdings",
+    "description": "Moss Creek Resources Holdings is a subsidiary of Surge Energy US Holdings Company.",
+    "location": "Houston, Texas, United States",
+    "founded": "Jun 2015",
+    "industries": "Energy, Energy Management, Oil and Gas",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Moss Creek Resources Holdings is a subsidiary of an oil and gas company, and its industries include energy management and oil and gas, which do not specifically align with the given technology and market categories."
+  },
+  {
+    "company_name": "Rangeland Energy",
+    "description": "Rangeland Energy is an oil & energy company that specializes in natural gas, natural gas liquids, and other petroleum products.",
+    "location": "Sugar Land, Texas, United States",
+    "founded": "Jan 1, 2009",
+    "industries": "Clean Energy, Energy, Oil and Gas",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Rangeland Energy is an oil and energy company that specializes in natural gas, natural gas liquids, and other petroleum products, which aligns with the 'energy' and 'oil_and_gas' domains."
+  },
+  {
+    "company_name": "374Water",
+    "description": "374Water (NASDAQ: SCWO) is a US-based cleantech company with an innovative solution to wastewater treatment and waste management issues.",
+    "location": "Morrisville, North Carolina, United States",
+    "founded": "2018",
+    "industries": "CleanTech, Renewable Energy, Sustainability, Waste Management",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "bioenergy",
+      "carbon_utilization",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "374Water provides innovative solutions for wastewater treatment and waste management, which aligns with the bioenergy, carbon utilization, and waste management domains."
+  },
+  {
+    "company_name": "Ampion",
+    "description": "Ampion provides a software-as-a-service (SaaS) asset management platform for renewable energy providers.",
+    "location": "Boston, Massachusetts, United States",
+    "founded": "2014",
+    "industries": "Energy, Renewable Energy, SaaS, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ampion provides a software platform for renewable energy providers, which spans multiple energy domains including renewable energy and energy software/analytics."
+  },
+  {
+    "company_name": "BuildingLens",
+    "description": "We democratize Facility Management for Priority Populations.",
+    "location": "Portland, Oregon, United States",
+    "founded": "Mar 28, 2022",
+    "industries": "CleanTech, Construction, Energy Efficiency, Energy Management, Green Building, GreenTech, Heating, Ventilation, and Air Conditioning (HVAC), Smart Building",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "BuildingLens provides solutions for building energy efficiency and smart building management, which align with the 'Building Energy Efficiency' and 'Smart Building' domains."
+  },
+  {
+    "company_name": "Sunverge Energy",
+    "description": "Sunverge Energy provides integrated solar solutions for distributed generation and storage.",
+    "location": "San Francisco, California, United States",
+    "founded": "2010",
+    "industries": "Clean Energy, Energy, GreenTech, Renewable Energy, Software, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "distributed_energy",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Sunverge Energy provides integrated solar solutions for distributed generation and storage, which aligns with the solar PV, distributed energy, and energy storage systems domains."
+  },
+  {
+    "company_name": "Primus Power",
+    "description": "Primus Power manufactures big batteries for the Smart Grid and scalable energy storage in a Zinc Bromine flow battery.",
+    "location": "Hayward, California, United States",
+    "founded": "Mar 1, 2009",
+    "industries": "Battery, CleanTech, Energy, Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "energy_storage_systems",
+      "flow_batteries"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Primus Power manufactures large-scale energy storage batteries, specifically zinc-bromine flow batteries, which are relevant to the battery manufacturing, energy storage systems, and flow batteries domains."
+  },
+  {
+    "company_name": "Squid",
+    "description": "Squid offers a workspace for planning, modeling, and testing power grid networks with tools for network analysis and simulation.",
+    "location": "San Francisco, California, United States",
+    "founded": "2026",
+    "industries": "Artificial Intelligence (AI), Electrical Distribution, Energy, GreenTech, Information Technology, Power Grid, Renewable Energy, SaaS, Web Apps",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "grid_modernization",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Squid offers tools for planning, modeling, and testing power grid networks, which aligns with grid modernization, grid software, and power grid domains. Additionally, the company's focus on renewable energy suggests it may also operate in the renewable energy domain."
+  },
+  {
+    "company_name": "Aerovec",
+    "description": "Aerovec is a renewable electrical energy provider developing small wind turbine technology.",
+    "location": "Hamburg, New York, United States",
+    "founded": "2022",
+    "industries": "Clean Energy, CleanTech, Renewable Energy, Sustainability, Wind Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Aerovec is a company developing small wind turbine technology for renewable electrical energy, which aligns with the domains of renewable energy, wind energy, and sustainability."
+  },
+  {
+    "company_name": "Locus Lock",
+    "description": "Locus Lock delivers cutting-edge positioning solutions for mobility in both commercial and defense sectors.",
+    "location": "Boulder, Colorado, United States",
+    "founded": "2021",
+    "industries": "Electrical Distribution, Electronics",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company is focused on delivering positioning solutions for mobility, which aligns with electronics and electrical distribution technologies, but does not appear to be directly involved in the energy technology domains listed."
+  },
+  {
+    "company_name": "HyPoint",
+    "description": "HyPoint is a provider of a hydrogen fuel cell system for air transportation market.",
+    "location": "Menlo Park, California, United States",
+    "founded": "2018",
+    "industries": "Aerospace, Air Transportation, Clean Energy, Electric Vehicle, Fuel Cell",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "fuel_cells",
+      "hydrogen_production"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "HyPoint provides hydrogen fuel cell systems for the air transportation market, which aligns with the electric vehicles, fuel cells, and hydrogen production domains."
+  },
+  {
+    "company_name": "Pearl Street Technologies",
+    "description": "Pearl Street Technologies is a software company that offers applications and platforms for power grid analysis.",
+    "location": "Pittsburgh, Pennsylvania, United States",
+    "founded": "Jan 1, 2017",
+    "industries": "Power Grid, Renewable Energy, Simulation",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "grid_modernization",
+      "grid_software",
+      "power_markets"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Pearl Street Technologies offers applications and platforms for power grid analysis, which aligns with grid modernization, grid software, and power markets domains."
+  },
+  {
+    "company_name": "Gridwealth",
+    "description": "Gridwealth lowers GHG emissions while generating long-term cash for customer buildings.",
+    "location": "Boston, Massachusetts, United States",
+    "founded": "2013",
+    "industries": "Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Gridwealth's focus on lowering greenhouse gas emissions and generating long-term cash for customer buildings indicates it is involved in building energy efficiency and renewable energy solutions."
+  },
+  {
+    "company_name": "Verne",
+    "description": "Verne is a cleantech startup accelerating pioneering a new high-density, low-cost, and lightweight hydrogen storage system.",
+    "location": "Berkeley, California, United States",
+    "founded": "2020",
+    "industries": "Environmental Engineering, Renewable Energy, Transportation",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "hydrogen_production",
+      "hydrogen_storage"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Verne is developing a new hydrogen storage system, which is relevant to hydrogen production and storage technologies. The company is also focused on renewable energy and transportation, which are key domains for the cleantech industry."
+  },
+  {
+    "company_name": "Swiftmile",
+    "description": "Swiftmile is a developer of light electric vehicle (LEV) charging systems.",
+    "location": "San Mateo, California, United States",
+    "founded": "Jan 1, 2015",
+    "industries": "Electric Vehicle, Last Mile Transportation, Solar, Transportation",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "ev_charging"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Swiftmile develops light electric vehicle (LEV) charging systems and leverages solar energy, which aligns with the electric vehicles, EV charging, and solar domains."
+  },
+  {
+    "company_name": "Bedrock Materials",
+    "description": "Bedrock Materials is a startup company developing materials and manufacturing procedures for low-cost sodium-ion batteries.",
+    "location": "Palo Alto, California, United States",
+    "founded": "2023",
+    "industries": "Battery, Chemical, Manufacturing",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Bedrock Materials is developing materials and manufacturing processes for sodium-ion batteries, which falls under the battery chemistry and battery manufacturing domains."
+  },
+  {
+    "company_name": "WAVR Technologies",
+    "description": "WAVR Technologies offers sustainable water solutions with next-gen atmospheric water harvesting systems.",
+    "location": "Las Vegas, Nevada, United States",
+    "founded": "May 9, 2024",
+    "industries": "Renewable Energy, Sustainability, Water",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "WAVR Technologies offers sustainable water solutions using atmospheric water harvesting systems, which aligns with the domains of renewable energy, sustainability, and water."
+  },
+  {
+    "company_name": "Renu Robotics",
+    "description": "Renu Robotics develops autonomous electric vehicles with monitoring through mission control, operating under a software subscription model",
+    "location": "San Antonio, Texas, United States",
+    "founded": "Feb 2, 2018",
+    "industries": "Artificial Intelligence (AI), Automotive, Autonomous Vehicles, Machine Learning, Manufacturing, Robotics, Software, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Renu Robotics develops autonomous electric vehicles with monitoring through mission control, operating under a software subscription model, which aligns with the domains of artificial intelligence, autonomous vehicles, electric vehicles, manufacturing, robotics, and software."
+  },
+  {
+    "company_name": "C3Nano",
+    "description": "C3Nano develops transparent conductive ink and films intended to enhance touchscreen and digital display experience.",
+    "location": "Hayward, California, United States",
+    "founded": "2010",
+    "industries": "Clean Energy, Electronics, Manufacturing, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "C3Nano develops transparent conductive ink and films for touchscreens and digital displays, which falls under the electronics and manufacturing domains."
+  },
+  {
+    "company_name": "MayMaan Research",
+    "description": "MayMaan Research is to develop environmentally friendly technologies that will cut emissions and expenses for a more sustainable future.",
+    "location": "Hollywood, Florida, United States",
+    "founded": "2013",
+    "industries": "Manufacturing, Renewable Energy, Semiconductor",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "MayMaan Research develops environmentally friendly technologies, which aligns with renewable energy and broader energy-related domains."
+  },
+  {
+    "company_name": "YouSolar",
+    "description": "YouSolar is an energy solutions company that offers rooftop solar+battery systems.",
+    "location": "Santa Clara, California, United States",
+    "founded": "2012",
+    "industries": "Battery, Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "battery_manufacturing",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "YouSolar provides rooftop solar+battery systems, which falls under the solar PV, battery manufacturing, and grid-scale energy storage domains."
+  },
+  {
+    "company_name": "Saldo",
+    "description": "Saldo is the operating system for electric energy, powering every charge, payment, and connection worldwide",
+    "location": "New York, New York, United States",
+    "founded": "Oct 8, 2025",
+    "industries": "Electric Vehicle, Energy, Energy Management, Fleet Management, Software, Transportation",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Saldo provides an operating system for electric energy, powering electric vehicle charging, payments, and fleet management, which covers several relevant energy technology domains."
   }
 ]
