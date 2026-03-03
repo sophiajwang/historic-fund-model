@@ -8009,5 +8009,728 @@
     ],
     "classification_confidence": "high",
     "classification_reasoning": "Flywheel energy storage systems are a form of grid-scale energy storage, which falls under the 'Energy Storage Systems' domain."
+  },
+  {
+    "company_name": "Advanced Thermovoltaic Systems",
+    "description": "Advanced Thermovoltaic Systems specializes in the discovery of all temperature heat to power at a megawatt-scale.",
+    "location": "Loveland, Colorado, United States",
+    "founded": "2022",
+    "industries": "Energy, Energy Efficiency, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Advanced Thermovoltaic Systems specializes in the discovery of all temperature heat to power at a megawatt-scale, which aligns with the energy and renewable energy domains."
+  },
+  {
+    "company_name": "Solar Landscape",
+    "description": "Solar Landscape is an installer and operator of solar energy systems.",
+    "location": "Asbury Park, New Jersey, United States",
+    "founded": "2012",
+    "industries": "Clean Energy, Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Solar Landscape is an installer and operator of solar energy systems, which aligns with the solar photovoltaics and distributed energy resources domains."
+  },
+  {
+    "company_name": "Global Thermostat",
+    "description": "Global Thermostat develops and commercializes a technology for the direct capture of carbon dioxide from the atmosphere.",
+    "location": "Brighton, Colorado, United States",
+    "founded": "2010",
+    "industries": "Carbon Capture, Clean Energy, Energy, Environmental Engineering",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "carbon_capture",
+      "carbon_removal",
+      "carbon_utilization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Global Thermostat develops direct air capture technology, which falls under the carbon capture, carbon removal, and carbon utilization domains."
+  },
+  {
+    "company_name": "GemaTEG",
+    "description": "Accelerating AI Infrastructure",
+    "location": "Bellevue, Washington, United States",
+    "founded": "2019",
+    "industries": "Data Center, Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company's description indicates it is working on accelerating AI infrastructure, which is related to data centers, as well as the energy and renewable energy industries."
+  },
+  {
+    "company_name": "Concentro",
+    "description": "The fully-integrated financing engine for clean energy developers.",
+    "location": "New York, New York, United States",
+    "founded": "2023",
+    "industries": "CleanTech, FinTech, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Concentro provides financing solutions for clean energy developers, which spans multiple energy domains including renewable energy, as well as financial services."
+  },
+  {
+    "company_name": "Firefly Energy Solutions",
+    "description": "Firefly is a SaaS analytical platform using AI and Machine Learning to deliver risk avoidance tools.",
+    "location": "Houston, Texas, United States",
+    "founded": "2021",
+    "industries": "Consulting, Energy, Energy Management, Information Technology, Oil and Gas, Risk Management, SaaS",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "grid_software",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Firefly Energy Solutions provides an AI-powered analytics platform for risk management, which aligns with the 'Energy Software & Analytics' and 'Broad or cross-cutting energy-related topics' domains."
+  },
+  {
+    "company_name": "Greenlake Energy",
+    "description": "Greenlake Energy is an energy resource company that develops oil and natural gas.",
+    "location": "Austin, Texas, United States",
+    "founded": "2021",
+    "industries": "Energy, Energy Management, Oil and Gas",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Greenlake Energy is an energy company that develops oil and natural gas, which aligns with the 'energy' and 'oil and gas' domains."
+  },
+  {
+    "company_name": "Demand IQ",
+    "description": "Software for the modern solar provider",
+    "location": "Denver, Colorado, United States",
+    "founded": "May 5, 2017",
+    "industries": "Artificial Intelligence (AI), Clean Energy, CleanTech, Energy, Renewable Energy, SaaS, Software, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "grid_software",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company provides software solutions for the solar energy industry, which covers solar photovoltaic technology as well as broader energy software and analytics."
+  },
+  {
+    "company_name": "CIRQ+",
+    "description": "CIRQ+ is a retrofit cleantech automation system that reduces energy costs and lowering carbon emissions with plug-and-play technology.",
+    "location": "Scottsdale, Arizona, United States",
+    "founded": "2016",
+    "industries": "B2B, CleanTech, Cloud Computing, Cloud Data Services, Energy Management, GreenTech, Hospitality, Internet of Things, PaaS, Robotics",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "carbon_utilization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "CIRQ+ provides a retrofit cleantech automation system that reduces energy costs and carbon emissions, indicating its relevance to building efficiency, carbon utilization, and energy management. Its use of cloud computing, IoT, and robotics technologies also aligns with those domains."
+  },
+  {
+    "company_name": "Natrion",
+    "description": "Natrion is developing scalable solid-state electrolytes to enable the mass adoption of EVs.",
+    "location": "Binghamton, New York, United States",
+    "founded": "Aug 2018",
+    "industries": "Battery, Clean Energy, CleanTech, Energy, Energy Storage, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "electric_vehicles",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Natrion is developing scalable solid-state electrolytes for electric vehicles and energy storage systems, which aligns with the battery chemistry, electric vehicles, and energy storage systems domains."
+  },
+  {
+    "company_name": "Sora Fuel",
+    "description": "Sora Fuel makes jet fuel from just air, water, and renewable energy.",
+    "location": "Cambridge, Massachusetts, United States",
+    "founded": "2024",
+    "industries": "Fuel, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "bioenergy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Sora Fuel produces jet fuel from air, water, and renewable energy, which aligns with the bioenergy and renewable energy domains."
+  },
+  {
+    "company_name": "Longroad Energy",
+    "description": "Longroad Energy is a renewable energy developer that specializes in the development, financing, and operation of renewable energy projects.",
+    "location": "Boston, Massachusetts, United States",
+    "founded": "Jan 1, 2016",
+    "industries": "Energy, Energy Management, Project Management",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Longroad Energy is a renewable energy developer that specializes in the development, financing, and operation of renewable energy projects, which aligns with the 'energy_general' and 'renewable_energy' domains."
+  },
+  {
+    "company_name": "Kelvin",
+    "description": "Kelvin is an energy management and electrification platform for radiator-heated buildings.",
+    "location": "Brooklyn, New York, United States",
+    "founded": "2013",
+    "industries": "Energy Efficiency, Energy Management, Internet of Things, Sustainability",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Kelvin's platform for energy management and electrification in radiator-heated buildings aligns with building efficiency, distributed energy, and sustainability technologies."
+  },
+  {
+    "company_name": "Renewell Energy",
+    "description": "Oil wells that end well.",
+    "location": "Bakersfield, California, United States",
+    "founded": "May 2020",
+    "industries": "Energy, Energy Storage, Environmental Engineering, Oil and Gas, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Renewell Energy is a company focused on the energy sector, specifically oil wells and renewable energy solutions, which aligns with the provided categories."
+  },
+  {
+    "company_name": "257",
+    "description": "257 is a data platform providing home energy insights and tools.",
+    "location": "New York, New York, United States",
+    "founded": "2023",
+    "industries": "Artificial Intelligence (AI), Energy, Energy Efficiency, Energy Management, Software",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company provides home energy insights and tools, which aligns with building energy efficiency, energy management, and energy software and analytics domains."
+  },
+  {
+    "company_name": "WattBuy",
+    "description": "WattBuy is a clean energy platform that empowers enterprises to help their customers choose affordable, clean energy options for their home.",
+    "location": "New York, New York, United States",
+    "founded": "2017",
+    "industries": "CleanTech, Energy, Energy Management",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "distributed_energy",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "WattBuy is a clean energy platform that empowers enterprises to help their customers choose affordable, clean energy options, which aligns with the domains of energy management, distributed energy resources, and energy software & analytics."
+  },
+  {
+    "company_name": "Prairie Operating",
+    "description": "Prairie Operating Co. specializes in environmentally responsible, sustainable, and affordable energy production.",
+    "location": "Houston, Texas, United States",
+    "founded": "2022",
+    "industries": "Energy, Oil and Gas, Renewable Energy, Sustainability",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Prairie Operating is a company that specializes in environmentally responsible and sustainable energy production, which spans multiple energy-related domains including renewable energy and sustainability."
+  },
+  {
+    "company_name": "Bolder Industries",
+    "description": "Bolder Industries converts carbon black and petrochemicals into eco-friendly alternatives for rubber and plastic products.",
+    "location": "Boulder, Colorado, United States",
+    "founded": "2011",
+    "industries": "Clean Energy, Manufacturing, Sustainability, Waste Management",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "carbon_utilization",
+      "industrial_efficiency"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Bolder Industries converts carbon black and petrochemicals into eco-friendly alternatives for rubber and plastic products, which aligns with carbon utilization, industrial efficiency, and waste management domains."
+  },
+  {
+    "company_name": "Conectric Networks",
+    "description": "Hyper scalable wireless sensor networks for intelligent buildings",
+    "location": "San Diego, California, United States",
+    "founded": "Sep 10, 2015",
+    "industries": "Analytics, Artificial Intelligence (AI), Energy Efficiency, Energy Management, Information Technology, Internet of Things, Sensor, Wireless",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "distributed_energy",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Conectric Networks develops wireless sensor networks for intelligent building applications, which aligns with the building efficiency, distributed energy, and grid software domains. The company's focus on IoT and sensors is also relevant."
+  },
+  {
+    "company_name": "CalWave Inc",
+    "description": "CalWave Inc offer provides manufacturing and services in the ocean energy sector.",
+    "location": "Berkeley, California, United States",
+    "founded": "2014",
+    "industries": "Customer Service, Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "CalWave Inc provides manufacturing and services in the ocean energy sector, which is a broad, cross-cutting energy domain and falls under renewable energy technologies."
+  },
+  {
+    "company_name": "Accelerate",
+    "description": "Accelerate is a growth-oriented platform for real asset investing.",
+    "location": "Plano, Texas, United States",
+    "founded": "Apr 2016",
+    "industries": "Infrastructure, Natural Resources, Real Estate, Real Estate Investment, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company's description indicates that it is focused on investing in real assets across infrastructure, natural resources, real estate, and renewable energy sectors."
+  },
+  {
+    "company_name": "CubicPV",
+    "description": "CubicPV is a solar manufacturing company that produces wafers and tandem modules.",
+    "location": "Bedford, Massachusetts, United States",
+    "founded": "2021",
+    "industries": "Environmental Consulting, Renewable Energy, Semiconductor, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_manufacturing",
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "CubicPV is a solar manufacturing company that produces wafers and tandem modules, which are key components of solar photovoltaic systems, placing it within the solar manufacturing and solar PV domains. It also operates in the broader renewable energy domain."
+  },
+  {
+    "company_name": "Rondo Energy",
+    "description": "Rondo Heat Battery powers industrial processes with renewable electricity, cutting energy costs and eliminating emissions.",
+    "location": "Oakland, California, United States",
+    "founded": "2020",
+    "industries": "Energy, Energy Efficiency, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Rondo Energy focuses on renewable electricity-powered industrial processes, which aligns with the energy efficiency and renewable energy domains."
+  },
+  {
+    "company_name": "Electrada",
+    "description": "Electrada offers a turnkey EV charging infrastructure solution for electric vehicles.",
+    "location": "Cincinnati, Ohio, United States",
+    "founded": "2019",
+    "industries": "Automotive, Charging Infrastructure, Electric Vehicle, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "ev_charging",
+      "electric_vehicles"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Electrada offers EV charging infrastructure solutions, which aligns with the EV Charging Infrastructure and Electric Vehicles & Mobility domains. Their focus on renewable energy also aligns with the Renewable Energy domain."
+  },
+  {
+    "company_name": "StarPlus Energy",
+    "description": "StarPlus Energy Revolutionizes EV Battery Manufacturing.",
+    "location": "Kokomo, Indiana, United States",
+    "founded": "2022",
+    "industries": "Battery, Electric Vehicle, Manufacturing",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "electric_vehicles"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "StarPlus Energy is focused on manufacturing EV batteries, which aligns with the battery manufacturing and electric vehicles domains."
+  },
+  {
+    "company_name": "Stark Drones Corporation",
+    "description": "Experimental technologies that efficiently updates or replaces current grid, wireless transmission, and energy systems that we use today.",
+    "location": "Sterling Heights, Michigan, United States",
+    "founded": "Feb 23, 2018",
+    "industries": "Aerospace, Blockchain, Energy, Energy Storage, Information Technology, Power Grid",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_storage_systems",
+      "grid_modernization",
+      "grid_software",
+      "power_markets"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Stark Drones Corporation's focus on efficient updates and replacements for the grid, wireless transmission, and energy systems indicates involvement in several energy technology domains, including energy storage, grid modernization, grid software, and power markets."
+  },
+  {
+    "company_name": "Aurora Solar",
+    "description": "Aurora Solar is a SaaS company that uses aerial imagery to assess solar installation projects.",
+    "location": "San Francisco, California, United States",
+    "founded": "2013",
+    "industries": "Clean Energy, Renewable Energy, SaaS, Software, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "distributed_energy",
+      "grid_software"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Aurora Solar provides software-as-a-service for assessing solar installation projects, which aligns with solar photovoltaics, distributed energy resources, and energy software & analytics domains."
+  },
+  {
+    "company_name": "Carbon Lighthouse",
+    "description": "Delivering easy building decarbonization for commercial real estate owners",
+    "location": "San Francisco, California, United States",
+    "founded": "2010",
+    "industries": "Commercial Real Estate, Energy Efficiency, Hospitality, SaaS, Software, Solar, Sustainability",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Carbon Lighthouse delivers energy efficiency solutions for commercial real estate, which spans building efficiency, software and analytics for energy management."
+  },
+  {
+    "company_name": "Lieef",
+    "description": "Sustainability is about more than just emissions",
+    "location": "Irvine, California, United States",
+    "founded": "2022",
+    "industries": "Energy, FinTech, Fuel, Renewable Energy, Sustainability, Waste Management, Water",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general",
+      "carbon_capture",
+      "carbon_utilization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company's description indicates involvement in multiple energy-related areas such as sustainability, renewable energy, carbon capture, and carbon utilization."
+  },
+  {
+    "company_name": "Fermata Energy LLC",
+    "description": "Fermata Energy is the leader in bidirectional charging, enabling EV owners to earn revenue from their utility & support grid resilience.",
+    "location": "Charlottesville, Virginia, United States",
+    "founded": "2013",
+    "industries": "Electric Vehicle, Energy, Energy Storage",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "energy_storage_systems",
+      "ev_charging"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Fermata Energy's focus on bidirectional EV charging and enabling EVs to support grid resilience aligns with the electric vehicles, energy storage systems, and EV charging infrastructure domains."
+  },
+  {
+    "company_name": "Onvis",
+    "description": "Onvis is a company that offers energy related services.",
+    "location": "Houston, Texas, United States",
+    "founded": "2025",
+    "industries": "Energy, Energy Efficiency, Energy Management",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "building_efficiency",
+      "energy_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Onvis provides energy-related services, which aligns with the building efficiency and energy-general domains."
+  },
+  {
+    "company_name": "Ambient Fuels",
+    "description": "Ambient Fuels is a green energy developer that delivers green hydrogen solutions.",
+    "location": "New York, New York, United States",
+    "founded": "2021",
+    "industries": "Energy, Fuel, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "bioenergy",
+      "hydrogen_production"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ambient Fuels is a green energy developer that delivers green hydrogen solutions, which aligns with the bioenergy and hydrogen production domains."
+  },
+  {
+    "company_name": "Leyline Renewable Capital",
+    "description": "Leyline Renewable Capital is an investor in pre-construction renewable energy projects to accelerate development and scale businesses.",
+    "location": "Durham, North Carolina, United States",
+    "founded": "2016",
+    "industries": "Energy, Mining, Real Estate, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "energy_general",
+      "energy_finance"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Leyline Renewable Capital is an investor in pre-construction renewable energy projects, which spans multiple energy technology and finance domains."
+  },
+  {
+    "company_name": "The Sun Company",
+    "description": "Sun Company is a provider of custom-tailored solar energy solutions for residential, commercial, and utility applications.",
+    "location": "Tucson, Arizona, United States",
+    "founded": "2017",
+    "industries": "Clean Energy, Energy, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "distributed_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The Sun Company provides custom-tailored solar energy solutions for residential, commercial, and utility applications, which aligns with the solar photovoltaics, distributed energy, and renewable energy domains."
+  },
+  {
+    "company_name": "Climate Transition Development",
+    "description": "Climate Transition Development excels renewables with Green Snow, advancing geothermal, carbon capture, and green cloud tech.",
+    "location": "Santa Monica, California, United States",
+    "founded": "2020",
+    "industries": "Business Development, Carbon Capture, CleanTech, Energy, Geothermal Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "carbon_capture",
+      "geothermal"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Climate Transition Development is a cleantech company focused on renewable energy, geothermal, and carbon capture technologies."
+  },
+  {
+    "company_name": "Ionblox",
+    "description": "Ionblox has developed high energy density lithium ion batteries for ground and aerial electric vehicles.",
+    "location": "Fremont, California, United States",
+    "founded": "2017",
+    "industries": "Electric Vehicle, Electronics, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "electric_vehicles"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ionblox develops high energy density lithium-ion batteries for electric vehicles, which aligns with the battery chemistry and electric vehicles domains."
+  },
+  {
+    "company_name": "GreenFire Energy",
+    "description": "GreenFire Energy delivers geothermal solutions that assure the availability of reliable, resilient, and scalable geothermal energy.",
+    "location": "Walnut Creek, California, United States",
+    "founded": "Jan 1, 2014",
+    "industries": "Clean Energy, Energy, Geothermal Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "geothermal"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "GreenFire Energy delivers geothermal solutions, which aligns with the 'Geothermal Energy' domain."
+  },
+  {
+    "company_name": "Sungage Financial",
+    "description": "Sungage Financial provides a proprietary online platform that enables homeowners to apply, qualify, and contract for solar financing.",
+    "location": "Boston, Massachusetts, United States",
+    "founded": "2011",
+    "industries": "Finance, Financial Services, FinTech, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Sungage Financial provides a solar financing platform, which spans finance, financial services, fintech, and renewable energy (specifically solar) domains."
+  },
+  {
+    "company_name": "Shifted Energy",
+    "description": "Shifted Energy enable electric water heaters to consume excess renewable energy and provide grid services.",
+    "location": "Honolulu, Hawaii, United States",
+    "founded": "2016",
+    "industries": "Electronics, Energy, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "distributed_energy",
+      "energy_storage_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Shifted Energy enables electric water heaters to provide grid services, which aligns with distributed energy resources and grid-scale energy storage systems."
+  },
+  {
+    "company_name": "Intecells",
+    "description": "Intecells is a manufacturer of lithium-ion batteries.",
+    "location": "Troy, Michigan, United States",
+    "founded": "2018",
+    "industries": "Battery, Industrial Manufacturing, Manufacturing",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "battery_chemistry"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Intecells is a manufacturer of lithium-ion batteries, which falls under the battery manufacturing and battery chemistry domains."
+  },
+  {
+    "company_name": "Green Energy Global",
+    "description": "Green Energy Global provides electric vehicle charging stations, solar power, and high-capacity power storage.",
+    "location": "Pearce, Arizona, United States",
+    "founded": "2017",
+    "industries": "Charging Infrastructure, Electric Vehicle, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "ev_charging"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Green Energy Global provides electric vehicle charging stations, solar power, and high-capacity power storage, which aligns with the electric vehicles, EV charging infrastructure, and renewable energy domains."
+  },
+  {
+    "company_name": "SkyNano",
+    "description": "SkyNano is a science-based technology company focused on commercializing a free-market solution to carbon pollution.",
+    "location": "Knoxville, Tennessee, United States",
+    "founded": "2017",
+    "industries": "Energy Management",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "carbon_capture",
+      "carbon_utilization"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "SkyNano is focused on commercializing a free-market solution to carbon pollution, which aligns with the domains of carbon capture and carbon utilization."
+  },
+  {
+    "company_name": "Lynkwell",
+    "description": "Lynkwell is an electrical vehicle charging platform company that assists businesses in developing their own own branded charging networks.",
+    "location": "Albany, New York, United States",
+    "founded": "2016",
+    "industries": "Charging Infrastructure, Electric Vehicle, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "ev_charging",
+      "electric_vehicles"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Lynkwell is an electrical vehicle charging platform company that assists businesses in developing their own branded charging networks, which aligns with the ev_charging and electric_vehicles domains."
+  },
+  {
+    "company_name": "Aspinity",
+    "description": "Aspinity offers neuromorphic all-analog integrated circuit technology that can replicate the functionality of digital signal processors.",
+    "location": "Pittsburgh, Pennsylvania, United States",
+    "founded": "2015",
+    "industries": "AI Infrastructure, Artificial Intelligence (AI), Battery, Energy Storage, Industrial, Semiconductor",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Aspinity offers neuromorphic all-analog integrated circuit technology that can replicate the functionality of digital signal processors, which is related to artificial intelligence and semiconductor technologies."
+  },
+  {
+    "company_name": "iM3NY",
+    "description": "iM3NY is a startup lithium ion battery cell manufacturing company with HQ and Gigafactory located in Endicott, NY.",
+    "location": "Endicott, New York, United States",
+    "founded": "2018",
+    "industries": "Battery, Clean Energy, CleanTech, Manufacturing",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "battery_chemistry"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "iM3NY is a startup lithium-ion battery cell manufacturing company, which aligns with the 'Battery Manufacturing & Scale-Up' and 'Battery Chemistry & Materials' domains."
+  },
+  {
+    "company_name": "Urban Grid",
+    "description": "Urban Grid is a developer of utility scale renewable energy projects.",
+    "location": "Stevensville, Maryland, United States",
+    "founded": "2010",
+    "industries": "Energy, Energy Storage, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Urban Grid develops utility-scale renewable energy projects, specifically focused on solar energy."
+  },
+  {
+    "company_name": "Continuous Solutions",
+    "description": "A novel marine technology company for power electronics, electric motors and more.",
+    "location": "Portland, Oregon, United States",
+    "founded": "Mar 4, 2014",
+    "industries": "Electrical Distribution, Electric Vehicle, Electronics, Manufacturing, Renewable Energy",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "inverters_power_electronics"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Continuous Solutions operates in the marine technology and electric vehicle sectors, which involve power electronics, motors, and renewable energy applications."
+  },
+  {
+    "company_name": "Trevi Systems",
+    "description": "Trevi Systems is dedicated to providing energy efficient water purification solutions.",
+    "location": "Rohnert Park, California, United States",
+    "founded": "2010",
+    "industries": "Renewable Energy, Water, Water Purification",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Trevi Systems provides energy-efficient water purification solutions, which aligns with the water and renewable energy domains."
+  },
+  {
+    "company_name": "Sunfolding",
+    "description": "Sunfolding develops new approaches to solar tracking for commercial and utility systems.",
+    "location": "San Francisco, California, United States",
+    "founded": "2012",
+    "industries": "Energy, Energy Management, Productivity Tools, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "solar_pv"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Sunfolding develops new approaches to solar tracking for commercial and utility solar systems, which falls under the solar photovoltaics and renewable energy domains."
+  },
+  {
+    "company_name": "Electrum",
+    "description": "Electrum is an online marketplace for homeowners to find competitive offers on home solar, battery, and electrification products.",
+    "location": "Los Angeles, California, United States",
+    "founded": "Aug 13, 2014",
+    "industries": "E-Commerce, Electric Vehicle, Energy, Marketplace, Renewable Energy, Solar",
+    "cb_rank": null,
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Electrum operates an online marketplace for home solar, battery, and electrification products, which spans multiple energy technology and industry domains."
   }
 ]
