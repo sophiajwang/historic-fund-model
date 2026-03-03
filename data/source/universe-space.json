@@ -2834,5 +2834,762 @@
     ],
     "classification_confidence": "high",
     "classification_reasoning": "ABL Space Systems specializes in building rockets to launch satellites, which aligns with the 'Launch Systems & Vehicles' and 'Satellite Communications' domains."
+  },
+  {
+    "company_name": "Urban Sky",
+    "description": "Urban Sky offers a revolution in remote sensing through the new stratospheric microballoon.",
+    "location": "Denver, Colorado, United States",
+    "founded": "Aug 1, 2019",
+    "industries": "Geospatial, Mapping Services, Navigation, Remote Sensing, Smart Cities",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_observation",
+      "earth_data_analytics",
+      "satellite_constellations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Urban Sky's focus on remote sensing and geospatial services through stratospheric microballoons aligns with the domains of Earth observation, data analytics, and small satellite systems."
+  },
+  {
+    "company_name": "Violet Labs",
+    "description": "Software that powers hardware.",
+    "location": "San Francisco, California, United States",
+    "founded": "Jan 24, 2022",
+    "industries": "Aerospace, Autonomous Vehicles, Medical Device, Robotics",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "human_systems",
+      "satellite_constellations",
+      "small_satellite_engineering"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Violet Labs develops software that powers hardware, which aligns with domains related to human-robot collaboration, small satellite systems, and small satellite engineering."
+  },
+  {
+    "company_name": "Wherobots Inc.",
+    "description": "Wherobots is the spatial intelligence cloud",
+    "location": "San Francisco, California, United States",
+    "founded": "Jun 13, 2022",
+    "industries": "Analytics, Artificial Intelligence (AI), Cloud Data Services, Database, Geospatial, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "satellite_communications",
+      "satellite_constellations",
+      "space_ai"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Wherobots provides spatial intelligence services, including analytics, AI, and cloud data services for geospatial applications, which map to the earth data analytics, satellite communications, and satellite constellations domains. The company's use of AI for decision support also aligns with the space AI domain."
+  },
+  {
+    "company_name": "Orbital Insight",
+    "description": "Orbital Insight builds SaaS technology to understand what happens on and to the Earth with AI and machine learning",
+    "location": "Palo Alto, California, United States",
+    "founded": "2013",
+    "industries": "Analytics, Big Data, Computer Vision, Geospatial, Machine Learning, SaaS, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "satellite_constellations",
+      "space_ai"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Orbital Insight builds SaaS technology to analyze geospatial data from satellites and other sources using AI and machine learning, which aligns with the 'Earth Data Analytics', 'Satellite Constellations', and 'Space AI' domains."
+  },
+  {
+    "company_name": "Matter Intelligence",
+    "description": "Matter Intelligence is a remote sensing company that makes sensors that use hyperspectral imaging.",
+    "location": "El Segundo, California, United States",
+    "founded": "2023",
+    "industries": "Remote Sensing, Robotics, Sensor",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_observation",
+      "space_instrumentation"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Matter Intelligence is a remote sensing company that develops hyperspectral imaging sensors, which aligns with the Earth Observation and Space Instrumentation domains."
+  },
+  {
+    "company_name": "Saildrone",
+    "description": "Saildrone is a maritime company that enables navies, governments, and organizations to obtain data required to monitor the maritime domain.",
+    "location": "Alameda, California, United States",
+    "founded": "2012",
+    "industries": "Artificial Intelligence (AI), Big Data, Drones, Manufacturing, Marine Technology",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_observation",
+      "satellite_constellations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Saildrone is a maritime company that provides data and analytics services through the use of unmanned surface vehicles, which is relevant to both earth observation and satellite constellation domains."
+  },
+  {
+    "company_name": "Farcast",
+    "description": "Farcast develops precision airdrop capabilities allowing existing aircraft to deliver to impossible locations.",
+    "location": "Hawthorne, California, United States",
+    "founded": "Sep 17, 2017",
+    "industries": "Aerospace, Air Transportation, Freight Service, Logistics, Mechanical Engineering, Shipping, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "launch_support"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Farcast develops precision airdrop capabilities, which aligns with earth data analytics, logistics, and software domains. The company's focus on aerospace and mechanical engineering also suggests involvement in launch support."
+  },
+  {
+    "company_name": "Paladin Drones",
+    "description": "Paladin Drones is a simple system to give first responders instant situational awareness",
+    "location": "Mountain View, California, United States",
+    "founded": "2018",
+    "industries": "Drone Management, Drones, Security, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Paladin Drones provides a system to give first responders situational awareness using drones, which aligns with the 'Drone Management', 'Security', and 'Software' domains."
+  },
+  {
+    "company_name": "Constanellis Aerospace",
+    "description": "Space Infrastructure, lunar based power distribution hardware and services, end to end small satellite solutions and defense solutions",
+    "location": "Washington, District of Columbia, United States",
+    "founded": "Jul 29, 2019",
+    "industries": "Aerospace, Artificial Intelligence (AI), Cloud Computing, Cloud Infrastructure, Communications Infrastructure, Energy Storage, Information Technology, Satellite Communication, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "satellite_communications",
+      "launch_vehicles",
+      "space_ai",
+      "space_cybersecurity",
+      "space_instrumentation",
+      "spacecraft_power_thermal",
+      "spacecraft_propulsion",
+      "spacecraft_structures"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Constanellis Aerospace is a space infrastructure company that provides end-to-end solutions across satellite communications, launch vehicles, AI-driven decision support, cybersecurity, instrumentation, power, propulsion, and spacecraft structures."
+  },
+  {
+    "company_name": "Icarus",
+    "description": "Icarus is a technology company developing solar-powered drones capable of capturing high-resolution imagery at scale.",
+    "location": "El Segundo, California, United States",
+    "founded": "2023",
+    "industries": "Aerospace, Artificial Intelligence (AI), Hardware, Machine Learning",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_observation",
+      "satellite_constellations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Icarus is developing solar-powered drones for high-resolution imagery capture, which aligns with the Earth Observation and Small Satellite Constellations domains."
+  },
+  {
+    "company_name": "Seagate Space",
+    "description": "Seagate Space is an aerospace company that provides offshore rocket launch solutions for the space industry.",
+    "location": "St. Petersburg, Florida, United States",
+    "founded": "Jan 2025",
+    "industries": "Aerospace, Infrastructure, Space Travel",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "launch_vehicles",
+      "launch_support"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Seagate Space provides offshore rocket launch solutions for the space industry, which fits into the launch vehicles and launch support domains."
+  },
+  {
+    "company_name": "Karman+",
+    "description": "Karman+ is a space research and technology company that researches space mining, asteroids, and rare earth materials.",
+    "location": "Denver, Colorado, United States",
+    "founded": "2022",
+    "industries": "Aerospace, Robotics, Space Travel",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "space_resource_utilization",
+      "earth_observation"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Karman+ is a space research and technology company that focuses on space mining, asteroids, and rare earth materials, which aligns with the space resource utilization domain. It also conducts research in areas like Earth observation, which maps to the earth observation domain."
+  },
+  {
+    "company_name": "Star Catcher",
+    "description": "Star Catcher creates first energy grid for space.",
+    "location": "Jacksonville, Florida, United States",
+    "founded": "2024",
+    "industries": "Energy, Space Travel",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "space_based_energy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Star Catcher creates the first energy grid for space, which aligns with the 'space-based energy' and 'energy' domains."
+  },
+  {
+    "company_name": "5x5 Technologies",
+    "description": "5x5 provides AI-powered data analytics to owners and operators of critical infrastructure.",
+    "location": "St. Petersburg, Florida, United States",
+    "founded": "2016",
+    "industries": "Analytics, Artificial Intelligence (AI), Cloud Data Services, Computer Vision, Drones, Information Technology, Robotics, Software, Telecommunications",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "satellite_constellations",
+      "space_ai",
+      "space_autonomy"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "5x5 Technologies provides AI-powered data analytics services for critical infrastructure, which aligns with earth data analytics, satellite constellations, space AI, and space autonomy domains."
+  },
+  {
+    "company_name": "Kayhan Space",
+    "description": "Kayhan Space ensures satellite operators maintain situational awareness of their space assets",
+    "location": "Boulder, Colorado, United States",
+    "founded": "Apr 2019",
+    "industries": "Aerospace",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "ground_operations",
+      "satellite_communications",
+      "space_situational_awareness"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Kayhan Space provides services related to satellite operations, communications, and space situational awareness, which falls under the ground operations, satellite communications, and space situational awareness domains."
+  },
+  {
+    "company_name": "Umbra",
+    "description": "Cutting edge space systems\u2014from refined mission solutions to best-in-class data",
+    "location": "Arlington, Virginia, United States",
+    "founded": "2015",
+    "industries": "Aerospace, Geospatial, Image Recognition, Information Technology, Satellite Communication, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "earth_observation",
+      "satellite_communications",
+      "satellite_constellations",
+      "small_satellite_engineering",
+      "space_ai",
+      "space_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Umbra is a company that provides cutting-edge space systems, including solutions for aerospace, geospatial, image recognition, information technology, satellite communication, and software, which aligns with multiple space technology domains."
+  },
+  {
+    "company_name": "Proteus Space",
+    "description": "Slashing spacecraft design/build cycles from years to months with physics anchored CAD packages and unlimited data rights.",
+    "location": "Los Angeles, California, United States",
+    "founded": "May 21, 2021",
+    "industries": "Aerospace, Manufacturing, National Security",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "launch_vehicles",
+      "spacecraft_adcs",
+      "spacecraft_communications",
+      "spacecraft_mechanisms",
+      "spacecraft_power_thermal",
+      "spacecraft_propulsion",
+      "spacecraft_structures",
+      "spacecraft_ttc",
+      "product_assurance"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Proteus Space is a space technology company that focuses on spacecraft design and manufacturing, with capabilities across various subsystems such as propulsion, communications, and power systems, as well as quality assurance and engineering."
+  },
+  {
+    "company_name": "Portside",
+    "description": "Portside is an aircraft data, reporting, and analytics platform for individual and corporate plane owners.",
+    "location": "San Francisco, California, United States",
+    "founded": "Sep 1, 2017",
+    "industries": "Aerospace, Air Transportation, Analytics, Software, Transportation",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "satellite_communications",
+      "satellite_constellations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Portside's platform for aircraft data, reporting, and analytics aligns with earth data analytics and satellite communications and constellations domains."
+  },
+  {
+    "company_name": "Vaya Space",
+    "description": "Vaya Space is a sustainable aviation and aerospace company producing rockets for low-reach orbit.",
+    "location": "Cocoa, Florida, United States",
+    "founded": "2017",
+    "industries": "Aerospace, Manufacturing, Transportation",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "launch_vehicles",
+      "satellite_constellations",
+      "space_general"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Vaya Space is a sustainable aerospace company producing rockets for low-reach orbit, which aligns with the launch vehicles, satellite constellations, and general space technology domains."
+  },
+  {
+    "company_name": "DEXA",
+    "description": "DEXA is a full-service logistics company that uses airborne autonomous drones for local package delivery.",
+    "location": "Dayton, Ohio, United States",
+    "founded": "2021",
+    "industries": "Aerospace, Delivery Service, Drones",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "DEXA is a logistics company that uses autonomous drones for package delivery, which is not directly related to the space domain categories provided."
+  },
+  {
+    "company_name": "Mara",
+    "description": "Machine sentience behind every blade of grass.",
+    "location": "San Francisco, California, United States",
+    "founded": "2025",
+    "industries": "Aerospace, Artificial Intelligence (AI), Drones, Government, Military",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company is involved in aerospace, AI, drones, government, and military industries, which aligns with multiple space-related domains."
+  },
+  {
+    "company_name": "Bifrost Orbital",
+    "description": "24/7 and real-time connectivity for satellites",
+    "location": "San Francisco, California, United States",
+    "founded": "2024",
+    "industries": "Satellite Communication",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "satellite_communications",
+      "ground_operations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company Bifrost Orbital provides 24/7 and real-time connectivity for satellites, which aligns with the Satellite Communications and Ground Operations domains."
+  },
+  {
+    "company_name": "Descartes Labs",
+    "description": "Descartes Labs is a technology company that automates the analysis of geospatial data to help organizations answer key questions.",
+    "location": "New York, New York, United States",
+    "founded": "2014",
+    "industries": "Agriculture, Analytics, Artificial Intelligence (AI), Consumer Goods, Geospatial, Government, Image Recognition, Machine Learning, Mining, SaaS",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "earth_observation",
+      "satellite_constellations",
+      "space_ai"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Descartes Labs is a technology company that automates the analysis of geospatial data, which aligns with the domains of earth data analytics, earth observation, satellite constellations, and space AI."
+  },
+  {
+    "company_name": "Somewear Labs",
+    "description": "Enabling critical communications for the world\u2019s most important organizations",
+    "location": "San Francisco, California, United States",
+    "founded": "Jan 2017",
+    "industries": "Hardware, Mobile, Satellite Communication, Software, Telecommunications",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "satellite_communications",
+      "spacecraft_communications"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Somewear Labs provides critical communications services using satellite technology, which aligns with the satellite communications, spacecraft communications, and telecommunications domains."
+  },
+  {
+    "company_name": "AERO AI",
+    "description": "AERO AI is a leading drone software technology company that provides a comprehensive solution for analyzing, sharing reality capture data",
+    "location": "Las Vegas, Nevada, United States",
+    "founded": "Mar 16, 2022",
+    "industries": "Artificial Intelligence (AI), Drones, Geospatial, Machine Learning",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "satellite_constellations",
+      "space_ai"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "AERO AI is a drone software technology company that provides solutions for analyzing and sharing reality capture data, which aligns with the domains of Earth Data Analytics, Satellite Constellations, and Space AI."
+  },
+  {
+    "company_name": "Starpath Robotics",
+    "description": "Starpath Robotics builds spacecraft propellant that reduces the deep space transport cost.",
+    "location": "Los Angeles, California, United States",
+    "founded": "2022",
+    "industries": "Air Transportation, Space Travel, Transportation",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Starpath Robotics builds spacecraft propellant, which is related to the space travel domain, as well as the air transportation and transportation domains."
+  },
+  {
+    "company_name": "Bridgepoint Works",
+    "description": "BridgePoint Works is an engineering firm that offers a variety of services from civil engineering to environmental planning.",
+    "location": "North Charleston, South Carolina, United States",
+    "founded": "Jul 2, 2022",
+    "industries": "Architecture, Civil Engineering, Construction, Consulting, Industrial, Remote Sensing",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_observation",
+      "satellite_constellations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company offers remote sensing and engineering services, which are relevant to earth observation and small satellite systems."
+  },
+  {
+    "company_name": "Compound Eye",
+    "description": "Compound Eye develops 3D vision systems for autonomous machines.",
+    "location": "Redwood City, California, United States",
+    "founded": "Oct 2015",
+    "industries": "3D Technology, Artificial Intelligence (AI), Automotive, Autonomous Vehicles, Computer Vision, Geospatial, Machine Learning, Mapping Services, Robotics",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company develops 3D vision systems for autonomous machines, which aligns with domains related to geospatial data analytics, computer vision, machine learning, mapping services, and robotics."
+  },
+  {
+    "company_name": "Orbital Operations",
+    "description": "Orbital Operations is developing high thrust space vehicles for satellite defense.",
+    "location": "Long Beach, California, United States",
+    "founded": "Oct 21, 2024",
+    "industries": "Industrial Engineering, Manufacturing, Space Travel",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "launch_vehicles",
+      "military_isr_satellites",
+      "space_industrial_base"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Orbital Operations is developing high thrust space vehicles for satellite defense, which aligns with launch vehicles, military ISR satellites, and the broader space industrial base."
+  },
+  {
+    "company_name": "GITAI",
+    "description": "GITAI is a space robotics startup aiming to provide space station support, lunar exploration, and, ISAM services.",
+    "location": "Torrance, California, United States",
+    "founded": "Jul 2016",
+    "industries": "Aerospace, Manufacturing, Military, Robotics",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "human_systems",
+      "inspace_manufacturing",
+      "lunar_exploration",
+      "space_robotics"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "GITAI is a space robotics startup that provides services for space station support, lunar exploration, and in-space manufacturing, which align with the human-system collaboration, in-space manufacturing, lunar exploration, and space robotics domains."
+  },
+  {
+    "company_name": "Albacore",
+    "description": "Albacore is a developer of long-range autonomous underwater vehicles designed to deter maritime invasions.",
+    "location": "Philadelphia, Pennsylvania, United States",
+    "founded": "2025",
+    "industries": "Drones, Manufacturing, Marine Technology",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "counterspace_capabilities"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Albacore develops autonomous underwater vehicles which can be used for maritime defense, aligning with counterspace capabilities and marine technology domains."
+  },
+  {
+    "company_name": "Aerodome",
+    "description": "Aerodome is a developer of Drone-As-First-Responder technology that allows agencies to deploy drones for missions.",
+    "location": "New York, New York, United States",
+    "founded": "Apr 2023",
+    "industries": "Aerospace, Drones, Law Enforcement, Military, Public Safety",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Aerodome develops Drone-As-First-Responder technology for agencies, which spans the aerospace, drones, law enforcement, military, and public safety domains."
+  },
+  {
+    "company_name": "MAVRIK",
+    "description": "MAVRIK develops high-capacity modular drone technology for manned and cargo missions.",
+    "location": "Long Beach, California, United States",
+    "founded": "2023",
+    "industries": "Aerospace, Drones, Manufacturing",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "MAVRIK develops high-capacity modular drone technology for manned and cargo missions, which falls under the aerospace, drones, and manufacturing domains."
+  },
+  {
+    "company_name": "Hivemapper",
+    "description": "Hivemapper is a community-owned mapping network that creates unprecedented coverage, freshness, and quality.",
+    "location": "San Francisco, California, United States",
+    "founded": "2015",
+    "industries": "Geospatial, Navigation",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "satellite_constellations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Hivemapper is a community-owned mapping network that creates geospatial data and services, which aligns with the earth_data_analytics domain. Additionally, it leverages a satellite constellation to provide this mapping coverage, which falls under the satellite_constellations domain."
+  },
+  {
+    "company_name": "Zitara Technologies",
+    "description": "Zitara Technologies is a company that offers predictive battery management software for electric fleets.",
+    "location": "San Francisco, California, United States",
+    "founded": "2019",
+    "industries": "Autonomous Vehicles, Battery, Electric Vehicle, Energy, Energy Storage, Satellite Communication, Software",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "satellite_communications"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Zitara Technologies offers predictive battery management software for electric fleets, which spans the domains of satellite communications, energy storage, and software."
+  },
+  {
+    "company_name": "Howmet Aerospace",
+    "description": "Howmet Aerospace produces jet engine components, aerospace fasteners, and forged wheels for aerospace and defense applications.",
+    "location": "Pittsburgh, Pennsylvania, United States",
+    "founded": "2020",
+    "industries": "Aerospace, Manufacturing, Transportation",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Howmet Aerospace produces aerospace components and systems, which aligns with the aerospace, manufacturing, and transportation domains."
+  },
+  {
+    "company_name": "Vestigo Aerospace",
+    "description": "Vestigo Aerospace provides deorbit capability for cubeSats, small satellites, and launch vehicle stages.",
+    "location": "La Canada Flintridge, California, United States",
+    "founded": "2019",
+    "industries": "Satellite Communication",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "satellite_communications",
+      "small_satellite_engineering",
+      "satellite_constellations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Vestigo Aerospace provides deorbit capability for cubeSats, small satellites, and launch vehicle stages, which falls under the domains of satellite communications, small satellite engineering, and satellite constellations."
+  },
+  {
+    "company_name": "SkySelect",
+    "description": "SkySelect is a parts procurement services and technology for $100B aircraft material industry",
+    "location": "San Francisco, California, United States",
+    "founded": "2017",
+    "industries": "Aerospace, Air Transportation, Enterprise Software, Information Technology, Supply Chain Management",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "satellite_communications"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "SkySelect provides parts procurement and technology services for the $100B aircraft material industry, which aligns with satellite communications, supply chain management, and enterprise software domains."
+  },
+  {
+    "company_name": "Panhwar Jet",
+    "description": "Panhwar Jet is building unmanned, all-electric cargo aircraft designed specifically for $319B urgent deliveries market.",
+    "location": "Carlsbad, California, United States",
+    "founded": "Feb 11, 2021",
+    "industries": "Aerospace, Air Transportation, Electric Vehicle",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company is building unmanned, all-electric cargo aircraft, which falls under the aerospace, air transportation, and electric vehicle domains."
+  },
+  {
+    "company_name": "PlanetIQ",
+    "description": "PlanetIQ utilizes commercial satellite constellation to provide weather data to inform on-the-ground decision making.",
+    "location": "Golden, Colorado, United States",
+    "founded": "2012",
+    "industries": "Aerospace, GPS, Information Technology",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "earth_observation",
+      "positioning_navigation_timing"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "PlanetIQ utilizes commercial satellite constellations to provide weather data, which falls under the earth observation and data analytics domains. The company's use of GPS and positioning data also places it in the positioning, navigation and timing domain."
+  },
+  {
+    "company_name": "Danti",
+    "description": "Search engine for all of Earth's data",
+    "location": "Atlanta, Georgia, United States",
+    "founded": "Feb 2023",
+    "industries": "Artificial Intelligence (AI), Drone Management, Geospatial, Information Technology, Internet",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "satellite_constellations",
+      "space_ai"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Danti is a search engine focused on Earth's data, which aligns with earth data analytics and geospatial services. Its use of AI and drone management also suggests capabilities in small satellite systems and AI-driven decision support for space missions."
+  },
+  {
+    "company_name": "Thor Dynamics",
+    "description": "Thor Dynamics specializes in directed energy systems for drone and swarm defense to protect critical infrastructure and national security",
+    "location": "Orlando, Florida, United States",
+    "founded": "Nov 8, 2024",
+    "industries": "Aerospace, Artificial Intelligence (AI), Drone Management, Drones, Laser, Military, Robotics",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "counterspace_capabilities",
+      "military_isr_satellites",
+      "military_missile_tracking",
+      "space_ai",
+      "space_autonomy",
+      "space_electronic_warfare",
+      "space_robotics"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Thor Dynamics specializes in directed energy systems for drone and swarm defense, which aligns with counterspace capabilities, military ISR satellites, missile tracking, and space robotics. The company's focus on AI and autonomy for space missions also fits within the relevant domains."
+  },
+  {
+    "company_name": "Flyby Robotics",
+    "description": "Flyby Robotics build programmable drones for massive aerial GPU compute.",
+    "location": "Los Angeles, California, United States",
+    "founded": "2023",
+    "industries": "Aerospace, Machinery Manufacturing, Robotics",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "human_systems"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Flyby Robotics builds programmable drones for aerial computing, which aligns with the aerospace, robotics, and human-system collaboration domains."
+  },
+  {
+    "company_name": "Ignium",
+    "description": "Ignium provides software, power, energetic, and pyrotechnic products in weapon systems that serve defense companies.",
+    "location": "Rockville, Maryland, United States",
+    "founded": "2026",
+    "industries": "Manufacturing, Productivity Tools, Space Travel",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "counterspace_capabilities",
+      "military_isr_satellites",
+      "military_missile_tracking"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The company provides software, power, energetic, and pyrotechnic products for weapon systems that serve defense companies, indicating capabilities in counterspace operations, tactical ISR, and missile tracking."
+  },
+  {
+    "company_name": "CITYDATA.ai",
+    "description": "CITYDATA provides mobility intelligence and citizen apps for smart cities.",
+    "location": "San Francisco, California, United States",
+    "founded": "Oct 13, 2020",
+    "industries": "Artificial Intelligence (AI), Geospatial, GovTech, Information Technology, Machine Learning",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "space_ai",
+      "satellite_constellations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "CITYDATA.ai provides mobility intelligence and citizen apps for smart cities, which aligns with domains in earth data analytics, space AI, satellite constellations, and geospatial technologies."
+  },
+  {
+    "company_name": "Ampaire",
+    "description": "Ampaire's mission is to be the world's most trusted developer of practical, compelling electric aircraft.",
+    "location": "Long Beach, California, United States",
+    "founded": "2016",
+    "industries": "Aerospace, Air Transportation, Automotive, Energy, Transportation",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Ampaire's mission to develop electric aircraft spans the aerospace, air transportation, automotive, energy, and transportation domains."
+  },
+  {
+    "company_name": "Torch.AI",
+    "description": "Torch.AI provides Data Infrastructure AI\u2122 software to make data more available, useful, and valuable.",
+    "location": "Leawood, Kansas, United States",
+    "founded": "2017",
+    "industries": "Big Data, Cloud Data Services, Data Integration, Data Mining, Drones, Geospatial, Image Recognition, National Security, Software, Text Analytics",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [],
+    "classification_confidence": "high",
+    "classification_reasoning": "Torch.AI provides data infrastructure and AI software for making data more available, useful, and valuable, spanning areas like data integration, data mining, image recognition, software, and text analytics."
+  },
+  {
+    "company_name": "Geosite",
+    "description": "Geosite is a business operations platform that links spatial data and analytics to business operations, incident management, and planning.",
+    "location": "Palo Alto, California, United States",
+    "founded": "Mar 2018",
+    "industries": "Analytics, Geospatial, InsurTech, Internet of Things, Mapping Services, SaaS",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "satellite_constellations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Geosite provides a business operations platform that leverages spatial data and analytics, which aligns with the 'Earth Data Analytics' and 'Small Satellite Systems & Constellations' domains."
+  },
+  {
+    "company_name": "Nooks",
+    "description": "Nooks provides Classified-Spaces-as-a-Service (CSaaS) to both commercial and government customers.",
+    "location": "Arlington, Virginia, United States",
+    "founded": "2021",
+    "industries": "Aerospace, Information Technology, Subscription Service",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "satellite_communications",
+      "ground_operations"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "Nooks provides Classified-Spaces-as-a-Service, which suggests it offers satellite communications and ground control systems for customers."
+  },
+  {
+    "company_name": "The Jackfruit Company",
+    "description": "The Jackfruit Company is a producer of plant-based products.",
+    "location": "Boulder, Colorado, United States",
+    "founded": "2011",
+    "industries": "Agriculture, Consumer Goods, Drones, Food and Beverage, Manufacturing",
+    "cb_rank": null,
+    "sector": "space",
+    "domains": [
+      "earth_observation"
+    ],
+    "classification_confidence": "high",
+    "classification_reasoning": "The Jackfruit Company is a producer of plant-based products, which falls under the earth observation and food and beverage domains."
   }
 ]
