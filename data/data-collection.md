@@ -4,7 +4,7 @@
 
 This document describes the full data collection pipeline for tracking capital flows across the space, bio, and energy industries from 2008 to present. The pipeline produces a unified annual dataset covering three capital sources: private fundraising (SEC EDGAR Form D), public market performance (stock market data), and federal government spending (USASpending.gov).
 
-The output is a set of JSON files keyed on `(sector, subsector, year)` that can be stitched together for cross-source analysis.
+The output is a set of JSON files keyed on `(sector, domain, year)` that can be stitched together for cross-source analysis.
 
 This document is intended to be used as a specification in Claude Code for building the automated portions of the pipeline. Manual steps are clearly marked with `[MANUAL]` tags.
 
@@ -34,12 +34,12 @@ This document is intended to be used as a specification in Claude Code for build
 | **Pipeline 2** | | **Government Spending** | |
 | | 2.1 | Bulk download USASpending CSVs | ⬜ Not Started |
 | | 2.2 | Parse and normalize CSVs | ⬜ Not Started |
-| | 2.3 | Classify awards by sector/subsector | ⬜ Not Started |
+| | 2.3 | Classify awards by sector/domain | ⬜ Not Started |
 | | 2.4 | API cross-agency search | ⬜ Not Started |
 | | 2.5 | Aggregate annual government data | ⬜ Not Started |
 | **Pipeline 3** | | **Stitching** | |
 | | 3.1 | Validate source files | ⬜ Not Started |
-| | 3.2 | Join on (sector, subsector, year) | ⬜ Not Started |
+| | 3.2 | Join on (sector, domain, year) | ⬜ Not Started |
 | | 3.3 | Compute derived metrics | ⬜ Not Started |
 | | 3.4 | Produce master file | ⬜ Not Started |
 
@@ -65,9 +65,9 @@ Metrics: indexed growth (2008 = 1.0) for private inflows, government outlays, an
 
 ### RQ3: Government Spending as a Leading Indicator
 
-At the subsector level, is there a statistically significant positive correlation between government outlays in year N and private capital raised in years N+1, N+2, or N+3? When the federal government increases spending in a subsector, does a measurable increase in private venture fundraising follow 1-3 years later?
+At the domain level, is there a statistically significant positive correlation between government outlays in year N and private capital raised in years N+1, N+2, or N+3? When the federal government increases spending in a domain, does a measurable increase in private venture fundraising follow 1-3 years later?
 
-Metrics: year-over-year change in government outlays per subsector, year-over-year change in private capital raised per subsector lagged by 1-3 years, Pearson correlation and Granger causality test, optimal lag per subsector, effect size (dollars of private capital per dollar of government spending increase).
+Metrics: year-over-year change in government outlays per domain, year-over-year change in private capital raised per domain lagged by 1-3 years, Pearson correlation and Granger causality test, optimal lag per domain, effect size (dollars of private capital per dollar of government spending increase).
 
 ---
 
@@ -120,9 +120,9 @@ Changes to any of these files after data collection has started require reproces
 Use Claude to draft an initial taxonomy based on domain knowledge of each industry. Then manually review, adjust, and finalize.
 
 Key decisions to make during this step:
-- Are the subsectors mutually exclusive, or can a company/award belong to multiple? (Recommendation: assign one primary subsector only, to avoid double-counting in aggregates.)
-- Is the granularity right? Too few subsectors and you lose analytical power for RQ3 (leading indicator analysis). Too many and some subsectors will have too few data points to be meaningful.
-- Does each subsector have enough expected data volume across all three sources (private, public, government) to be useful? A subsector that has heavy government spending but zero private companies is still valid — that's an interesting finding — but a subsector with almost no data in any source should probably be merged into a neighboring one.
+- Can a company/award belong to multiple domains? Yes — companies often span multiple domains. Track unique companies separately to handle double-counting in aggregates.
+- Is the granularity right? Too few domains and you lose analytical power for RQ3 (leading indicator analysis). Too many and some domains will have too few data points to be meaningful.
+- Does each domain have enough expected data volume across all three sources (private, public, government) to be useful? A domain that has heavy government spending but zero private companies is still valid — that's an interesting finding — but a domain with almost no data in any source should probably be merged into a neighboring one.
 
 #### Domain definitions
 
@@ -714,16 +714,16 @@ Key columns to extract:
 
 Track both `total_obligated_amount` (money committed) and `total_outlayed_amount` (money actually disbursed).
 
-### Step 2.3 — Classify awards by sector and subsector `[AUTOMATED + MANUAL]`
+### Step 2.3 — Classify awards by sector and domain `[AUTOMATED + MANUAL]`
 
-Apply the classification rules defined in `government-classification-rules.json` (produced in Phase 0). The rules are applied in priority order:
+Apply the classification rules defined in `naics-to-domain-mapping.json` (produced in Phase 0). The rules are applied in priority order:
 
 1. **Agency default** sets the sector (NASA → space, NIH → bio, DOE → energy).
-2. **NAICS code** sets the subsector if a high-confidence mapping exists in the ruleset.
-3. **Keyword matching** on the award description field sets or overrides subsector if NAICS is ambiguous or missing.
-4. Awards that cannot be classified after all three layers are flagged for manual review.
+2. **NAICS code** sets domain(s) if a high-confidence mapping exists.
+3. **LLM fallback** (Claude API) classifies awards with low/medium confidence NAICS or missing NAICS into domains from the CSV.
+4. Awards can belong to multiple domains.
 
-For multi-sector agencies (DOD, NSF, etc.), there is no agency default — classification relies entirely on NAICS and keyword layers.
+For multi-sector agencies (DOD, NSF, etc.), there is no agency default — classification relies entirely on NAICS and LLM.
 
 Output per award:
 
@@ -731,7 +731,7 @@ Output per award:
 {
   "award_id": "CONT_AWD_NNX17AB52G",
   "sector": "space",
-  "subsector": "satellite_mfg",
+  "domains": ["satellite_communications", "satellite_constellations"],
   "classification_method": "naics_code",
   "classification_confidence": "high"
 }
@@ -741,14 +741,14 @@ Output per award:
 {
   "award_id": "GRANT_AWD_80NSSC20K1234",
   "sector": "space",
-  "subsector": "earth_observation",
-  "classification_method": "keyword_match",
-  "classification_confidence": "medium",
-  "matched_keywords": ["remote sensing", "earth observation"]
+  "domains": ["earth_observation", "earth_data_analytics"],
+  "classification_method": "llm",
+  "classification_confidence": "high",
+  "classification_reasoning": "Award description mentions remote sensing and climate monitoring."
 }
 ```
 
-`[MANUAL]` Review all awards classified with "medium" or "low" confidence. Review a random sample of "high" confidence classifications to validate the rules.
+`[MANUAL]` Review all awards where LLM returned confidence "low". Review a random sample of "high" confidence classifications to validate.
 
 ### Step 2.4 — API-based cross-agency search `[AUTOMATED]`
 
@@ -784,7 +784,9 @@ Paginate through all results. Deduplicate against bulk download data on `award_i
 
 ### Step 2.5 — Aggregate into annual government time series `[AUTOMATED]`
 
-Roll up all classified awards into annual totals by sector, subsector, year, and award type.
+Roll up all classified awards into annual totals by sector, domain, year, and award type.
+
+**Multi-domain handling:** Awards with multiple domains contribute to each domain's totals (same as Pipeline 1).
 
 Save as `data/source/{sector}-government.json`:
 
@@ -792,7 +794,7 @@ Save as `data/source/{sector}-government.json`:
 [
   {
     "sector": "space",
-    "subsector": "launch",
+    "domain": "launch_vehicles",
     "year": 2021,
     "total_obligated": 8200000000,
     "total_outlayed": 6500000000,
@@ -812,15 +814,15 @@ Save as `data/source/{sector}-government.json`:
 
 ### Step 3.1 — Validate source files `[AUTOMATED]`
 
-Before stitching, validate that all three source files for each sector use the same subsector codes from the taxonomy. Flag any records with subsector values not in `taxonomy.json`.
+Before stitching, validate that all three source files for each sector use domain values from the domain CSVs. Flag any records with domain values not in `domains-{sector}.csv`.
 
-Validate that year ranges are consistent across sources (all should cover 2008–present, though some subsector/year combinations may have no data, which is fine — they become null in the stitched view).
+Validate that year ranges are consistent across sources (all should cover 2008–present, though some domain/year combinations may have no data, which is fine — they become null in the stitched view).
 
-### Step 3.2 — Join on (sector, subsector, year) `[AUTOMATED]`
+### Step 3.2 — Join on (sector, domain, year) `[AUTOMATED]`
 
-Perform a full outer join of `{sector}-private.json`, `{sector}-public.json`, and `{sector}-government.json` on the composite key `(sector, subsector, year)`.
+Perform a full outer join of `{sector}-private.json`, `{sector}-public.json`, and `{sector}-government.json` on the composite key `(sector, domain, year)`.
 
-Where a source has no data for a given key (e.g., no public companies in a subsector in a given year), the fields for that source are null.
+Where a source has no data for a given key (e.g., no public companies in a domain in a given year), the fields for that source are null.
 
 ### Step 3.3 — Compute derived metrics `[AUTOMATED]`
 
@@ -829,13 +831,13 @@ For each row in the stitched data, compute:
 - `total_inflow` = private.capital_raised + government.outlayed (both are flows, so they're additive)
 - `private_share` = private.capital_raised / total_inflow
 - `govt_share` = government.outlayed / total_inflow
-- `cumulative_private_raised_to_date` = running sum of private.capital_raised for this sector+subsector
+- `cumulative_private_raised_to_date` = running sum of private.capital_raised for this sector+domain
 - `capital_efficiency` = public.market_cap_eoy / cumulative_private_raised_to_date
 - `private_yoy_growth` = year-over-year change in private.capital_raised
 - `govt_yoy_growth` = year-over-year change in government.outlayed
 - `market_cap_yoy_growth` = year-over-year change in public.market_cap_eoy
-- `indexed_private_2008_base` = private.capital_raised / private.capital_raised in 2008 for this sector+subsector
-- `indexed_govt_2008_base` = government.outlayed / government.outlayed in 2008 for this sector+subsector
+- `indexed_private_2008_base` = private.capital_raised / private.capital_raised in 2008 for this sector+domain
+- `indexed_govt_2008_base` = government.outlayed / government.outlayed in 2008 for this sector+domain
 - `cpi_deflator_2023_base` = CPI adjustment factor for converting nominal to real 2023 dollars
 
 Save as `data/unified/{sector}-unified.json`:
@@ -844,7 +846,7 @@ Save as `data/unified/{sector}-unified.json`:
 [
   {
     "sector": "space",
-    "subsector": "launch",
+    "domain": "launch_vehicles",
     "year": 2021,
 
     "private": {
@@ -900,9 +902,10 @@ Concatenate all three sector unified files into `data/master/all-sectors-unified
 
 ```
 data/
-├── taxonomy.json                    # Phase 0 output: canonical sector/subsector definitions
-├── crunchbase-mapping.json          # Phase 0 output: Crunchbase tags → subsectors
-├── government-classification-rules.json  # Phase 0 output: NAICS + keywords + agency → subsectors
+├── domains-space.csv                # Phase 0 output: canonical space domain definitions
+├── domains-bio.csv                  # Phase 0 output: canonical bio domain definitions
+├── domains-energy.csv               # Phase 0 output: canonical energy domain definitions
+├── naics-to-domain-mapping.json     # Phase 0 output: NAICS codes → domains
 ├── taxonomy-validation-notes.md     # Phase 0 output: audit trail of taxonomy decisions
 ├── source/
 │   ├── universe.json                # All companies, all sectors, with EDGAR matches
@@ -937,11 +940,11 @@ data/
 
 | Step | Type | Description |
 |------|------|-------------|
-| 0.1 | `[MANUAL + CLAUDE]` | Define canonical taxonomy |
-| 0.2 | `[MANUAL + CLAUDE]` | Build Crunchbase mapping table |
-| 0.3 | `[MANUAL + CLAUDE]` | Build government classification ruleset |
+| 0.1 | `[MANUAL + CLAUDE]` | Define canonical taxonomy (domain CSVs) |
+| 0.2 | `[MANUAL + CLAUDE]` | Define Crunchbase search tags, LLM classification prompts |
+| 0.3 | `[MANUAL + CLAUDE]` | Build NAICS-to-domain mapping, LLM fallback prompts |
 | 0.4 | `[MANUAL + CLAUDE]` | Validate taxonomy completeness |
-| 1.1 | `[MANUAL]` | Export Crunchbase universe, assign subsectors using crunchbase-mapping.json |
+| 1.1 | `[MANUAL + AUTOMATED]` | Export Crunchbase universe, classify via Claude API into domains |
 | 1.2 | `[AUTOMATED]` | Resolve EDGAR identities via EFTS API |
 | 1.3 | `[MANUAL]` | Review low-confidence EDGAR matches |
 | 1.4 | `[AUTOMATED]` | Generate coverage report |
@@ -949,20 +952,20 @@ data/
 | 1.5 | `[AUTOMATED]` | Pull Form D filing index per CIK |
 | 1.6 | `[AUTOMATED]` | Parse Form D XML |
 | 1.7 | `[AUTOMATED]` | Deduplicate and chain amendments |
-| 1.8 | `[AUTOMATED]` | Aggregate into annual primary market time series |
+| 1.8 | `[AUTOMATED]` | Aggregate into annual primary market time series by domain |
 | 1.9 | `[AUTOMATED]` | Pull secondary market data for public companies |
 | 1.9 review | `[MANUAL]` | Verify ticker symbols and listing dates |
-| 1.10 | `[AUTOMATED]` | Aggregate into annual secondary market time series |
+| 1.10 | `[AUTOMATED]` | Aggregate into annual secondary market time series by domain |
 | 1.11 | `[AUTOMATED]` | S-1/S-4 extraction via Claude API |
 | 1.11 review | `[MANUAL]` | Human review of every extracted valuation timeline |
 | 2.1 | `[MANUAL]` | Download USASpending CSVs by agency and fiscal year |
 | 2.2 | `[AUTOMATED]` | Parse and normalize CSVs, filter non-federal recipients |
-| 2.3 | `[AUTOMATED]` | Classify awards by sector/subsector using NAICS + keywords |
-| 2.3 review | `[MANUAL]` | Review medium/low confidence classifications |
-| 2.4 | `[AUTOMATED]` | API-based cross-agency keyword search |
-| 2.5 | `[AUTOMATED]` | Aggregate into annual government time series |
-| 3.1 | `[AUTOMATED]` | Validate source files against taxonomy |
-| 3.2 | `[AUTOMATED]` | Join source files on (sector, subsector, year) |
+| 2.3 | `[AUTOMATED]` | Classify awards by sector/domain using NAICS + LLM fallback |
+| 2.3 review | `[MANUAL]` | Review low-confidence LLM classifications |
+| 2.4 | `[AUTOMATED]` | API-based cross-agency search |
+| 2.5 | `[AUTOMATED]` | Aggregate into annual government time series by domain |
+| 3.1 | `[AUTOMATED]` | Validate source files against domain CSVs |
+| 3.2 | `[AUTOMATED]` | Join source files on (sector, domain, year) |
 | 3.3 | `[AUTOMATED]` | Compute derived metrics |
 | 3.4 | `[AUTOMATED]` | Produce master file |
 
@@ -975,7 +978,7 @@ data/
 - **XML parsing:** `lxml` for Form D XML
 - **CSV processing:** `pandas` for USASpending bulk files (can be hundreds of MB per file)
 - **Stock data:** Free API — Yahoo Finance (`yfinance`), Financial Modeling Prep, or Alpha Vantage
-- **Claude API:** Used only in Step 1.11 for S-1/S-4 extraction (~20-30 filings for space, more for bio/energy)
+- **Claude API:** Used for domain classification (Steps 1.1, 2.3) and S-1/S-4 extraction (Step 1.11). Estimated cost: ~$5-15 total.
 - **Storage:** PostgreSQL or DuckDB for intermediate data; final outputs as JSON files
 - **USASpending API:** 10 req/sec unauthenticated, higher with registration
 
