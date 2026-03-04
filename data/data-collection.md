@@ -20,8 +20,8 @@ This document is intended to be used as a specification in Claude Code for build
 | | 0.3 | Build government classification ruleset | ✅ Complete |
 | | 0.4 | Validate taxonomy completeness | ✅ Complete |
 | **Pipeline 1** | | **Primary + Secondary Market** | |
-| | 1.1 | Export Crunchbase universe | 🔄 In Progress |
-| | 1.2 | Resolve EDGAR identities | ⬜ Not Started |
+| | 1.1 | Export Crunchbase universe | ✅ Complete |
+| | 1.2 | Resolve EDGAR identities | 🔄 Running (PID 19568) |
 | | 1.3 | Review EDGAR matches | ⬜ Not Started |
 | | 1.4 | Report universe coverage | ⬜ Not Started |
 | | 1.5 | Pull Form D filing index | ⬜ Not Started |
