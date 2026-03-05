@@ -26,7 +26,7 @@ This document is intended to be used as a specification in Claude Code for build
 | | 1.4 | Report universe coverage | ✅ Complete (57% overall match rate) |
 | | 1.5 | Pull Form D filing index | ✅ Complete (5,195 filings) |
 | | 1.6 | Parse Form D XML | ✅ Complete ($141.9B tracked) |
-| | 1.7 | Deduplicate and chain amendments | ⬜ Not Started |
+| | 1.7 | Deduplicate and chain amendments | ✅ Complete (4,293 distinct offerings) |
 | | 1.8 | Aggregate annual primary market | ⬜ Not Started |
 | | 1.9 | Pull public market data | ⬜ Not Started |
 | | 1.10 | Aggregate annual secondary market | ⬜ Not Started |
