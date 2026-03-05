@@ -24,7 +24,7 @@ This document is intended to be used as a specification in Claude Code for build
 | | 1.2 | Resolve EDGAR identities | ✅ Complete |
 | | 1.3 | Review EDGAR matches | ✅ Complete (fixed 11 wrong matches) |
 | | 1.4 | Report universe coverage | ✅ Complete (57% overall match rate) |
-| | 1.5 | Pull Form D filing index | 🔄 Running |
+| | 1.5 | Pull Form D filing index | ✅ Complete (5,195 filings) |
 | | 1.6 | Parse Form D XML | ⬜ Not Started |
 | | 1.7 | Deduplicate and chain amendments | ⬜ Not Started |
 | | 1.8 | Aggregate annual primary market | ⬜ Not Started |
