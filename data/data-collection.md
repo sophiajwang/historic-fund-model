@@ -448,6 +448,21 @@ Before proceeding, generate a coverage report showing what percentage of the Cru
 
 `[MANUAL]` Review this report. If match rate is below 50% for any sector, investigate whether the Crunchbase export or EDGAR search needs refinement before proceeding.
 
+#### Actual Coverage Results (March 2026)
+
+| Sector | Total | Matched | Match Rate | With Form D | With S-1/S-4 |
+|--------|-------|---------|------------|-------------|--------------|
+| Space | 998 | 444 | 44.5% | 397 | 47 |
+| Bio | 1,000 | 702 | 70.2% | 546 | 156 |
+| Energy | 1,000 | 551 | 55.1% | 492 | 59 |
+| **Total** | **2,998** | **1,697** | **56.6%** | **1,435** | **262** |
+
+**Notes:**
+- Space has lowest match rate (44.5%) due to many early-stage startups without SEC filings
+- Bio has highest match rate (70.2%) reflecting more mature companies
+- 11 wrong matches (funds, SPACs) were manually corrected during review
+- Companies without matches are legitimate "not found" (no SEC filings exist)
+
 ### Step 1.5 — Pull Form D filing index `[AUTOMATED]`
 
 For every company with a CIK, retrieve all Form D and D/A (amendment) filings from 2008 onward.
