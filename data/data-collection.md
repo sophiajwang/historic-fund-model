@@ -29,7 +29,7 @@ This document is intended to be used as a specification in Claude Code for build
 | | 1.7 | Deduplicate and chain amendments | ✅ Complete (4,293 distinct offerings) |
 | | 1.8 | Aggregate annual primary market | ✅ Complete ($102B tracked) |
 | | 1.9 | Pull public market data | ✅ Complete (169 companies) |
-| | 1.10 | Aggregate annual secondary market | ⬜ Not Started |
+| | 1.10 | Aggregate annual secondary market | ✅ Complete ($1.2T tracked) |
 | | 1.11 | S-1/S-4 valuation extraction | ⬜ Not Started |
 | **Pipeline 2** | | **Government Spending** | |
 | | 2.1 | Bulk download USASpending CSVs | ⬜ Not Started |
