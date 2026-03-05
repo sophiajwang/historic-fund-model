@@ -30,7 +30,7 @@ This document is intended to be used as a specification in Claude Code for build
 | | 1.8 | Aggregate annual primary market | ✅ Complete ($102B tracked) |
 | | 1.9 | Pull public market data | ✅ Complete (169 companies) |
 | | 1.10 | Aggregate annual secondary market | ✅ Complete ($1.2T tracked) |
-| | 1.11 | S-1/S-4 valuation extraction | ⬜ Not Started |
+| | 1.11 | S-1/S-4 valuation extraction | ✅ Complete (362 funding rounds) |
 | **Pipeline 2** | | **Government Spending** | |
 | | 2.1 | Bulk download USASpending CSVs | ⬜ Not Started |
 | | 2.2 | Parse and normalize CSVs | ⬜ Not Started |

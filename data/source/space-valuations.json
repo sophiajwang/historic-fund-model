@@ -1,0 +1,1631 @@
+[
+  {
+    "cik": "0002038439",
+    "company_name": "VisionWave",
+    "sector": "space",
+    "domains": [
+      "inspace_manufacturing"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2025-08-29",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2038439/000173112225001188/e6804_s-1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Convertible Note - Pre-Paid Advance (Tranche 1)",
+        "date": "2025-07-25",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 2820000,
+        "total_shares_after": null,
+        "lead_investor": "YA II",
+        "source_section": "DILUTION/RISK FACTORS",
+        "notes": "First tranche of Pre-Paid Advance. Purchase price was 94% of principal amount ($3M * 94% = $2.82M). 6% annual interest rate, 12-month maturity. Convertible to common stock at conversion price with floor price protection.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Convertible Note - Pre-Paid Advance (Tranche 2)",
+        "date": "2025",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 1880000,
+        "total_shares_after": null,
+        "lead_investor": "YA II",
+        "source_section": "DILUTION/RISK FACTORS",
+        "notes": "Second tranche of $2M Pre-Paid Advance to be disbursed upon registration statement effectiveness. Purchase price at 94% of principal amount ($2M * 94% = $1.88M). Same terms as first tranche.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "SEPA Equity Facility",
+        "date": "2025-07-25",
+        "shares_issued": 200000,
+        "price_per_share": null,
+        "amount_raised": 50000000,
+        "total_shares_after": null,
+        "lead_investor": "YA II",
+        "source_section": "DILUTION/SECURITIES OFFERED",
+        "notes": "Share Exchange Purchase Agreement allowing up to $50M in equity sales. 200,000 commitment shares issued to YA II. Up to 10,000,000 additional shares may be issued under the facility. Price varies based on market conditions during pricing periods.",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": 150000000,
+      "common_shares_outstanding": 14493424,
+      "preferred_shares_outstanding": 0,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document shows current equity financing structure with YA II including convertible notes and equity purchase facility. Also mentions 6,900,000 public warrants outstanding with $11.50 exercise price and 10,000,000 preferred shares authorized but none outstanding. As of June 30, 2025, company had only $885 in cash, indicating significant liquidity constraints. The SEPA facility has various limitations including Exchange Cap and Ownership Limitation that may restrict access to full $50M commitment."
+  },
+  {
+    "cik": "0001784570",
+    "company_name": "Beta Technologies",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "424B4",
+    "filing_date": "2025-11-04",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1784570/000119312525265029/d89594d424b4.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 215306119,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "This document extract appears to be from the risk factors or business overview section of a 424B4 filing (IPO prospectus). It discusses general equity financing strategy and post-IPO capitalization but does not contain details about historical funding rounds. The extract mentions 215,306,119 outstanding shares of Class A common stock after the offering completion (or 219,784,060 if underwriters exercise their full option), and that directors/officers will own 42,971,488 shares (20.0% or 19.6% depending on underwriter option exercise). The company has a multi-class stock structure but specific details about historical private funding rounds are not present in this extract."
+  },
+  {
+    "cik": "0001788060",
+    "company_name": "Voyager Technologies",
+    "sector": "space",
+    "domains": [
+      "space_general",
+      "launch_vehicles",
+      "ground_operations"
+    ],
+    "filing_type": "424B4",
+    "filing_date": "2025-06-12",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1788060/000162828025030832/voyager-424b4finalprospect.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document extract contains only a section about equity financing risks and accounting matters. No specific funding rounds, equity issuances, share counts, or capitalization details are mentioned in this section. The extract appears to be from the risk factors portion of the 424B4 filing rather than sections that would contain historical financing information such as capitalization tables, use of proceeds, or company history sections."
+  },
+  {
+    "cik": "0001879726",
+    "company_name": "Sidus Space",
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "satellite_constellations",
+      "small_satellite_engineering"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2024-10-15",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1879726/000149315224041072/forms-1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Current Public Offering",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": 2.67,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION",
+        "notes": "Assumed public offering price of $2.67 per share mentioned for warrant dilution adjustment calculations",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": 800000
+    },
+    "extraction_notes": "Document extract primarily contains dilution and capitalization information rather than historical funding rounds. Key details include: 8,061 warrants exercisable at $34.66 weighted average price, 157,585 representative's warrants at $10.65 weighted average price, 800,000 shares reserved for 2021 Omnibus Equity Incentive Plan, underwriter option for up to 561,797 additional shares for over-allotments, 90-day lock-up agreements, and right of first refusal through October 29, 2025. Complete funding history would require access to full S-1 filing sections."
+  },
+  {
+    "cik": "0001819848",
+    "company_name": "Joby Aviation",
+    "sector": "space",
+    "domains": [],
+    "status": "no_filings"
+  },
+  {
+    "cik": "0001819974",
+    "company_name": "SkyWater Technology",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "424B4",
+    "filing_date": "2021-04-22",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1819974/000119312521126725/d26688d424b4.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Initial Public Offering",
+        "date": "2021-04-23",
+        "shares_issued": 6960000,
+        "price_per_share": 14.0,
+        "amount_raised": 90619200,
+        "total_shares_after": 38015743,
+        "lead_investor": "Jefferies",
+        "source_section": "Prospectus Cover and Offering Summary",
+        "notes": "IPO with $14.00 per share offering price, underwriters have option to purchase additional 1,044,000 shares. Net proceeds after underwriting discounts and estimated expenses.",
+        "implied_post_money_valuation": 532220402,
+        "implied_pre_money_valuation": 441601202,
+        "valuation_confidence": "high"
+      },
+      {
+        "round_label": "Corporate Conversion",
+        "date": "2021-04-14",
+        "shares_issued": 31055743,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": 31055743,
+        "lead_investor": null,
+        "source_section": "Corporate Conversion",
+        "notes": "Conversion from LLC to corporation. Class B preferred units and common units of CMI Acquisition, LLC converted to common stock. Class B preferred units holders received 27,995,400 shares, common unit holders received 3,060,343 shares.",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 38015743,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": 6732904
+    },
+    "extraction_notes": "Document shows IPO transaction with existing LLC structure converting to corporation. Oxbow Industries will own approximately 73.6% after offering. Additional share reserves include 5,000,000 for 2021 Equity Incentive Plan, 700,000 for Employee Stock Purchase Plan, and 2,328,880 for outstanding RSUs. Company was acquired from Cypress Semiconductor in March 2017 by Oxbow Industries but specific terms of that transaction not detailed in this filing."
+  },
+  {
+    "cik": "0001788060",
+    "company_name": "Starlab Space",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "424B4",
+    "filing_date": "2025-06-12",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1788060/000162828025030832/voyager-424b4finalprospect.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document extract only contains a section discussing equity financing risks and contract accounting matters. No specific funding rounds, equity issuances, share counts, or capitalization details were found in this section. A complete analysis would require access to other sections of the 424B4 filing such as the capitalization table, use of proceeds, business history, or financial statements."
+  },
+  {
+    "cik": "0001844452",
+    "company_name": "Intuitive Machines",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "424B4",
+    "filing_date": "2024-12-05",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1844452/000119312524270922/d893468d424b4.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Series A Preferred Stock Conversion",
+        "date": "2024-02",
+        "shares_issued": 7738743,
+        "price_per_share": 3.0,
+        "amount_raised": 23216229,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Conversion of 21,000 shares of Series A Preferred Stock into Class A Common Stock at $3.00 per share conversion price",
+        "valuation_confidence": "medium"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": 5000,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document shows 25,000,000 total authorized preferred shares. After conversion in February 2024, only 5,000 shares of Series A Preferred Stock remain outstanding. Series A Preferred Stock has 10% semi-annual dividend rate, liquidation preference, voting rights on as-converted basis, protective provisions while 25%+ outstanding, conversion rights at $12.00 per share, and put/call redemption rights after 3-5 years. Public Warrants exercise at $11.50 per share, expire February 13, 2028, redeemable at $0.01 when Class A Common Stock >= $18.00. Class C Common Stock automatically converts to Class B Common Stock upon certain conditions."
+  },
+  {
+    "cik": "0001860160",
+    "company_name": "Firefly Aerospace",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "S-1",
+    "filing_date": "2025-11-17",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1860160/000119312525284786/d191739ds1.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": 3215000
+    },
+    "extraction_notes": "The provided document extract contains limited information about historical funding rounds. The extract primarily focuses on post-IPO stock compensation plans (2025 Stock Plan and ESPP), director compensation, and risk factors. Key observations: 1) 2025 Stock Plan has an Initial Share Reserve with 3% annual increases capped at lesser of 3% of outstanding shares or Board-determined amount; 2) ESPP initially reserved 3,215,000 shares with annual increases of lesser of 1% of outstanding shares or Board-determined amount, capped at 3,215,000 shares per year; 3) Director compensation table shows some directors received stock options (15,364 options for some directors, 5,008,699 for Thomas Markusic); 4) No specific historical funding rounds, valuations, or detailed capitalization information is provided in these sections. More complete capitalization and funding history would likely be found in other sections of the S-1 filing not included in this extract."
+  },
+  {
+    "cik": "0001956955",
+    "company_name": "Unusual Machines",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "S-1",
+    "filing_date": "2024-11-27",
+    "status": "extraction_error",
+    "error": "JSON parse error: Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "cik": "0001818274",
+    "company_name": "Arrive AI",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "S-1",
+    "filing_date": "2026-02-10",
+    "status": "extraction_error",
+    "error": "JSON parse error: Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "cik": "0001529113",
+    "company_name": "XTI Aerospace",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "424B4",
+    "filing_date": "2025-06-25",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1529113/000121390025057901/ea0246972-424b4_xtiaero.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Current Public Offering (June 2025)",
+        "date": "2025-06-24",
+        "shares_issued": 6231200,
+        "price_per_share": 1.75,
+        "amount_raised": 15997338,
+        "total_shares_after": 18701040,
+        "lead_investor": "ThinkEquity",
+        "source_section": "The Offering",
+        "notes": "Includes 2,911,800 pre-funded warrants at $1.749 each and 9,143,000 common warrants with $2.00 exercise price. Net proceeds after expenses approximately $14.4 million",
+        "implied_post_money_valuation": 32726820,
+        "implied_pre_money_valuation": 16729482,
+        "valuation_confidence": "high"
+      },
+      {
+        "round_label": "January 2025 Registered Direct Offering",
+        "date": "2025-01-10",
+        "shares_issued": 1454546,
+        "price_per_share": 13.75,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "ThinkEquity",
+        "source_section": "Recent Events",
+        "notes": "Net proceeds approximately $18.3 million after commissions and expenses. Also issued 72,727 placement agent warrants",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "March 2025 Underwritten Offering",
+        "date": "2025-03-31",
+        "shares_issued": 765200,
+        "price_per_share": 1.36,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "ThinkEquity",
+        "source_section": "Recent Events",
+        "notes": "Also included 2,176,000 pre-funded warrants at $1.359 and 2,941,200 common warrants. Net proceeds approximately $3.4 million, with $2.7 million used to repay Streeterville debt",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 9558040,
+      "preferred_shares_outstanding": 127,
+      "shares_reserved_options": 50333
+    },
+    "extraction_notes": "Document shows XTI Aerospace completed a merger with Legacy XTI on March 12, 2024. Current offering includes significant warrant components. Company underwent reverse stock splits of 1:100 in March 2024 and 1:250 in January 2025. Outstanding preferred stock includes 1 share of Series 4 at $418.5M conversion price and 126 shares of Series 5 at $280.97M conversion price. Company has 73.9M shares available under 2018 Employee Stock Incentive Plan."
+  },
+  {
+    "cik": "0002040127",
+    "company_name": "Karman Holdings Inc.",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "S-1",
+    "filing_date": "2025-07-21",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2040127/000119312525161868/d20420ds1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Initial Public Offering (IPO)",
+        "date": "2025-02",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "BASIS OF PRESENTATION",
+        "notes": "Company completed IPO in February 2025. In connection with IPO, predecessor TCFIII Spaceco Holdings LLC converted to Delaware corporation and changed name to Karman Holdings Inc.",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "This is a secondary offering S-1 registration statement where selling stockholders are offering 20,000,000 shares of common stock. The company is not selling any shares and will not receive proceeds. Document mentions the company completed its IPO in February 2025 but does not provide detailed terms of the IPO or any prior funding rounds. Stock trades on NYSE under symbol 'KRMN' with last reported price of $55.47 per share on July 18, 2025. The document does not contain detailed capitalization tables or information about prior private funding rounds - it appears this company was formed through acquisitions starting with merger of Aerospace Engineering LLC and AMRO Fabricating Corporation in October 2020, followed by acquisitions of American Automated Engineering Inc. (December 2020) and Systima Technologies (September 2021), plus five additional acquisitions including Metal Technology Inc. (April 2025) and Industrial Solid Propulsion (May 2025)."
+  },
+  {
+    "cik": "0002011208",
+    "company_name": "Safe Pro Group",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "S-1",
+    "filing_date": "2025-06-06",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2011208/000164117225014080/forms-1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Common Stock Offering",
+        "date": "2024",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 4179500,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Proceeds from the sale of common stock offering during 2024",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Common Stock and Warrants Sale",
+        "date": "2024",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 489002,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Proceeds from the sale of common stock and warrants in 2024",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Warrant Exercise",
+        "date": "2024",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 878708,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Proceeds from the exercise of warrants in 2024",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Convertible Notes",
+        "date": "2024",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 275002,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Proceeds from the sale of convertible notes payable in 2024, with interest expense of $306,516 mentioned",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Common Stock and Warrants Sale",
+        "date": "2023",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 1005249,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Proceeds from the sale of common stock and warrants in 2023",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Convertible Notes",
+        "date": "2023",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 475000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Proceeds from the sale of convertible notes payable in 2023",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document extract contains financing activity details from cash flow statements but lacks specific capitalization table with share counts, authorized shares, or detailed equity structure. Stock-based compensation expenses were mentioned ($1,078,806 in 2024 and $2,637,700 in 2023) indicating equity compensation programs. Related party advances and repayments also mentioned but not structured as formal equity rounds."
+  },
+  {
+    "cik": "0001780312",
+    "company_name": "AST SpaceMobile, Inc. (Air Space Intelligence)",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "S-1",
+    "filing_date": "2022-05-09",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315222012454/forms-1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Business Combination with New Providence Acquisition Corp. (SPAC)",
+        "date": "2021-04-06",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "New Providence Acquisition Corp.",
+        "source_section": "DILUTION - Corporate Information",
+        "notes": "SPAC merger completed on April 6, 2021; NPA was renamed AST SpaceMobile, Inc.; stock and warrants began trading on Nasdaq as ASTS and ASTSW on April 7, 2021",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Committed Equity Facility - Initial Commitment Shares",
+        "date": "2022-05-06",
+        "shares_issued": 21969,
+        "price_per_share": null,
+        "amount_raised": 0,
+        "total_shares_after": null,
+        "lead_investor": "B. Riley Principal Capital, LLC",
+        "source_section": "CAPITALIZATION",
+        "notes": "Initial commitment shares issued as consideration for irrevocable commitment to purchase up to $75M in stock; additional commitment shares may be issued upon reaching certain milestones",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Committed Equity Facility - Future Purchases",
+        "date": "2022",
+        "shares_issued": 10000000,
+        "price_per_share": null,
+        "amount_raised": 75000000,
+        "total_shares_after": null,
+        "lead_investor": "B. Riley Principal Capital, LLC",
+        "source_section": "DILUTION",
+        "notes": "Up to 10M shares that may be issued to B. Riley under Purchase Agreement; total commitment up to $75M; subject to various conditions and limitations including Exchange Cap of 36,310,037 shares (19.99% of outstanding)",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 51841004,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document focuses on a committed equity facility with B. Riley rather than traditional venture funding rounds. Company went public via SPAC merger in 2021. Current structure includes Class A Common Stock outstanding of 51,841,004 shares as of May 4, 2022, with potential dilution up to 61,928,880 shares if all registered shares are issued. The facility has a beneficial ownership limitation of 4.99% and Exchange Cap restrictions under Nasdaq rules."
+  },
+  {
+    "cik": "0001843973",
+    "company_name": "Fly Exclusive",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "S-4",
+    "filing_date": "2025-02-14",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1843973/000095017025021150/flyx-20250214.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The document extract contains limited capitalization information. The CAPITALIZATION section primarily discusses valuation multiples and comparable company analysis rather than detailed cap table information. The document mentions flyExclusive's market capitalization was approximately $58.6 million as of February 12, 2025, and discusses merger consideration involving flyExclusive Class A common stock at a 15-20% discount, but does not provide specific details about historical funding rounds, share counts, or equity issuances. The DILUTION section discusses general risks related to future equity issuances and debt financing but does not contain historical funding round data."
+  },
+  {
+    "cik": "0001927958",
+    "company_name": "AIRO (The AIRO Group)",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "424B4",
+    "filing_date": "2025-09-12",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1927958/000149315225013119/form424b4.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "IPO",
+        "date": "2025",
+        "shares_issued": null,
+        "price_per_share": 18.5,
+        "amount_raised": null,
+        "total_shares_after": 30247503,
+        "lead_investor": null,
+        "source_section": "SHARES ELIGIBLE FOR FUTURE SALE",
+        "notes": "Public offering price mentioned, total shares outstanding after offering specified",
+        "implied_post_money_valuation": 559578805,
+        "valuation_confidence": "high"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 30247503,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": 305367
+    },
+    "extraction_notes": "Document excerpt focuses on post-IPO share sale restrictions and lock-up provisions. As of June 30, 2025, there were 305,367 stock options outstanding (all vested). Various tranches of restricted shares will become eligible for sale at different dates: 337,611 immediately, 108,108 on September 10, 2025, 10,565,754 starting December 9, 2025, and 10,196,926 after 120 days. The Stock Repurchase mentioned suggests there was a share buyback transaction but details are not provided in this excerpt."
+  },
+  {
+    "cik": "0001781162",
+    "company_name": "Momentus",
+    "sector": "space",
+    "domains": [
+      "launch_vehicles",
+      "satellite_constellations",
+      "spacecraft_propulsion",
+      "spacecraft_structures"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2025-12-19",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1781162/000114036125046231/ny20061593x1_s1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "SIV Convertible Promissory Notes",
+        "date": "2024-07-12",
+        "shares_issued": 792812,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "Space Infrastructure Ventures, LLC",
+        "source_section": "SELLING STOCKHOLDERS",
+        "notes": "Secured Convertible Promissory Note with amendment. Shares issuable upon conversion.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "SIV Additional Convertible Note",
+        "date": "2024-10-24",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "Space Infrastructure Ventures, LLC",
+        "source_section": "DESCRIPTION OF SECURITIES",
+        "notes": "Second Secured Convertible Promissory Note with amendment",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "March 2025 Warrant Exercise",
+        "date": "2025-03-21",
+        "shares_issued": 120049,
+        "price_per_share": 25.53,
+        "amount_raised": 3064451,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "March Warrants exercised for cash as part of October Inducement Agreement",
+        "valuation_confidence": "medium"
+      },
+      {
+        "round_label": "July 2025 Warrant Exercise",
+        "date": "2025-07-01",
+        "shares_issued": 158929,
+        "price_per_share": 25.17,
+        "amount_raised": 4000313,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "July Warrants exercised for cash as part of October Inducement Agreement",
+        "valuation_confidence": "medium"
+      },
+      {
+        "round_label": "VLD Master Services Agreement",
+        "date": "2025-04-12",
+        "shares_issued": 26749,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "VLD",
+        "source_section": "EQUITY FINANCING",
+        "notes": "Issued 26,749 shares of Common Stock and 673,408 shares of non-voting Series A Convertible Preferred Stock in exchange for services",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "August 2025 Warrant Exercise",
+        "date": "2025-12-09",
+        "shares_issued": 272385,
+        "price_per_share": 13.74,
+        "amount_raised": 3742368,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "August Warrants exercised for cash as part of December Inducement Agreement",
+        "valuation_confidence": "medium"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": 547408,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document includes multiple warrant inducement agreements and convertible notes. Key transactions include Space Infrastructure Ventures convertible notes, VLD service agreement with preferred stock issuance, and multiple warrant exercises with inducement agreements. Company underwent 1-for-17.85 reverse stock split effective December 17, 2025. Series A Convertible Preferred Stock converts at 0.56:1 ratio to common stock. Multiple beneficial ownership limitations at 4.99% and 9.99% levels mentioned throughout."
+  },
+  {
+    "cik": "0001474439",
+    "company_name": "TeleNav, Inc.",
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics"
+    ],
+    "filing_type": "424B4",
+    "filing_date": "2010-05-13",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1474439/000119312510119127/d424b4.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Initial Public Offering",
+        "date": "2010-05-13",
+        "shares_issued": 5500000,
+        "price_per_share": 8.0,
+        "amount_raised": 40920000,
+        "total_shares_after": 41083150,
+        "lead_investor": "J.P. Morgan",
+        "source_section": "Cover page and offering summary",
+        "notes": "Company selling 5,500,000 shares, selling stockholders selling additional 1,500,000 shares. Proceeds to company before expenses $40,920,000. Over-allotment option of 1,050,000 additional shares.",
+        "implied_post_money_valuation": 328665200,
+        "implied_pre_money_valuation": 287745200,
+        "valuation_confidence": "high"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 34934772,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": 5675615
+    },
+    "extraction_notes": "This is a TeleNav IPO filing, not CARTO. Document shows TeleNav's initial public offering of 7,000,000 total shares (5.5M by company, 1.5M by selling stockholders) at $8.00 per share. The filing includes detailed information about share counts, option pools, and warrant conversions. Menlo Ventures indicated interest in purchasing 875,000 shares and beneficially owned 14.1% pre-IPO. Document mentions previous preferred stock rounds but does not provide detailed breakdowns of earlier funding rounds, conversion ratios, or specific preferred stock series details."
+  },
+  {
+    "cik": "0000101829",
+    "company_name": "RTX (Raytheon Technologies Corporation)",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "S-4",
+    "filing_date": "2020-10-29",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/101829/000114036120024021/nt10015980x1_s4.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "This S-4 filing is a registration statement for exchange offers of debt securities (various notes), not equity funding rounds. The document describes RTX offering to exchange restricted notes for registered notes of equivalent value. No equity issuances, funding rounds, or share capitalization details are mentioned in the provided extract. The filing relates to the company's debt restructuring following the 2020 merger between United Technologies Corporation and Raytheon Company, as well as the spin-offs of Carrier and Otis. The notes being exchanged total approximately $8.2 billion in aggregate principal amount across 26 different series with various interest rates and maturity dates from 2021 to 2047."
+  },
+  {
+    "cik": "0001953988",
+    "company_name": "Helio Corporation",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "S-1",
+    "filing_date": "2024-12-27",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1953988/000121390024113092/ea0225697-s1_heliocorp.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Reverse Acquisition/Business Combination",
+        "date": "2024-01",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "About This Prospectus / Corporate Information",
+        "notes": "Web3 Corporation acquired 100% of Heliospace Corporation stock through reverse acquisition. Heliospace was the accounting acquirer.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Initial Public Offering",
+        "date": "2025",
+        "shares_issued": 3333334,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": 14596967,
+        "lead_investor": "ThinkEquity",
+        "source_section": "Summary of the Offering",
+        "notes": "Firm commitment public offering. Estimated price range $4.00-$5.00 per share. 500,000 share over-allotment option available to underwriters.",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 11263633,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document is incomplete - appears to cut off mid-sentence in the offering summary section. The reverse acquisition in January 2024 involved Web3 Corporation (formerly Stirling Bridge Group, Inc.) acquiring Heliospace Corporation and changing name to Helio Corporation. Current IPO is for 3,333,334 shares with ThinkEquity as underwriter. Stock currently trades on OTC Pink under symbol 'HLEO' and has applied for NYSE American listing. Last reported sale price on OTC Pink was $4.50 per share as of December 20, 2024. Company operates primarily through wholly-owned subsidiary Heliospace in the aerospace/space hardware sector."
+  },
+  {
+    "cik": "0002000178",
+    "company_name": "Loar Group",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "424B4",
+    "filing_date": "2024-12-12",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2000178/000119312524276172/d869363d424b4.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document extract only contains a small portion from the 'DILUTION' section discussing acquisition-related dilution and integration risks. No specific funding rounds, equity issuances, share counts, or capitalization details are mentioned in this excerpt. A more complete document would be needed to extract the requested funding and equity information."
+  },
+  {
+    "cik": "0001842031",
+    "company_name": "The Bountiful Company",
+    "sector": "space",
+    "domains": [
+      "earth_observation",
+      "satellite_constellations",
+      "space_ai",
+      "space_autonomy"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2021-04-12",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1842031/000119312521113287/d935664ds1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "KKR Acquisition/Management Investment",
+        "date": "2017-09",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "KKR Clover Aggregator L.P.",
+        "source_section": "Summary - Our History",
+        "notes": "KKR Investor, in partnership with CEO Paul Sturman, acquired and carved out the Company's branded product portfolio from NBTY, Inc. Carlyle Investors contributed shares for equity interests in Parent. KKR owns majority of Parent equity interests, Carlyle owns minority.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Cash Dividend Payment",
+        "date": "2020",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "Summary - Our History",
+        "notes": "In Q4 fiscal 2020, company paid $205.0 million cash dividend and cash dividend equivalent to stockholders and optionholders. This was a distribution, not a funding round.",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "This appears to be an incomplete S-1 filing extract that focuses primarily on business description and background. The document mentions an IPO with estimated price range between unspecified amounts and maximum aggregate offering price of $100,000,000, but detailed capitalization tables, historical funding rounds, and specific share counts are not included in this portion of the filing. The main corporate event mentioned is the 2017 acquisition by KKR and Carlyle from the previous entity NBTY, Inc., but specific financial terms are not disclosed. A $205 million dividend payment in 2020 is mentioned but this represents a distribution rather than equity financing."
+  },
+  {
+    "cik": "0001753539",
+    "company_name": "BlackSkyTechnology",
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "satellite_constellations"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2021-10-25",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1753539/000119312521305700/d136472ds1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "PIPE Investment",
+        "date": "2021-09-09",
+        "shares_issued": 18000000,
+        "price_per_share": 10.0,
+        "amount_raised": 180000000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Third Party PIPE Investors and Insider PIPE Investors purchased shares concurrently with merger closing",
+        "valuation_confidence": "medium"
+      },
+      {
+        "round_label": "Palantir Strategic Investment",
+        "date": "2021-09-13",
+        "shares_issued": 800000,
+        "price_per_share": 10.0,
+        "amount_raised": 8000000,
+        "total_shares_after": null,
+        "lead_investor": "Palantir Technologies Inc.",
+        "source_section": "CAPITALIZATION",
+        "notes": "Part of multi-year strategic partnership with Palantir, closed after the merger",
+        "valuation_confidence": "medium"
+      },
+      {
+        "round_label": "Private Placement Warrants",
+        "date": "2021-09-09",
+        "shares_issued": 8325000,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "Osprey Sponsor II, LLC",
+        "source_section": "CAPITALIZATION",
+        "notes": "4,162,500 warrants exercisable at $11.50/share and 4,162,500 warrants exercisable at $20.00/share only after stock reaches $20.00 trading price",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Public Warrants",
+        "date": "2021-09-09",
+        "shares_issued": 15812500,
+        "price_per_share": 11.5,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Public warrants exercisable at $11.50 per share",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": 5725772
+    },
+    "extraction_notes": "Document describes a complex SPAC merger transaction where Osprey Technology Acquisition Corp. merged with Legacy BlackSky Holdings Inc. Legacy BlackSky shares were converted at a 0.0912 exchange ratio. The document focuses on registration of shares for resale rather than historical funding rounds of the private company. Total shares being registered: 106,399,253 shares of Class A Common Stock and 8,325,000 warrants."
+  },
+  {
+    "cik": "0001787518",
+    "company_name": "T3 Defense",
+    "sector": "space",
+    "domains": [
+      "counterspace_capabilities",
+      "military_isr_satellites",
+      "military_missile_tracking",
+      "military_satcom",
+      "space_cybersecurity",
+      "space_electronic_warfare",
+      "space_general"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2026-02-11",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1787518/000121390026014901/ea0276295-s1_t3defense.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The document extract contains risk factors and general discussions about equity financing needs but does not provide specific details about historical funding rounds, share issuances, or current capitalization structure. The sections mention potential future equity financings and convertible notes but no specific amounts, dates, or investor information. A complete S-1 filing would typically contain detailed capitalization tables and funding history in other sections not included in this extract."
+  },
+  {
+    "cik": "0001941536",
+    "company_name": "Overwatch Imaging",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "S-1",
+    "filing_date": "2023-10-17",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1941536/000119312523257670/d471741ds1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Municipal Bond Financing",
+        "date": "2022-07-21",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 160000000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "EQUITY FINANCING",
+        "notes": "Municipal bond financing that closed in two tranches on July 21, 2022 and August 10, 2022. This appears to be debt financing rather than equity.",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided extract is limited and focuses primarily on risk factors and general statements about equity financing. Only one specific financing round is mentioned - a $160 million municipal bond financing from 2022, which appears to be debt rather than equity financing. The document references that shares being offered represent 'a substantial percentage' of total outstanding common stock but does not provide specific numbers. More detailed capitalization information would likely be found in other sections of the S-1 filing not included in this extract."
+  },
+  {
+    "cik": "0001790982",
+    "company_name": "Howmet Aerospace",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "S-1",
+    "filing_date": "2020-04-06",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1790982/000110465920043327/tm2014164d1_s1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Stock Incentive Plan Issuance",
+        "date": "2020-04-03",
+        "shares_issued": 1250000,
+        "price_per_share": 6.99,
+        "amount_raised": 8737500,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "Registration Statement Cover Page",
+        "notes": "Shares to be issued under Arconic Corporation 2020 Stock Incentive Plan for equity-based compensation awards. Price based on NYSE average high/low on April 2, 2020.",
+        "valuation_confidence": "medium"
+      },
+      {
+        "round_label": "Spinoff Distribution",
+        "date": "2020-04-01",
+        "shares_issued": 109021376,
+        "price_per_share": null,
+        "amount_raised": 0,
+        "total_shares_after": 109021376,
+        "lead_investor": null,
+        "source_section": "The Separation and Distribution",
+        "notes": "Distribution of Arconic Corporation shares to ParentCo (Howmet Aerospace) stockholders at ratio of 1 Arconic share for every 4 ParentCo shares. Effective April 1, 2020 at 12:01 AM ET.",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 109021376,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": 1250000
+    },
+    "extraction_notes": "This S-1 filing is actually for Arconic Corporation, which was spun off from Howmet Aerospace Inc. (formerly Arconic Inc.) in April 2020. The document describes the separation of two companies rather than traditional funding rounds. The 1.25M shares are reserved for employee stock incentive plans, while 109M+ shares were distributed to existing shareholders of the parent company in the spinoff transaction."
+  },
+  {
+    "cik": "0001745020",
+    "company_name": "Theseus",
+    "sector": "space",
+    "domains": [
+      "space_robotics",
+      "military_isr_satellites",
+      "positioning_navigation_timing"
+    ],
+    "filing_type": "424B4",
+    "filing_date": "2021-10-07",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1745020/000119312521294269/d204007d424b4.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document section only contains general discussion about future financing needs and does not include specific information about historical funding rounds, equity issuances, share counts, or capitalization structure. This appears to be from a risk factors or business overview section discussing potential future financing activities rather than historical transactions."
+  },
+  {
+    "cik": "0001823587",
+    "company_name": "Sky Harbour Group Corporation",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "S-1",
+    "filing_date": "2022-09-09",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1823587/000143774922022142/skyh-20220630.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "IPO",
+        "date": "2020-10-26",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Initial public offering of predecessor company, warrants issued in connection with units",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Over-allotment Option",
+        "date": "2020-12-01",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "Underwriters",
+        "source_section": "CAPITALIZATION",
+        "notes": "Over-allotment option exercised by underwriters",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Private Placement Warrants",
+        "date": "2020-10-26",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Private placement warrants issued simultaneously with IPO",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Series A Preferred Units",
+        "date": "2021-03-12",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Series A Preferred Units issued by Sky Harbour LLC",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Redeemable Series B Preferred Units",
+        "date": "2021-09-14",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Redeemable Series B Preferred Units issued by Sky Harbour LLC",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Committed Equity Purchase Agreement",
+        "date": "2022-08-18",
+        "shares_issued": 10100000,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "B. Riley Principal Capital II, LLC",
+        "source_section": "EQUITY FINANCING",
+        "notes": "Purchase agreement for up to 10,000,000 shares plus 25,000 commitment shares and up to 75,000 additional commitment shares",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The document contains extensive XBRL tags showing various equity transactions and recapitalization events. Key events include the original IPO in 2020, various preferred unit issuances by the underlying LLC structure, and a recent committed equity purchase agreement with B. Riley. The recapitalization appears to have occurred around January 25, 2022, converting various LLC interests into common stock. The document shows a dual-class structure with Class A and Class B common stock. Many specific numerical values for shares and amounts are embedded in the XBRL structure but not clearly presented in readable format in the provided extract."
+  },
+  {
+    "cik": "0001936224",
+    "company_name": "magniX",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "S-1",
+    "filing_date": "2024-06-04",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1936224/000095017024068227/srfm-s1-may_2024_gem.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Tuscan Payment",
+        "date": "2022-11-14",
+        "shares_issued": 635000,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "Tuscan Holdings Corp II",
+        "source_section": "EQUITY FINANCING",
+        "notes": "Issuance pursuant to mutual termination and release agreement",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Note: This document appears to be for Surf Air Mobility Inc. (not magniX), despite the request specifying magniX. The document mentions magniX as a commercial partner but the S-1 filing is for Surf Air Mobility. Only one equity transaction was identified - the Tuscan Payment of 635,000 common shares issued pursuant to a termination agreement. The document mentions a Share Subscription Facility but provides no specific details about share amounts, pricing, or timing. No traditional funding rounds (Series A/B, etc.) were mentioned in the provided extract."
+  },
+  {
+    "cik": "0001941536",
+    "company_name": "Bridger Aerospace",
+    "sector": "space",
+    "domains": [
+      "earth_observation",
+      "launch_support"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2023-10-17",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1941536/000119312523257670/d471741ds1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Municipal Bond Financing",
+        "date": "2022-07-21",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 160000000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "EQUITY FINANCING",
+        "notes": "Municipal bond financing that closed in two tranches on July 21, 2022 and August 10, 2022. This was debt financing, not equity.",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided extract only contains general discussion about equity financing strategy and one municipal bond financing round. The document mentions private financing rounds but does not provide specific details about equity rounds, share counts, or pricing. The extract appears to be from a risk factors or business overview section rather than detailed capitalization tables that would typically contain comprehensive funding round information."
+  },
+  {
+    "cik": "0001503095",
+    "company_name": "SKY Leasing",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "S-4",
+    "filing_date": "2014-05-23",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1503095/000119312514210039/d731108ds4.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The document extract provided contains only the 'CAPITALIZATION' section which primarily discusses debt securities (Notes) and business risk factors. No equity funding rounds, share issuances, or detailed capitalization structure information was found. The section focuses on bond/note repurchase provisions, subsidiary guarantees, trading market risks, and operational risks for what appears to be a helicopter services company. To extract funding round and equity capitalization data, additional sections of the S-4 filing would be needed, such as 'Use of Proceeds', 'Capitalization Table', 'Description of Securities', or 'Management's Discussion and Analysis'."
+  },
+  {
+    "cik": "0001843388",
+    "company_name": "Virgin Orbit Holdings, Inc.",
+    "sector": "space",
+    "domains": [
+      "earth_observation",
+      "satellite_communications",
+      "space_instrumentation"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2022-07-27",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1843388/000162828022019475/vorb-20220727.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Convertible Debenture",
+        "date": "2022-06-29",
+        "shares_issued": 20000000,
+        "price_per_share": 2.5,
+        "amount_raised": 50000000,
+        "total_shares_after": null,
+        "lead_investor": "YA II PN, Ltd.",
+        "source_section": "CAPITALIZATION",
+        "notes": "Convertible debenture that can convert to up to 20,000,000 shares of common stock. Securities Purchase Agreement with YA II PN, Ltd. (Selling Stockholder).",
+        "valuation_confidence": "medium"
+      },
+      {
+        "round_label": "Standby Equity Purchase Agreement",
+        "date": "2022-03",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 250000000,
+        "total_shares_after": null,
+        "lead_investor": "YA II PN, Ltd.",
+        "source_section": "DILUTION",
+        "notes": "Standby Equity Purchase Agreement allowing the company to sell up to $250M of common stock to the Selling Stockholder. Sales subject to SEPA Standstill Agreement and various conditions. Price fluctuates based on market prices.",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The document appears to be heavily encoded with XBRL tags in the capitalization section, making detailed share counts difficult to extract. The main funding events identified are a $50M convertible debenture and a $250M standby equity facility, both with YA II PN, Ltd. The convertible debenture converts to up to 20M shares. The company appears to have gone through a business combination (reverse recapitalization) and has various stock option plans and warrant structures. Stock price on July 25, 2022 was $4.00 per share."
+  },
+  {
+    "cik": "0001819994",
+    "company_name": "Rocket Propulsion Systems",
+    "sector": "space",
+    "domains": [
+      "inspace_manufacturing",
+      "launch_vehicles",
+      "product_assurance",
+      "spacecraft_propulsion"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2022-05-09",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1819994/000119312522143910/d311567ds1.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 463796388,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": 82427400
+    },
+    "extraction_notes": "This document appears to be primarily focused on post-IPO/public company information rather than historical private funding rounds. The document discusses stock option plans (2013 Plan and 2021 Plan), ESPP, and beneficial ownership tables, but does not contain information about historical private funding rounds like Series A, Series B, seed rounds, or convertible notes. The 463,796,388 shares outstanding as of April 27, 2022 represents the post-Business Combination (likely SPAC transaction) share count. The shares_reserved_options figure of 82,427,400 is calculated from the 2021 Plan initial reserve of 59,875,000 plus the January 1, 2022 annual increase of 22,552,400. The document mentions a 'Business Combination' and 'PSC Acquisition' but provides no details about historical private financing rounds that would typically be found in an S-1 for a company going public through traditional IPO process."
+  },
+  {
+    "cik": "0001814329",
+    "company_name": "Apollo Fusion",
+    "sector": "space",
+    "domains": [
+      "satellite_communications"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2022-08-26",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1814329/000119312522231385/d395803ds1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Committed Equity Financing (Purchase Agreement)",
+        "date": "2022-08-02",
+        "shares_issued": 359098,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "B. Riley Principal Capital II, LLC",
+        "source_section": "CAPITALIZATION",
+        "notes": "Initial Commitment Shares issued upon execution of Purchase Agreement. Additional commitment shares of up to 359,097 may be issued based on milestone achievements ($25M and $50M gross proceeds). Up to $100M total commitment available.",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 211647372,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": 52396306
+    },
+    "extraction_notes": "Document appears to be for Astra Space (trading as ASTR) rather than Apollo Fusion based on context. The filing describes a committed equity facility rather than traditional funding rounds. Key details: 211,647,372 Class A shares outstanding as of Aug 19, 2022; 52,396,306 shares reserved for 2021 Omnibus Plan; 7,158,109 shares for Employee Stock Purchase Plan; 55,539,188 shares issuable from Class B conversion; 5,117,517 shares may be issued upon Apollo Merger Agreement milestones. Up to 34M shares registered for resale by selling stockholder under this prospectus."
+  },
+  {
+    "cik": "0001058307",
+    "company_name": "The Orbital Mining",
+    "sector": "space",
+    "domains": [
+      "space_general"
+    ],
+    "filing_type": "S-4",
+    "filing_date": "2024-06-20",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1058307/000143774924020682/nxpl20240521_s4.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "This document extract does not contain information about The Orbital Mining. Instead, it discusses NextPlat and Progressive Care in a business combination context. The extract mentions dilution tables, equity incentive plans (A&R 2020 Plan with unspecified shares, 2021 Plan with 768,819 shares initially available), and general equity financing risks, but no specific funding rounds or equity issuances for The Orbital Mining are documented in these sections."
+  },
+  {
+    "cik": "0001846084",
+    "company_name": "ASKA",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "S-1",
+    "filing_date": "2023-12-22",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1846084/000095017023072411/jetmf-20231222.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document sections do not contain specific information about ASKA's funding rounds or equity issuances. The sections focus on business risks related to dilution and equity financing needs for what appears to be GlobalX (an airline company), but do not provide detailed historical funding round data, share counts, pricing, or capitalization table information that would typically be found in other sections of an S-1 filing such as 'Use of Proceeds', 'Capitalization', or 'Principal Stockholders' sections."
+  },
+  {
+    "cik": "0000008504",
+    "company_name": "Valqari",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "424B4",
+    "filing_date": "2024-10-02",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/8504/000149315224039180/form424b4.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Current Public Offering",
+        "date": "2024-10-01",
+        "shares_issued": 26899996,
+        "price_per_share": 0.24,
+        "amount_raised": 6444382.37,
+        "total_shares_after": 40738705,
+        "lead_investor": "Spartan Capital Securities, LLC",
+        "source_section": "CAPITALIZATION and Description of Securities",
+        "notes": "Public offering of 26,899,996 Units at $0.24 per Common Unit (or $0.239 per Pre-Funded Unit). Net proceeds approximately $5.5 million after fees and expenses. Spartan Capital Securities, LLC acting as placement agent with 8.0% fee.",
+        "implied_post_money_valuation": 9777289,
+        "implied_pre_money_valuation": 3332906,
+        "valuation_confidence": "high"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": 250000000,
+      "common_shares_outstanding": 13838705,
+      "preferred_shares_outstanding": 4295,
+      "shares_reserved_options": 277937
+    },
+    "extraction_notes": "Document appears to be for AgEagle (trading under UAVS), not Valqari as specified in the request. The company has undergone a 1-for-20 reverse stock split effective February 9, 2024. There is a convertible note of approximately $4.26M with $3M to be repaid from offering proceeds. Preferred stock includes Series B, C, D, and F Convertible shares with only Series F having outstanding shares (4,295). The company has equity compensation plans with 277,937 outstanding options at weighted average exercise price of $18.00 post-split."
+  },
+  {
+    "cik": "0002097953",
+    "company_name": "Mira Qon Corporation",
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "satellite_constellations"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2025-12-16",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2097953/000209795325000002/miraqon_s1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "IPO/Public Offering",
+        "date": "2025-12-16",
+        "shares_issued": 4500000,
+        "price_per_share": 0.0225,
+        "amount_raised": 101250,
+        "total_shares_after": 7500000,
+        "lead_investor": null,
+        "source_section": "Prospectus Cover Page and The Offering",
+        "notes": "Self-underwritten IPO offering with 280-day offering period, no minimum purchase requirement",
+        "implied_post_money_valuation": 168750,
+        "implied_pre_money_valuation": 67500,
+        "valuation_confidence": "high"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 3000000,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "This is an IPO filing for a development-stage technology company incorporated on June 16, 2025. The company is offering 4.5 million shares at $0.0225 per share to raise $101,250. Current outstanding shares are 3 million, all held by sole director Cruz Membreno Lauro Roldan. If all shares are sold, he will own 40% (3M out of 7.5M total shares). The company operates in construction materials pricing data and has not yet generated revenue. Financial statements show $830 in cash, $33,155 in total assets, and a net loss of $214 for the period ended August 31, 2025."
+  },
+  {
+    "cik": "0001819810",
+    "company_name": "Redwire (mentions Loadpath as subsidiary)",
+    "sector": "space",
+    "domains": [
+      "satellite_communications"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2022-06-16",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1819810/000162828022017278/rdw-20220615.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "SPAC Merger Transaction",
+        "date": "2021",
+        "shares_issued": 37200000,
+        "price_per_share": null,
+        "amount_raised": 75000000,
+        "total_shares_after": null,
+        "lead_investor": "GPAC",
+        "source_section": "CAPITALIZATION",
+        "notes": "Reverse recapitalization where GPAC merged with Holdings. Total consideration included $75M cash, 37.2M shares of GPAC common stock, and 2M warrants. LoadPath mentioned as part of acquired entities.",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "This appears to be a Redwire S-1 filing that mentions Loadpath as one of the acquired subsidiaries (along with Adcole, DSS, MIS, and Roccor). The main transaction described is a SPAC merger between GPAC and Holdings, with Loadpath being part of the acquired entity group. The document focuses on operational results rather than detailed capitalization tables. Additional consideration included 2M warrants corresponding to forfeited warrants from GPAC's sponsor Genesis Park Holdings and Jefferies LLC."
+  },
+  {
+    "cik": "0001058307",
+    "company_name": "NextPlat",
+    "sector": "space",
+    "domains": [
+      "satellite_communications",
+      "ground_operations"
+    ],
+    "filing_type": "S-4",
+    "filing_date": "2024-06-20",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1058307/000143774924020682/nxpl20240521_s4.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 25517710,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": 768819
+    },
+    "extraction_notes": "The document extract contains information about a business combination/merger between NextPlat and Progressive Care rather than traditional funding rounds. Key information includes: (1) Post-merger ownership structure showing 25,517,710 total shares outstanding as of June 1, 2024, (2) NextPlat stockholders owning 73.5% and Progressive Care stockholders owning 26.5% of the combined company, (3) Stock incentive plans including the A&R 2020 Plan and 2021 Incentive Award Plan with 768,819 shares initially available for issuance under the 2021 Plan, with annual increases up to 12% of outstanding shares. No specific funding rounds, pricing, or amounts raised were mentioned in the provided sections."
+  },
+  {
+    "cik": "0000008504",
+    "company_name": "AgEagle Aerial Systems (Advanced Remote Sensing)",
+    "sector": "space",
+    "domains": [
+      "earth_observation",
+      "satellite_communications",
+      "satellite_constellations"
+    ],
+    "filing_type": "424B4",
+    "filing_date": "2024-10-02",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/8504/000149315224039180/form424b4.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Current Public Offering",
+        "date": "2024-10-01",
+        "shares_issued": 26899996,
+        "price_per_share": 0.24,
+        "amount_raised": 5500000,
+        "total_shares_after": 40738705,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Offering of 26,899,996 Units at $0.24 per Common Unit (or $0.239 per Pre-Funded Unit), with net proceeds of approximately $5.5 million after fees",
+        "implied_post_money_valuation": 9777289,
+        "implied_pre_money_valuation": 4277289,
+        "valuation_confidence": "high"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": 250000000,
+      "common_shares_outstanding": 13838705,
+      "preferred_shares_outstanding": 4295,
+      "shares_reserved_options": 277937
+    },
+    "extraction_notes": "Document shows current public offering details with pro forma adjustments. Company has multiple series of preferred stock authorized (Series B, C, D, F) but only Series F Convertible has shares outstanding (4,295 shares). There is a convertible note of $4.3M that will be partially repaid ($3M) from offering proceeds. Stock underwent 20-for-1 reverse split effective February 9, 2024. Company trades on NYSE American under symbol 'UAVS'."
+  },
+  {
+    "cik": "0001891027",
+    "company_name": "Dynamic Map Platform North America",
+    "sector": "space",
+    "domains": [
+      "earth_data_analytics",
+      "positioning_navigation_timing",
+      "satellite_communications"
+    ],
+    "filing_type": "424B4",
+    "filing_date": "2025-05-22",
+    "status": "extraction_error",
+    "error": "JSON parse error: Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "cik": "0001159154",
+    "company_name": "Republic Jet Center",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "424B4",
+    "filing_date": "2005-12-16",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1159154/000104746905028340/a2165864z424b4.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Stock Split/Recapitalization",
+        "date": "2002-06",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Each outstanding share of common stock was exchanged for 200,000 shares of common stock; each outstanding option or warrant to purchase one share became an option or warrant to purchase 200,000 shares",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "warrant_issuances": [
+      {
+        "warrant_label": "Delta Warrants - Initial",
+        "date": "2004",
+        "warrants_issued": null,
+        "exercise_price": null,
+        "deferred_charge": 5760000,
+        "source_section": "DILUTION",
+        "notes": "Warrants issued to Delta in connection with code share agreement; deferred charge based on IPO price of $13.00, 40% volatility, 10-year expected life"
+      },
+      {
+        "warrant_label": "Delta Warrants - Reduction",
+        "date": "2004-12",
+        "warrants_issued": null,
+        "exercise_price": null,
+        "deferred_charge_reduction": 6756000,
+        "source_section": "DILUTION",
+        "notes": "Agreed to reduce amount of all warrants by 45%, reducing deferred warrant charge and warrant equity"
+      },
+      {
+        "warrant_label": "Delta Warrants - Additional",
+        "date": "2004-12",
+        "warrants_issued": 960000,
+        "exercise_price": null,
+        "deferred_charge": null,
+        "source_section": "DILUTION",
+        "notes": "Additional warrant to purchase 960,000 shares issued to Delta in connection with Republic Airline code-share agreement"
+      }
+    ],
+    "extraction_notes": "Document appears to be for Republic Airways Holdings Inc. rather than Republic Jet Center. Contains information about warrant issuances to Delta Airlines and a stock recapitalization, but no traditional funding rounds. The company completed acquisition of Shuttle America Corporation on May 6, 2005. Amortization charges: ~$334,000 annually for original warrants, ~$97,000 in 2005 and ~$380,000 thereafter for December 2004 warrants."
+  },
+  {
+    "cik": "0001750777",
+    "company_name": "Hawkeye Systems",
+    "sector": "space",
+    "domains": [
+      "military_isr_satellites"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2018-08-27",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1750777/000167479618000026/hawkeyeforms-1.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided extract only contains a partial section discussing capital needs and future funding requirements. It mentions the company needs at least $2,000,000 to complete development of their 360-degree camera platform and references 'proceeds from this offering,' but no specific details about historical funding rounds, share issuances, current capitalization structure, or specific terms of the current offering are included in this extract. A complete S-1 filing would typically contain detailed capitalization tables and historical equity transaction information in other sections not provided here."
+  },
+  {
+    "cik": "0001844862",
+    "company_name": "Solid State Ceramics",
+    "sector": "space",
+    "domains": [],
+    "filing_type": "S-1",
+    "filing_date": "2021-12-17",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1844862/000110465921150888/dcrc-20211217xs1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Series B Financing",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION",
+        "notes": "Referenced as Legacy Solid Power's recent Series B Financing, with Ford participating in this round",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "PIPE Financing",
+        "date": null,
+        "shares_issued": 19500000,
+        "price_per_share": 10.0,
+        "amount_raised": 195000000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "19,500,000 shares purchased at $10.00 per share pursuant to separate subscription agreements, including 3.0 million shares purchased by SK Innovation",
+        "valuation_confidence": "medium"
+      },
+      {
+        "round_label": "Ford Investment",
+        "date": "2019",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "Ford",
+        "source_section": "EQUITY FINANCING",
+        "notes": "Investment by Ford announced in 2019, partnership to jointly develop all-solid-state battery cells",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 89684876,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": 5091169
+    },
+    "extraction_notes": "Document appears to be post-business combination registration statement. References Legacy Solid Power (pre-combination entity) and mentions Series B financing and PIPE financing. Total of 89,684,876 shares of common stock may be offered or sold. Warrants exercisable at $11.50 per share. Some shares subject to lock-up restrictions. Document indicates this is related to a SPAC transaction with Decarbonization Plus Acquisition."
+  }
+]

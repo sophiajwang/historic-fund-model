@@ -1,0 +1,2423 @@
+[
+  {
+    "cik": "0001784570",
+    "company_name": "Beta Technologies",
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles"
+    ],
+    "filing_type": "424B4",
+    "filing_date": "2025-11-04",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1784570/000119312525265029/d89594d424b4.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 215306119,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "This document section discusses post-IPO equity structure and future financing plans rather than historical funding rounds. The section mentions 215,306,119 outstanding shares of Class A common stock after the offering completion (or 219,784,060 if underwriters exercise their full option), with directors and officers owning 42,971,488 shares (20.0% or 19.6% depending on underwriter option exercise). The document indicates this is from an IPO offering but no specific historical funding round details are provided in this extract. The company has a multi-class common stock structure and plans to use equity-based compensation and may issue additional equity for acquisitions or investments."
+  },
+  {
+    "cik": "0001814215",
+    "company_name": "NUBURU",
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing"
+    ],
+    "filing_type": "424B4",
+    "filing_date": "2026-02-17",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1814215/000119312526053786/buru_424b4_primary_02.26.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "2025 Public Offering",
+        "date": "2025-09-16",
+        "shares_issued": 32373536,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "EQUITY FINANCING",
+        "notes": "Best efforts public offering including common shares, pre-funded warrants for 51,660,075 shares, common warrants for 126,050,417 shares, and placement agent warrants for 3,361,344 shares. As of February 5, 2026, 177,674,330 shares issued upon warrant exercise.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Current Offering",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": 0.11,
+        "amount_raised": 11000000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "USE OF PROCEEDS",
+        "notes": "Expected net proceeds of $11.0 million at $0.11 per share of Common Stock and accompanying Common Warrant, after deducting placement agent fees and expenses"
+      },
+      {
+        "round_label": "Standby Equity Purchase Agreement (SEPA)",
+        "date": "2025-05-30",
+        "shares_issued": 50000000,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "YA II PN, LTD.",
+        "source_section": "EQUITY FINANCING",
+        "notes": "Up to $100M commitment. As of February 5, 2026, 50 million shares issued including 2,665,246 shares as fees. Additional 20 million shares issued upon YA warrant exercise.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Brick Lane Note Conversion",
+        "date": "2026-02-06",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "Brick Lane",
+        "source_section": "EQUITY FINANCING",
+        "notes": "Up to 99,009,901 shares may be issued upon conversion of Brick Lane Note. Registration statement required by mid-April 2026.",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document mentions preferred stock issued in connection with BC Closing that ranks senior to common stock and is convertible. Multiple warrant exercises and conversions ongoing. YA has warrants for up to 230,000,000 shares. Indigo has warrant for up to 55,771,485 shares. Common stock trades below $18.00 per share and warrants may be redeemed at $0.10 per warrant."
+  },
+  {
+    "cik": "0001923891",
+    "company_name": "NANO Nuclear Energy",
+    "sector": "energy",
+    "domains": [
+      "small_modular_reactors",
+      "advanced_nuclear"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2025-01-14",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1923891/000149315225002231/forms-1.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document sections do not contain specific information about funding rounds, equity issuances, or detailed capitalization structure. The sections discuss general funding needs, operational expenses (estimated $40 million over 12 months), and business risks/litigation, but do not provide the specific equity financing details typically found in the capitalization table or use of proceeds sections of an S-1 filing. Additional sections of the S-1 would be needed to extract the requested funding round and equity structure information."
+  },
+  {
+    "cik": "0001831979",
+    "company_name": "Stardust Power",
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing",
+      "electric_vehicles"
+    ],
+    "filing_type": "424B4",
+    "filing_date": "2026-03-03",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1831979/000149315226008594/form424b4.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "SAFE - August 2023",
+        "date": "2023-08-15",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 2000000,
+        "total_shares_after": null,
+        "lead_investor": "American Investor Group Direct LLC (AIGD)",
+        "source_section": "CAPITALIZATION",
+        "notes": "Simple Agreement of Future Equity, amended on November 18, 2023 and further amended and restated on April 24, 2024. Automatically converted into shares prior to First Effective Time.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "SAFE - November 2023",
+        "date": "2023-11-18",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 3000000,
+        "total_shares_after": null,
+        "lead_investor": "American Investor Group Direct LLC (AIGD)",
+        "source_section": "CAPITALIZATION",
+        "notes": "Simple Agreement of Future Equity, amended and restated on April 24, 2024. Automatically converted into shares prior to First Effective Time.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "SAFE - February 2024",
+        "date": "2024-02-23",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 200000,
+        "total_shares_after": null,
+        "lead_investor": "Individual investor",
+        "source_section": "CAPITALIZATION",
+        "notes": "Simple Agreement of Future Equity with an individual, amended on May 1, 2024. Automatically converted into shares prior to First Effective Time.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Convertible Equity - April 2024",
+        "date": "2024-04-24",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 2000000,
+        "total_shares_after": null,
+        "lead_investor": "American Investor Group Direct LLC (AIGD)",
+        "source_section": "CAPITALIZATION",
+        "notes": "Convertible Equity Agreement that automatically converted into shares immediately prior to the First Effective Time.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Convertible Equity - April 2024 (Individual 1)",
+        "date": "2024-04-30",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 50000,
+        "total_shares_after": null,
+        "lead_investor": "Individual investor",
+        "source_section": "CAPITALIZATION",
+        "notes": "Convertible Equity Agreement with an individual that automatically converted into shares immediately prior to the First Effective Time.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Convertible Equity - April 2024 (Individual 2)",
+        "date": "2024-04-23",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 50000,
+        "total_shares_after": null,
+        "lead_investor": "Individual investor",
+        "source_section": "CAPITALIZATION",
+        "notes": "Convertible Equity Agreement with an individual that automatically converted into shares immediately prior to the First Effective Time.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "PIPE Investment",
+        "date": "2024-06-20",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "Large institutional investor and two other investors",
+        "source_section": "CAPITALIZATION",
+        "notes": "Private Investment in Public Equity (PIPE) Subscription Agreements entered into by GPAC II (now Stardust Power) and institutional investors.",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The document shows multiple funding rounds including SAFEs and convertible equity agreements that converted into shares. The total SAFE conversions resulted in 138,393 shares, and the Convertible Equity Agreements resulted in 55,889 shares. The business combination occurred on July 8, 2024 (Closing Date). Several equity financing mechanisms are mentioned including warrant issuances and a committed equity facility with B. Riley Principal Capital II. The document contains extensive definitions but limited specific capitalization table data in the provided sections."
+  },
+  {
+    "cik": "0001748137",
+    "company_name": "NeoVolta",
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "energy_storage_systems",
+      "distributed_energy",
+      "solar_pv"
+    ],
+    "filing_type": "424B4",
+    "filing_date": "2022-07-29",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1748137/000139390522000273/neov_424b4.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document extract only contains general discussion about the company's need for equity financing and going concern issues as of March 31, 2022. It mentions an accumulated deficit of $14,672,325 but does not contain specific details about funding rounds, share issuances, or capitalization structure. The extract appears to be from a going concern disclosure section rather than sections that would typically contain detailed equity financing history."
+  },
+  {
+    "cik": "0001838987",
+    "company_name": "SunPower",
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "energy_general"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2026-02-03",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1838987/000121390026010865/ea0274974-s1_sunpower.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Ambia Acquisition",
+        "date": null,
+        "shares_issued": 10243924,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION - The Offering",
+        "notes": "Shares issued in connection with acquisition of Ambia",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Sunder Acquisition",
+        "date": null,
+        "shares_issued": 3333334,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION - The Offering",
+        "notes": "Shares issued in connection with acquisition of Sunder",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "7% Convertible Notes",
+        "date": null,
+        "shares_issued": 50760218,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION - The Offering",
+        "notes": "Maximum shares issuable upon conversion of 7% Notes",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 112776028,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document extract only contains dilution section with limited funding round details. Shows 112,776,028 common shares outstanding as of January 29, 2026, with potential dilution up to 178,161,856 shares after full conversion/issuance. Up to 65,385,828 shares being offered by selling securityholders including shares from two acquisitions and convertible notes."
+  },
+  {
+    "cik": "0001881551",
+    "company_name": "Solidion Technology",
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing",
+      "energy_storage_systems"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2026-02-12",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1881551/000121390026015175/ea0274370-02.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document extract only contains general discussion about equity financing challenges and going concern issues. No specific funding rounds, equity issuances, share counts, or capitalization details are mentioned. The text discusses the company's need for additional capital and financing challenges, but does not provide concrete details about past or planned equity transactions. A complete S-1 filing would typically contain detailed capitalization tables and transaction history in other sections not included in this extract."
+  },
+  {
+    "cik": "0002089283",
+    "company_name": "Eagle Nuclear Energy",
+    "sector": "energy",
+    "domains": [
+      "nuclear_fuel",
+      "advanced_nuclear"
+    ],
+    "filing_type": "S-4",
+    "filing_date": "2025-09-30",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2089283/000110465925095101/tm2526882-1_s4.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "SVII Founder Shares",
+        "date": "2021-02",
+        "shares_issued": 6200000,
+        "price_per_share": 0.004,
+        "amount_raised": 25000,
+        "total_shares_after": null,
+        "lead_investor": "Spring Valley Acquisition Sponsor II, LLC",
+        "source_section": "DILUTION",
+        "notes": "Sponsor paid $25,000 to cover certain pre-IPO expenses, in exchange for issuance of SVII Founder Shares at approximately $0.004 per share. Subsequently transferred 40,000 shares to each of SVII's three independent directors (120,000 total).",
+        "valuation_confidence": "medium"
+      },
+      {
+        "round_label": "SVII Private Warrants",
+        "date": "2021",
+        "shares_issued": 13350000,
+        "price_per_share": 1.0,
+        "amount_raised": 13350000,
+        "total_shares_after": null,
+        "lead_investor": "Spring Valley Acquisition Sponsor II, LLC",
+        "source_section": "DILUTION",
+        "notes": "In connection with the closing of the IPO, the Sponsor purchased the SVII Private Warrants for an aggregate purchase price of $13,350,000. 6,350,000 SVII Private Warrants are to be forfeited by the Sponsor.",
+        "valuation_confidence": "medium"
+      },
+      {
+        "round_label": "SVII IPO",
+        "date": "2021",
+        "shares_issued": null,
+        "price_per_share": 10.0,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION",
+        "notes": "Initial offering price of SVII was $10.00 per share. IPO underwriters were Citigroup Global Markets Inc. and Guggenheim Securities, LLC.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Extension Promissory Note Contribution",
+        "date": "2025",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 1500000,
+        "total_shares_after": null,
+        "lead_investor": "Spring Valley Acquisition Sponsor II, LLC",
+        "source_section": "DILUTION",
+        "notes": "Sponsor made Contributions of $1,500,000 to the Trust Account pursuant to Extension Promissory Note. Anticipated to be converted into 1,500,000 New Eagle Private Warrants in connection with the Transaction.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Eagle Private Placements",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 3047306,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "EQUITY FINANCING",
+        "notes": "Gross proceeds of $3,047,306 raised through recent private placements by Eagle.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Eagle Regulation CF Offering",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 4974209,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "EQUITY FINANCING",
+        "notes": "Eagle raised $4,974,209 through a recent Regulation CF offering.",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 9880096,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The document shows SVII net tangible book value per share as of May 31, 2025 with 9,880,096 shares outstanding and $2.43 per share book value. Multiple warrant exercises are contemplated: 2,300,000 shares from SVII Rights conversion, 11,500,000 SVII Public Warrants exercisable at $11.50, and 7,000,000 SVII Private Warrants exercisable at $11.50. The transaction will result in 23,350,000 shares of New Eagle Common Stock being issued to Eagle stockholders as Aggregate Merger Consideration. Trust Account has approximately $26.1 million as of June 30, 2025, with estimated per-share redemption price of $11.79."
+  },
+  {
+    "cik": "0001819584",
+    "company_name": "Volta Inc. (formerly Tortoise Acquisition Corp. II / Electrify America)",
+    "sector": "energy",
+    "domains": [
+      "ev_charging",
+      "electric_vehicles",
+      "energy_general"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2021-09-21",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1819584/000121390021048911/fs12021_voltainc.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "PIPE Private Placement",
+        "date": "2021-02-07",
+        "shares_issued": 30000000,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION",
+        "notes": "Private placement shares of Volta Class A Common Stock issued pursuant to subscription agreements",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Initial Public Offering",
+        "date": null,
+        "shares_issued": 8625000,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "Tortoise Sponsor II LLC",
+        "source_section": "DILUTION",
+        "notes": "Founder Shares originally issued to Tortoise Sponsor II LLC in connection with the IPO",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Private Warrants Issuance",
+        "date": null,
+        "shares_issued": 5933333,
+        "price_per_share": 11.5,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "Tortoise Sponsor II LLC",
+        "source_section": "DILUTION",
+        "notes": "Private Warrants issued to Sponsor with exercise price of $11.50 per share",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Public Warrants Issuance",
+        "date": null,
+        "shares_issued": 8621715,
+        "price_per_share": 11.5,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION",
+        "notes": "Public Warrants issued in connection with IPO with exercise price of $11.50 per share",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Business Combination Equity",
+        "date": "2021-08-27",
+        "shares_issued": 42978273,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION",
+        "notes": "Shares issued upon consummation of business combination with Legacy Volta",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "This appears to be a registration statement for a SPAC (Tortoise Acquisition Corp. II) that completed a business combination with Volta Industries, Inc. The document mentions various equity securities but is primarily focused on registration of shares for resale by selling securityholders. The company changed its name to Volta Inc. upon completion of the business combination on August 27, 2021. There are references to Class A and Class B Common Stock with conversion features, and multiple classes of warrants with exercise prices of $11.50 per share. The document also mentions ongoing equity financing needs but specific amounts are not detailed in the provided sections."
+  },
+  {
+    "cik": "0001538377",
+    "company_name": "Greenbacker Renewable Energy Corporation",
+    "sector": "energy",
+    "domains": [],
+    "filing_type": "S-1",
+    "filing_date": "2011-12-28",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1538377/000119312511354042/d274689ds1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Current Offering",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "How to Subscribe",
+        "notes": "Common stock offering with minimum purchase requirement, additional purchases in $500 increments, semi-monthly closings on 15th and last day of each month",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document extract is incomplete and appears to be from middle sections of S-1 filing. No specific funding round details, share counts, or pricing information found in provided sections. References current offering of common stock with suitability standards requiring either $70K net worth + $70K income or $250K net worth. Company expects to explore liquidity event 5-7 years after offering completion. May pursue future equity financings and debt instruments. No contractual obligations as of 2012 date mentioned."
+  },
+  {
+    "cik": "0001855474",
+    "company_name": "AirJoule Technologies",
+    "sector": "energy",
+    "domains": [],
+    "filing_type": "S-1",
+    "filing_date": "2025-03-27",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1855474/000101376225002897/ea0235341-01.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Committed Equity Financing (PIPE)",
+        "date": "2025",
+        "shares_issued": 4250000,
+        "price_per_share": 7.17,
+        "amount_raised": 30000000,
+        "total_shares_after": null,
+        "lead_investor": "B. Riley Principal Capital II",
+        "source_section": "CAPITALIZATION and EQUITY FINANCING",
+        "notes": "Purchase agreement allowing AirJoule to sell up to $30M of Class A Common Stock to B. Riley Principal Capital II at company's discretion. Exchange Cap limits issuance to 11,261,790 shares (19.99% of outstanding shares) unless conditions are met. Cash commitment fee of $450,000 (1.5% of commitment).",
+        "valuation_confidence": "medium"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 56061240,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "This appears to be a resale registration for shares to be issued under a committed equity facility rather than a traditional funding round. As of March 24, 2025, there were 56,061,240 shares of Class A Common Stock outstanding, with 24,513,698 shares held by non-affiliates. The document mentions an Exchange Cap of 11,261,790 shares representing 19.99% of shares outstanding prior to the Purchase Agreement execution. B. Riley Principal Capital II is subject to a 4.99% beneficial ownership limitation."
+  },
+  {
+    "cik": "0001737189",
+    "company_name": "Redaptive",
+    "sector": "energy",
+    "domains": [
+      "building_efficiency"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2021-11-17",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1737189/000162828021023724/redaptives-1.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document extract discusses equity financing needs and business risks but does not contain specific information about funding rounds, equity issuances, share counts, or capitalization structure. The extract appears to be from a risk factors or business description section rather than the capitalization or use of proceeds sections that would typically contain funding round details."
+  },
+  {
+    "cik": "0001831481",
+    "company_name": "Sable Offshore",
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2024-10-11",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1831481/000119312524236795/d862764ds1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "PIPE Investment",
+        "date": "2024-02-14",
+        "shares_issued": 44024910,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "PIPE Investment completed at business combination closing, with Marketing Fee of $10.1 million paid as offset to proceeds",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Flame IPO",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Marketing Fee of 3.5% of gross IPO proceeds ($10.1 million) was paid upon business combination completion",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": 500000000,
+      "common_shares_outstanding": 64845435,
+      "preferred_shares_outstanding": 0,
+      "shares_reserved_options": 10900000
+    },
+    "extraction_notes": "The document primarily focuses on the post-business combination structure rather than traditional funding rounds. Key equity events include: 1) Business combination completed February 14, 2024 with various share issuances (Public: 5,953,859, Initial stockholders: 7,187,500, Merger consideration: 3,000,000, PIPE: 44,024,910 shares totaling 60,166,269 at close, growing to 64,845,435 by June 30, 2024). 2) 1,000,000 preferred shares authorized but none issued. 3) Various warrant classes (Public, Private Placement, Working Capital) with $11.50 exercise price. 4) Multiple stock-based compensation grants totaling 4,679,166 restricted shares to executives, board members, and employees. 5) Founder shares subject to lock-up provisions until February 2025 or stock price targets met."
+  },
+  {
+    "cik": "0001713809",
+    "company_name": "New Leap, Inc.",
+    "sector": "energy",
+    "domains": [
+      "distributed_energy"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2017-08-08",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1713809/000147793217003720/newleap_s1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Public Offering",
+        "date": "2017",
+        "shares_issued": 6000000,
+        "price_per_share": 0.025,
+        "amount_raised": 150000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION",
+        "notes": "Self-underwritten offering conducted by CEO Itzhak Ostashinsky on best efforts basis with no minimum. Additional 1,000,000 shares offered by selling shareholder at same price.",
+        "valuation_confidence": "medium"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document appears to be incomplete S-1 filing. Only contains information about a public offering of up to 6,000,000 shares at $0.025 per share plus 1,000,000 shares from selling shareholder. Company had not commenced principal operations as of filing date and auditors expressed substantial doubt about going concern. No historical funding rounds or detailed capitalization table provided in available sections."
+  },
+  {
+    "cik": "0001908233",
+    "company_name": "MN8 Energy",
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "energy_storage_systems"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2022-09-12",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1908233/000119312522242511/d285220ds1.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document extract contains only a section about equity financing at the project level, discussing debt facilities and business strategy. No specific equity financing rounds, share issuances, or capitalization details for MN8 Energy itself are mentioned in this extract. The section discusses $2,070.4 million in total debt and a $500.0 million Warehouse facility, but these are debt financing rather than equity financing rounds. To extract the requested equity financing information, additional sections of the S-1 filing would be needed, such as the capitalization table, use of proceeds, or management discussion sections."
+  },
+  {
+    "cik": "0001981599",
+    "company_name": "Centuri Group",
+    "sector": "energy",
+    "domains": [
+      "energy_general",
+      "energy_industrial_base"
+    ],
+    "filing_type": "424B4",
+    "filing_date": "2025-09-04",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1981599/000198159925000055/centuriholdingsinc-septemb.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "This document extract is focused on corporate governance, anti-takeover provisions, and selling stockholder plan of distribution. It does not contain information about historical funding rounds or equity issuances. The document mentions that 85,000,000 shares of preferred stock are authorized to be issued by the Board, and discusses Southwest Gas Holdings as a controlling stockholder, but no specific funding rounds, share issuances, pricing, or investment amounts are disclosed in this section. This appears to be from a post-IPO registration statement allowing selling stockholders to resell shares rather than documenting initial equity raises."
+  },
+  {
+    "cik": "0001692819",
+    "company_name": "Vistra",
+    "sector": "energy",
+    "domains": [
+      "energy_general",
+      "power_markets"
+    ],
+    "filing_type": "S-4",
+    "filing_date": "2018-07-23",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1692819/000119312518222829/d561329ds4.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document extract only contains bond/debt financing information related to New Notes and indenture terms, but does not contain any equity funding rounds, share issuances, or capitalization table details. This appears to be from the debt securities section of the S-4 filing rather than the equity capitalization section."
+  },
+  {
+    "cik": "0001894954",
+    "company_name": "EXPION360 INC.",
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing"
+    ],
+    "filing_type": "424B4",
+    "filing_date": "2025-02-18",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1894954/000190359625000083/xpon_424b4.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Registered Direct Offering",
+        "date": "2025-01-03",
+        "shares_issued": null,
+        "price_per_share": 2.48,
+        "amount_raised": 2200000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Shares offered at $2.48 per share, Pre-Funded Warrants at $2.479. Included concurrent private placement of Common Warrants with exercise price of $2.36 per share, exercisable until January 3, 2030. Aegis Capital Corp. acted as exclusive placement agent."
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 3144468,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document mentions 3,144,468 shares of Common Stock outstanding as of February 12, 2025. There are 1,048,386 Common Warrant Shares that could be issued upon exercise of warrants, representing approximately 25.0% of total outstanding shares. The company has a $50,000,000 shelf registration statement on file. Common Warrants have beneficial ownership limitations of 4.99% (or 9.99% upon election). Company was founded in 2016 according to equity financing section."
+  },
+  {
+    "cik": "0001865506",
+    "company_name": "Heliogen",
+    "sector": "energy",
+    "domains": [
+      "concentrated_solar"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2025-10-28",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1865506/000121390025103101/ea0253640-s1_zeoenergy.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Sponsor PIPE Investment",
+        "date": "2024",
+        "shares_issued": 1000000,
+        "price_per_share": 10.0,
+        "amount_raised": 10000000,
+        "total_shares_after": null,
+        "lead_investor": "ESGEN LLC (Sponsor)",
+        "source_section": "CAPITALIZATION",
+        "notes": "Convertible OpCo Preferred Units with option for additional 500,000 units within 6 months if called by Zeo",
+        "valuation_confidence": "medium"
+      },
+      {
+        "round_label": "Business Combination Convertible Preferred",
+        "date": "2024",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 9200000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "EQUITY FINANCING",
+        "notes": "Net proceeds from issuance of convertible preferred stock at time of Business Combination",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Private Placement - Lumio Financing",
+        "date": "2024",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 2700000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "EQUITY FINANCING",
+        "notes": "Private placement to finance the Lumio asset purchase",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Convertible Promissory Note",
+        "date": "2024-12",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 2400000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "EQUITY FINANCING",
+        "notes": "Lumio Promissory Note with related party to help fund creation of year-round sales team",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "ESGEN IPO",
+        "date": "2021-10-22",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "ESGEN's initial public offering of Class A ordinary shares and Public Warrants, completed October 22, 2021",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 30520369,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document shows complex corporate structure with ESGEN blank check company merger with Sunergy, followed by Heliogen acquisition. Class A Common Stock: 30,520,369 shares outstanding, Class V Common Stock: 24,480,000 shares outstanding. Total if Class V converted: 55,000,369 shares. Up to 50,727,996 shares being offered by selling securityholders. Sponsor forfeited 2,361,641 shares at closing."
+  },
+  {
+    "cik": "0001847986",
+    "company_name": "Dragonfly Energy",
+    "sector": "energy",
+    "domains": [
+      "battery_chemistry",
+      "battery_manufacturing",
+      "energy_general"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2025-04-07",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1847986/000164117225002860/forms-1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Registered Direct Offering",
+        "date": "2025-02-26",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Series A Preferred Stock issued with $10,000 stated value per share, initial conversion price of $2.332 per share, Floor Price of $1.00",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Private Placement - Initial Closing",
+        "date": "2025-02-26",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "single institutional investor",
+        "source_section": "CAPITALIZATION",
+        "notes": "Series A Preferred Stock with $10,000 stated value per share, initial conversion price of $2.332 per share, Floor Price of $0.424 (20% of Nasdaq Minimum Price). Includes private placement warrants.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Private Placement - Second Closing",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Series A Preferred Stock with conversion price equal to lower of initial conversion price and 110% of last closing trade price before Second Closing",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": 255000000,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document contains detailed information about Series A Preferred Stock structure with 8% dividend rate, convertible features, and anti-dilution protections. Also mentions Public Warrants with $11.50 exercise price expiring October 7, 2027. The Issuable Maximum is 1,450,489 shares (19.99% of outstanding shares as of February 26, 2025) before stockholder approval is required. Total authorized stock is 250,000,000 common shares ($0.0001 par value) and 5,000,000 preferred shares ($0.0001 par value), with 5,000 shares designated as Series A Preferred Stock."
+  },
+  {
+    "cik": "0001918080",
+    "company_name": "Kairos Power",
+    "sector": "energy",
+    "domains": [
+      "advanced_nuclear",
+      "nuclear_fuel"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2025-08-18",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1918080/000121390025077917/ea0252778-s1_deep.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Series A Prime Preferred Round",
+        "date": "2023-08-21",
+        "shares_issued": 106159,
+        "price_per_share": null,
+        "amount_raised": 2999986.56,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "EQUITY FINANCING",
+        "notes": "Consisted of 7,304 shares of Series A Prime-1 Preferred Stock for $499,986.56 cash and 98,855 shares of Series A Prime-2 Preferred Stock via SAFE conversions. Spieker Trust received 45,650 shares representing $2,500,000 of the SAFE conversions.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Private Placement",
+        "date": null,
+        "shares_issued": 1850817,
+        "price_per_share": 3.0,
+        "amount_raised": 5552467,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "EQUITY FINANCING",
+        "notes": "Common stock purchased by existing officers, directors and investors including NAC International, Bella AJT Holdings LLC (affiliate of Ms. Tepper), and Elizabeth Muller. Same terms as other Private Placement investors except lower cash commission to Placement Agents.",
+        "valuation_confidence": "medium"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document shows Deep Isolation was acquired by DI Nuclear in a reverse acquisition structure, with Deep Isolation considered the accounting acquirer. Series A Prime round involved both cash investment and SAFE conversions. Multiple governance agreements (Rights Agreement, ROFR Agreement, Voting Agreement) were executed in connection with Series A Prime round but terminated upon consummation of the merger transactions. Key investors mentioned include NAC International, Spieker Trust, Robert L. Mercer, and founding team members."
+  },
+  {
+    "cik": "0001471443",
+    "company_name": "Bright Night",
+    "sector": "energy",
+    "domains": [
+      "distributed_energy",
+      "grid_modernization"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2011-04-22",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1471443/000119312511106341/ds1.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document section contains only risk factors and business description content from an S-1 filing. No funding rounds, equity issuances, or capitalization table information was found in this extract. The section discusses tax equity financing for solar projects, but does not contain specific details about company equity financing rounds, share issuances, or capitalization structure. To extract funding round information, sections such as 'Use of Proceeds', 'Capitalization', 'Principal Stockholders', or 'Description of Capital Stock' would be needed."
+  },
+  {
+    "cik": "0001507957",
+    "company_name": "Powin Energy",
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "energy_storage_systems"
+    ],
+    "filing_type": "424B4",
+    "filing_date": "2013-11-25",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1507957/000141588913002436/idealpower424b4_a1nov2013.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "August 2012 Convertible Notes",
+        "date": "2012-08-31",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 200000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "EQUITY FINANCING",
+        "notes": "Lon E. Bell invested $100,000 and Peter Appel invested $100,000. Convertible notes with warrants attached.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "November 2012 Convertible Notes",
+        "date": "2012-11-21",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 2220000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "EQUITY FINANCING",
+        "notes": "Investors included Lon E. Bell ($100,000), Mark Baum ($100,000), Peter Appel ($1,625,000), and MDB Capital Group, LLC ($395,000). Convertible notes with warrants.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "July 2013 Convertible Notes",
+        "date": "2013-07-29",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 275000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "EQUITY FINANCING",
+        "notes": "Peter Appel invested $275,000. Part of overall $6.1 million in convertible notes.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Convertible Notes (Total)",
+        "date": null,
+        "shares_issued": 1695216,
+        "price_per_share": 5.0,
+        "amount_raised": 6100000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "SHARES ELIGIBLE FOR FUTURE SALE",
+        "notes": "$6.1 million in principal amount of Convertible Notes will convert to 1,695,216 shares at $5.00 per share offering price. Mandatory conversion upon public offering of at least $10 million gross proceeds.",
+        "valuation_confidence": "medium"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 1480262,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document shows 1,480,262 shares outstanding as of November 11, 2013. Company issued warrants for 1,529,095 shares total. MDB Capital Group received warrants for 200,393 and 93,491 shares on November 21, 2012. Stock option grants were made on July 19, 2013 with exercise price equal to IPO price. Approximately 522,874 shares held by non-affiliates with 231,251 freely tradable under Rule 144."
+  },
+  {
+    "cik": "0001854445",
+    "company_name": "The Glimpse Group, Inc.",
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "electric_vehicles"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2021-11-26",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1854445/000149315221029915/forms-1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "October 2021 Private Placement",
+        "date": "2021-10-29",
+        "shares_issued": 1500000,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION",
+        "notes": "Securities Purchase Agreement with seven institutional investors. Also issued 750,000 warrants with exercise price totaling approximately $11.0 million (approximately $14.67 per warrant)",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document extract is limited and primarily focuses on a resale registration for shares and warrants from October 2021 private placement. The S-1 appears to be for selling stockholders to resell 2,250,000 shares (1.5M shares + 750K warrant shares). Company trades on NASDAQ under 'VRAR' symbol. Stock price was $13.28 on November 23, 2021. More detailed capitalization information would likely be found in other sections of the full S-1 filing not provided in this extract."
+  },
+  {
+    "cik": "0001814215",
+    "company_name": "Blue Laser Fusion",
+    "sector": "energy",
+    "domains": [],
+    "filing_type": "424B4",
+    "filing_date": "2026-02-17",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1814215/000119312526053786/buru_424b4_primary_02.26.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "2025 Public Offering",
+        "date": "2025-09-16",
+        "shares_issued": 32373536,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "EQUITY FINANCING",
+        "notes": "Best efforts public offering including common shares, pre-funded warrants for 51,660,075 shares, and warrants for 126,050,417 shares. Also issued placement agent warrants for 3,361,344 shares.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Current Offering",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": 0.11,
+        "amount_raised": 11000000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "USE OF PROCEEDS",
+        "notes": "Expected net proceeds of approximately $11.0 million based on combined public offering price of $0.11 per share of Common Stock and accompanying Common Warrant"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document mentions multiple warrant exercises: 177,674,330 shares issued from 2025 Public Offering warrant exercises, 50 million shares issued to YA under SEPA (including 2,665,246 fee shares), and 20 million shares from YA warrant exercises. Also mentions Standby Equity Purchase Agreement with YA II PN, LTD. for up to $100 million. Company has preferred stock that ranks senior to common stock and is convertible. Multiple registration statements filed for resale purposes."
+  },
+  {
+    "cik": "0001857971",
+    "company_name": "Clarios",
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "energy_storage_systems"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2021-07-02",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1857971/000119312521207696/d149744ds1.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The document extract provided contains limited information about specific funding rounds or equity issuances. The main references are to: (1) Series A Mandatory Convertible Preferred Stock that will be convertible to common stock with anti-dilution provisions, (2) An IPO offering of common stock currently in registration, and (3) A separate offering of Series A Mandatory Convertible Preferred Stock. However, no specific details about historical funding rounds, amounts raised, dates, investors, or share counts are provided in these sections. The document appears to focus more on risk factors and general corporate structure rather than detailed capitalization history."
+  },
+  {
+    "cik": "0001826889",
+    "company_name": "The Forest Road Company",
+    "sector": "energy",
+    "domains": [
+      "energy_finance",
+      "power_markets",
+      "energy_general"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2024-01-24",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1826889/000119312524014320/d632690ds1.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The document extract provided does not contain specific funding round information or capitalization data. The 'CAPITALIZATION' section discusses goodwill and asset impairment testing rather than share capitalization, and the 'EQUITY FINANCING' section focuses on debt financing obligations, covenant restrictions, and expansion risks rather than specific equity issuances or funding rounds. A complete capitalization table or additional sections covering historical equity transactions would be needed to extract the requested funding round details."
+  },
+  {
+    "cik": "0001868941",
+    "company_name": "Fluence",
+    "sector": "energy",
+    "domains": [
+      "energy_storage_systems",
+      "battery_manufacturing"
+    ],
+    "filing_type": "424B4",
+    "filing_date": "2021-10-29",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1868941/000110465921131847/tm2120236-13_424b4.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document extract does not contain specific information about funding rounds or equity issuances. The extract primarily discusses risk factors related to equity financing availability, tax implications, environmental regulations, government incentives, weather risks, financial condition, and debt covenants. There is a brief mention that the company has been financed through 'equity contributions from AES Grid Stability, Siemens Industry, and QFH' but no specific details about amounts, timing, share counts, or pricing are provided in this section. To extract detailed funding round information, sections such as 'Use of Proceeds', 'Capitalization', 'Description of Capital Stock', or 'Principal and Selling Stockholders' would be needed."
+  },
+  {
+    "cik": "0001995807",
+    "company_name": "Landbridge",
+    "sector": "energy",
+    "domains": [],
+    "filing_type": "S-1",
+    "filing_date": "2024-12-31",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1995807/000119312524286982/d898161ds1.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document extract appears to be from the risk factors section of an S-1 filing and does not contain information about funding rounds, equity issuances, or capitalization details. The extract focuses on business risks including customer concentration, economic conditions, operational hazards, cybersecurity threats, reserves estimation, and pro forma financial information. To extract funding round and equity issuance data, sections such as 'Capitalization', 'Use of Proceeds', 'Description of Capital Stock', or 'Principal Stockholders' would be needed."
+  },
+  {
+    "cik": "0001936224",
+    "company_name": "magniX",
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "battery_manufacturing"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2024-06-04",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1936224/000095017024068227/srfm-s1-may_2024_gem.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Share Subscription Facility",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "EQUITY FINANCING",
+        "notes": "Equity financing commitments under the Share Subscription Facility, contingent on satisfaction of certain conditions. Was automatically assigned in connection with the Internal Reorganization.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Tuscan Payment",
+        "date": "2022-11-14",
+        "shares_issued": 635000,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "Tuscan Holdings Corp II",
+        "source_section": "EQUITY FINANCING",
+        "notes": "Issuance of 635,000 shares of Common Stock to Tuscan pursuant to mutual termination and release agreement dated November 14, 2022.",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "This document appears to be for Surf Air Mobility Inc., not magniX. The document mentions magniX does not appear in the provided text. The document discusses Surf Air Mobility's business operations, acquisitions (Southern Airways Corporation in July 2023), and some equity transactions including a Share Subscription Facility and Tuscan Payment. However, detailed capitalization tables and comprehensive funding round information are not present in this extract. The document references a 2023 Form 10-K for more details on the Share Subscription Facility conditions."
+  },
+  {
+    "cik": "0001828723",
+    "company_name": "Altus Power",
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "distributed_energy",
+      "energy_storage_systems",
+      "ev_charging"
+    ],
+    "filing_type": "424B4",
+    "filing_date": "2022-09-29",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1828723/000182872322000121/legal59442375v6finalprospe.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Asset Acquisition",
+        "date": "2022-09-27",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 220000000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION",
+        "notes": "Acquisition of approximately 97 MW of operating solar assets for approximately $220 million funded by combination of cash on hand and assumed liabilities",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document extract focuses on dilution scenarios, alignment share conversion mechanics, and preferred stock authorization. Contains detailed conversion formulas for Alignment Shares but no traditional equity funding rounds. One asset acquisition mentioned for $220M in September 2022. Document mentions 10,000,000 authorized preferred shares and references Class A Common Stock with assumed count of 70,000,000 shares for conversion calculations, but these appear to be hypothetical examples rather than actual capitalization data. Maximum conversion shares that may be issued is 14,596,637."
+  },
+  {
+    "cik": "0001637757",
+    "company_name": "Clearway Energy Group",
+    "sector": "energy",
+    "domains": [],
+    "filing_type": "S-4",
+    "filing_date": "2019-08-06",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1637757/000104746919004581/a2239400zs-4.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Old Notes Issuance",
+        "date": "2018-10-01",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "Exchange Offer",
+        "notes": "Old Notes were originally issued and sold on October 1, 2018, to initial purchasers pursuant to purchase agreement dated September 17, 2018. Issued in transaction not registered under Securities Act in reliance upon Section 4(2) exemption. Concurrent resale by initial purchasers done in reliance upon Rule 144A and Regulation S exemptions.",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "This S-4 filing is primarily focused on an exchange offer for debt securities (notes) rather than equity issuances. The document describes the exchange of Old Notes for Exchange Notes on a 1:1 basis ($1,000 principal amount for $1,000 principal amount). The Old Notes were issued in minimum denominations of $2,000 and integral multiples of $1,000. The filing contains extensive details about debt instruments, liens, and guarantees, but does not contain information about equity funding rounds, share issuances, or traditional capitalization tables with common/preferred stock breakdowns. The company structure involves Clearway Energy Operating LLC as the issuer and various guarantor entities."
+  },
+  {
+    "cik": "0001616330",
+    "company_name": "Ecoplexus",
+    "sector": "energy",
+    "domains": [
+      "solar_pv"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2014-12-23",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1616330/000104746914010077/a2222463zs-1.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document extract focuses on the company's business model and Initial Portfolio acquisition strategy rather than equity financing rounds or capitalization structure. The extract discusses equity financing for renewable energy assets and acquisition agreements (IPPA and A&As) but does not contain information about funding rounds, share issuances, or capitalization details. A more complete S-1 filing would typically contain this information in sections such as 'Capitalization', 'Description of Securities', or 'Use of Proceeds'."
+  },
+  {
+    "cik": "0001162896",
+    "company_name": "Prairie Operating",
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2024-02-09",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1162896/000149315224005760/forms-1.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document extract contains only a single section titled 'EQUITY FINANCING' which discusses general risks and operational matters related to oil and gas exploration, drilling activities, regulatory compliance, and environmental considerations. No specific funding rounds, equity issuances, share counts, or capitalization details are mentioned in this section. The content focuses on business risks including equity dilution risks from future financing, operational drilling risks, regulatory challenges, geographic concentration risks in the DJ Basin, and environmental compliance matters. To extract funding round information, sections such as 'Capitalization Table,' 'Use of Proceeds,' 'Recent Sales of Unregistered Securities,' or similar sections from the S-1 filing would be needed."
+  },
+  {
+    "cik": "0001836875",
+    "company_name": "Fermata Energy LLC",
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "energy_storage_systems",
+      "ev_charging"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2026-01-09",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1836875/000121390026002603/ea0271976-s1_nuvve.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Private Placement",
+        "date": "2025-11",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Preferred Shares with Additional Investment Right of up to $25,000,000. Floor price of $0.528 per share mentioned. Private Placement Investors required to exercise at least $4.0 million every six months until $20.0 million received.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Equity Line of Credit Facility",
+        "date": "2025-12-01",
+        "shares_issued": 25000000,
+        "price_per_share": null,
+        "amount_raised": 25000000,
+        "total_shares_after": null,
+        "lead_investor": "5NL and Hailstone",
+        "source_section": "CAPITALIZATION",
+        "notes": "ELOC Facility allowing sale of up to $25 million of Common Stock. Purchase price at 93% of VWAP. 300,000 Pre-Funded Warrants issued as consideration.",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "AIR Notes - May 2025",
+        "date": "2025-05",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "May AIR Issuance - additional Notes and Warrants issued under Additional Investment Right",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "AIR Notes - FNL Issuances",
+        "date": "2025-09",
+        "shares_issued": null,
+        "price_per_share": 2.367,
+        "amount_raised": 550000,
+        "total_shares_after": null,
+        "lead_investor": "FNL",
+        "source_section": "DILUTION",
+        "notes": "FNL AIR Issuances from September-December 2025. Principal amount $611,110.33 with 10% original issue discount. 8% interest rate, 18% upon default. 18-month term with possible 6-month extension."
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document contains detailed convertible note and warrant structures with complex anti-dilution provisions. Floor price of $0.528 per share mentioned. AIR Notes have conversion price of $2.367 with full ratchet anti-dilution protection. Multiple tranches of AIR Notes issued through 2025. Warrants exercisable at $2.367 with 5-year terms and anti-dilution adjustments."
+  },
+  {
+    "cik": "0001041318",
+    "company_name": "The Sun Company",
+    "sector": "energy",
+    "domains": [
+      "solar_pv",
+      "distributed_energy"
+    ],
+    "filing_type": "S-4",
+    "filing_date": "2001-09-07",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1041318/000095014701501575/e-7437.txt",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document extract contains only legal text about dissenters' rights and a table of contents referencing capitalization and exchange information. No specific funding rounds, equity issuances, share counts, or financial details were found in the sections provided. The actual capitalization details and exchange terms would likely be found in the full sections referenced in the table of contents (pages 20, 26-28, etc.) but are not included in this extract."
+  },
+  {
+    "cik": "0001759631",
+    "company_name": "Hyliion",
+    "sector": "energy",
+    "domains": [
+      "distributed_energy",
+      "energy_storage_systems",
+      "grid_modernization",
+      "power_markets"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2020-10-23",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1759631/000121390020033047/fs12020_hyliionhold.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Private Placement Warrants",
+        "date": null,
+        "shares_issued": 6660183,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION",
+        "notes": "Private Placement Warrants originally issued in connection with Tortoise Acquisition Corp IPO, exercisable for Common Stock",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Forward Purchase Warrants",
+        "date": null,
+        "shares_issued": 875000,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION",
+        "notes": "Forward Purchase Warrants issued in private placement at closing of Business Combination",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Public Warrants",
+        "date": null,
+        "shares_issued": 11650454,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION",
+        "notes": "Public Warrants originally issued in Tortoise Acquisition Corp IPO",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Convertible Note",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "EQUITY FINANCING",
+        "notes": "Legacy Hyliion convertible notes with embedded features mentioned in valuation context",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document appears to be a resale registration statement following a SPAC merger between Hyliion and Tortoise Acquisition Corp. Registration covers 132,637,517 shares for resale by selling securityholders and up to 19,185,637 shares issuable upon warrant exercise. Class B Common Stock converted to Class A at closing with transfer restrictions. Document references Atlas Point Fund and various subscription agreements but specific funding round details are limited in the provided sections."
+  },
+  {
+    "cik": "0001548464",
+    "company_name": "ION-3 CORPORATION",
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "battery_chemistry"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2012-09-07",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1548464/000135448812004745/ionc_s1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Current Offering",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": 0.1,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION",
+        "notes": "Common stock offering at arbitrarily set price of $0.10 per share. Document states price does not bear relationship to assets, book value, earnings or net worth.",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document extract is limited and appears to be from risk factors and dilution sections only. The actual company name appears to be ION-3 CORPORATION rather than Lithium Battery Co as referenced in the prompt. The $0.10 offering price is explicitly described as arbitrarily set. No historical funding rounds, detailed capitalization table, or investor information is present in the provided sections. Company expects to apply for OTCQB listing but approval is uncertain."
+  },
+  {
+    "cik": "0001825480",
+    "company_name": "Posh",
+    "sector": "energy",
+    "domains": [
+      "electric_vehicles",
+      "industrial_efficiency"
+    ],
+    "filing_type": "424B4",
+    "filing_date": "2021-01-14",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1825480/000119312521009089/d66583d424b4.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document extract does not contain specific information about funding rounds or equity issuances. The extract primarily discusses equity valuation methodology, including the use of OPM and PWERM methods, discount for lack of marketability (DLOM) ranging from 15.0% to 15.5%, and mentions an IPO price of $42.00 per share with aggregate intrinsic value of outstanding stock options at $292.1 million as of September 30, 2020. No detailed funding round information, share issuances, or investor details are present in this section."
+  },
+  {
+    "cik": "0002065636",
+    "company_name": "Ojjo",
+    "sector": "energy",
+    "domains": [],
+    "filing_type": "424B4",
+    "filing_date": "2026-02-11",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2065636/000119312526046879/d12408d424b4.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document section only contains risk factor disclosures related to equity financing risks, regulatory compliance, and business operations. No specific funding rounds, equity issuances, share counts, or capitalization details were found in this extract. The section discusses general equity financing risks for customers and regulatory challenges but does not contain the typical funding round or share structure information expected in an SEC 424B4 filing. Additional sections of the filing would need to be provided to extract funding round and capitalization data."
+  },
+  {
+    "cik": "0001711269",
+    "company_name": "Monarch Energy",
+    "sector": "energy",
+    "domains": [
+      "hydrogen_production"
+    ],
+    "filing_type": "S-4",
+    "filing_date": "2017-09-14",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1711269/000119312517285265/d406319ds4.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "This SEC S-4 registration statement extract for Monarch Energy appears to be related to a merger transaction between Great Plains Energy and Westar Energy, where Monarch Energy is the resulting combined entity. The document sections provided focus on dilution effects, voting procedures, regulatory approvals, and pro forma financial information rather than traditional funding rounds or equity issuances. The references to 'debt and preferred equity financings completed in contemplation of the original merger agreement' suggest there were some financing activities related to the merger structure, but specific details about funding rounds, share issuances, pricing, or amounts raised are not included in the provided extract. The document mentions an exchange ratio of 0.5981 shares of Great Plains Energy common stock for each share of Monarch Energy common stock, indicating this is a merger/reorganization rather than a traditional fundraising scenario. Pro forma financial data shows earnings per share and book value per share information, but does not contain the granular funding round details typically found in venture financing documents."
+  },
+  {
+    "cik": "0000933972",
+    "company_name": "374Water",
+    "sector": "energy",
+    "domains": [
+      "bioenergy",
+      "carbon_utilization",
+      "energy_general"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2022-06-17",
+    "status": "extraction_error",
+    "error": "JSON parse error: Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "cik": "0001819438",
+    "company_name": "Primus Power",
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "energy_storage_systems",
+      "flow_batteries"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2022-03-04",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1819438/000162828022005167/ghw-20220304.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Series C-1 Preferred Stock",
+        "date": "2019-08",
+        "shares_issued": 16275688,
+        "price_per_share": 1.84248,
+        "amount_raised": 30000000,
+        "total_shares_after": null,
+        "lead_investor": "Breakthrough Energy Ventures, LLC",
+        "source_section": "EQUITY FINANCING",
+        "notes": "Multiple closings in August 2019 and October 2019. Includes shares issued upon conversion of 2018 Convertible Notes. Breakthrough Energy Ventures invested $9,999,999.",
+        "valuation_confidence": "medium"
+      },
+      {
+        "round_label": "Series C-2 Preferred Stock",
+        "date": "2021-03",
+        "shares_issued": 3900988,
+        "price_per_share": 2.94797,
+        "amount_raised": 11500000,
+        "total_shares_after": null,
+        "lead_investor": "Breakthrough Energy Ventures, LLC",
+        "source_section": "EQUITY FINANCING",
+        "notes": "Also issued warrants to purchase 585,145 shares of Series C-2 Preferred Stock. Breakthrough Energy Ventures invested $7,500,001.",
+        "valuation_confidence": "medium"
+      },
+      {
+        "round_label": "Series C-2 Additional Commitment",
+        "date": "2021",
+        "shares_issued": 5427464,
+        "price_per_share": 2.94797,
+        "amount_raised": 16000000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "EQUITY FINANCING",
+        "notes": "Committed funding to BEV and SBE, subject to certain conditions. Also includes warrants to purchase 14,365,207 shares of Series C-2 Preferred Stock.",
+        "valuation_confidence": "medium"
+      },
+      {
+        "round_label": "Series C-2 Exercise",
+        "date": "2021-10",
+        "shares_issued": 5746003,
+        "price_per_share": 2.0,
+        "amount_raised": 11500000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Separate Series C-2 issuance mentioned in liquidity section - 5,746,003 shares at $2.00 per share in March 2021.",
+        "valuation_confidence": "medium"
+      },
+      {
+        "round_label": "Business Combination and PIPE",
+        "date": "2021-10-08",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 258730000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Net cash from Business Combination and PIPE Financing. Also includes $15,559k from exercise of Series C-2 purchase rights and C-2 warrants, and $10,995k from warrant exercises.",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document appears to be for ESS Inc. (energy storage company), not Primus Power as specified in the request. The document shows multiple Series C rounds with significant institutional investors including Breakthrough Energy Ventures, BASF Venture Capital, and SoftBank affiliates. Company completed a SPAC merger in October 2021. Some funding amounts are mentioned in different contexts with slight variations in the document."
+  },
+  {
+    "cik": "0001856028",
+    "company_name": "Stronghold Digital Mining",
+    "sector": "energy",
+    "domains": [],
+    "filing_type": "S-1",
+    "filing_date": "2022-10-13",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1856028/000114036122037118/ny20005500x1_s1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Series A Private Placement",
+        "date": "2021-04-01",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "EQUITY FINANCING",
+        "notes": "Series A Private Placement mentioned in context of corporate reorganization, occurred contemporaneously with Master Transaction Agreement",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Series B Preferred Stock",
+        "date": "2021-05-14",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION",
+        "notes": "Series B Preferred Stock Purchase Agreement referenced in exhibits but details not provided in extracted sections",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "May 2022 Convertible Notes",
+        "date": "2022-05-15",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 33750000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "EQUITY FINANCING",
+        "notes": "10.00% unsecured convertible promissory notes with warrants. $11.25 million later exchanged for amended warrants with strike price reduced from $2.50 to $0.01",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "September 2022 PIPE",
+        "date": "2022-09-13",
+        "shares_issued": 2876759,
+        "price_per_share": null,
+        "amount_raised": 9000000,
+        "total_shares_after": null,
+        "lead_investor": "Armistice Capital Master Fund Ltd.",
+        "source_section": "EQUITY FINANCING",
+        "notes": "Armistice purchased 2,274,350 shares at $1.60 and Greg Beard purchased 602,409 shares at $1.66. Also included warrants for 5,602,409 shares at $1.75 exercise price and Pre-Funded Warrants for 2,725,650 shares. Transaction closed September 19, 2022",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document mentions Up-C structure with Stronghold LLC Units and references to Class A and Class V common stock. May 2022 warrants totaled 6,318,000 shares with strike price amended from $2.50 to $0.01. WhiteHawk warrant for 2,000,000 shares at $0.01 per share also mentioned. Stock split of 2.88-for-1 occurred on October 22, 2021 but historical numbers presented are pre-split. Several registration rights agreements and stock purchase agreements referenced in exhibits but full details not available in provided sections."
+  },
+  {
+    "cik": "0001781115",
+    "company_name": "Alussa Energy Acquisition Corp.",
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "energy_storage_systems"
+    ],
+    "filing_type": "424B4",
+    "filing_date": "2019-11-27",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1781115/000121390019024877/f424b4112619_alussaenergy.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Initial Public Offering",
+        "date": "2019-11-29",
+        "shares_issued": 25000000,
+        "price_per_share": 10.0,
+        "amount_raised": 250000000,
+        "total_shares_after": null,
+        "lead_investor": "BTIG (Sole Book-Running Manager)",
+        "source_section": "Cover Page and Summary",
+        "notes": "IPO of 25,000,000 units at $10.00 per unit. Each unit consists of one Class A ordinary share and one-half warrant. Over-allotment option for additional 3,750,000 units.",
+        "valuation_confidence": "medium"
+      },
+      {
+        "round_label": "Private Placement Warrants",
+        "date": "2019-11-29",
+        "shares_issued": null,
+        "price_per_share": 1.0,
+        "amount_raised": 8000000,
+        "total_shares_after": null,
+        "lead_investor": "Alussa Energy Sponsor LLC",
+        "source_section": "Cover Page and Summary",
+        "notes": "Sponsor committed to purchase 8,000,000 warrants at $1.00 per warrant (or 8,750,000 if over-allotment exercised). Simultaneous with IPO closing."
+      },
+      {
+        "round_label": "Founder Shares (Class B)",
+        "date": "2019",
+        "shares_issued": 7187500,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "Alussa Energy Sponsor LLC",
+        "source_section": "Summary",
+        "notes": "Founder shares held by sponsor after share dividends in October and November 2019. Up to 937,500 shares subject to forfeiture depending on over-allotment exercise.",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "This is a SPAC (Special Purpose Acquisition Company) 424B4 prospectus filing. The document contains details about the IPO structure with units consisting of Class A shares and warrants, private placement warrants purchased by the sponsor, and founder shares (Class B) held by the sponsor. The company was incorporated on June 13, 2019, and is seeking to acquire energy sector businesses. Total authorized shares and detailed capitalization breakdown not provided in the extracted sections."
+  },
+  {
+    "cik": "0002097508",
+    "company_name": "BlockFusion",
+    "sector": "energy",
+    "domains": [],
+    "filing_type": "S-4",
+    "filing_date": "2025-12-08",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/2097508/000118518525001952/blockfusions4110825.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Blue Private Placement Units",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Private placement units held by the Sponsor, subject to lock-up restrictions until 30 days following consummation of initial business combination",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Founder Shares (Class B Ordinary Shares)",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "Sponsor",
+        "source_section": "DILUTION",
+        "notes": "Acquired by Sponsor at nominal price, subject to lock-up restrictions with release trigger at $15.00 per share for 20 trading days within 30-day period",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Financing Transactions",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": 100000000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "EQUITY FINANCING",
+        "notes": "Planned aggregate proceeds of at least $100 million through common equity, preferred equity, convertible equity or debt, non-redemption arrangements, committed equity facility, or debt facility",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document describes a SPAC transaction structure with Blue as the SPAC entity acquiring BlockFusion. Limited specific financial details provided in these sections. Key structural elements include Sponsor's founder shares at nominal pricing, private placement units with lock-up provisions, and planned financing transactions of at least $100M. Equity incentive plan to be established equal to 5% of total shares outstanding post-closing. Board structure will consist of 7 members with specific allocation between Blue (2), BlockFusion (4), and mutually agreed independent director (1)."
+  },
+  {
+    "cik": "0001637757",
+    "company_name": "Clearway Energy",
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "filing_type": "S-4",
+    "filing_date": "2019-08-06",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1637757/000104746919004581/a2239400zs-4.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Old Notes Issuance",
+        "date": "2018-10-01",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "Initial Purchasers",
+        "source_section": "EXCHANGE OFFER",
+        "notes": "Old Notes were originally issued and sold to initial purchasers pursuant to purchase agreement dated September 17, 2018. Issued in transaction not registered under Securities Act in reliance upon Section 4(2) exemption. Concurrent resale by initial purchasers done in reliance upon Rule 144A and Regulation S exemptions. Notes denominated in $1,000 principal amounts with minimum tender of $2,000.",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "This S-4 filing is focused on an exchange offer for notes (debt securities) rather than equity securities. The document discusses Old Notes being exchanged for Exchange Notes on a 1:1 basis ($1,000 principal amount for $1,000 principal amount). The filing contains extensive details about debt covenants, guarantees, and indenture provisions but does not contain information about equity funding rounds, stock issuances, or traditional venture capital financing. The company appears to be a publicly traded entity (references to Forms 10-K, 10-Q filings) engaging in debt refinancing rather than equity fundraising."
+  },
+  {
+    "cik": "0001767007",
+    "company_name": "Sabalo Energy",
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2019-09-27",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1767007/000119312519257661/d801915ds1.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document sections (DILUTION and EQUITY FINANCING) do not contain information about specific funding rounds or equity issuances. The sections discuss general dilution effects on Class A shares and risks related to future equity financing and acquisitions. There is a mention of EnCap X committing to fund up to $200.0 million for acquisition opportunities through Acquisition JV, but this appears to be a commitment for acquisitions rather than a funding round for Sabalo Energy itself. To extract funding round information, sections like 'Capitalization', 'Use of Proceeds', 'Description of Capital Stock', or detailed financial statements would be needed."
+  },
+  {
+    "cik": "0000783325",
+    "company_name": "WEC Energy Group",
+    "sector": "energy",
+    "domains": [
+      "energy_general",
+      "electric_vehicles"
+    ],
+    "status": "no_filings"
+  },
+  {
+    "cik": "0001532286",
+    "company_name": "Nine Energy Service",
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "filing_type": "424B4",
+    "filing_date": "2018-01-22",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1532286/000119312518016088/d477542d424b4.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document extract contains only risk factors and business discussion related to equity financing impacts on operations and customers, but does not contain specific information about funding rounds, equity issuances, share counts, or capitalization details. The section discusses general equity financing concerns for the oil and gas service industry but lacks the specific financial data typically found in capitalization tables or offering details sections of a 424B4 filing."
+  },
+  {
+    "cik": "0001727255",
+    "company_name": "Chilean Cobalt",
+    "sector": "energy",
+    "domains": [
+      "mining_critical_minerals",
+      "energy_general"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2022-11-14",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1727255/000168316822007673/chilean_s1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "September 2019 Issuance",
+        "date": "2019-09",
+        "shares_issued": 21206892,
+        "price_per_share": 1.45,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION",
+        "notes": "Issued to thirteen shareholders with anti-dilution waiver; each shareholder received 4.8 additional shares for every original share (5.8 total); only par was paid by Genlith, Inc.; created $1,906,500 non-cash loss",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Series A Convertible Preferred Stock Exchange",
+        "date": "2020-08-10",
+        "shares_issued": 4000000,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION",
+        "notes": "Common stock issued in exchange for 5,151,125 shares of Series A Convertible Preferred Stock (including 151,125 dividends paid-in-kind)",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Convertible Debt Exchange",
+        "date": "2020-08-18",
+        "shares_issued": 3000000,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "Genlith, Inc.",
+        "source_section": "DILUTION",
+        "notes": "Common stock issued to Genlith, Inc. in exchange for extinguishment of $4,100,000 principal debt plus accrued interest",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Rights Issuance 2020",
+        "date": "2020-08-24",
+        "shares_issued": 1000000,
+        "price_per_share": 0.5,
+        "amount_raised": 500000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION",
+        "notes": "Issued to existing shareholders from August 24, 2020 through September 17, 2020",
+        "valuation_confidence": "medium"
+      },
+      {
+        "round_label": "Private Placement 2021",
+        "date": "2021-12-31",
+        "shares_issued": 41667,
+        "price_per_share": 0.6,
+        "amount_raised": 25000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION",
+        "notes": "Issued to an accredited investor",
+        "valuation_confidence": "medium"
+      },
+      {
+        "round_label": "Private Placement 2022",
+        "date": "2022-01",
+        "shares_issued": 1958333,
+        "price_per_share": 0.6,
+        "amount_raised": 1175000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION",
+        "notes": "Issued to accredited investors from January 2022 through April 2022",
+        "valuation_confidence": "medium"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": 1950000
+    },
+    "extraction_notes": "Document shows reverse stock split of 1-for-13.430605 on August 10, 2020, reducing outstanding shares from 40,291,669 to approximately 3,000,000. Equity incentive plan approved in 2022 reserving 1,950,000 shares. Stock options granted on May 24, 2022 for 1,675,000 total shares at $0.60 exercise price. Genlith, Inc. distributed 4,786,727 C3 shares to its shareholders on May 12, 2022. All share data adjusted for reverse split."
+  },
+  {
+    "cik": "0001819142",
+    "company_name": "SES (not sPower)",
+    "sector": "energy",
+    "domains": [],
+    "filing_type": "S-1",
+    "filing_date": "2022-02-14",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1819142/000119312522042277/d297913ds1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Series A",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Series A Redeemable Convertible Preferred Stock mentioned in XBRL tags",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Series B",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Series B Redeemable Convertible Preferred Stock mentioned in XBRL tags",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Series C",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Series C Redeemable Convertible Preferred Stock mentioned in XBRL tags",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Series C+",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Series C Plus Redeemable Convertible Preferred Stock mentioned in XBRL tags",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Series D",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Series D Redeemable Convertible Preferred Stock mentioned in XBRL tags",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Series D+",
+        "date": "2021-04-01",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Series D Plus Redeemable Convertible Preferred Stock mentioned with 2021 Q2 timeframe in XBRL tags",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "SPAC IPO",
+        "date": "2021-01-11",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "Ivanhoe Capital Acquisition Corp",
+        "source_section": "CAPITALIZATION",
+        "notes": "SPAC IPO through Ivanhoe Capital Acquisition Corp on January 11, 2021",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Private Placement",
+        "date": "2021-01-11",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Private placement warrants concurrent with SPAC IPO",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "PIPE",
+        "date": "2021-07-12",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "PIPE investment concurrent with business combination",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 6900000,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "This appears to be an SES (battery technology company) S-1 filing, not sPower. The document contains extensive XBRL tags showing multiple preferred stock series (A, B, C, C+, D, D+) and a SPAC transaction with Ivanhoe Capital Acquisition Corp. Key investors mentioned include SK Holdings, Anderson Investments, Tianqi Lithium, General Motors Ventures, Vertex Legacy, Dr. Qichao Hu, and Long Siang. The filing shows a stock split/capitalization of 1,150,000 shares on January 6, 2021, resulting in 6,900,000 Class B ordinary shares outstanding. Most specific funding details are not provided in the extracted sections."
+  },
+  {
+    "cik": "0001342916",
+    "company_name": "HNO International",
+    "sector": "energy",
+    "domains": [
+      "hydrogen_production",
+      "fuel_cells",
+      "carbon_utilization"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2023-10-27",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1342916/000126246323000127/hnoifs1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Equity Financing Agreement",
+        "date": "2023-10-09",
+        "shares_issued": 1120622,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "GHS Investments, LLC",
+        "source_section": "EQUITY FINANCING",
+        "notes": "EFA includes 1,095,869 shares to be issued plus 24,753 commitment shares. Shares have yet to be issued as of filing date.",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "Document indicates that if the EFA shares were issued, they would represent less than 1% of outstanding shares as of October 25, 2023, but approximately 33% of the public float. The actual number of currently outstanding shares is not disclosed in these sections. GHS Investments, LLC is controlled by Mark Grober. Stock trades on OTC Markets under symbol HNOI and is considered penny stock."
+  },
+  {
+    "cik": "0001724965",
+    "company_name": "Talos Energy",
+    "sector": "energy",
+    "domains": [],
+    "filing_type": "S-4",
+    "filing_date": "2022-10-28",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1724965/000119312522271284/d371974ds4.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "Series A Preferred Stock",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "DILUTION",
+        "notes": "Series A preferred stock dividends of $13,454 thousand for six months ended June 30, 2022 and $28,583 thousand for year ended December 31, 2021 mentioned for EnVen Energy Corporation",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Equity Financing Commitments",
+        "date": "2022-05-27",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": "Four investment firms in Houston, Texas area",
+        "source_section": "EQUITY FINANCING",
+        "notes": "Only one firm provided detailed commitment for $100-150 million in equity financing, others were verbal commitments. Total commitments represented less than 60% of required amount for Party A's proposal",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Merger Consideration",
+        "date": "2022-09-21",
+        "shares_issued": 43800000,
+        "price_per_share": null,
+        "amount_raised": 212500000,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "Total consideration of $212.5 million in cash and 43.8 million shares of Talos Common Stock representing 34.7% ownership in combined company on undiluted basis to EnVen equityholders",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "This S-4 filing primarily relates to a merger transaction between Talos Energy and EnVen Energy Corporation. The document contains references to Series A preferred stock dividends for EnVen, equity financing commitments from third parties, and the merger consideration structure. Specific capitalization details like total authorized shares are not provided in the extracted sections. The merger will result in EnVen equityholders receiving cash and Talos stock, with Talos stockholders retaining approximately 66% ownership post-transaction."
+  },
+  {
+    "cik": "0001772695",
+    "company_name": "NextGrid",
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "filing_type": "424B4",
+    "filing_date": "2020-07-02",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1772695/000119312520186971/d875054d424b4.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The document extract does not contain any specific funding rounds or equity issuances with detailed financial information. The CAPITALIZATION section is incomplete and cuts off mid-sentence. The document mentions convertible notes in the DILUTION section but provides no specific details about amounts, dates, or terms. The offering details show 6,076,890 shares being offered by selling stockholders (with up to 6,988,423 shares if underwriters exercise their option), but this appears to be a secondary offering rather than a funding round. No historical funding rounds, share prices, investment amounts, or investor information is provided in the available sections."
+  },
+  {
+    "cik": "0001866175",
+    "company_name": "Stronghold Energy II",
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "filing_type": "S-4",
+    "filing_date": "2025-09-19",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1866175/000186617525000125/crgy-sx4.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document section contains only information about Crescent's equity compensation plan structure and governance, including stock options, SARs, restricted stock units, and other equity-based awards. No specific funding rounds, equity issuances, share counts, or capitalization details for Stronghold Energy II were found in this section. The content appears to be describing the mechanics of an equity incentive plan rather than historical financing transactions."
+  },
+  {
+    "cik": "0001083743",
+    "company_name": "Flux Power",
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "energy_storage_systems"
+    ],
+    "filing_type": "424B4",
+    "filing_date": "2025-11-03",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1083743/000149315225020510/form424b4.htm",
+    "status": "success",
+    "funding_rounds": [],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "The provided document extract contains only a brief section discussing general equity financing and debt facilities with GBC. No specific funding rounds, equity issuances, share counts, or pricing information is included in this extract. The text appears to be cut off mid-sentence and does not contain the detailed capitalization information typically found in SEC registration statements."
+  },
+  {
+    "cik": "0001757932",
+    "company_name": "Romeo Power",
+    "sector": "energy",
+    "domains": [
+      "battery_manufacturing",
+      "electric_vehicles",
+      "energy_storage_systems"
+    ],
+    "filing_type": "S-1",
+    "filing_date": "2021-01-19",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1757932/000110465921004952/rmo-20210119xs1.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "RMG Initial Public Offering - Private Warrants",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": 11.5,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "4,600,000 Private Warrants issued in private placement in connection with RMG IPO, exercisable at $11.50 per share",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "RMG Initial Public Offering - Public Warrants",
+        "date": null,
+        "shares_issued": null,
+        "price_per_share": 11.5,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "CAPITALIZATION",
+        "notes": "7,666,648 Public Warrants issued in RMG IPO, exercisable at $11.50 per share",
+        "valuation_confidence": "low"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": null,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": null
+    },
+    "extraction_notes": "This appears to be a post-merger S-1 registration statement following Romeo Power's business combination with RMG Acquisition Corp (SPAC). The document primarily covers warrant exercises and resale registrations rather than traditional funding rounds. 62,150,554 shares are being registered for resale by selling securityholders. The company trades on NYSE under symbols RMO and RMO.WT. Limited historical funding round information is provided in these sections."
+  },
+  {
+    "cik": "0001980088",
+    "company_name": "Mach Natural Resources LP",
+    "sector": "energy",
+    "domains": [
+      "energy_general"
+    ],
+    "filing_type": "424B4",
+    "filing_date": "2024-09-09",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1980088/000121390024076674/ea0211099-04.htm",
+    "status": "success",
+    "funding_rounds": [
+      {
+        "round_label": "IPO",
+        "date": "2023-10",
+        "shares_issued": null,
+        "price_per_share": null,
+        "amount_raised": null,
+        "total_shares_after": null,
+        "lead_investor": null,
+        "source_section": "BASIS OF PRESENTATION",
+        "notes": "Initial public offering that closed in October 2023, involved corporate reorganization where existing owners contributed 100% of their membership interests in BCE-Mach, BCE-Mach II, and BCE-Mach III for pro rata allocation of 100% limited partner interests",
+        "valuation_confidence": "low"
+      },
+      {
+        "round_label": "Current Offering",
+        "date": "2024-09-06",
+        "shares_issued": 7272728,
+        "price_per_share": 16.5,
+        "amount_raised": 120000012,
+        "total_shares_after": 102312417,
+        "lead_investor": "Raymond James",
+        "source_section": "THE OFFERING",
+        "notes": "Firm commitment offering with underwriter option to purchase up to 1,090,909 additional units. Joint book-running managers: Raymond James, Stifel, Truist Securities. Co-managers: Johnson Rice & Company, Stephens Inc.",
+        "implied_post_money_valuation": 1688154880,
+        "implied_pre_money_valuation": 1568154868,
+        "valuation_confidence": "high"
+      }
+    ],
+    "capitalization_summary": {
+      "total_shares_authorized": null,
+      "common_shares_outstanding": 95039689,
+      "preferred_shares_outstanding": null,
+      "shares_reserved_options": 8797459
+    },
+    "extraction_notes": "This is a Delaware limited partnership offering common units representing limited partner interests, not traditional corporate shares. The company has distributed approximately $161.6 million in cash to unitholders since IPO. Current offering proceeds will fund pending acquisitions totaling $136 million ($98M Ardmore Basin + $38M Western Kansas). Company was formed through acquisitions of BCE-Mach entities and has completed 17 acquisitions since January 2018 totaling approximately $1.8 billion. The 8,797,459 reserved units are for the 2023 Long-Term Incentive Plan (LTIP)."
+  }
+]
