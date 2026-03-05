@@ -28,7 +28,7 @@ This document is intended to be used as a specification in Claude Code for build
 | | 1.6 | Parse Form D XML | ✅ Complete ($141.9B tracked) |
 | | 1.7 | Deduplicate and chain amendments | ✅ Complete (4,293 distinct offerings) |
 | | 1.8 | Aggregate annual primary market | ✅ Complete ($102B tracked) |
-| | 1.9 | Pull public market data | ⬜ Not Started |
+| | 1.9 | Pull public market data | ✅ Complete (169 companies) |
 | | 1.10 | Aggregate annual secondary market | ⬜ Not Started |
 | | 1.11 | S-1/S-4 valuation extraction | ⬜ Not Started |
 | **Pipeline 2** | | **Government Spending** | |
