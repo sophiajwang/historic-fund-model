@@ -33,8 +33,8 @@ This document is intended to be used as a specification in Claude Code for build
 | | 1.11 | S-1/S-4 valuation extraction | ✅ Complete (362 funding rounds) |
 | **Pipeline 2** | | **Government Spending** | |
 | | 2.1 | Bulk download USASpending CSVs | ✅ Complete |
-| | 2.2 | Parse and normalize CSVs | 🔄 In Progress |
-| | 2.3 | Classify awards by sector/domain | ⬜ Not Started |
+| | 2.2 | Parse and normalize CSVs | ✅ Complete |
+| | 2.3 | Classify awards by sector/domain | 🔄 In Progress |
 | | 2.4 | API cross-agency search | ⬜ Not Started |
 | | 2.5 | Aggregate annual government data | ⬜ Not Started |
 | **Pipeline 3** | | **Stitching** | |
@@ -722,6 +722,22 @@ Place raw CSVs in `data/raw/usaspending/`.
 ### Step 2.2 — Parse and normalize CSVs `[AUTOMATED]`
 
 Read each CSV and extract the relevant columns. Filter for non-federal recipients only (exclude intra-governmental transfers).
+
+#### Parsing Results (March 2026)
+
+| Agency | Contracts | Assistance | Total Obligation |
+|--------|-----------|------------|------------------|
+| NASA | 372,831 | 129,459 | $317.8B |
+| DoE | 165,571 | 111,614 | $741.3B |
+| HHS | 1,103,201 | 2,718,165 | $22.9T |
+| NSF | 14,444 | 420,358 | $137.9B |
+| DoD | 51,091,578 | 292,205 | $6.87T |
+| **Total** | **52,747,625** | **3,671,801** | **$31.0T** |
+
+**Filtering applied:**
+- Federal recipients excluded (us_federal_government = 't')
+- Zero-obligation transactions excluded
+- Output: `data/usaspending/normalized/{Agency}/FY{YYYY}_{contracts|assistance}.json`
 
 Key columns to extract:
 
