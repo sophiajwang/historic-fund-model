@@ -1,0 +1,749 @@
+{
+  "93.774": {
+    "title": "MEDICARE SUPPLEMENTARY MEDICAL INSURANCE",
+    "count": 51991,
+    "total_obligated": 5708114990971.33,
+    "agencies": [
+      "HHS"
+    ]
+  },
+  "93.773": {
+    "title": "MEDICARE HOSPITAL INSURANCE",
+    "count": 51503,
+    "total_obligated": 5185525513720.18,
+    "agencies": [
+      "HHS"
+    ]
+  },
+  "93.600": {
+    "title": "HEAD START",
+    "count": 124354,
+    "total_obligated": 166920391054.4,
+    "agencies": [
+      "HHS"
+    ]
+  },
+  "93.855": {
+    "title": "ALLERGY AND INFECTIOUS DISEASES RESEARCH",
+    "count": 164145,
+    "total_obligated": 60262066343.14,
+    "agencies": [
+      "HHS"
+    ]
+  },
+  "93.527": {
+    "title": "GRANTS FOR NEW AND EXPANDED SERVICES UNDER THE HEALTH CENTER PROGRAM",
+    "count": 120112,
+    "total_obligated": 47073447647.86,
+    "agencies": [
+      "HHS"
+    ]
+  },
+  "93.859": {
+    "title": "BIOMEDICAL RESEARCH AND RESEARCH TRAINING",
+    "count": 170921,
+    "total_obligated": 43325581720.58,
+    "agencies": [
+      "HHS"
+    ]
+  },
+  "93.866": {
+    "title": "AGING RESEARCH",
+    "count": 101769,
+    "total_obligated": 35978911750.65,
+    "agencies": [
+      "HHS"
+    ]
+  },
+  "93.837": {
+    "title": "CARDIOVASCULAR DISEASES RESEARCH",
+    "count": 123176,
+    "total_obligated": 34898901484.19,
+    "agencies": [
+      "HHS"
+    ]
+  },
+  "12.401": {
+    "title": "NATIONAL GUARD MILITARY OPERATIONS AND MAINTENANCE (O&M) PROJECTS",
+    "count": 85533,
+    "total_obligated": 34421375456.09,
+    "agencies": [
+      "DoD"
+    ]
+  },
+  "93.224": {
+    "title": "HEALTH CENTER PROGRAM (COMMUNITY HEALTH CENTERS, MIGRANT HEALTH CENTERS, HEALTH CARE FOR THE HOMELESS, AND PUBLIC HOUSING PRIMARY CARE)",
+    "count": 76101,
+    "total_obligated": 33267281717.89,
+    "agencies": [
+      "HHS"
+    ]
+  },
+  "93.847": {
+    "title": "DIABETES, DIGESTIVE, AND KIDNEY DISEASES EXTRAMURAL RESEARCH",
+    "count": 115059,
+    "total_obligated": 29385791856.7,
+    "agencies": [
+      "HHS"
+    ]
+  },
+  "93.853": {
+    "title": "EXTRAMURAL RESEARCH PROGRAMS IN THE NEUROSCIENCES AND NEUROLOGICAL DISORDERS",
+    "count": 120828,
+    "total_obligated": 27841886878.33,
+    "agencies": [
+      "HHS"
+    ]
+  },
+  "47.049": {
+    "title": "MATHEMATICAL AND PHYSICAL SCIENCES",
+    "count": 99797,
+    "total_obligated": 27686977006.0,
+    "agencies": [
+      "NSF"
+    ]
+  },
+  "81.049": {
+    "title": "OFFICE OF SCIENCE FINANCIAL ASSISTANCE PROGRAM",
+    "count": 85053,
+    "total_obligated": 25874601594.44,
+    "agencies": [
+      "DoE"
+    ]
+  },
+  "93.242": {
+    "title": "MENTAL HEALTH RESEARCH GRANTS",
+    "count": 90195,
+    "total_obligated": 24474044264.35,
+    "agencies": [
+      "HHS"
+    ]
+  },
+  "93.243": {
+    "title": "SUBSTANCE ABUSE AND MENTAL HEALTH SERVICES PROJECTS OF REGIONAL AND NATIONAL SIGNIFICANCE",
+    "count": 88654,
+    "total_obligated": 23214293313.14,
+    "agencies": [
+      "HHS"
+    ]
+  },
+  "12.420": {
+    "title": "MILITARY MEDICAL RESEARCH AND DEVELOPMENT",
+    "count": 42608,
+    "total_obligated": 22086163853.61,
+    "agencies": [
+      "DoD"
+    ]
+  },
+  "47.076": {
+    "title": "STEM EDUCATION (FORMERLY EDUCATION AND HUMAN RESOURCES)",
+    "count": 50628,
+    "total_obligated": 20693796776.0,
+    "agencies": [
+      "NSF"
+    ]
+  },
+  "93.279": {
+    "title": "DRUG USE AND ADDICTION RESEARCH PROGRAMS",
+    "count": 66394,
+    "total_obligated": 18497691671.36,
+    "agencies": [
+      "HHS"
+    ]
+  },
+  "93.865": {
+    "title": "CHILD HEALTH AND HUMAN DEVELOPMENT EXTRAMURAL RESEARCH",
+    "count": 77228,
+    "total_obligated": 18188319859.19,
+    "agencies": [
+      "HHS"
+    ]
+  },
+  "47.050": {
+    "title": "GEOSCIENCES",
+    "count": 57154,
+    "total_obligated": 18092336003.0,
+    "agencies": [
+      "NSF"
+    ]
+  },
+  "81.042": {
+    "title": "WEATHERIZATION ASSISTANCE FOR LOW-INCOME PERSONS",
+    "count": 3552,
+    "total_obligated": 17263332493.62,
+    "agencies": [
+      "DoE"
+    ]
+  },
+  "47.070": {
+    "title": "COMPUTER AND INFORMATION SCIENCE AND ENGINEERING",
+    "count": 74537,
+    "total_obligated": 15918634210.0,
+    "agencies": [
+      "NSF"
+    ]
+  },
+  "81.041": {
+    "title": "STATE ENERGY PROGRAM",
+    "count": 3603,
+    "total_obligated": 15643785859.56,
+    "agencies": [
+      "DoE"
+    ]
+  },
+  "93.395": {
+    "title": "CANCER TREATMENT RESEARCH",
+    "count": 45351,
+    "total_obligated": 15546050747.93,
+    "agencies": [
+      "HHS"
+    ]
+  },
+  "47.041": {
+    "title": "ENGINEERING",
+    "count": 78674,
+    "total_obligated": 15366044709.0,
+    "agencies": [
+      "NSF"
+    ]
+  },
+  "47.074": {
+    "title": "BIOLOGICAL SCIENCES",
+    "count": 55003,
+    "total_obligated": 14136816759.0,
+    "agencies": [
+      "NSF"
+    ]
+  },
+  "12.300": {
+    "title": "BASIC AND APPLIED SCIENTIFIC RESEARCH",
+    "count": 85881,
+    "total_obligated": 13487903767.43,
+    "agencies": [
+      "DoD"
+    ]
+  },
+  "43.001": {
+    "title": "SCIENCE",
+    "count": 128045,
+    "total_obligated": 13001709003.79,
+    "agencies": [
+      "NASA"
+    ]
+  },
+  "93.393": {
+    "title": "CANCER CAUSE AND PREVENTION RESEARCH",
+    "count": 44460,
+    "total_obligated": 12454111830.65,
+    "agencies": [
+      "HHS"
+    ]
+  },
+  "93.396": {
+    "title": "CANCER BIOLOGY RESEARCH",
+    "count": 44808,
+    "total_obligated": 11223697094.25,
+    "agencies": [
+      "HHS"
+    ]
+  },
+  "81.254": {
+    "title": "GRID INFRASTRUCTURE DEPLOYMENT AND RESILIENCE",
+    "count": 1395,
+    "total_obligated": 11010899814.0,
+    "agencies": [
+      "DoE"
+    ]
+  },
+  "93.867": {
+    "title": "VISION RESEARCH",
+    "count": 42522,
+    "total_obligated": 10714960876.83,
+    "agencies": [
+      "HHS"
+    ]
+  },
+  "12.800": {
+    "title": "AIR FORCE DEFENSE RESEARCH SCIENCES PROGRAM",
+    "count": 37585,
+    "total_obligated": 10712618298.92,
+    "agencies": [
+      "DoD",
+      "NSF"
+    ]
+  },
+  "81.087": {
+    "title": "RENEWABLE ENERGY RESEARCH AND DEVELOPMENT",
+    "count": 23593,
+    "total_obligated": 10023084821.58,
+    "agencies": [
+      "DoE"
+    ]
+  },
+  "81.089": {
+    "title": "FOSSIL ENERGY RESEARCH AND DEVELOPMENT",
+    "count": 12802,
+    "total_obligated": 9483399407.02,
+    "agencies": [
+      "DoE"
+    ]
+  },
+  "12.431": {
+    "title": "BASIC SCIENTIFIC RESEARCH",
+    "count": 37169,
+    "total_obligated": 8583293321.57,
+    "agencies": [
+      "DoD"
+    ]
+  },
+  "93.846": {
+    "title": "ARTHRITIS, MUSCULOSKELETAL AND SKIN DISEASES RESEARCH",
+    "count": 39888,
+    "total_obligated": 8468100576.79,
+    "agencies": [
+      "HHS"
+    ]
+  },
+  "81.086": {
+    "title": "CONSERVATION RESEARCH AND DEVELOPMENT",
+    "count": 13827,
+    "total_obligated": 6291239724.26,
+    "agencies": [
+      "DoE",
+      "NSF"
+    ]
+  },
+  "81.122": {
+    "title": "ELECTRICITY RESEARCH, DEVELOPMENT AND ANALYSIS",
+    "count": 3359,
+    "total_obligated": 5885525267.39,
+    "agencies": [
+      "DoE"
+    ]
+  },
+  "12.910": {
+    "title": "RESEARCH AND TECHNOLOGY DEVELOPMENT",
+    "count": 10167,
+    "total_obligated": 5709067912.23,
+    "agencies": [
+      "DoD"
+    ]
+  },
+  "81.121": {
+    "title": "NUCLEAR ENERGY RESEARCH, DEVELOPMENT AND DEMONSTRATION",
+    "count": 6231,
+    "total_obligated": 5691905862.42,
+    "agencies": [
+      "DoE",
+      "NASA"
+    ]
+  },
+  "81.128": {
+    "title": "ENERGY EFFICIENCY AND CONSERVATION BLOCK GRANT PROGRAM (EECBG)",
+    "count": 12184,
+    "total_obligated": 4963384464.0,
+    "agencies": [
+      "DoE"
+    ]
+  },
+  "12.630": {
+    "title": "BASIC, APPLIED, AND ADVANCED RESEARCH IN SCIENCE AND ENGINEERING",
+    "count": 10952,
+    "total_obligated": 4609809525.98,
+    "agencies": [
+      "DoD"
+    ]
+  },
+  "12.400": {
+    "title": "MILITARY CONSTRUCTION, NATIONAL GUARD",
+    "count": 2897,
+    "total_obligated": 4559310601.42,
+    "agencies": [
+      "DoD"
+    ]
+  },
+  "47.075": {
+    "title": "SOCIAL, BEHAVIORAL, AND ECONOMIC SCIENCES",
+    "count": 30303,
+    "total_obligated": 4015700999.0,
+    "agencies": [
+      "NSF"
+    ]
+  },
+  "12.750": {
+    "title": "UNIFORMED SERVICES UNIVERSITY MEDICAL RESEARCH PROJECTS",
+    "count": 4418,
+    "total_obligated": 3995224906.92,
+    "agencies": [
+      "DoD"
+    ]
+  },
+  "81.135": {
+    "title": "ADVANCED RESEARCH PROJECTS AGENCY - ENERGY",
+    "count": 7732,
+    "total_obligated": 3976299123.51,
+    "agencies": [
+      "DoE"
+    ]
+  },
+  "47.082": {
+    "title": "TRANS-NSF RECOVERY ACT REASEARCH SUPPORT",
+    "count": 5180,
+    "total_obligated": 3014118462.0,
+    "agencies": [
+      "NSF"
+    ]
+  },
+  "47.083": {
+    "title": "INTEGRATIVE ACTIVITIES",
+    "count": 4452,
+    "total_obligated": 2962824345.0,
+    "agencies": [
+      "NSF"
+    ]
+  },
+  "12.404": {
+    "title": "NATIONAL GUARD CHALLENGE PROGRAM",
+    "count": 4715,
+    "total_obligated": 2557849922.42,
+    "agencies": [
+      "DoD"
+    ]
+  },
+  "47.084": {
+    "title": "NSF TECHNOLOGY, INNOVATION, AND PARTNERSHIPS",
+    "count": 6765,
+    "total_obligated": 2241680869.0,
+    "agencies": [
+      "NSF"
+    ]
+  },
+  "43.AAA": {
+    "title": "RESEARCH GRANTS FOR THE SPACE PROGRAM",
+    "count": 14060,
+    "total_obligated": 2042416580.0,
+    "agencies": [
+      "NASA"
+    ]
+  },
+  "81.112": {
+    "title": "STEWARDSHIP SCIENCE GRANT PROGRAM",
+    "count": 2294,
+    "total_obligated": 1986326370.53,
+    "agencies": [
+      "DoE"
+    ]
+  },
+  "81.117": {
+    "title": "ENERGY EFFICIENCY AND RENEWABLE ENERGY INFORMATION DISSEMINATION, OUTREACH, TRAINING AND TECHNICAL ANALYSIS/ASSISTANCE",
+    "count": 4507,
+    "total_obligated": 1680252292.48,
+    "agencies": [
+      "DoE"
+    ]
+  },
+  "43.008": {
+    "title": "OFFICE OF STEM ENGAGEMENT (OSTEM)",
+    "count": 9330,
+    "total_obligated": 1559409263.06,
+    "agencies": [
+      "NASA"
+    ]
+  },
+  "47.078": {
+    "title": "POLAR PROGRAMS",
+    "count": 6568,
+    "total_obligated": 1533717048.0,
+    "agencies": [
+      "NSF"
+    ]
+  },
+  "47.080": {
+    "title": "OFFICE OF CYBERINFRASTRUCTURE",
+    "count": 1638,
+    "total_obligated": 1385647529.0,
+    "agencies": [
+      "NSF"
+    ]
+  },
+  "47.079": {
+    "title": "OFFICE OF INTERNATIONAL SCIENCE AND ENGINEERING",
+    "count": 3898,
+    "total_obligated": 1318498876.0,
+    "agencies": [
+      "NSF"
+    ]
+  },
+  "12.351": {
+    "title": "SCIENTIFIC RESEARCH - COMBATING WEAPONS OF MASS DESTRUCTION",
+    "count": 4242,
+    "total_obligated": 1134818413.08,
+    "agencies": [
+      "DoD"
+    ]
+  },
+  "81.502": {
+    "title": "MISCELLANEOUS FEDERAL ASSISTANCE ACTIONS",
+    "count": 1009,
+    "total_obligated": 871215044.41,
+    "agencies": [
+      "DoE"
+    ]
+  },
+  "12.556": {
+    "title": "COMPETITIVE GRANTS: PROMOTING K-12 STUDENT ACHIEVEMENT AT MILITARY-CONNECTED SCHOOLS",
+    "count": 920,
+    "total_obligated": 792138870.29,
+    "agencies": [
+      "DoD"
+    ]
+  },
+  "43.003": {
+    "title": "EXPLORATION",
+    "count": 5245,
+    "total_obligated": 764038084.25,
+    "agencies": [
+      "NASA"
+    ]
+  },
+  "43.002": {
+    "title": "AERONAUTICS",
+    "count": 3289,
+    "total_obligated": 749371461.76,
+    "agencies": [
+      "NASA"
+    ]
+  },
+  "12.350": {
+    "title": "DEPARTMENT OF DEFENSE HIV/AIDS PREVENTION PROGRAM",
+    "count": 1242,
+    "total_obligated": 698926405.62,
+    "agencies": [
+      "DoD"
+    ]
+  },
+  "12.113": {
+    "title": "STATE MEMORANDUM OF AGREEMENT PROGRAM FOR THE REIMBURSEMENT OF TECHNICAL SERVICES",
+    "count": 3790,
+    "total_obligated": 698068743.62,
+    "agencies": [
+      "DoD"
+    ]
+  },
+  "12.005": {
+    "title": "CONSERVATION AND REHABILITATION OF NATURAL RESOURCES ON MILITARY INSTALLATIONS",
+    "count": 1294,
+    "total_obligated": 646753407.37,
+    "agencies": [
+      "DoD"
+    ]
+  },
+  "81.113": {
+    "title": "DEFENSE NUCLEAR NONPROLIFERATION RESEARCH",
+    "count": 1269,
+    "total_obligated": 629471631.18,
+    "agencies": [
+      "DoE"
+    ]
+  },
+  "12.002": {
+    "title": "PROCUREMENT TECHNICAL ASSISTANCE FOR BUSINESS FIRMS",
+    "count": 3380,
+    "total_obligated": 601403684.9,
+    "agencies": [
+      "DoD"
+    ]
+  },
+  "81.104": {
+    "title": "ENVIRONMENTAL REMEDIATION AND WASTE PROCESSING AND DISPOSAL",
+    "count": 1374,
+    "total_obligated": 600020184.37,
+    "agencies": [
+      "DoE"
+    ]
+  },
+  "12.610": {
+    "title": "COMMUNITY ECONOMIC ADJUSTMENT ASSISTANCE FOR COMPATIBLE USE AND JOINT LAND USE STUDIES",
+    "count": 925,
+    "total_obligated": 569711004.49,
+    "agencies": [
+      "DoD"
+    ]
+  },
+  "43.012": {
+    "title": "SPACE TECHNOLOGY",
+    "count": 6956,
+    "total_obligated": 554369480.65,
+    "agencies": [
+      "NASA"
+    ]
+  },
+  "12.840": {
+    "title": "CIVIL AIR PATROL PROGRAM",
+    "count": 1682,
+    "total_obligated": 526698334.07,
+    "agencies": [
+      "DoD"
+    ]
+  },
+  "81.214": {
+    "title": "ENVIRONMENTAL MONITORING/CLEANUP, CULTURAL AND RESOURCE MGMT., EMERGENCY RESPONSE RESEARCH, OUTREACH, TECHNICAL ANALYSIS",
+    "count": 1655,
+    "total_obligated": 465550302.97,
+    "agencies": [
+      "DoE"
+    ]
+  },
+  "43.007": {
+    "title": "SPACE OPERATIONS",
+    "count": 4021,
+    "total_obligated": 445529243.54,
+    "agencies": [
+      "NASA"
+    ]
+  },
+  "47.081": {
+    "title": "OFFICE OF EXPERIMENTAL PROGRAM TO STIMULATE COMPETITIVE RESEARCH",
+    "count": 453,
+    "total_obligated": 374470691.0,
+    "agencies": [
+      "NSF"
+    ]
+  },
+  "43.009": {
+    "title": "MISSION SUPPORT",
+    "count": 3827,
+    "total_obligated": 330109031.22,
+    "agencies": [
+      "NASA"
+    ]
+  },
+  "81.123": {
+    "title": "NATIONAL NUCLEAR SECURITY ADMINISTRATION (NNSA) MINORITY SERVING INSTITUTIONS (MSI) PROGRAM",
+    "count": 687,
+    "total_obligated": 292258217.43,
+    "agencies": [
+      "DoE"
+    ]
+  },
+  "81.136": {
+    "title": "LONG-TERM SURVEILLANCE AND MAINTENANCE",
+    "count": 1009,
+    "total_obligated": 164118029.04,
+    "agencies": [
+      "DoE"
+    ]
+  },
+  "12.901": {
+    "title": "MATHEMATICAL SCIENCES GRANTS",
+    "count": 1057,
+    "total_obligated": 118155377.0,
+    "agencies": [
+      "DoD"
+    ]
+  },
+  "12.902": {
+    "title": "INFORMATION SECURITY GRANTS",
+    "count": 947,
+    "total_obligated": 100782752.51,
+    "agencies": [
+      "DoD"
+    ]
+  },
+  "00.000": {
+    "title": "UNKNOWN",
+    "count": 297,
+    "total_obligated": 80864283.0,
+    "agencies": [
+      "NASA"
+    ]
+  },
+  "81.119": {
+    "title": "STATE ENERGY PROGRAM SPECIAL PROJECTS",
+    "count": 1104,
+    "total_obligated": 80009859.53,
+    "agencies": [
+      "DoE"
+    ]
+  },
+  "43.014": {
+    "title": "CONGRESSIONALLY DIRECTED PROGRAMS",
+    "count": 79,
+    "total_obligated": 43291998.27,
+    "agencies": [
+      "NASA"
+    ]
+  },
+  "43.010": {
+    "title": "CONSTRUCTION & ENVIRONMENTAL COMPLIANCE & REMEDIATION",
+    "count": 18,
+    "total_obligated": 2631320.0,
+    "agencies": [
+      "NASA"
+    ]
+  },
+  "44.AAA": {
+    "title": "UNKNOWN",
+    "count": 2,
+    "total_obligated": 1448300.0,
+    "agencies": [
+      "NASA"
+    ]
+  },
+  "43.004": {
+    "title": "AERONAUTICS, RECOVERY ACT",
+    "count": 7,
+    "total_obligated": 889461.0,
+    "agencies": [
+      "NASA"
+    ]
+  },
+  "43.005": {
+    "title": "EXPLORATION, RECOVERY ACT",
+    "count": 9,
+    "total_obligated": 562910.0,
+    "agencies": [
+      "NASA"
+    ]
+  },
+  "43.000": {
+    "title": "UNKNOWN",
+    "count": 3,
+    "total_obligated": 268407.0,
+    "agencies": [
+      "NASA"
+    ]
+  },
+  "43.006": {
+    "title": "SCIENCE, RECOVERY ACT",
+    "count": 4,
+    "total_obligated": 226599.0,
+    "agencies": [
+      "NASA"
+    ]
+  },
+  "?43.AA": {
+    "title": "UNKNOWN",
+    "count": 1,
+    "total_obligated": 121636.0,
+    "agencies": [
+      "NASA"
+    ]
+  },
+  "10.350": {
+    "title": "TECHNICAL ASSISTANCE TO COOPERATIVES",
+    "count": 2,
+    "total_obligated": 36606.0,
+    "agencies": [
+      "NASA"
+    ]
+  },
+  "10.001": {
+    "title": "AGRICULTURAL RESEARCH_BASIC AND APPLIED RESEARCH",
+    "count": 2,
+    "total_obligated": -12926.0,
+    "agencies": [
+      "NASA"
+    ]
+  }
+}

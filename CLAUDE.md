@@ -27,8 +27,20 @@ Research infrastructure for analyzing capital flows across space, biotechnology,
 │   ├── domains-space.csv             # 51 space sector domains
 │   ├── domains-bio.csv               # 51 bio sector domains
 │   ├── domains-energy.csv            # 50 energy sector domains
-│   ├── naics-to-domain-mapping.json  # NAICS → domain classification rules
-│   └── taxonomy-validation-notes.md  # Phase 0 completion audit
+│   ├── naics-to-domain-mapping.json  # NAICS → domain classification (contracts)
+│   ├── cfda-to-domain-mapping.json   # CFDA → domain classification (assistance)
+│   ├── cfda-inventory.json           # Inventory of all CFDA codes in data
+│   ├── taxonomy-validation-notes.md  # Phase 0 completion audit
+│   └── usaspending/                  # Raw USASpending CSV downloads
+│       ├── NASA/                     # FY2008-FY2026 contracts & assistance
+│       ├── DoE/                      # FY2008-FY2026 contracts & assistance
+│       ├── DoD/                      # FY2008-FY2026 (contracts in subfolders)
+│       ├── HHS/                      # FY2008-FY2026 contracts & assistance
+│       └── NSF/                      # FY2008-FY2026 contracts & assistance
+├── scripts/
+│   ├── classify_companies.py         # Crunchbase → domain classification
+│   ├── test_usaspending_parse.py     # USASpending CSV structure tests
+│   └── test_cfda_inventory.py        # CFDA code inventory scanner
 └── .claude/
     ├── settings.local.json           # Permission configuration
     └── docs/                         # Additional documentation
@@ -41,13 +53,14 @@ Research infrastructure for analyzing capital flows across space, biotechnology,
 |------|---------|
 | `data/data-collection.md` | Complete methodology spec — read this first |
 | `data/domains-*.csv` | **Single source of truth** for all classification |
-| `data/naics-to-domain-mapping.json` | 90 NAICS codes mapped to domains |
+| `data/naics-to-domain-mapping.json` | 90 NAICS codes → domains (for contracts) |
+| `data/cfda-to-domain-mapping.json` | 93 CFDA codes → domains (for assistance/grants) |
 
 ## Current Status
 
 - **Phase 0 (Taxonomy):** Complete
-- **Pipeline 1 (Private/Public Markets):** Step 1.1 in progress (Crunchbase data collected, classification pending)
-- **Pipeline 2 (Government Spending):** Not started
+- **Pipeline 1 (Private/Public Markets):** Complete (Steps 1.1-1.11)
+- **Pipeline 2 (Government Spending):** Step 2.2 in progress (bulk data downloaded, parsing next)
 - **Pipeline 3 (Stitching):** Not started
 
 Progress tracked in `data/data-collection.md:14-42`
@@ -97,9 +110,14 @@ python3 scripts/classify_companies.py --sector space --limit 10
 
 **All companies and awards are classified into domains from the CSV files.**
 
+**Private market (Pipeline 1):**
 1. Crunchbase tags → search filter only (not classification)
-2. NAICS codes → high-confidence cases get direct domain assignment
-3. Claude API → classifies everything else using domain CSV as reference
+2. Claude API → classifies companies into domains from CSV
+
+**Government spending (Pipeline 2):**
+1. Contracts → NAICS codes for high-confidence domain assignment
+2. Assistance/Grants → CFDA codes for sector/domain assignment
+3. Claude API → classifies ambiguous cases (DoD/NSF cross-cutting research)
 
 See `data/data-collection.md:153-250` for full classification methodology.
 
@@ -131,5 +149,7 @@ When working on specific topics, check these files:
 | Architectural patterns & conventions | `.claude/docs/architectural_patterns.md` |
 | Full pipeline methodology | `data/data-collection.md` |
 | Domain definitions | `data/domains-{sector}.csv` |
-| NAICS classification rules | `data/naics-to-domain-mapping.json` |
+| NAICS classification (contracts) | `data/naics-to-domain-mapping.json` |
+| CFDA classification (assistance) | `data/cfda-to-domain-mapping.json` |
+| CFDA inventory from data | `data/cfda-inventory.json` |
 | Validation checklist | `data/taxonomy-validation-notes.md` |

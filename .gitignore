@@ -2,3 +2,9 @@
 *.log
 __pycache__/
 *.pyc
+
+# macOS
+.DS_Store
+
+# USASpending bulk data (too large for git)
+data/usaspending/

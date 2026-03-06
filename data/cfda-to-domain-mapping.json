@@ -1,0 +1,702 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2026-03-06",
+    "description": "CFDA code to sector/domain mapping for USASpending assistance awards",
+    "methodology": "Based on actual CFDA inventory from FY2008-FY2026 data. Agency-specific CFDAs get high confidence sector assignment. Domain assignment based on CFDA title matching to domain CSV definitions.",
+    "total_cfda_codes": 93,
+    "coverage_note": "40 CFDA codes cover 95% of all awards"
+  },
+
+  "mappings": {
+    "43.001": {
+      "title": "SCIENCE",
+      "sector": "space",
+      "domains": ["space_general", "planetary_science", "earth_observation"],
+      "confidence": "high",
+      "notes": "NASA Science Mission Directorate - broad space science research"
+    },
+    "43.AAA": {
+      "title": "RESEARCH GRANTS FOR THE SPACE PROGRAM",
+      "sector": "space",
+      "domains": ["space_general"],
+      "confidence": "high",
+      "notes": "Legacy NASA research grants code"
+    },
+    "43.002": {
+      "title": "AERONAUTICS",
+      "sector": "space",
+      "domains": ["space_general"],
+      "confidence": "high",
+      "notes": "NASA aeronautics research - technically aviation but administered by NASA"
+    },
+    "43.003": {
+      "title": "EXPLORATION",
+      "sector": "space",
+      "domains": ["lunar_exploration", "mars_exploration", "interplanetary_transport"],
+      "confidence": "high",
+      "notes": "NASA Exploration Systems - Moon, Mars, deep space"
+    },
+    "43.004": {
+      "title": "AERONAUTICS, RECOVERY ACT",
+      "sector": "space",
+      "domains": ["space_general"],
+      "confidence": "high",
+      "notes": "ARRA funding for NASA aeronautics"
+    },
+    "43.005": {
+      "title": "EXPLORATION, RECOVERY ACT",
+      "sector": "space",
+      "domains": ["lunar_exploration", "mars_exploration"],
+      "confidence": "high",
+      "notes": "ARRA funding for NASA exploration"
+    },
+    "43.006": {
+      "title": "SCIENCE, RECOVERY ACT",
+      "sector": "space",
+      "domains": ["space_general", "planetary_science"],
+      "confidence": "high",
+      "notes": "ARRA funding for NASA science"
+    },
+    "43.007": {
+      "title": "SPACE OPERATIONS",
+      "sector": "space",
+      "domains": ["ground_operations", "space_habitats"],
+      "confidence": "high",
+      "notes": "ISS operations, spaceflight operations"
+    },
+    "43.008": {
+      "title": "OFFICE OF STEM ENGAGEMENT (OSTEM)",
+      "sector": "space",
+      "domains": ["space_policy"],
+      "confidence": "high",
+      "notes": "NASA education and outreach"
+    },
+    "43.009": {
+      "title": "MISSION SUPPORT",
+      "sector": "space",
+      "domains": ["space_general"],
+      "confidence": "high",
+      "notes": "NASA mission support activities"
+    },
+    "43.010": {
+      "title": "CONSTRUCTION & ENVIRONMENTAL COMPLIANCE & REMEDIATION",
+      "sector": "space",
+      "domains": ["space_industrial_base"],
+      "confidence": "high",
+      "notes": "NASA facility construction and compliance"
+    },
+    "43.012": {
+      "title": "SPACE TECHNOLOGY",
+      "sector": "space",
+      "domains": ["spacecraft_propulsion", "spacecraft_power_thermal", "space_autonomy"],
+      "confidence": "high",
+      "notes": "NASA Space Technology Mission Directorate"
+    },
+    "43.014": {
+      "title": "CONGRESSIONALLY DIRECTED PROGRAMS",
+      "sector": "space",
+      "domains": ["space_general"],
+      "confidence": "medium",
+      "notes": "Earmarks - varied topics"
+    },
+
+    "81.049": {
+      "title": "OFFICE OF SCIENCE FINANCIAL ASSISTANCE PROGRAM",
+      "sector": "energy",
+      "domains": ["energy_general"],
+      "confidence": "high",
+      "notes": "DOE Office of Science - broad energy research, some overlap with bio/physics"
+    },
+    "81.041": {
+      "title": "STATE ENERGY PROGRAM",
+      "sector": "energy",
+      "domains": ["energy_policy", "building_efficiency"],
+      "confidence": "high",
+      "notes": "State-level energy efficiency and renewable programs"
+    },
+    "81.042": {
+      "title": "WEATHERIZATION ASSISTANCE FOR LOW-INCOME PERSONS",
+      "sector": "energy",
+      "domains": ["building_efficiency"],
+      "confidence": "high",
+      "notes": "Home weatherization for energy efficiency"
+    },
+    "81.086": {
+      "title": "CONSERVATION RESEARCH AND DEVELOPMENT",
+      "sector": "energy",
+      "domains": ["building_efficiency", "industrial_efficiency"],
+      "confidence": "high",
+      "notes": "Energy conservation R&D"
+    },
+    "81.087": {
+      "title": "RENEWABLE ENERGY RESEARCH AND DEVELOPMENT",
+      "sector": "energy",
+      "domains": ["solar_pv", "onshore_wind", "offshore_wind", "geothermal"],
+      "confidence": "high",
+      "notes": "DOE renewable energy R&D"
+    },
+    "81.089": {
+      "title": "FOSSIL ENERGY RESEARCH AND DEVELOPMENT",
+      "sector": "energy",
+      "domains": ["carbon_capture", "hydrogen_production"],
+      "confidence": "high",
+      "notes": "Fossil energy R&D - includes CCS and hydrogen from fossil"
+    },
+    "81.104": {
+      "title": "ENVIRONMENTAL REMEDIATION AND WASTE PROCESSING AND DISPOSAL",
+      "sector": "energy",
+      "domains": ["nuclear_fuel"],
+      "confidence": "high",
+      "notes": "DOE environmental cleanup, primarily nuclear waste"
+    },
+    "81.112": {
+      "title": "STEWARDSHIP SCIENCE GRANT PROGRAM",
+      "sector": "energy",
+      "domains": ["energy_general"],
+      "confidence": "medium",
+      "notes": "NNSA stewardship science - nuclear weapons physics"
+    },
+    "81.113": {
+      "title": "DEFENSE NUCLEAR NONPROLIFERATION RESEARCH",
+      "sector": "energy",
+      "domains": ["advanced_nuclear"],
+      "confidence": "medium",
+      "notes": "Nuclear nonproliferation research"
+    },
+    "81.117": {
+      "title": "ENERGY EFFICIENCY AND RENEWABLE ENERGY INFORMATION DISSEMINATION",
+      "sector": "energy",
+      "domains": ["energy_policy", "building_efficiency"],
+      "confidence": "high",
+      "notes": "EERE outreach and technical assistance"
+    },
+    "81.119": {
+      "title": "STATE ENERGY PROGRAM SPECIAL PROJECTS",
+      "sector": "energy",
+      "domains": ["energy_policy"],
+      "confidence": "high",
+      "notes": "Special state energy projects"
+    },
+    "81.121": {
+      "title": "NUCLEAR ENERGY RESEARCH, DEVELOPMENT AND DEMONSTRATION",
+      "sector": "energy",
+      "domains": ["advanced_nuclear", "small_modular_reactors", "nuclear_fuel"],
+      "confidence": "high",
+      "notes": "DOE nuclear energy R&D"
+    },
+    "81.122": {
+      "title": "ELECTRICITY RESEARCH, DEVELOPMENT AND ANALYSIS",
+      "sector": "energy",
+      "domains": ["grid_modernization", "transmission", "energy_storage_systems"],
+      "confidence": "high",
+      "notes": "DOE grid and electricity research"
+    },
+    "81.123": {
+      "title": "NATIONAL NUCLEAR SECURITY ADMINISTRATION (NNSA) MINORITY SERVING INSTITUTIONS (MSI) PROGRAM",
+      "sector": "energy",
+      "domains": ["energy_policy"],
+      "confidence": "medium",
+      "notes": "NNSA workforce development"
+    },
+    "81.128": {
+      "title": "ENERGY EFFICIENCY AND CONSERVATION BLOCK GRANT PROGRAM (EECBG)",
+      "sector": "energy",
+      "domains": ["building_efficiency", "energy_policy"],
+      "confidence": "high",
+      "notes": "Local government energy efficiency grants"
+    },
+    "81.135": {
+      "title": "ADVANCED RESEARCH PROJECTS AGENCY - ENERGY",
+      "sector": "energy",
+      "domains": ["energy_general"],
+      "confidence": "high",
+      "notes": "ARPA-E - breakthrough energy technologies, use LLM for specific domain"
+    },
+    "81.136": {
+      "title": "LONG-TERM SURVEILLANCE AND MAINTENANCE",
+      "sector": "energy",
+      "domains": ["nuclear_fuel"],
+      "confidence": "high",
+      "notes": "Nuclear site long-term stewardship"
+    },
+    "81.214": {
+      "title": "ENVIRONMENTAL MONITORING/CLEANUP",
+      "sector": "energy",
+      "domains": ["nuclear_fuel"],
+      "confidence": "high",
+      "notes": "DOE environmental monitoring"
+    },
+    "81.254": {
+      "title": "GRID INFRASTRUCTURE DEPLOYMENT AND RESILIENCE",
+      "sector": "energy",
+      "domains": ["grid_modernization", "transmission"],
+      "confidence": "high",
+      "notes": "Grid infrastructure investments (IRA/BIL)"
+    },
+    "81.502": {
+      "title": "MISCELLANEOUS FEDERAL ASSISTANCE ACTIONS",
+      "sector": "energy",
+      "domains": ["energy_general"],
+      "confidence": "low",
+      "notes": "Miscellaneous - needs LLM classification"
+    },
+
+    "93.855": {
+      "title": "ALLERGY AND INFECTIOUS DISEASES RESEARCH",
+      "sector": "bio",
+      "domains": ["infectious_disease", "immunology", "vaccines"],
+      "confidence": "high",
+      "notes": "NIAID research grants"
+    },
+    "93.859": {
+      "title": "BIOMEDICAL RESEARCH AND RESEARCH TRAINING",
+      "sector": "bio",
+      "domains": ["bio_general"],
+      "confidence": "high",
+      "notes": "NIGMS - broad biomedical research"
+    },
+    "93.837": {
+      "title": "CARDIOVASCULAR DISEASES RESEARCH",
+      "sector": "bio",
+      "domains": ["bio_general"],
+      "confidence": "high",
+      "notes": "NHLBI cardiovascular research"
+    },
+    "93.847": {
+      "title": "DIABETES, DIGESTIVE, AND KIDNEY DISEASES EXTRAMURAL RESEARCH",
+      "sector": "bio",
+      "domains": ["bio_general"],
+      "confidence": "high",
+      "notes": "NIDDK research"
+    },
+    "93.853": {
+      "title": "EXTRAMURAL RESEARCH PROGRAMS IN THE NEUROSCIENCES AND NEUROLOGICAL DISORDERS",
+      "sector": "bio",
+      "domains": ["neurology"],
+      "confidence": "high",
+      "notes": "NINDS neuroscience research"
+    },
+    "93.866": {
+      "title": "AGING RESEARCH",
+      "sector": "bio",
+      "domains": ["bio_general"],
+      "confidence": "high",
+      "notes": "NIA aging research"
+    },
+    "93.242": {
+      "title": "MENTAL HEALTH RESEARCH GRANTS",
+      "sector": "bio",
+      "domains": ["neurology"],
+      "confidence": "high",
+      "notes": "NIMH mental health research"
+    },
+    "93.279": {
+      "title": "DRUG USE AND ADDICTION RESEARCH PROGRAMS",
+      "sector": "bio",
+      "domains": ["neurology"],
+      "confidence": "high",
+      "notes": "NIDA addiction research"
+    },
+    "93.865": {
+      "title": "CHILD HEALTH AND HUMAN DEVELOPMENT EXTRAMURAL RESEARCH",
+      "sector": "bio",
+      "domains": ["bio_general"],
+      "confidence": "high",
+      "notes": "NICHD research"
+    },
+    "93.395": {
+      "title": "CANCER TREATMENT RESEARCH",
+      "sector": "bio",
+      "domains": ["oncology"],
+      "confidence": "high",
+      "notes": "NCI cancer treatment research"
+    },
+    "93.393": {
+      "title": "CANCER CAUSE AND PREVENTION RESEARCH",
+      "sector": "bio",
+      "domains": ["oncology"],
+      "confidence": "high",
+      "notes": "NCI cancer prevention research"
+    },
+    "93.396": {
+      "title": "CANCER BIOLOGY RESEARCH",
+      "sector": "bio",
+      "domains": ["oncology"],
+      "confidence": "high",
+      "notes": "NCI cancer biology"
+    },
+    "93.867": {
+      "title": "VISION RESEARCH",
+      "sector": "bio",
+      "domains": ["bio_general"],
+      "confidence": "high",
+      "notes": "NEI vision research"
+    },
+    "93.846": {
+      "title": "ARTHRITIS, MUSCULOSKELETAL AND SKIN DISEASES RESEARCH",
+      "sector": "bio",
+      "domains": ["bio_general"],
+      "confidence": "high",
+      "notes": "NIAMS research"
+    },
+
+    "93.773": {
+      "title": "MEDICARE HOSPITAL INSURANCE",
+      "sector": null,
+      "domains": [],
+      "confidence": "high",
+      "notes": "EXCLUDE - Medicare payments, not research"
+    },
+    "93.774": {
+      "title": "MEDICARE SUPPLEMENTARY MEDICAL INSURANCE",
+      "sector": null,
+      "domains": [],
+      "confidence": "high",
+      "notes": "EXCLUDE - Medicare payments, not research"
+    },
+    "93.600": {
+      "title": "HEAD START",
+      "sector": null,
+      "domains": [],
+      "confidence": "high",
+      "notes": "EXCLUDE - Early childhood education, not bio research"
+    },
+    "93.527": {
+      "title": "GRANTS FOR NEW AND EXPANDED SERVICES UNDER THE HEALTH CENTER PROGRAM",
+      "sector": null,
+      "domains": [],
+      "confidence": "high",
+      "notes": "EXCLUDE - Healthcare delivery, not research"
+    },
+    "93.224": {
+      "title": "HEALTH CENTER PROGRAM",
+      "sector": null,
+      "domains": [],
+      "confidence": "high",
+      "notes": "EXCLUDE - Community health centers, not research"
+    },
+    "93.243": {
+      "title": "SUBSTANCE ABUSE AND MENTAL HEALTH SERVICES PROJECTS",
+      "sector": null,
+      "domains": [],
+      "confidence": "high",
+      "notes": "EXCLUDE - SAMHSA services, not research"
+    },
+
+    "12.300": {
+      "title": "BASIC AND APPLIED SCIENTIFIC RESEARCH",
+      "sector": null,
+      "domains": [],
+      "confidence": "low",
+      "notes": "DoD general research - use LLM to classify into space/bio/energy based on description"
+    },
+    "12.401": {
+      "title": "NATIONAL GUARD MILITARY OPERATIONS AND MAINTENANCE (O&M) PROJECTS",
+      "sector": null,
+      "domains": [],
+      "confidence": "high",
+      "notes": "EXCLUDE - Military operations, not R&D"
+    },
+    "12.420": {
+      "title": "MILITARY MEDICAL RESEARCH AND DEVELOPMENT",
+      "sector": "bio",
+      "domains": ["bio_general", "biodefense"],
+      "confidence": "high",
+      "notes": "DoD medical research - includes CDMRP"
+    },
+    "12.431": {
+      "title": "BASIC SCIENTIFIC RESEARCH",
+      "sector": null,
+      "domains": [],
+      "confidence": "low",
+      "notes": "DoD basic research - use LLM for sector classification"
+    },
+    "12.630": {
+      "title": "BASIC, APPLIED, AND ADVANCED RESEARCH IN SCIENCE AND ENGINEERING",
+      "sector": null,
+      "domains": [],
+      "confidence": "low",
+      "notes": "DARPA/DoD research - use LLM for sector classification"
+    },
+    "12.800": {
+      "title": "AIR FORCE DEFENSE RESEARCH SCIENCES PROGRAM",
+      "sector": null,
+      "domains": [],
+      "confidence": "low",
+      "notes": "AFOSR research - could be space, energy, or other"
+    },
+    "12.910": {
+      "title": "RESEARCH AND TECHNOLOGY DEVELOPMENT",
+      "sector": null,
+      "domains": [],
+      "confidence": "low",
+      "notes": "DoD R&D - use LLM for sector classification"
+    },
+    "12.351": {
+      "title": "SCIENTIFIC RESEARCH - COMBATING WEAPONS OF MASS DESTRUCTION",
+      "sector": "bio",
+      "domains": ["biodefense"],
+      "confidence": "high",
+      "notes": "CWMD research - includes bio defense"
+    },
+    "12.750": {
+      "title": "UNIFORMED SERVICES UNIVERSITY MEDICAL RESEARCH PROJECTS",
+      "sector": "bio",
+      "domains": ["bio_general"],
+      "confidence": "high",
+      "notes": "USU medical research"
+    },
+    "12.350": {
+      "title": "DEPARTMENT OF DEFENSE HIV/AIDS PREVENTION PROGRAM",
+      "sector": "bio",
+      "domains": ["infectious_disease"],
+      "confidence": "high",
+      "notes": "DoD HIV/AIDS research"
+    },
+    "12.400": {
+      "title": "MILITARY CONSTRUCTION, NATIONAL GUARD",
+      "sector": null,
+      "domains": [],
+      "confidence": "high",
+      "notes": "EXCLUDE - Construction, not R&D"
+    },
+    "12.404": {
+      "title": "NATIONAL GUARD CHALLENGE PROGRAM",
+      "sector": null,
+      "domains": [],
+      "confidence": "high",
+      "notes": "EXCLUDE - Youth program, not R&D"
+    },
+    "12.840": {
+      "title": "CIVIL AIR PATROL PROGRAM",
+      "sector": null,
+      "domains": [],
+      "confidence": "high",
+      "notes": "EXCLUDE - Civil Air Patrol, not R&D"
+    },
+    "12.901": {
+      "title": "MATHEMATICAL SCIENCES GRANTS",
+      "sector": null,
+      "domains": [],
+      "confidence": "low",
+      "notes": "Math research - use LLM if tied to sector"
+    },
+    "12.902": {
+      "title": "INFORMATION SECURITY GRANTS",
+      "sector": null,
+      "domains": [],
+      "confidence": "low",
+      "notes": "Cybersecurity research - use LLM"
+    },
+    "12.113": {
+      "title": "STATE MEMORANDUM OF AGREEMENT PROGRAM FOR THE REIMBURSEMENT OF TECHNICAL SERVICES",
+      "sector": null,
+      "domains": [],
+      "confidence": "high",
+      "notes": "EXCLUDE - Administrative, not R&D"
+    },
+    "12.002": {
+      "title": "PROCUREMENT TECHNICAL ASSISTANCE FOR BUSINESS FIRMS",
+      "sector": null,
+      "domains": [],
+      "confidence": "high",
+      "notes": "EXCLUDE - Business assistance, not R&D"
+    },
+    "12.005": {
+      "title": "CONSERVATION AND REHABILITATION OF NATURAL RESOURCES ON MILITARY INSTALLATIONS",
+      "sector": null,
+      "domains": [],
+      "confidence": "high",
+      "notes": "EXCLUDE - Environmental compliance, not R&D"
+    },
+    "12.556": {
+      "title": "COMPETITIVE GRANTS: PROMOTING K-12 STUDENT ACHIEVEMENT AT MILITARY-CONNECTED SCHOOLS",
+      "sector": null,
+      "domains": [],
+      "confidence": "high",
+      "notes": "EXCLUDE - Education, not R&D"
+    },
+    "12.610": {
+      "title": "COMMUNITY ECONOMIC ADJUSTMENT ASSISTANCE",
+      "sector": null,
+      "domains": [],
+      "confidence": "high",
+      "notes": "EXCLUDE - Community development, not R&D"
+    },
+
+    "47.049": {
+      "title": "MATHEMATICAL AND PHYSICAL SCIENCES",
+      "sector": null,
+      "domains": [],
+      "confidence": "low",
+      "notes": "NSF MPS - could be space (astronomy), energy (materials), or other. Use LLM."
+    },
+    "47.041": {
+      "title": "ENGINEERING",
+      "sector": null,
+      "domains": [],
+      "confidence": "low",
+      "notes": "NSF Engineering - broad, use LLM for sector"
+    },
+    "47.050": {
+      "title": "GEOSCIENCES",
+      "sector": null,
+      "domains": [],
+      "confidence": "low",
+      "notes": "NSF Geosciences - could be space (planetary), energy (geothermal), or climate"
+    },
+    "47.070": {
+      "title": "COMPUTER AND INFORMATION SCIENCE AND ENGINEERING",
+      "sector": null,
+      "domains": [],
+      "confidence": "low",
+      "notes": "NSF CISE - use LLM if tied to sector"
+    },
+    "47.074": {
+      "title": "BIOLOGICAL SCIENCES",
+      "sector": "bio",
+      "domains": ["bio_general"],
+      "confidence": "high",
+      "notes": "NSF BIO - biological research"
+    },
+    "47.075": {
+      "title": "SOCIAL, BEHAVIORAL, AND ECONOMIC SCIENCES",
+      "sector": null,
+      "domains": [],
+      "confidence": "high",
+      "notes": "EXCLUDE - Social sciences, not STEM R&D in our sectors"
+    },
+    "47.076": {
+      "title": "STEM EDUCATION",
+      "sector": null,
+      "domains": [],
+      "confidence": "high",
+      "notes": "EXCLUDE - Education, not R&D"
+    },
+    "47.078": {
+      "title": "POLAR PROGRAMS",
+      "sector": null,
+      "domains": [],
+      "confidence": "low",
+      "notes": "Polar research - could be space (astronomy) or climate. Use LLM."
+    },
+    "47.079": {
+      "title": "OFFICE OF INTERNATIONAL SCIENCE AND ENGINEERING",
+      "sector": null,
+      "domains": [],
+      "confidence": "low",
+      "notes": "International programs - use LLM if tied to sector"
+    },
+    "47.080": {
+      "title": "OFFICE OF CYBERINFRASTRUCTURE",
+      "sector": null,
+      "domains": [],
+      "confidence": "low",
+      "notes": "Computing infrastructure - use LLM if tied to sector"
+    },
+    "47.081": {
+      "title": "OFFICE OF EXPERIMENTAL PROGRAM TO STIMULATE COMPETITIVE RESEARCH",
+      "sector": null,
+      "domains": [],
+      "confidence": "low",
+      "notes": "EPSCoR - use LLM for sector"
+    },
+    "47.082": {
+      "title": "TRANS-NSF RECOVERY ACT RESEARCH SUPPORT",
+      "sector": null,
+      "domains": [],
+      "confidence": "low",
+      "notes": "ARRA funding - use LLM for sector"
+    },
+    "47.083": {
+      "title": "INTEGRATIVE ACTIVITIES",
+      "sector": null,
+      "domains": [],
+      "confidence": "low",
+      "notes": "Cross-cutting NSF - use LLM for sector"
+    },
+    "47.084": {
+      "title": "NSF TECHNOLOGY, INNOVATION, AND PARTNERSHIPS",
+      "sector": null,
+      "domains": [],
+      "confidence": "low",
+      "notes": "TIP directorate - use LLM for sector"
+    },
+
+    "00.000": {
+      "title": "UNKNOWN",
+      "sector": null,
+      "domains": [],
+      "confidence": "low",
+      "notes": "Unknown CFDA - use LLM based on description"
+    },
+    "43.000": {
+      "title": "UNKNOWN",
+      "sector": "space",
+      "domains": ["space_general"],
+      "confidence": "medium",
+      "notes": "Unknown NASA code"
+    },
+    "44.AAA": {
+      "title": "UNKNOWN",
+      "sector": "space",
+      "domains": ["space_general"],
+      "confidence": "low",
+      "notes": "Unknown code appearing in NASA data"
+    },
+    "?43.AA": {
+      "title": "UNKNOWN",
+      "sector": "space",
+      "domains": ["space_general"],
+      "confidence": "low",
+      "notes": "Malformed NASA code"
+    },
+    "10.350": {
+      "title": "TECHNICAL ASSISTANCE TO COOPERATIVES",
+      "sector": null,
+      "domains": [],
+      "confidence": "high",
+      "notes": "EXCLUDE - USDA cooperative assistance, not R&D"
+    },
+    "10.001": {
+      "title": "AGRICULTURAL RESEARCH_BASIC AND APPLIED RESEARCH",
+      "sector": "bio",
+      "domains": ["crop_science"],
+      "confidence": "medium",
+      "notes": "USDA agricultural research"
+    }
+  },
+
+  "classification_rules": {
+    "high_confidence": "Assign sector and domains directly without LLM",
+    "medium_confidence": "Assign sector and domains but flag for potential LLM refinement",
+    "low_confidence": "Send to LLM for classification based on award description",
+    "null_sector": "Either excluded (not R&D) or requires LLM classification"
+  },
+
+  "excluded_categories": [
+    "Medicare payments (93.773, 93.774)",
+    "Healthcare delivery (93.224, 93.527)",
+    "Social services (93.600 Head Start, 93.243 SAMHSA)",
+    "Education programs (47.076, 12.556, 43.008)",
+    "Military operations (12.401, 12.400)",
+    "Administrative programs (12.113, 12.002)",
+    "Community development (12.610)"
+  ],
+
+  "llm_required_categories": [
+    "DoD basic research (12.300, 12.431, 12.630, 12.800, 12.910)",
+    "NSF cross-cutting (47.049, 47.041, 47.050, 47.070, 47.078-47.084)",
+    "Unknown codes (00.000)"
+  ],
+
+  "summary_stats": {
+    "total_mapped": 93,
+    "high_confidence_space": 13,
+    "high_confidence_energy": 17,
+    "high_confidence_bio": 18,
+    "excluded": 20,
+    "llm_required": 25
+  }
+}

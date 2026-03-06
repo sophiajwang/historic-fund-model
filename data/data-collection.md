@@ -32,8 +32,8 @@ This document is intended to be used as a specification in Claude Code for build
 | | 1.10 | Aggregate annual secondary market | ✅ Complete ($1.2T tracked) |
 | | 1.11 | S-1/S-4 valuation extraction | ✅ Complete (362 funding rounds) |
 | **Pipeline 2** | | **Government Spending** | |
-| | 2.1 | Bulk download USASpending CSVs | ⬜ Not Started |
-| | 2.2 | Parse and normalize CSVs | ⬜ Not Started |
+| | 2.1 | Bulk download USASpending CSVs | ✅ Complete |
+| | 2.2 | Parse and normalize CSVs | 🔄 In Progress |
 | | 2.3 | Classify awards by sector/domain | ⬜ Not Started |
 | | 2.4 | API cross-agency search | ⬜ Not Started |
 | | 2.5 | Aggregate annual government data | ⬜ Not Started |
@@ -700,6 +700,25 @@ For agencies that are primary for a given sector (NASA for space, NIH for bio, D
 
 Place raw CSVs in `data/raw/usaspending/`.
 
+#### Actual Downloads (March 2026)
+
+| Agency | Code | FY Range | Contracts | Assistance | Notes |
+|--------|------|----------|-----------|------------|-------|
+| NASA | 080 | 2008-2026 | 19 files (~70-100MB/yr) | 19 files (~8-15MB/yr) | Primary for space |
+| DoE | 089 | 2008-2026 | 19 files | 19 files | Primary for energy |
+| HHS | 075 | 2008-2026 | 19 files | 19 files | Primary for bio (includes NIH) |
+| DoD | 097 | 2008-2026 | Folders (split CSVs, ~2GB/yr) | 19 files | Multi-sector, needs filtering |
+| NSF | 049 | 2008-2026 | 19 files | 19 files | Multi-sector, needs filtering |
+
+**Data stored in:** `data/usaspending/{Agency}/`
+
+**Key finding:** Assistance files use CFDA codes (not NAICS), requiring separate classification mapping. Created `cfda-to-domain-mapping.json` with 93 CFDA codes covering:
+- 13 NASA codes → space sector
+- 17 DOE codes → energy sector
+- 18 HHS/NIH research codes → bio sector
+- 20 excluded (Medicare, education, military ops)
+- 25 requiring LLM (DoD/NSF cross-cutting research)
+
 ### Step 2.2 — Parse and normalize CSVs `[AUTOMATED]`
 
 Read each CSV and extract the relevant columns. Filter for non-federal recipients only (exclude intra-governmental transfers).
@@ -731,14 +750,20 @@ Track both `total_obligated_amount` (money committed) and `total_outlayed_amount
 
 ### Step 2.3 — Classify awards by sector and domain `[AUTOMATED + MANUAL]`
 
-Apply the classification rules defined in `naics-to-domain-mapping.json` (produced in Phase 0). The rules are applied in priority order:
+Apply classification rules from mapping files. Rules differ by award type:
 
+**For Contracts (use `naics-to-domain-mapping.json`):**
 1. **Agency default** sets the sector (NASA → space, NIH → bio, DOE → energy).
 2. **NAICS code** sets domain(s) if a high-confidence mapping exists.
-3. **LLM fallback** (Claude API) classifies awards with low/medium confidence NAICS or missing NAICS into domains from the CSV.
-4. Awards can belong to multiple domains.
+3. **LLM fallback** (Claude API) classifies awards with low/medium confidence NAICS or missing NAICS.
 
-For multi-sector agencies (DOD, NSF, etc.), there is no agency default — classification relies entirely on NAICS and LLM.
+**For Assistance/Grants (use `cfda-to-domain-mapping.json`):**
+1. **CFDA code** determines sector and domain(s) based on program.
+2. Agency-specific CFDAs (43.xxx NASA, 81.xxx DOE, 93.xxx HHS research) get direct assignment.
+3. **LLM fallback** for cross-cutting programs (DoD 12.xxx, NSF 47.xxx general research).
+4. **Excluded categories:** Medicare, healthcare delivery, education, military operations.
+
+Awards can belong to multiple domains. For multi-sector agencies (DOD, NSF), classification relies on NAICS/CFDA codes and LLM.
 
 Output per award:
 
