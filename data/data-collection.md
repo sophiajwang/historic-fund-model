@@ -34,7 +34,7 @@ This document is intended to be used as a specification in Claude Code for build
 | **Pipeline 2** | | **Government Spending** | |
 | | 2.1 | Bulk download USASpending CSVs | ✅ Complete |
 | | 2.2 | Parse and normalize CSVs | ✅ Complete |
-| | 2.3 | Classify awards by sector/domain | 🔄 In Progress |
+| | 2.3 | Classify awards by sector/domain | ✅ Complete (primary agencies) |
 | | 2.4 | API cross-agency search | ⬜ Not Started |
 | | 2.5 | Aggregate annual government data | ⬜ Not Started |
 | **Pipeline 3** | | **Stitching** | |
@@ -780,6 +780,26 @@ Apply classification rules from mapping files. Rules differ by award type:
 4. **Excluded categories:** Medicare, healthcare delivery, education, military operations.
 
 Awards can belong to multiple domains. For multi-sector agencies (DOD, NSF), classification relies on NAICS/CFDA codes and LLM.
+
+#### Classification Results (March 2026)
+
+| Agency | Contracts LLM Needed | Assistance LLM Needed | Excluded |
+|--------|---------------------|----------------------|----------|
+| NASA | 0 (0%) | 234 (0.2%) | 4 |
+| DoE | 0 (0%) | 4,272 (3.8%) | 0 |
+| HHS | 0 (0%) | 3 (0%) | 359,489 |
+| NSF | 13,425 (93%) | 304,237 (72%) | 65,955 |
+| DoD | 40,096,279 (78%) | 169,256 (58%) | 4,552,888 |
+
+**Key findings:**
+- Primary agencies (NASA, DoE, HHS) classify well with <5% needing LLM
+- Cross-cutting agencies (NSF, DoD) need significant LLM classification
+- HHS has 359K excluded records (Medicare, healthcare delivery - not R&D)
+- DoD has 4.5M excluded records (military operations, construction)
+
+**Output:** `data/usaspending/classified/{Agency}/FY{YYYY}_{contracts|assistance}.json`
+
+Each record now includes `classification` object with `sector`, `domains[]`, `confidence`, and `classification_method`.
 
 Output per award:
 
