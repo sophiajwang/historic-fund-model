@@ -37,15 +37,15 @@ This document is intended to be used as a specification in Claude Code for build
 | | 2.3a | Rule-based classification (NAICS/CFDA) | ✅ Complete |
 | | 2.3b-small | LLM classification (NASA/DoE/HHS) | ✅ Complete |
 | | 2.3b-large | LLM classification (NSF/DoD with filtering) | ✅ Complete |
-| | 2.4 | API cross-agency search | ⬜ Not Started |
-| | 2.5 | Aggregate annual government data | ⬜ Not Started |
+| | 2.4 | API cross-agency search | ⏭️ Skipped |
+| | 2.5 | Aggregate annual government data | ✅ Complete |
 | **Pipeline 3** | | **Stitching** | |
 | | 3.1 | Validate source files | ⬜ Not Started |
 | | 3.2 | Join on (sector, domain, year) | ⬜ Not Started |
 | | 3.3 | Compute derived metrics | ⬜ Not Started |
 | | 3.4 | Produce master file | ⬜ Not Started |
 
-**Legend:** ✅ Complete | 🔄 In Progress | ⬜ Not Started
+**Legend:** ✅ Complete | 🔄 In Progress | ⬜ Not Started | ⏭️ Skipped
 
 ---
 
@@ -1018,6 +1018,22 @@ Save as `data/source/{sector}-government.json`:
   }
 ]
 ```
+
+#### Aggregation Results (March 2026)
+
+| Sector | Records Aggregated | Domain-Year Combinations | Total Obligated |
+|--------|-------------------|--------------------------|-----------------|
+| Space | 957,822 | 461 | $1.83T |
+| Bio | 6,333,330 | 406 | $12.24T |
+| Energy | 3,553,627 | 648 | $1.90T |
+| **Total** | **10,844,779** | **1,515** | **$15.97T** |
+
+**Output files:**
+- `data/source/space-government.json` (26 domains, 2008-2026)
+- `data/source/bio-government.json` (22 domains, 2008-2026)
+- `data/source/energy-government.json` (35 domains, 2008-2026)
+
+All domains validated against `domains-{sector}.csv` files.
 
 ---
 
