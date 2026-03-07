@@ -823,8 +823,10 @@ NSF has 317,662 records needing classification. Use keyword filtering to identif
 | Step | Records | Method |
 |------|---------|--------|
 | Total needing LLM | 317,662 | - |
-| After keyword filter | 29,896 | Keywords + R&D indicators |
-| LLM classification | 29,896 | Claude Haiku with domain assignment |
+| After keyword filter | 22,391 | Tightened keywords + R&D indicators |
+| LLM classification | 22,391 | Claude Haiku with domain assignment |
+
+**Note:** Original keyword filter matched 29,896 records. After tightening keywords (same approach as DoD validation), reduced to 22,391 records—a 25% reduction in API calls while maintaining classification quality.
 
 **DoD: Multi-Layer Filtering Pipeline**
 
@@ -877,8 +879,24 @@ DoD has 40M+ records - too large for full LLM processing. Use specialized 4-laye
 
 | Agency | Total Needs LLM | After Filtering | For LLM | Reduction |
 |--------|-----------------|-----------------|---------|-----------|
-| NSF | 317,662 | 29,896 | 29,896 | 90.6% |
-| DoD | 40,265,535 | 21,936 | 21,936 | 99.95% |
+| NSF | 317,662 | 22,391 | 22,391 | 93.0% |
+| DoD | 40,265,535 | 5,555 | 5,555 | 99.99% |
+
+**Keyword Tightening (March 2026):**
+
+Both NSF and DoD use validated, tightened keywords to reduce false positives and API costs:
+
+*High-confidence keywords* (no R&D context required):
+- **Space:** spacecraft, launch vehicle, space station, astronaut, lunar, mars mission, asteroid, planetary science, orbital mechanics, satellite system, earth observation satellite, cubesat, smallsat, deep space, interplanetary, astrophysics, cosmology, space situational awareness, space-based sensor, on-orbit
+- **Bio:** gene therapy, cell therapy, CRISPR, mRNA, clinical trial, therapeutic development, drug discovery, drug development, biopharmaceutical, monoclonal antibody, immunotherapy, oncology research, genomics research, proteomics, synthetic biology, biodefense, pandemic preparedness, pathogen research, biological threat, biosurveillance, medical countermeasure, biomanufacturing
+- **Energy:** photovoltaic, fuel cell technology, energy storage system, carbon capture, nuclear fusion, nuclear fission, advanced reactor, offshore wind farm, solar farm, battery technology research, grid modernization, smart grid, renewable energy research, clean energy research, hydrogen production, geothermal energy, wave energy, tidal energy, advanced battery research
+
+*Context-dependent keywords* (require R&D indicators like "research", "development", "prototype"):
+- **Space:** satellite, rocket, GPS navigation, GNSS, remote sensing satellite, space telescope, space radar
+- **Bio:** genomic sequencing, protein synthesis, antibody, pathogen detection, virus research, therapeutic agent
+- **Energy:** solar panel, solar cell, wind turbine, wind farm, nuclear reactor, battery cell, power grid, grid storage, hydrogen fuel, renewable generation
+
+*Validation:* DoD keywords validated at 86.5% accuracy on 200-record sample before full run.
 
 **Output structure:**
 - `classified/{Agency}/` — Records with sector assignment (space, bio, or energy)

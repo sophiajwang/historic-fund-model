@@ -55,36 +55,43 @@ def load_domains():
 
 
 # High-confidence keywords - specific enough to indicate sector relevance
+# TIGHTENED based on validation (removed broad terms that caused false positives)
 HIGH_CONFIDENCE_KEYWORDS = {
     "space": [
         "spacecraft", "launch vehicle", "space station", "astronaut", "lunar",
-        "mars mission", "asteroid", "planetary science", "orbital", "propulsion system",
-        "space force", "space command", "earth observation satellite", "cubesat",
-        "smallsat", "deep space", "interplanetary", "astrophysics", "cosmology"
+        "mars mission", "asteroid", "planetary science", "orbital mechanics",
+        "satellite system", "earth observation satellite", "cubesat", "smallsat",
+        "deep space", "interplanetary", "astrophysics", "cosmology",
+        "space situational awareness", "space-based sensor", "on-orbit",
     ],
     "bio": [
         "gene therapy", "cell therapy", "CRISPR", "mRNA", "clinical trial",
         "Phase I", "Phase II", "Phase III", "therapeutic development", "drug discovery",
         "drug development", "biopharmaceutical", "monoclonal antibody", "immunotherapy",
         "oncology research", "genomics research", "proteomics", "synthetic biology",
-        "SBIR biotech", "STTR biotech", "biodefense", "pandemic preparedness"
+        "SBIR biotech", "STTR biotech", "biodefense", "pandemic preparedness",
+        "pathogen research", "biological threat", "biosurveillance",
+        "medical countermeasure", "biomanufacturing", "dna sequencing research"
     ],
     "energy": [
-        "photovoltaic", "fuel cell", "energy storage system", "carbon capture",
-        "nuclear fusion", "nuclear fission", "advanced reactor", "offshore wind",
-        "solar farm", "battery technology", "grid modernization", "smart grid",
-        "renewable energy research", "clean energy", "ARPA-E", "hydrogen production",
-        "geothermal energy", "wave energy", "tidal energy"
+        "photovoltaic", "fuel cell technology", "energy storage system", "carbon capture",
+        "nuclear fusion", "nuclear fission", "advanced reactor", "offshore wind farm",
+        "solar farm", "battery technology research", "grid modernization", "smart grid",
+        "renewable energy research", "clean energy research", "hydrogen production",
+        "geothermal energy", "wave energy", "tidal energy", "advanced battery research",
     ]
 }
 
 # Context-dependent keywords - need R&D indicators to be relevant
+# TIGHTENED: more specific phrases to reduce false positives
 CONTEXT_KEYWORDS = {
-    "space": ["satellite", "rocket", "GPS", "GNSS", "remote sensing", "telescope", "NASA"],
-    "bio": ["vaccine", "genomic", "protein", "antibody", "diagnostic", "pathogen", "virus",
-            "cancer", "tumor", "pharmaceutical", "biotech"],
-    "energy": ["solar", "wind", "nuclear", "battery", "grid", "turbine", "hydrogen",
-               "renewable", "electricity", "transmission"]
+    "space": ["satellite", "rocket", "GPS navigation", "GNSS", "remote sensing satellite",
+              "space telescope", "space radar"],
+    "bio": ["genomic sequencing", "protein synthesis", "antibody", "pathogen detection",
+            "virus research", "therapeutic agent"],
+    "energy": ["solar panel", "solar cell", "wind turbine", "wind farm",
+               "nuclear reactor", "battery cell", "power grid", "grid storage",
+               "hydrogen fuel", "renewable generation"],
 }
 
 # R&D indicators that validate context-dependent keywords
