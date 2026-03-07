@@ -34,7 +34,9 @@ This document is intended to be used as a specification in Claude Code for build
 | **Pipeline 2** | | **Government Spending** | |
 | | 2.1 | Bulk download USASpending CSVs | ✅ Complete |
 | | 2.2 | Parse and normalize CSVs | ✅ Complete |
-| | 2.3 | Classify awards by sector/domain | ✅ Complete (primary agencies) |
+| | 2.3a | Rule-based classification (NAICS/CFDA) | ✅ Complete |
+| | 2.3b-small | LLM classification (NASA/DoE/HHS) | ✅ Complete |
+| | 2.3b-large | LLM classification (NSF/DoD with filtering) | 🔄 In Progress |
 | | 2.4 | API cross-agency search | ⬜ Not Started |
 | | 2.5 | Aggregate annual government data | ⬜ Not Started |
 | **Pipeline 3** | | **Stitching** | |
@@ -800,6 +802,111 @@ Awards can belong to multiple domains. For multi-sector agencies (DOD, NSF), cla
 **Output:** `data/usaspending/classified/{Agency}/FY{YYYY}_{contracts|assistance}.json`
 
 Each record now includes `classification` object with `sector`, `domains[]`, `confidence`, and `classification_method`.
+
+#### Step 2.3b — LLM Classification for Ambiguous Records
+
+For records that couldn't be classified by NAICS/CFDA rules, use a tiered approach based on agency size.
+
+**Small Agencies (NASA, DoE, HHS): Full LLM Classification**
+With <5,000 records needing LLM, run all records through Claude Haiku directly.
+
+| Agency | Records for LLM | Space | Bio | Energy | Not Applicable |
+|--------|-----------------|-------|-----|--------|----------------|
+| NASA | 234 | 124 | 31 | 9 | 70 |
+| DoE | 4,272 | 65 | 125 | 3,600 | 482 |
+| HHS | 3 | 2 | 0 | 0 | 1 |
+
+**NSF: Keyword Filtering + LLM**
+
+NSF has 317,662 records needing classification. Use keyword filtering to identify potentially relevant records, then LLM for domain assignment.
+
+| Step | Records | Method |
+|------|---------|--------|
+| Total needing LLM | 317,662 | - |
+| After keyword filter | 29,896 | Keywords + R&D indicators |
+| LLM classification | 29,896 | Claude Haiku with domain assignment |
+
+**DoD: Multi-Layer Filtering Pipeline**
+
+DoD has 40M+ records - too large for full LLM processing. Use specialized 4-layer filtering (`scripts/classify_dod.py`):
+
+```
+40M records
+    │
+    ▼
+┌─────────────────────────────────┐
+│ Layer 1: NAICS Exclusion        │  ~40% filtered
+│ - Food (311xxx, 722xxx)         │
+│ - Construction (236-238xxx)     │
+│ - Retail/Wholesale (42-45xxx)   │
+│ - Administrative (561xxx)       │
+└─────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────┐
+│ Layer 2: Description Quality    │  ~50% filtered
+│ - Procurement codes (<50 chars) │
+│ - Item codes (10-digit + !)     │
+│ - Financial adjustments         │
+└─────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────┐
+│ Layer 3: Keyword Classification │  ~22K matched
+│ - High-confidence keywords      │
+│ - Context + R&D indicators      │
+│ - Validated at 86.5% accuracy   │
+└─────────────────────────────────┘
+    │
+    ▼
+┌─────────────────────────────────┐
+│ Layer 4: LLM Domain Assignment  │  ~22K records
+│ - Claude Haiku                  │
+│ - Domain matching from CSVs     │
+└─────────────────────────────────┘
+```
+
+**DoD Keyword Validation Results:**
+- Sample size: 200 records
+- Overall accuracy: 86.5%
+- Space: 86% (95/111)
+- Bio: 72% (21/29)
+- Energy: 95% (57/60)
+
+**Filtering Results:**
+
+| Agency | Total Needs LLM | After Filtering | For LLM | Reduction |
+|--------|-----------------|-----------------|---------|-----------|
+| NSF | 317,662 | 29,896 | 29,896 | 90.6% |
+| DoD | 40,265,535 | 21,936 | 21,936 | 99.95% |
+
+**Output structure:**
+- `classified/{Agency}/` — Records with sector assignment (space, bio, or energy)
+- `not_applicable/{Agency}/` — Records outside our scope (for audit review)
+
+**LLM prompt for ambiguous awards:**
+```
+You are classifying government awards for a research dataset tracking capital flows
+in space, biotechnology, and energy sectors.
+
+Award description: {description}
+NAICS code: {naics_code} - {naics_description}
+Agency: {agency}
+
+Classify this award:
+1. If it relates to SPACE (satellites, launch, spacecraft, astronomy, etc.) → sector: "space"
+2. If it relates to BIOTECHNOLOGY (therapeutics, genomics, medical research, etc.) → sector: "bio"
+3. If it relates to ENERGY (solar, wind, nuclear, grid, batteries, etc.) → sector: "energy"
+4. If it does NOT fit any of these sectors → sector: null
+
+Respond with JSON:
+{
+  "sector": "space" | "bio" | "energy" | null,
+  "domains": ["domain1", "domain2"],
+  "confidence": "high" | "medium" | "low",
+  "reasoning": "one sentence"
+}
+```
 
 Output per award:
 

@@ -9,3 +9,4 @@ __pycache__/
 # USASpending bulk data (too large for git)
 data/usaspending/
 data/usaspending/normalized/
+venv/
