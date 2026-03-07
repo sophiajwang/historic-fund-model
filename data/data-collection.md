@@ -40,10 +40,10 @@ This document is intended to be used as a specification in Claude Code for build
 | | 2.4 | API cross-agency search | ⏭️ Skipped |
 | | 2.5 | Aggregate annual government data | ✅ Complete |
 | **Pipeline 3** | | **Stitching** | |
-| | 3.1 | Validate source files | ⬜ Not Started |
-| | 3.2 | Join on (sector, domain, year) | ⬜ Not Started |
-| | 3.3 | Compute derived metrics | ⬜ Not Started |
-| | 3.4 | Produce master file | ⬜ Not Started |
+| | 3.1 | Validate source files | ✅ Complete |
+| | 3.2 | Join on (sector, domain, year) | ✅ Complete |
+| | 3.3 | Compute derived metrics | ✅ Complete |
+| | 3.4 | Produce master file | ✅ Complete |
 
 **Legend:** ✅ Complete | 🔄 In Progress | ⬜ Not Started | ⏭️ Skipped
 
@@ -1122,6 +1122,30 @@ Save as `data/unified/{sector}-unified.json`:
 ### Step 3.4 — Produce master file `[AUTOMATED]`
 
 Concatenate all three sector unified files into `data/master/all-sectors-unified.json`. This is the single file that downstream analysis and visualization reads from.
+
+#### Stitching Results (March 2026)
+
+| Sector | Unified Records | Domains | Years | With Private | With Public | With Govt |
+|--------|-----------------|---------|-------|--------------|-------------|-----------|
+| Space | 612 | 46 | 2006-2026 | 376 | 127 | 461 |
+| Bio | 697 | 47 | 2008-2026 | 560 | 358 | 406 |
+| Energy | 757 | 47 | 2008-2026 | 445 | 183 | 648 |
+| **Total** | **2,066** | - | - | **1,381** | **668** | **1,515** |
+
+**Output files:**
+- `data/unified/space-unified.json`
+- `data/unified/bio-unified.json`
+- `data/unified/energy-unified.json`
+- `data/master/all-sectors-unified.json`
+
+All source files validated against domain CSVs. Derived metrics computed including:
+- Total inflow (private + government)
+- Private/government share of inflows
+- Cumulative private capital raised
+- Capital efficiency (market cap / cumulative private)
+- Year-over-year growth rates
+- Indexed values (2008 baseline)
+- CPI deflators (2023 base)
 
 ---
 
