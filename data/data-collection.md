@@ -36,7 +36,7 @@ This document is intended to be used as a specification in Claude Code for build
 | | 2.2 | Parse and normalize CSVs | ✅ Complete |
 | | 2.3a | Rule-based classification (NAICS/CFDA) | ✅ Complete |
 | | 2.3b-small | LLM classification (NASA/DoE/HHS) | ✅ Complete |
-| | 2.3b-large | LLM classification (NSF/DoD with filtering) | 🔄 In Progress |
+| | 2.3b-large | LLM classification (NSF/DoD with filtering) | ✅ Complete |
 | | 2.4 | API cross-agency search | ⬜ Not Started |
 | | 2.5 | Aggregate annual government data | ⬜ Not Started |
 | **Pipeline 3** | | **Stitching** | |
@@ -897,6 +897,16 @@ Both NSF and DoD use validated, tightened keywords to reduce false positives and
 - **Energy:** solar panel, solar cell, wind turbine, wind farm, nuclear reactor, battery cell, power grid, grid storage, hydrogen fuel, renewable generation
 
 *Validation:* DoD keywords validated at 86.5% accuracy on 200-record sample before full run.
+
+**LLM Classification Results (March 2026):**
+
+| Agency | Space | Bio | Energy | Not Applicable | Total Processed |
+|--------|-------|-----|--------|----------------|-----------------|
+| DoD | 2,897 | 774 | 944 | 939 | 5,555 |
+| NSF | 6,189 | 8,783 | 5,468 | 1,878 | 22,391 |
+| **Total** | **9,086** | **9,557** | **6,412** | **2,817** | **27,946** |
+
+*Note:* NSF had ~70 records with invalid sector assignments (e.g., "all_energy", "mining") due to LLM parsing errors. These should be manually reviewed or re-classified.
 
 **Output structure:**
 - `classified/{Agency}/` — Records with sector assignment (space, bio, or energy)
