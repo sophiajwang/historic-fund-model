@@ -13,7 +13,7 @@
 
 **References:**
 - `data/data-collection.md:108-125` — Domain definition section
-- `data/data-collection.md:153-180` — Classification flow diagram
+- `scripts/classify_llm.py:37-54` — Domain loading from CSV
 
 ---
 
@@ -29,7 +29,7 @@
 
 **References:**
 - `data/data-collection.md:153-180` — Crunchbase flow
-- `data/data-collection.md:313-380` — Government classification
+- `scripts/classify_llm.py:112-137` — Keyword pre-filtering
 
 ---
 
@@ -49,7 +49,7 @@ NAICS confidence = "exclude"→ Skip record
 
 **References:**
 - `data/naics-to-domain-mapping.json` — Confidence ratings per code
-- `data/taxonomy-validation-notes.md:40-80` — Coverage analysis
+- `scripts/classify_usaspending.py` — Routing logic
 
 ---
 
@@ -59,28 +59,28 @@ NAICS confidence = "exclude"→ Skip record
 
 **Implementation:**
 - LLM output: `{"domains": ["launch_vehicles", "spacecraft_propulsion"]}`
-- Output schema uses array, not single value
+- Aggregation handles multi-domain by attributing to each (with tracking)
 
 **Rationale:** Companies often span domains (e.g., Rocket Lab builds rockets AND propulsion systems). Single assignment loses information.
 
 **References:**
-- `data/data-collection.md:238-250` — Output schema
+- `scripts/aggregate_private.py:76-81` — Multi-domain attribution
 
 ---
 
 ## Composite Key Stitching
 
-**Pattern:** All data joined on `(sector, subsector, year)`.
+**Pattern:** All data joined on `(sector, domain, year)`.
 
 **Implementation:**
 - Pipeline 1 output: `{sector}-private.json`, `{sector}-public.json`
 - Pipeline 2 output: `{sector}-government.json`
 - Pipeline 3: Full outer join on composite key
 
-**Rationale:** Enables time-series analysis and cross-source comparison at subsector granularity.
+**Rationale:** Enables time-series analysis and cross-source comparison at domain granularity.
 
 **References:**
-- `data/data-collection.md:725-810` — Stitching steps
+- `scripts/stitch_data.py:86-99` — Join logic
 
 ---
 
@@ -90,16 +90,19 @@ NAICS confidence = "exclude"→ Skip record
 
 **Implementation:**
 ```
-data/raw/           → Unprocessed downloads (USASpending CSVs)
-data/source/        → Normalized, classified records
-data/unified/       → Joined across sources
-data/master/        → Final output with derived metrics
+data/usaspending/raw/     → Unprocessed CSV downloads
+data/usaspending/normalized/ → Parsed JSON records
+data/usaspending/classified/ → Records with domain assignments
+data/source/              → Aggregated per-source data
+data/unified/             → Joined across sources
+data/master/              → Final output with derived metrics
 ```
 
 **Rationale:** Each stage is auditable. Errors can be traced to specific transformation.
 
 **References:**
-- `data/data-collection.md:812-845` — Expected file structure
+- `scripts/parse_usaspending.py` — Raw → Normalized
+- `scripts/aggregate_government.py` — Classified → Source
 
 ---
 
@@ -112,8 +115,8 @@ data/master/        → Final output with derived metrics
 {
   "domains": ["solar_pv"],
   "classification_confidence": "high",
-  "classification_reasoning": "...",
-  "classification_method": "llm",
+  "classification_reasoning": "NAICS 541715 maps to energy R&D",
+  "classification_method": "naics_rule",
   "classification_model": "claude-3-haiku"
 }
 ```
@@ -121,7 +124,7 @@ data/master/        → Final output with derived metrics
 **Rationale:** Enables debugging, manual review of edge cases, and quality assessment.
 
 **References:**
-- `data/data-collection.md:238-250` — Output schema
+- `scripts/classify_llm.py:355-361` — Audit fields on LLM classification
 
 ---
 
@@ -133,7 +136,7 @@ data/master/        → Final output with derived metrics
 |------|------------|---------|
 | Domain names | `snake_case` | `launch_vehicles`, `battery_manufacturing` |
 | Sector names | lowercase | `space`, `bio`, `energy` |
-| Output files | `{sector}-{source}.json` | `space-private.json` |
+| Source files | `{sector}-{source}.json` | `space-private.json` |
 | Unified files | `{sector}-unified.json` | `bio-unified.json` |
 
 **References:**
@@ -152,4 +155,87 @@ data/master/        → Final output with derived metrics
 **Rationale:** Enables joining federal data with market data on common year key.
 
 **References:**
-- `data/data-collection.md:54-56` — FY alignment note
+- `scripts/stitch_data.py:25` — Year range definition
+
+---
+
+## Script CLI Pattern
+
+**Pattern:** All scripts use consistent argparse interface.
+
+**Implementation:**
+```python
+parser.add_argument('--sector', choices=['space', 'bio', 'energy'])
+parser.add_argument('--all', action='store_true')
+parser.add_argument('--agency', choices=['NASA', 'DoE', 'HHS', 'NSF', 'DoD'])
+parser.add_argument('--dry-run', action='store_true')
+parser.add_argument('--limit', type=int)
+```
+
+**Rationale:** Predictable interface across 21 scripts. Easy to test with `--dry-run` and `--limit`.
+
+**References:**
+- `scripts/aggregate_private.py:152-165` — Sector-based CLI
+- `scripts/classify_llm.py:425-442` — Agency-based CLI with dry-run
+
+---
+
+## Checkpoint/Resume Pattern
+
+**Pattern:** Long-running operations save progress for resumption.
+
+**Implementation:**
+```python
+checkpoint_path = output_dir / f"{agency}_checkpoint.json"
+if checkpoint_path.exists():
+    # Resume from saved state
+if (i + 1) % batch_size == 0:
+    # Save checkpoint
+```
+
+**Rationale:** LLM classification of 100k+ records must survive interruptions.
+
+**References:**
+- `scripts/classify_llm.py:326-386` — Checkpoint save/load logic
+
+---
+
+## Metadata Headers
+
+**Pattern:** All JSON outputs include generation metadata.
+
+**Implementation:**
+```json
+{
+  "metadata": {
+    "agency": "NASA",
+    "fiscal_year": 2021,
+    "generated_at": "2026-03-06T08:07:54.491740",
+    "record_count": 16974
+  },
+  "records": [...]
+}
+```
+
+**Rationale:** Enables provenance tracking and debugging stale data issues.
+
+**References:**
+- `scripts/parse_usaspending.py` — Metadata on normalized files
+- `scripts/aggregate_government.py` — Metadata on aggregated files
+
+---
+
+## General Domain Filtering
+
+**Pattern:** `*_general` domains are catch-all buckets excluded from analysis.
+
+**Implementation:**
+```python
+records = [r for r in data if not r["domain"].endswith("_general")]
+```
+
+**Rationale:** General domains capture unclassified spending that would distort sector totals.
+
+**References:**
+- `scripts/analyze_research_questions.py:25-28` — Filter logic
+- `scripts/export_viz_data.py:31-35` — Same filter for visualization

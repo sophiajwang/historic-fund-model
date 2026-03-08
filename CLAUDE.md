@@ -12,39 +12,29 @@ Research infrastructure for analyzing capital flows across space, biotechnology,
 ## Tech Stack
 
 - **Python 3.10+** — Pipeline automation
-- **APIs:** SEC EDGAR (Form D), USASpending.gov, Yahoo Finance/Alpha Vantage
+- **APIs:** SEC EDGAR (Form D), USASpending.gov, Yahoo Finance
 - **Claude API (Haiku)** — LLM classification for ambiguous cases
-- **Data:** JSON output, PostgreSQL/DuckDB for intermediate storage
-- **Libraries:** requests, lxml, pandas, yfinance
+- **Data:** JSON intermediate/output, CSV for taxonomy and bulk downloads
+- **Libraries:** requests, lxml, anthropic, yfinance
 
 ## Project Structure
 
 ```
 /
-├── CLAUDE.md                         # This file
+├── scripts/                    # Pipeline automation (21 scripts)
+│   ├── aggregate_*.py          # Roll up to sector/domain/year level
+│   ├── classify_*.py           # Domain classification (rule + LLM)
+│   ├── parse_*.py              # Raw data parsing
+│   ├── pull_*.py               # Data fetching from APIs
+│   └── stitch_data.py          # Pipeline 3: join all sources
 ├── data/
-│   ├── data-collection.md            # Complete pipeline specification (40KB)
-│   ├── domains-space.csv             # 51 space sector domains
-│   ├── domains-bio.csv               # 51 bio sector domains
-│   ├── domains-energy.csv            # 50 energy sector domains
-│   ├── naics-to-domain-mapping.json  # NAICS → domain classification (contracts)
-│   ├── cfda-to-domain-mapping.json   # CFDA → domain classification (assistance)
-│   ├── cfda-inventory.json           # Inventory of all CFDA codes in data
-│   ├── taxonomy-validation-notes.md  # Phase 0 completion audit
-│   └── usaspending/                  # Raw USASpending CSV downloads
-│       ├── NASA/                     # FY2008-FY2026 contracts & assistance
-│       ├── DoE/                      # FY2008-FY2026 contracts & assistance
-│       ├── DoD/                      # FY2008-FY2026 (contracts in subfolders)
-│       ├── HHS/                      # FY2008-FY2026 contracts & assistance
-│       └── NSF/                      # FY2008-FY2026 contracts & assistance
-├── scripts/
-│   ├── classify_companies.py         # Crunchbase → domain classification
-│   ├── test_usaspending_parse.py     # USASpending CSV structure tests
-│   └── test_cfda_inventory.py        # CFDA code inventory scanner
-└── .claude/
-    ├── settings.local.json           # Permission configuration
-    └── docs/                         # Additional documentation
-        └── architectural_patterns.md # Design patterns & conventions
+│   ├── domains-{sector}.csv    # Canonical taxonomy (source of truth)
+│   ├── *-to-domain-mapping.json # NAICS/CFDA classification rules
+│   ├── source/                 # Normalized per-source data
+│   ├── unified/                # Joined data (Pipeline 3 output)
+│   ├── master/                 # Final combined output
+│   └── usaspending/            # Raw government CSVs
+└── venv/                       # Python virtual environment
 ```
 
 ## Key Files
@@ -53,73 +43,46 @@ Research infrastructure for analyzing capital flows across space, biotechnology,
 |------|---------|
 | `data/data-collection.md` | Complete methodology spec — read this first |
 | `data/domains-*.csv` | **Single source of truth** for all classification |
-| `data/naics-to-domain-mapping.json` | 90 NAICS codes → domains (for contracts) |
-| `data/cfda-to-domain-mapping.json` | 93 CFDA codes → domains (for assistance/grants) |
+| `data/unified/{sector}-unified.json` | Final joined output per sector |
+| `data/research-findings.md` | Analysis results and key statistics |
 
 ## Current Status
 
-- **Phase 0 (Taxonomy):** Complete
-- **Pipeline 1 (Private/Public Markets):** Complete (Steps 1.1-1.11)
-- **Pipeline 2 (Government Spending):** Step 2.2 in progress (bulk data downloaded, parsing next)
-- **Pipeline 3 (Stitching):** Not started
+**All pipelines complete.** Final output in `data/unified/` and `data/master/`.
 
-Progress tracked in `data/data-collection.md:14-42`
-
-## IMPORTANT: Keep Documentation Updated
-
-**Always update `data/data-collection.md` as work progresses:**
-- Update the Progress Tracker table when steps change status
-- Document any methodology changes discovered during implementation
-- Note data quality issues or coverage gaps
+Progress tracked in `data/data-collection.md:14-47`
 
 ## Commands
 
-**Classification script:**
 ```bash
-# Set API key first
-export ANTHROPIC_API_KEY="your-key-here"
+# Activate virtual environment
+source venv/bin/activate
 
-# Dry run (test parser, no API calls)
-python3 scripts/classify_companies.py --sector space --dry-run
-
-# Process single sector
-python3 scripts/classify_companies.py --sector space
-
-# Process all sectors
-python3 scripts/classify_companies.py --all
-
-# Test with limit
-python3 scripts/classify_companies.py --sector space --limit 10
+# Common script patterns
+python3 scripts/{script}.py --sector space    # Single sector
+python3 scripts/{script}.py --all             # All sectors
+python3 scripts/{script}.py --agency NSF      # By agency
+python3 scripts/{script}.py --dry-run         # Test without side effects
+python3 scripts/{script}.py --limit 100       # Process subset
 ```
 
-**API rate limits:**
-
+**API requirements:**
 ```bash
-# API rate limits
+export ANTHROPIC_API_KEY="your-key"  # For LLM classification
 # SEC EDGAR: 10 req/sec, requires User-Agent header
 # USASpending: 10 req/sec unauthenticated
-# Claude API: ~1000 req/min for Haiku
-
-# Recommended execution order
-# 1. Start with space sector (smallest: ~300-500 companies)
-# 2. Pipeline 1 and 2 can run in parallel
-# 3. Pipeline 3 runs after both complete
 ```
 
 ## Classification System
 
-**All companies and awards are classified into domains from the CSV files.**
+All companies and awards classified into domains from CSV files:
 
-**Private market (Pipeline 1):**
-1. Crunchbase tags → search filter only (not classification)
-2. Claude API → classifies companies into domains from CSV
+1. **Private market:** Crunchbase tags → filter; Claude API → domain assignment
+2. **Government:** NAICS/CFDA codes → high-confidence; Claude API → ambiguous cases
 
-**Government spending (Pipeline 2):**
-1. Contracts → NAICS codes for high-confidence domain assignment
-2. Assistance/Grants → CFDA codes for sector/domain assignment
-3. Claude API → classifies ambiguous cases (DoD/NSF cross-cutting research)
+Classification output includes audit trail: `{domains, confidence, method, reasoning}`
 
-See `data/data-collection.md:153-250` for full classification methodology.
+See `data/data-collection.md:153-250` for full methodology.
 
 ## Version Control Practices
 
@@ -142,8 +105,6 @@ See `data/data-collection.md:153-250` for full classification methodology.
 
 ## Additional Documentation
 
-When working on specific topics, check these files:
-
 | Topic | File |
 |-------|------|
 | Architectural patterns & conventions | `.claude/docs/architectural_patterns.md` |
@@ -151,5 +112,4 @@ When working on specific topics, check these files:
 | Domain definitions | `data/domains-{sector}.csv` |
 | NAICS classification (contracts) | `data/naics-to-domain-mapping.json` |
 | CFDA classification (assistance) | `data/cfda-to-domain-mapping.json` |
-| CFDA inventory from data | `data/cfda-inventory.json` |
-| Validation checklist | `data/taxonomy-validation-notes.md` |
+| Research findings & statistics | `data/research-findings.md` |
