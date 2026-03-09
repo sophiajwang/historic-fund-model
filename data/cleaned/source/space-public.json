@@ -1,0 +1,1421 @@
+[
+  {
+    "sector": "space",
+    "domain": "earth_data_analytics",
+    "year": 2025,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 678151666,
+    "median_market_cap_eoy": 678151666,
+    "mean_market_cap_eoy": 678151666,
+    "sector_return_ytd": -0.547,
+    "tickers": [
+      "MNTN"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012694"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "earth_data_analytics",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 600340298,
+    "median_market_cap_eoy": 600340298,
+    "mean_market_cap_eoy": 600340298,
+    "sector_return_ytd": -0.1329,
+    "tickers": [
+      "MNTN"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012716"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "earth_observation",
+    "year": 2026,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": null,
+    "median_market_cap_eoy": null,
+    "mean_market_cap_eoy": null,
+    "sector_return_ytd": null,
+    "tickers": [
+      "BAERW"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012720"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "inspace_manufacturing",
+    "year": 2026,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": null,
+    "median_market_cap_eoy": null,
+    "mean_market_cap_eoy": null,
+    "sector_return_ytd": null,
+    "tickers": [
+      "VWAVW"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012721"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_support",
+    "year": 2008,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 30081729101,
+    "median_market_cap_eoy": 30081729101,
+    "mean_market_cap_eoy": 30081729101,
+    "sector_return_ytd": -0.2722,
+    "tickers": [
+      "RTX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012730"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_support",
+    "year": 2009,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 40064760712,
+    "median_market_cap_eoy": 40064760712,
+    "mean_market_cap_eoy": 40064760712,
+    "sector_return_ytd": 0.299,
+    "tickers": [
+      "RTX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012737"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_support",
+    "year": 2010,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 46544709974,
+    "median_market_cap_eoy": 46544709974,
+    "mean_market_cap_eoy": 46544709974,
+    "sector_return_ytd": 0.126,
+    "tickers": [
+      "RTX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012744"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_support",
+    "year": 2011,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 44230387153,
+    "median_market_cap_eoy": 44230387153,
+    "mean_market_cap_eoy": 44230387153,
+    "sector_return_ytd": -0.0529,
+    "tickers": [
+      "RTX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012750"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_support",
+    "year": 2012,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 50929633810,
+    "median_market_cap_eoy": 50929633810,
+    "mean_market_cap_eoy": 50929633810,
+    "sector_return_ytd": 0.1272,
+    "tickers": [
+      "RTX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012756"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_support",
+    "year": 2013,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 72249864085,
+    "median_market_cap_eoy": 72249864085,
+    "mean_market_cap_eoy": 72249864085,
+    "sector_return_ytd": 0.3852,
+    "tickers": [
+      "RTX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012762"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_support",
+    "year": 2014,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 74585216476,
+    "median_market_cap_eoy": 74585216476,
+    "mean_market_cap_eoy": 74585216476,
+    "sector_return_ytd": 0.0444,
+    "tickers": [
+      "RTX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012768"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_support",
+    "year": 2015,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 63808353176,
+    "median_market_cap_eoy": 63808353176,
+    "mean_market_cap_eoy": 63808353176,
+    "sector_return_ytd": -0.1448,
+    "tickers": [
+      "RTX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012774"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_support",
+    "year": 2016,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 74745229636,
+    "median_market_cap_eoy": 74745229636,
+    "mean_market_cap_eoy": 74745229636,
+    "sector_return_ytd": 0.1774,
+    "tickers": [
+      "RTX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012780"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_support",
+    "year": 2017,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 89045024598,
+    "median_market_cap_eoy": 89045024598,
+    "mean_market_cap_eoy": 89045024598,
+    "sector_return_ytd": 0.1783,
+    "tickers": [
+      "RTX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012786"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_support",
+    "year": 2018,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 75993368129,
+    "median_market_cap_eoy": 75993368129,
+    "mean_market_cap_eoy": 75993368129,
+    "sector_return_ytd": -0.1506,
+    "tickers": [
+      "RTX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012791"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_support",
+    "year": 2019,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 109294661862,
+    "median_market_cap_eoy": 109294661862,
+    "mean_market_cap_eoy": 109294661862,
+    "sector_return_ytd": 0.414,
+    "tickers": [
+      "RTX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012797"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_support",
+    "year": 2020,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 85300266051,
+    "median_market_cap_eoy": 85300266051,
+    "mean_market_cap_eoy": 85300266051,
+    "sector_return_ytd": -0.2367,
+    "tickers": [
+      "RTX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012803"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_support",
+    "year": 2021,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 105146618948,
+    "median_market_cap_eoy": 105146618948,
+    "mean_market_cap_eoy": 105146618948,
+    "sector_return_ytd": 0.2881,
+    "tickers": [
+      "RTX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012808"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_support",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 126190576901,
+    "median_market_cap_eoy": 126190576901,
+    "mean_market_cap_eoy": 126190576901,
+    "sector_return_ytd": 0.1876,
+    "tickers": [
+      "RTX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012814"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_support",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 107970797462,
+    "median_market_cap_eoy": 107970797462,
+    "mean_market_cap_eoy": 107970797462,
+    "sector_return_ytd": -0.1434,
+    "tickers": [
+      "RTX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012820"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_support",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 151981789931,
+    "median_market_cap_eoy": 151981789931,
+    "mean_market_cap_eoy": 151981789931,
+    "sector_return_ytd": 0.3898,
+    "tickers": [
+      "RTX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012825"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_support",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 245360605840,
+    "median_market_cap_eoy": 245360605840,
+    "mean_market_cap_eoy": 245360605840,
+    "sector_return_ytd": 0.6103,
+    "tickers": [
+      "RTX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012831"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_support",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 281558255544,
+    "median_market_cap_eoy": 281558255544,
+    "mean_market_cap_eoy": 281558255544,
+    "sector_return_ytd": 0.1239,
+    "tickers": [
+      "RTX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012837"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_vehicles",
+    "year": 2020,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 5736873294,
+    "median_market_cap_eoy": 5736873294,
+    "mean_market_cap_eoy": 5736873294,
+    "sector_return_ytd": 0.038,
+    "tickers": [
+      "RKLB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012842"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_vehicles",
+    "year": 2021,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 8340106238,
+    "median_market_cap_eoy": 4170053119,
+    "mean_market_cap_eoy": 4170053119,
+    "sector_return_ytd": 0.0956,
+    "tickers": [
+      "LUNR",
+      "RKLB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012852"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_vehicles",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 3562377451,
+    "median_market_cap_eoy": 1781188725,
+    "mean_market_cap_eoy": 1781188725,
+    "sector_return_ytd": -0.3295,
+    "tickers": [
+      "LUNR",
+      "RKLB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012861"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_vehicles",
+    "year": 2023,
+    "companies_listed_this_year": 3,
+    "total_listed_companies_eoy": 5,
+    "total_market_cap_eoy": 52522961867,
+    "median_market_cap_eoy": 685974456,
+    "mean_market_cap_eoy": 10504592373,
+    "sector_return_ytd": -0.3366,
+    "tickers": [
+      "RKLB",
+      "LUNR",
+      "SRFM",
+      "HLEO",
+      "XTIA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012873"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_vehicles",
+    "year": 2024,
+    "companies_listed_this_year": 2,
+    "total_listed_companies_eoy": 7,
+    "total_market_cap_eoy": 24852837672,
+    "median_market_cap_eoy": 370969557,
+    "mean_market_cap_eoy": 3550405381,
+    "sector_return_ytd": 1.8483,
+    "tickers": [
+      "LOAR",
+      "RKLB",
+      "LUNR",
+      "XTIA",
+      "SRFM",
+      "HLEO",
+      "SPAI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012886"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_vehicles",
+    "year": 2025,
+    "companies_listed_this_year": 4,
+    "total_listed_companies_eoy": 11,
+    "total_market_cap_eoy": 66058295037,
+    "median_market_cap_eoy": 1375662899,
+    "mean_market_cap_eoy": 6005299548,
+    "sector_return_ytd": -0.075,
+    "tickers": [
+      "AIRO",
+      "LOAR",
+      "RKLB",
+      "BETA",
+      "SPAI",
+      "LUNR",
+      "VOYG",
+      "SRFM",
+      "KRMN",
+      "XTIA",
+      "HLEO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012901"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "launch_vehicles",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 11,
+    "total_market_cap_eoy": 68423760250,
+    "median_market_cap_eoy": 1406186403,
+    "mean_market_cap_eoy": 6220341840,
+    "sector_return_ytd": 0.3191,
+    "tickers": [
+      "AIRO",
+      "LOAR",
+      "RKLB",
+      "BETA",
+      "SPAI",
+      "LUNR",
+      "VOYG",
+      "SRFM",
+      "KRMN",
+      "XTIA",
+      "HLEO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012917"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "military_isr_satellites",
+    "year": 2021,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 3298166,
+    "median_market_cap_eoy": 3298166,
+    "mean_market_cap_eoy": 3298166,
+    "sector_return_ytd": -0.9289,
+    "tickers": [
+      "HWKE"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012924"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "military_isr_satellites",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1855219,
+    "median_market_cap_eoy": 1855219,
+    "mean_market_cap_eoy": 1855219,
+    "sector_return_ytd": -0.4857,
+    "tickers": [
+      "HWKE"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012930"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "military_isr_satellites",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 773007,
+    "median_market_cap_eoy": 773007,
+    "mean_market_cap_eoy": 773007,
+    "sector_return_ytd": -0.68,
+    "tickers": [
+      "HWKE"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012935"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "military_isr_satellites",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 10306772,
+    "median_market_cap_eoy": 10306772,
+    "mean_market_cap_eoy": 10306772,
+    "sector_return_ytd": 11.5,
+    "tickers": [
+      "HWKE"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012941"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "military_isr_satellites",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 773007,
+    "median_market_cap_eoy": 773007,
+    "mean_market_cap_eoy": 773007,
+    "sector_return_ytd": -0.9,
+    "tickers": [
+      "HWKE"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012947"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "military_isr_satellites",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 494725,
+    "median_market_cap_eoy": 494725,
+    "mean_market_cap_eoy": 494725,
+    "sector_return_ytd": -0.375,
+    "tickers": [
+      "HWKE"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012953"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "product_assurance",
+    "year": 2021,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 788708642,
+    "median_market_cap_eoy": 788708642,
+    "mean_market_cap_eoy": 788708642,
+    "sector_return_ytd": -0.0857,
+    "tickers": [
+      "SKYT"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012958"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "product_assurance",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 345728655,
+    "median_market_cap_eoy": 345728655,
+    "mean_market_cap_eoy": 345728655,
+    "sector_return_ytd": -0.5428,
+    "tickers": [
+      "SKYT"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012964"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "product_assurance",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 467779122,
+    "median_market_cap_eoy": 467779122,
+    "mean_market_cap_eoy": 467779122,
+    "sector_return_ytd": 0.2965,
+    "tickers": [
+      "SKYT"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012970"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "product_assurance",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 671034517,
+    "median_market_cap_eoy": 671034517,
+    "mean_market_cap_eoy": 671034517,
+    "sector_return_ytd": 0.5419,
+    "tickers": [
+      "SKYT"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012975"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "product_assurance",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 883042504,
+    "median_market_cap_eoy": 883042504,
+    "mean_market_cap_eoy": 883042504,
+    "sector_return_ytd": 0.3482,
+    "tickers": [
+      "SKYT"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012981"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "product_assurance",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1406254929,
+    "median_market_cap_eoy": 1406254929,
+    "mean_market_cap_eoy": 1406254929,
+    "sector_return_ytd": 0.2893,
+    "tickers": [
+      "SKYT"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012988"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "satellite_communications",
+    "year": 2021,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1295836677,
+    "median_market_cap_eoy": 1295836677,
+    "mean_market_cap_eoy": 1295836677,
+    "sector_return_ytd": -0.3516,
+    "tickers": [
+      "RDW"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.012994"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "satellite_communications",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 380112095,
+    "median_market_cap_eoy": 380112095,
+    "mean_market_cap_eoy": 380112095,
+    "sector_return_ytd": -0.7246,
+    "tickers": [
+      "RDW"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013002"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "satellite_communications",
+    "year": 2023,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 555655202,
+    "median_market_cap_eoy": 277827601,
+    "mean_market_cap_eoy": 277827601,
+    "sector_return_ytd": 0.169,
+    "tickers": [
+      "JETBF",
+      "RDW"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013011"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "satellite_communications",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 3163835900,
+    "median_market_cap_eoy": 1581917950,
+    "mean_market_cap_eoy": 1581917950,
+    "sector_return_ytd": 2.0077,
+    "tickers": [
+      "JETBF",
+      "RDW"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013022"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "satellite_communications",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 1465990421,
+    "median_market_cap_eoy": 732995210,
+    "mean_market_cap_eoy": 732995210,
+    "sector_return_ytd": 0.123,
+    "tickers": [
+      "JETBF",
+      "RDW"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013031"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "satellite_communications",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 1646575474,
+    "median_market_cap_eoy": 823287737,
+    "mean_market_cap_eoy": 823287737,
+    "sector_return_ytd": -0.1516,
+    "tickers": [
+      "JETBF",
+      "RDW"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013041"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "satellite_constellations",
+    "year": 2019,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 2869250272,
+    "median_market_cap_eoy": 2869250272,
+    "mean_market_cap_eoy": 2869250272,
+    "sector_return_ytd": 0.0102,
+    "tickers": [
+      "ASTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013049"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "satellite_constellations",
+    "year": 2020,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 3947762810,
+    "median_market_cap_eoy": 3947762810,
+    "mean_market_cap_eoy": 3947762810,
+    "sector_return_ytd": 0.3759,
+    "tickers": [
+      "ASTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013055"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "satellite_constellations",
+    "year": 2021,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 2308191245,
+    "median_market_cap_eoy": 2308191245,
+    "mean_market_cap_eoy": 2308191245,
+    "sector_return_ytd": -0.3869,
+    "tickers": [
+      "ASTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013062"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "satellite_constellations",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1401194221,
+    "median_market_cap_eoy": 1401194221,
+    "mean_market_cap_eoy": 1401194221,
+    "sector_return_ytd": -0.4136,
+    "tickers": [
+      "ASTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013068"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "satellite_constellations",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1752946296,
+    "median_market_cap_eoy": 1752946296,
+    "mean_market_cap_eoy": 1752946296,
+    "sector_return_ytd": 0.352,
+    "tickers": [
+      "ASTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013074"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "satellite_constellations",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 6133858414,
+    "median_market_cap_eoy": 6133858414,
+    "mean_market_cap_eoy": 6133858414,
+    "sector_return_ytd": 3.3505,
+    "tickers": [
+      "ASTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013080"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "satellite_constellations",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 21113844158,
+    "median_market_cap_eoy": 21113844158,
+    "mean_market_cap_eoy": 21113844158,
+    "sector_return_ytd": 2.3563,
+    "tickers": [
+      "ASTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013091"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "satellite_constellations",
+    "year": 2026,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 26010756509,
+    "median_market_cap_eoy": 26010756509,
+    "mean_market_cap_eoy": 26010756509,
+    "sector_return_ytd": 0.0719,
+    "tickers": [
+      "SLDPW",
+      "ASTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013097"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "small_launch_vehicles",
+    "year": 2024,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 641008691,
+    "median_market_cap_eoy": 641008691,
+    "mean_market_cap_eoy": 641008691,
+    "sector_return_ytd": 4.5512,
+    "tickers": [
+      "UMAC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013103"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "small_launch_vehicles",
+    "year": 2025,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 4047967989,
+    "median_market_cap_eoy": 2023983994,
+    "mean_market_cap_eoy": 2023983994,
+    "sector_return_ytd": -0.4148,
+    "tickers": [
+      "UMAC",
+      "FLY"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013112"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "small_launch_vehicles",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 3768932629,
+    "median_market_cap_eoy": 1884466314,
+    "mean_market_cap_eoy": 1884466314,
+    "sector_return_ytd": 0.0213,
+    "tickers": [
+      "UMAC",
+      "FLY"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013120"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "small_satellite_engineering",
+    "year": 2021,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 69873683252,
+    "median_market_cap_eoy": 69873683252,
+    "mean_market_cap_eoy": 69873683252,
+    "sector_return_ytd": -0.137,
+    "tickers": [
+      "SIDU"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013126"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "small_satellite_engineering",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 7239763759,
+    "median_market_cap_eoy": 7239763759,
+    "mean_market_cap_eoy": 7239763759,
+    "sector_return_ytd": -0.8969,
+    "tickers": [
+      "SIDU"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013134"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "small_satellite_engineering",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 585158915,
+    "median_market_cap_eoy": 585158915,
+    "mean_market_cap_eoy": 585158915,
+    "sector_return_ytd": -0.9136,
+    "tickers": [
+      "SIDU"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013141"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "small_satellite_engineering",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 325457276,
+    "median_market_cap_eoy": 325457276,
+    "mean_market_cap_eoy": 325457276,
+    "sector_return_ytd": -0.297,
+    "tickers": [
+      "SIDU"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013147"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "small_satellite_engineering",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 208558339,
+    "median_market_cap_eoy": 208558339,
+    "mean_market_cap_eoy": 208558339,
+    "sector_return_ytd": 0.0295,
+    "tickers": [
+      "SIDU"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013154"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "small_satellite_engineering",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 126197715,
+    "median_market_cap_eoy": 126197715,
+    "mean_market_cap_eoy": 126197715,
+    "sector_return_ytd": -0.5612,
+    "tickers": [
+      "SIDU"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013160"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "space_ai",
+    "year": 2025,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 95822799,
+    "median_market_cap_eoy": 95822799,
+    "mean_market_cap_eoy": 95822799,
+    "sector_return_ytd": -0.8015,
+    "tickers": [
+      "ARAI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013166"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "space_ai",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 37527557,
+    "median_market_cap_eoy": 37527557,
+    "mean_market_cap_eoy": 37527557,
+    "sector_return_ytd": -0.6199,
+    "tickers": [
+      "ARAI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013173"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "space_general",
+    "year": 2026,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": null,
+    "median_market_cap_eoy": null,
+    "mean_market_cap_eoy": null,
+    "sector_return_ytd": null,
+    "tickers": [
+      "NXPLW"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013174"
+    }
+  },
+  {
+    "sector": "space",
+    "domain": "spacecraft_propulsion",
+    "year": 2026,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": null,
+    "median_market_cap_eoy": null,
+    "mean_market_cap_eoy": null,
+    "sector_return_ytd": null,
+    "tickers": [
+      "MNTSW"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.013175"
+    }
+  }
+]

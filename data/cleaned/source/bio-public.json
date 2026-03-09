@@ -1,0 +1,3717 @@
+[
+  {
+    "sector": "bio",
+    "domain": "biomarker_discovery",
+    "year": 2021,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1526232669,
+    "median_market_cap_eoy": 1526232669,
+    "mean_market_cap_eoy": 1526232669,
+    "sector_return_ytd": 0.0923,
+    "tickers": [
+      "ISPC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.202930"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "biomarker_discovery",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 268702940,
+    "median_market_cap_eoy": 268702940,
+    "mean_market_cap_eoy": 268702940,
+    "sector_return_ytd": -0.8294,
+    "tickers": [
+      "ISPC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.202944"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "biomarker_discovery",
+    "year": 2023,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 133153327,
+    "median_market_cap_eoy": 66576663,
+    "mean_market_cap_eoy": 66576663,
+    "sector_return_ytd": -0.7804,
+    "tickers": [
+      "GXAI",
+      "ISPC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.202955"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "biomarker_discovery",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 48144669,
+    "median_market_cap_eoy": 24072334,
+    "mean_market_cap_eoy": 24072334,
+    "sector_return_ytd": -0.5581,
+    "tickers": [
+      "GXAI",
+      "ISPC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.202964"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "biomarker_discovery",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 11784358,
+    "median_market_cap_eoy": 5892179,
+    "mean_market_cap_eoy": 5892179,
+    "sector_return_ytd": -0.7504,
+    "tickers": [
+      "GXAI",
+      "ISPC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.202973"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "biomarker_discovery",
+    "year": 2026,
+    "companies_listed_this_year": 2,
+    "total_listed_companies_eoy": 4,
+    "total_market_cap_eoy": 16428409,
+    "median_market_cap_eoy": 8214204,
+    "mean_market_cap_eoy": 8214204,
+    "sector_return_ytd": 0.1294,
+    "tickers": [
+      "CDIOW",
+      "GXAI",
+      "ISPC",
+      "BIAFW"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.202982"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "biosensors",
+    "year": 2011,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 5060880789,
+    "median_market_cap_eoy": 5060880789,
+    "mean_market_cap_eoy": 5060880789,
+    "sector_return_ytd": -0.0613,
+    "tickers": [
+      "LAB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.202989"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "biosensors",
+    "year": 2012,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 5503131235,
+    "median_market_cap_eoy": 5503131235,
+    "mean_market_cap_eoy": 5503131235,
+    "sector_return_ytd": 0.0743,
+    "tickers": [
+      "LAB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.202996"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "biosensors",
+    "year": 2013,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 14721163578,
+    "median_market_cap_eoy": 14721163578,
+    "mean_market_cap_eoy": 14721163578,
+    "sector_return_ytd": 1.64,
+    "tickers": [
+      "LAB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203003"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "biosensors",
+    "year": 2014,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 12971391238,
+    "median_market_cap_eoy": 12971391238,
+    "mean_market_cap_eoy": 12971391238,
+    "sector_return_ytd": -0.0834,
+    "tickers": [
+      "LAB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203010"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "biosensors",
+    "year": 2015,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 4157152286,
+    "median_market_cap_eoy": 4157152286,
+    "mean_market_cap_eoy": 4157152286,
+    "sector_return_ytd": -0.6784,
+    "tickers": [
+      "LAB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203016"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "biosensors",
+    "year": 2016,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 2799636294,
+    "median_market_cap_eoy": 2799636294,
+    "mean_market_cap_eoy": 2799636294,
+    "sector_return_ytd": -0.2806,
+    "tickers": [
+      "LAB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203023"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "biosensors",
+    "year": 2017,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 2265090237,
+    "median_market_cap_eoy": 2265090237,
+    "mean_market_cap_eoy": 2265090237,
+    "sector_return_ytd": -0.224,
+    "tickers": [
+      "LAB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203030"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "biosensors",
+    "year": 2018,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 3314953824,
+    "median_market_cap_eoy": 3314953824,
+    "mean_market_cap_eoy": 3314953824,
+    "sector_return_ytd": 0.3836,
+    "tickers": [
+      "LAB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203041"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "biosensors",
+    "year": 2019,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1338287648,
+    "median_market_cap_eoy": 1338287648,
+    "mean_market_cap_eoy": 1338287648,
+    "sector_return_ytd": -0.5949,
+    "tickers": [
+      "LAB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203048"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "biosensors",
+    "year": 2020,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 2307392484,
+    "median_market_cap_eoy": 2307392484,
+    "mean_market_cap_eoy": 2307392484,
+    "sector_return_ytd": 0.7192,
+    "tickers": [
+      "LAB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203054"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "biosensors",
+    "year": 2021,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1507496452,
+    "median_market_cap_eoy": 1507496452,
+    "mean_market_cap_eoy": 1507496452,
+    "sector_return_ytd": -0.3647,
+    "tickers": [
+      "LAB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203061"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "biosensors",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 449941517,
+    "median_market_cap_eoy": 449941517,
+    "mean_market_cap_eoy": 449941517,
+    "sector_return_ytd": -0.6855,
+    "tickers": [
+      "LAB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203067"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "biosensors",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 849889579,
+    "median_market_cap_eoy": 849889579,
+    "mean_market_cap_eoy": 849889579,
+    "sector_return_ytd": 0.7,
+    "tickers": [
+      "LAB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203074"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "biosensors",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 672989474,
+    "median_market_cap_eoy": 672989474,
+    "mean_market_cap_eoy": 672989474,
+    "sector_return_ytd": -0.2117,
+    "tickers": [
+      "LAB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203080"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "biosensors",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 492243718,
+    "median_market_cap_eoy": 492243718,
+    "mean_market_cap_eoy": 492243718,
+    "sector_return_ytd": -0.2686,
+    "tickers": [
+      "LAB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203087"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "biosensors",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 380719763,
+    "median_market_cap_eoy": 380719763,
+    "mean_market_cap_eoy": 380719763,
+    "sector_return_ytd": -0.2205,
+    "tickers": [
+      "LAB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203093"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "cell_therapy",
+    "year": 2021,
+    "companies_listed_this_year": 6,
+    "total_listed_companies_eoy": 6,
+    "total_market_cap_eoy": 10583538499,
+    "median_market_cap_eoy": 1534433078,
+    "mean_market_cap_eoy": 1763923083,
+    "sector_return_ytd": -0.052,
+    "tickers": [
+      "VERA",
+      "INKT",
+      "LENZ",
+      "TNYA",
+      "IPSC",
+      "IMA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203106"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "cell_therapy",
+    "year": 2022,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 7,
+    "total_market_cap_eoy": 3189004904,
+    "median_market_cap_eoy": 356918971,
+    "mean_market_cap_eoy": 455572129,
+    "sector_return_ytd": -0.5501,
+    "tickers": [
+      "VERA",
+      "INKT",
+      "LENZ",
+      "COYA",
+      "TNYA",
+      "IPSC",
+      "IMA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203119"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "cell_therapy",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 7,
+    "total_market_cap_eoy": 2831878163,
+    "median_market_cap_eoy": 273150911,
+    "mean_market_cap_eoy": 404554023,
+    "sector_return_ytd": -0.0434,
+    "tickers": [
+      "VERA",
+      "INKT",
+      "LENZ",
+      "COYA",
+      "TNYA",
+      "IPSC",
+      "IMA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203132"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "cell_therapy",
+    "year": 2024,
+    "companies_listed_this_year": 2,
+    "total_listed_companies_eoy": 9,
+    "total_market_cap_eoy": 5161867445,
+    "median_market_cap_eoy": 222928695,
+    "mean_market_cap_eoy": 573540827,
+    "sector_return_ytd": 0.107,
+    "tickers": [
+      "KYTX",
+      "ARTV",
+      "VERA",
+      "INKT",
+      "LENZ",
+      "COYA",
+      "TNYA",
+      "IPSC",
+      "IMA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203148"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "cell_therapy",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 9,
+    "total_market_cap_eoy": 5271665806,
+    "median_market_cap_eoy": 121361848,
+    "mean_market_cap_eoy": 585740645,
+    "sector_return_ytd": -0.0529,
+    "tickers": [
+      "KYTX",
+      "ARTV",
+      "VERA",
+      "INKT",
+      "LENZ",
+      "COYA",
+      "TNYA",
+      "IPSC",
+      "IMA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203165"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "cell_therapy",
+    "year": 2026,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 10,
+    "total_market_cap_eoy": 4406520917,
+    "median_market_cap_eoy": 192257228,
+    "mean_market_cap_eoy": 489613435,
+    "sector_return_ytd": 0.1347,
+    "tickers": [
+      "KYTX",
+      "ARTV",
+      "VERA",
+      "INKT",
+      "LENZ",
+      "COYA",
+      "TNYA",
+      "IPSC",
+      "JSPRW",
+      "IMA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203180"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "crispr_gene_editing",
+    "year": 2020,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 8315543779,
+    "median_market_cap_eoy": 8315543779,
+    "mean_market_cap_eoy": 8315543779,
+    "sector_return_ytd": 3.3541,
+    "tickers": [
+      "BEAM"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203187"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "crispr_gene_editing",
+    "year": 2021,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 9527357119,
+    "median_market_cap_eoy": 4763678559,
+    "mean_market_cap_eoy": 4763678559,
+    "sector_return_ytd": -0.0585,
+    "tickers": [
+      "BEAM",
+      "CRBU"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203195"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "crispr_gene_editing",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 4570577102,
+    "median_market_cap_eoy": 2285288551,
+    "mean_market_cap_eoy": 2285288551,
+    "sector_return_ytd": -0.5571,
+    "tickers": [
+      "BEAM",
+      "CRBU"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203204"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "crispr_gene_editing",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 3308098777,
+    "median_market_cap_eoy": 1654049388,
+    "mean_market_cap_eoy": 1654049388,
+    "sector_return_ytd": -0.2019,
+    "tickers": [
+      "BEAM",
+      "CRBU"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203212"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "crispr_gene_editing",
+    "year": 2024,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 2810192748,
+    "median_market_cap_eoy": 148614183,
+    "mean_market_cap_eoy": 936730916,
+    "sector_return_ytd": -0.4865,
+    "tickers": [
+      "BEAM",
+      "MGX",
+      "CRBU"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203221"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "crispr_gene_editing",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 3032894960,
+    "median_market_cap_eoy": 148614183,
+    "mean_market_cap_eoy": 1010964986,
+    "sector_return_ytd": -0.168,
+    "tickers": [
+      "BEAM",
+      "MGX",
+      "CRBU"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203230"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "crispr_gene_editing",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 2928945861,
+    "median_market_cap_eoy": 170111834,
+    "mean_market_cap_eoy": 976315287,
+    "sector_return_ytd": 0.0029,
+    "tickers": [
+      "BEAM",
+      "MGX",
+      "CRBU"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203238"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "drug_delivery",
+    "year": 2021,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 177385599,
+    "median_market_cap_eoy": 177385599,
+    "mean_market_cap_eoy": 177385599,
+    "sector_return_ytd": -0.3333,
+    "tickers": [
+      "RNXT"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203245"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "drug_delivery",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 86127299,
+    "median_market_cap_eoy": 86127299,
+    "mean_market_cap_eoy": 86127299,
+    "sector_return_ytd": -0.5204,
+    "tickers": [
+      "RNXT"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203251"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "drug_delivery",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 83928306,
+    "median_market_cap_eoy": 83928306,
+    "mean_market_cap_eoy": 83928306,
+    "sector_return_ytd": -0.1358,
+    "tickers": [
+      "RNXT"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203257"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "drug_delivery",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 47278390,
+    "median_market_cap_eoy": 47278390,
+    "mean_market_cap_eoy": 47278390,
+    "sector_return_ytd": -0.3485,
+    "tickers": [
+      "RNXT"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203262"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "drug_delivery",
+    "year": 2025,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 1866814239,
+    "median_market_cap_eoy": 933407119,
+    "mean_market_cap_eoy": 933407119,
+    "sector_return_ytd": 0.1316,
+    "tickers": [
+      "RNXT",
+      "SION"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203270"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "drug_delivery",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 1632465800,
+    "median_market_cap_eoy": 816232900,
+    "mean_market_cap_eoy": 816232900,
+    "sector_return_ytd": -0.0659,
+    "tickers": [
+      "RNXT",
+      "SION"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203277"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "drug_discovery",
+    "year": 2015,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 2562886616,
+    "median_market_cap_eoy": 2562886616,
+    "mean_market_cap_eoy": 2562886616,
+    "sector_return_ytd": -0.1673,
+    "tickers": [
+      "PVLA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203283"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "drug_discovery",
+    "year": 2016,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1572426115,
+    "median_market_cap_eoy": 1572426115,
+    "mean_market_cap_eoy": 1572426115,
+    "sector_return_ytd": -0.3865,
+    "tickers": [
+      "PVLA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203289"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "drug_discovery",
+    "year": 2017,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 8449691824,
+    "median_market_cap_eoy": 8449691824,
+    "mean_market_cap_eoy": 8449691824,
+    "sector_return_ytd": 4.1712,
+    "tickers": [
+      "PVLA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203295"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "drug_discovery",
+    "year": 2018,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 3748332963,
+    "median_market_cap_eoy": 1874166481,
+    "mean_market_cap_eoy": 1874166481,
+    "sector_return_ytd": -0.311,
+    "tickers": [
+      "EOLS",
+      "PVLA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203302"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "drug_discovery",
+    "year": 2019,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 4840232278,
+    "median_market_cap_eoy": 2420116139,
+    "mean_market_cap_eoy": 2420116139,
+    "sector_return_ytd": 0.1094,
+    "tickers": [
+      "EOLS",
+      "PVLA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203309"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "drug_discovery",
+    "year": 2020,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 3015705667,
+    "median_market_cap_eoy": 1507852833,
+    "mean_market_cap_eoy": 1507852833,
+    "sector_return_ytd": -0.495,
+    "tickers": [
+      "EOLS",
+      "PVLA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203316"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "drug_discovery",
+    "year": 2021,
+    "companies_listed_this_year": 5,
+    "total_listed_companies_eoy": 7,
+    "total_market_cap_eoy": 18338874481,
+    "median_market_cap_eoy": 1639093532,
+    "mean_market_cap_eoy": 2619839211,
+    "sector_return_ytd": -0.1688,
+    "tickers": [
+      "ABSI",
+      "EWTX",
+      "PVLA",
+      "GANX",
+      "RXRX",
+      "CNTA",
+      "EOLS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203327"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "drug_discovery",
+    "year": 2022,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 8,
+    "total_market_cap_eoy": 10882261957,
+    "median_market_cap_eoy": 722897502,
+    "mean_market_cap_eoy": 1360282744,
+    "sector_return_ytd": -0.4239,
+    "tickers": [
+      "ABSI",
+      "EWTX",
+      "PVLA",
+      "GANX",
+      "PRME",
+      "RXRX",
+      "CNTA",
+      "EOLS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203339"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "drug_discovery",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 8,
+    "total_market_cap_eoy": 10739323179,
+    "median_market_cap_eoy": 928045881,
+    "mean_market_cap_eoy": 1342415397,
+    "sector_return_ytd": 0.2473,
+    "tickers": [
+      "ABSI",
+      "EWTX",
+      "PVLA",
+      "GANX",
+      "PRME",
+      "RXRX",
+      "CNTA",
+      "EOLS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203353"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "drug_discovery",
+    "year": 2024,
+    "companies_listed_this_year": 5,
+    "total_listed_companies_eoy": 13,
+    "total_market_cap_eoy": 14480755968,
+    "median_market_cap_eoy": 715610412,
+    "mean_market_cap_eoy": 1113904305,
+    "sector_return_ytd": -0.0179,
+    "tickers": [
+      "ABSI",
+      "EWTX",
+      "TELO",
+      "GRI",
+      "PRME",
+      "PVLA",
+      "GANX",
+      "AVBP",
+      "RXRX",
+      "CNTA",
+      "EOLS",
+      "SEPN",
+      "UPB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203370"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "drug_discovery",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 13,
+    "total_market_cap_eoy": 15265781388,
+    "median_market_cap_eoy": 830581017,
+    "mean_market_cap_eoy": 1174290876,
+    "sector_return_ytd": 0.5477,
+    "tickers": [
+      "ABSI",
+      "EWTX",
+      "TELO",
+      "GRI",
+      "PRME",
+      "PVLA",
+      "GANX",
+      "AVBP",
+      "RXRX",
+      "CNTA",
+      "EOLS",
+      "SEPN",
+      "UPB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203386"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "drug_discovery",
+    "year": 2026,
+    "companies_listed_this_year": 2,
+    "total_listed_companies_eoy": 15,
+    "total_market_cap_eoy": 15686150973,
+    "median_market_cap_eoy": 723847779,
+    "mean_market_cap_eoy": 1045743398,
+    "sector_return_ytd": -0.1504,
+    "tickers": [
+      "EIKN",
+      "ABSI",
+      "EWTX",
+      "TELO",
+      "GRI",
+      "PRME",
+      "AVBP",
+      "PVLA",
+      "GANX",
+      "PLYX",
+      "RXRX",
+      "CNTA",
+      "EOLS",
+      "SEPN",
+      "UPB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203403"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "gene_therapy",
+    "year": 2019,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1617557670,
+    "median_market_cap_eoy": 1617557670,
+    "mean_market_cap_eoy": 1617557670,
+    "sector_return_ytd": 0.1075,
+    "tickers": [
+      "STOK"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203409"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "gene_therapy",
+    "year": 2020,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 3537265116,
+    "median_market_cap_eoy": 3537265116,
+    "mean_market_cap_eoy": 3537265116,
+    "sector_return_ytd": 1.3335,
+    "tickers": [
+      "STOK"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203415"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "gene_therapy",
+    "year": 2021,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 3962517001,
+    "median_market_cap_eoy": 1981258500,
+    "mean_market_cap_eoy": 1981258500,
+    "sector_return_ytd": -0.2994,
+    "tickers": [
+      "STOK",
+      "SNTI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203423"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "gene_therapy",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 897892093,
+    "median_market_cap_eoy": 448946046,
+    "mean_market_cap_eoy": 448946046,
+    "sector_return_ytd": -0.7279,
+    "tickers": [
+      "STOK",
+      "SNTI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203430"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "gene_therapy",
+    "year": 2023,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 1453445683,
+    "median_market_cap_eoy": 300436222,
+    "mean_market_cap_eoy": 484481894,
+    "sector_return_ytd": -0.2134,
+    "tickers": [
+      "STOK",
+      "SNTI",
+      "LXEO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203439"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "gene_therapy",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 1202539596,
+    "median_market_cap_eoy": 480256606,
+    "mean_market_cap_eoy": 400846532,
+    "sector_return_ytd": -0.0477,
+    "tickers": [
+      "STOK",
+      "SNTI",
+      "LXEO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203447"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "gene_therapy",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 2565004976,
+    "median_market_cap_eoy": 724764179,
+    "mean_market_cap_eoy": 855001658,
+    "sector_return_ytd": 0.526,
+    "tickers": [
+      "STOK",
+      "SNTI",
+      "LXEO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203454"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "gene_therapy",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 2551850294,
+    "median_market_cap_eoy": 499963182,
+    "mean_market_cap_eoy": 850616764,
+    "sector_return_ytd": -0.0888,
+    "tickers": [
+      "STOK",
+      "SNTI",
+      "LXEO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203461"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "genomics",
+    "year": 2018,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1415687254,
+    "median_market_cap_eoy": 1415687254,
+    "mean_market_cap_eoy": 1415687254,
+    "sector_return_ytd": 0.6493,
+    "tickers": [
+      "TWST"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203468"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "genomics",
+    "year": 2019,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 10260141161,
+    "median_market_cap_eoy": 5130070580,
+    "mean_market_cap_eoy": 5130070580,
+    "sector_return_ytd": 0.152,
+    "tickers": [
+      "TXG",
+      "TWST"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203475"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "genomics",
+    "year": 2020,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 25325281855,
+    "median_market_cap_eoy": 12662640927,
+    "mean_market_cap_eoy": 12662640927,
+    "sector_return_ytd": 3.3604,
+    "tickers": [
+      "TXG",
+      "TWST"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203482"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "genomics",
+    "year": 2021,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 22273540507,
+    "median_market_cap_eoy": 11136770253,
+    "mean_market_cap_eoy": 11136770253,
+    "sector_return_ytd": -0.179,
+    "tickers": [
+      "TXG",
+      "TWST"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203489"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "genomics",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 5747849517,
+    "median_market_cap_eoy": 2873924758,
+    "mean_market_cap_eoy": 2873924758,
+    "sector_return_ytd": -0.7321,
+    "tickers": [
+      "TXG",
+      "TWST"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203499"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "genomics",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 8844951794,
+    "median_market_cap_eoy": 4422475897,
+    "mean_market_cap_eoy": 4422475897,
+    "sector_return_ytd": 0.566,
+    "tickers": [
+      "TXG",
+      "TWST"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203507"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "genomics",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 4538944684,
+    "median_market_cap_eoy": 2269472342,
+    "mean_market_cap_eoy": 2269472342,
+    "sector_return_ytd": -0.197,
+    "tickers": [
+      "TXG",
+      "TWST"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203515"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "genomics",
+    "year": 2025,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 7237186296,
+    "median_market_cap_eoy": 1944807208,
+    "mean_market_cap_eoy": 2412395432,
+    "sector_return_ytd": -0.1331,
+    "tickers": [
+      "BLLN",
+      "TWST",
+      "TXG"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203524"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "genomics",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 8356550651,
+    "median_market_cap_eoy": 2877971301,
+    "mean_market_cap_eoy": 2785516883,
+    "sector_return_ytd": 0.1749,
+    "tickers": [
+      "BLLN",
+      "TWST",
+      "TXG"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203533"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "health_ai",
+    "year": 2025,
+    "companies_listed_this_year": 2,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 10094700479,
+    "median_market_cap_eoy": 5047350239,
+    "mean_market_cap_eoy": 5047350239,
+    "sector_return_ytd": -0.0322,
+    "tickers": [
+      "CAI",
+      "HTFL"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203541"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "health_ai",
+    "year": 2026,
+    "companies_listed_this_year": 2,
+    "total_listed_companies_eoy": 4,
+    "total_market_cap_eoy": 8630775422,
+    "median_market_cap_eoy": 1956947323,
+    "mean_market_cap_eoy": 2876925140,
+    "sector_return_ytd": -0.2105,
+    "tickers": [
+      "MDAIW",
+      "CAI",
+      "GENB",
+      "HTFL"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203551"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "immunology",
+    "year": 2013,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 57322923201,
+    "median_market_cap_eoy": 57322923201,
+    "mean_market_cap_eoy": 57322923201,
+    "sector_return_ytd": 0.5639,
+    "tickers": [
+      "ABBV"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203558"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "immunology",
+    "year": 2014,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 73326490453,
+    "median_market_cap_eoy": 73326490453,
+    "mean_market_cap_eoy": 73326490453,
+    "sector_return_ytd": 0.2996,
+    "tickers": [
+      "ABBV"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203565"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "immunology",
+    "year": 2015,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 68559724148,
+    "median_market_cap_eoy": 68559724148,
+    "mean_market_cap_eoy": 68559724148,
+    "sector_return_ytd": -0.0716,
+    "tickers": [
+      "ABBV"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203571"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "immunology",
+    "year": 2016,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 75273085730,
+    "median_market_cap_eoy": 75273085730,
+    "mean_market_cap_eoy": 75273085730,
+    "sector_return_ytd": 0.1289,
+    "tickers": [
+      "ABBV"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203578"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "immunology",
+    "year": 2017,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 120493287843,
+    "median_market_cap_eoy": 120493287843,
+    "mean_market_cap_eoy": 120493287843,
+    "sector_return_ytd": 0.6062,
+    "tickers": [
+      "ABBV"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203585"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "immunology",
+    "year": 2018,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 119340818613,
+    "median_market_cap_eoy": 119340818613,
+    "mean_market_cap_eoy": 119340818613,
+    "sector_return_ytd": -0.0267,
+    "tickers": [
+      "ABBV"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203592"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "immunology",
+    "year": 2019,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 121092947945,
+    "median_market_cap_eoy": 121092947945,
+    "mean_market_cap_eoy": 121092947945,
+    "sector_return_ytd": 0.0482,
+    "tickers": [
+      "ABBV"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203598"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "immunology",
+    "year": 2020,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 154657833520,
+    "median_market_cap_eoy": 154657833520,
+    "mean_market_cap_eoy": 154657833520,
+    "sector_return_ytd": 0.2627,
+    "tickers": [
+      "ABBV"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203605"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "immunology",
+    "year": 2021,
+    "companies_listed_this_year": 2,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 205726341555,
+    "median_market_cap_eoy": 683038455,
+    "mean_market_cap_eoy": 68575447185,
+    "sector_return_ytd": -0.1314,
+    "tickers": [
+      "ABBV",
+      "TCRX",
+      "PYXS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203613"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "immunology",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 254141457815,
+    "median_market_cap_eoy": 83434050,
+    "mean_market_cap_eoy": 84713819271,
+    "sector_return_ytd": -0.4384,
+    "tickers": [
+      "ABBV",
+      "TCRX",
+      "PYXS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203622"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "immunology",
+    "year": 2023,
+    "companies_listed_this_year": 2,
+    "total_listed_companies_eoy": 5,
+    "total_market_cap_eoy": 255773397845,
+    "median_market_cap_eoy": 443092922,
+    "mean_market_cap_eoy": 51154679569,
+    "sector_return_ytd": 0.5335,
+    "tickers": [
+      "ABBV",
+      "APGE",
+      "ZURA",
+      "PYXS",
+      "TCRX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203633"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "immunology",
+    "year": 2024,
+    "companies_listed_this_year": 2,
+    "total_listed_companies_eoy": 7,
+    "total_market_cap_eoy": 305131674995,
+    "median_market_cap_eoy": 237201775,
+    "mean_market_cap_eoy": 43590239285,
+    "sector_return_ytd": -0.2285,
+    "tickers": [
+      "ABBV",
+      "APGE",
+      "ZURA",
+      "PYXS",
+      "BOLD",
+      "ALMS",
+      "TCRX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203647"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "immunology",
+    "year": 2025,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 8,
+    "total_market_cap_eoy": 407257840771,
+    "median_market_cap_eoy": 518433698,
+    "mean_market_cap_eoy": 50907230096,
+    "sector_return_ytd": 0.0782,
+    "tickers": [
+      "ABBV",
+      "APGE",
+      "ZURA",
+      "PYXS",
+      "BOLD",
+      "EVMN",
+      "ALMS",
+      "TCRX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203660"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "immunology",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 8,
+    "total_market_cap_eoy": 415705950026,
+    "median_market_cap_eoy": 748353496,
+    "mean_market_cap_eoy": 51963243753,
+    "sector_return_ytd": 0.3729,
+    "tickers": [
+      "ABBV",
+      "APGE",
+      "ZURA",
+      "PYXS",
+      "BOLD",
+      "EVMN",
+      "ALMS",
+      "TCRX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203674"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "infectious_disease",
+    "year": 2018,
+    "companies_listed_this_year": 2,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 53756166192,
+    "median_market_cap_eoy": 26878083096,
+    "mean_market_cap_eoy": 26878083096,
+    "sector_return_ytd": 0.0579,
+    "tickers": [
+      "OPGN",
+      "XAIR"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203682"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "infectious_disease",
+    "year": 2019,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 5371477759,
+    "median_market_cap_eoy": 1976341507,
+    "mean_market_cap_eoy": 1790492586,
+    "sector_return_ytd": -0.2918,
+    "tickers": [
+      "OPGN",
+      "VIR",
+      "XAIR"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203691"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "infectious_disease",
+    "year": 2020,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 9459613613,
+    "median_market_cap_eoy": 4140959688,
+    "mean_market_cap_eoy": 3153204537,
+    "sector_return_ytd": 0.6522,
+    "tickers": [
+      "OPGN",
+      "VIR",
+      "XAIR"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203699"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "infectious_disease",
+    "year": 2021,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 10598293001,
+    "median_market_cap_eoy": 2029882200,
+    "mean_market_cap_eoy": 3532764333,
+    "sector_return_ytd": 0.2038,
+    "tickers": [
+      "OPGN",
+      "VIR",
+      "XAIR"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203706"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "infectious_disease",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 5630751565,
+    "median_market_cap_eoy": 1366708883,
+    "mean_market_cap_eoy": 1876917188,
+    "sector_return_ytd": -0.5153,
+    "tickers": [
+      "OPGN",
+      "VIR",
+      "XAIR"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203715"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "infectious_disease",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 2036451112,
+    "median_market_cap_eoy": 412750292,
+    "mean_market_cap_eoy": 678817037,
+    "sector_return_ytd": -0.7208,
+    "tickers": [
+      "OPGN",
+      "VIR",
+      "XAIR"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203723"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "infectious_disease",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 1235225844,
+    "median_market_cap_eoy": 75600688,
+    "mean_market_cap_eoy": 411741948,
+    "sector_return_ytd": -0.6596,
+    "tickers": [
+      "OPGN",
+      "VIR",
+      "XAIR"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203730"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "infectious_disease",
+    "year": 2025,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 4,
+    "total_market_cap_eoy": 1232734941,
+    "median_market_cap_eoy": 138694826,
+    "mean_market_cap_eoy": 308183735,
+    "sector_return_ytd": 6.8735,
+    "tickers": [
+      "OPGN",
+      "VIR",
+      "TTRX",
+      "XAIR"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203740"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "infectious_disease",
+    "year": 2026,
+    "companies_listed_this_year": 2,
+    "total_listed_companies_eoy": 6,
+    "total_market_cap_eoy": 1863693749,
+    "median_market_cap_eoy": 177128031,
+    "mean_market_cap_eoy": 465923437,
+    "sector_return_ytd": 0.2153,
+    "tickers": [
+      "REVBW",
+      "XAIR",
+      "OPGN",
+      "VIR",
+      "TTRX",
+      "SXTPW"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203750"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "medical_devices",
+    "year": 2020,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 723313227,
+    "median_market_cap_eoy": 723313227,
+    "mean_market_cap_eoy": 723313227,
+    "sector_return_ytd": 0.1237,
+    "tickers": [
+      "OBIO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203756"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "medical_devices",
+    "year": 2021,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 17229196172,
+    "median_market_cap_eoy": 8614598086,
+    "mean_market_cap_eoy": 8614598086,
+    "sector_return_ytd": -0.2385,
+    "tickers": [
+      "OBIO",
+      "TIVC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203763"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "medical_devices",
+    "year": 2022,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 3509238451,
+    "median_market_cap_eoy": 563517989,
+    "mean_market_cap_eoy": 1169746150,
+    "sector_return_ytd": -0.4144,
+    "tickers": [
+      "OBIO",
+      "ASPI",
+      "TIVC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203771"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "medical_devices",
+    "year": 2023,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 4,
+    "total_market_cap_eoy": 842712130,
+    "median_market_cap_eoy": 150617960,
+    "mean_market_cap_eoy": 210678032,
+    "sector_return_ytd": -0.4513,
+    "tickers": [
+      "CVKD",
+      "OBIO",
+      "ASPI",
+      "TIVC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203780"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "medical_devices",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 4,
+    "total_market_cap_eoy": 841343887,
+    "median_market_cap_eoy": 129869191,
+    "mean_market_cap_eoy": 210335971,
+    "sector_return_ytd": 0.1762,
+    "tickers": [
+      "CVKD",
+      "OBIO",
+      "ASPI",
+      "TIVC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203788"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "medical_devices",
+    "year": 2025,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 5,
+    "total_market_cap_eoy": 2275506616,
+    "median_market_cap_eoy": 234328639,
+    "mean_market_cap_eoy": 455101323,
+    "sector_return_ytd": -0.234,
+    "tickers": [
+      "CVKD",
+      "OBIO",
+      "TIVC",
+      "ASPI",
+      "BBNX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203798"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "medical_devices",
+    "year": 2026,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 6,
+    "total_market_cap_eoy": 1430690001,
+    "median_market_cap_eoy": 243927647,
+    "mean_market_cap_eoy": 286138000,
+    "sector_return_ytd": -0.1842,
+    "tickers": [
+      "CVKD",
+      "OBIO",
+      "TIVC",
+      "TNONW",
+      "ASPI",
+      "BBNX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203808"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "microbiome",
+    "year": 2023,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1976288248,
+    "median_market_cap_eoy": 1976288248,
+    "mean_market_cap_eoy": 1976288248,
+    "sector_return_ytd": -0.8138,
+    "tickers": [
+      "AZTR"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203814"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "microbiome",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 30503578,
+    "median_market_cap_eoy": 30503578,
+    "mean_market_cap_eoy": 30503578,
+    "sector_return_ytd": -0.9865,
+    "tickers": [
+      "AZTR"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203820"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "microbiome",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 2846284,
+    "median_market_cap_eoy": 2846284,
+    "mean_market_cap_eoy": 2846284,
+    "sector_return_ytd": -0.9125,
+    "tickers": [
+      "AZTR"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203826"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "microbiome",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1933325,
+    "median_market_cap_eoy": 1933325,
+    "mean_market_cap_eoy": 1933325,
+    "sector_return_ytd": -0.3571,
+    "tickers": [
+      "AZTR"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203836"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "mrna_therapeutics",
+    "year": 2023,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 5592037561,
+    "median_market_cap_eoy": 5592037561,
+    "mean_market_cap_eoy": 5592037561,
+    "sector_return_ytd": -0.3654,
+    "tickers": [
+      "RNAZ"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203843"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "mrna_therapeutics",
+    "year": 2024,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 357344609,
+    "median_market_cap_eoy": 178672304,
+    "mean_market_cap_eoy": 178672304,
+    "sector_return_ytd": -0.7486,
+    "tickers": [
+      "CAMP",
+      "RNAZ"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203850"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "mrna_therapeutics",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 324294248,
+    "median_market_cap_eoy": 162147124,
+    "mean_market_cap_eoy": 162147124,
+    "sector_return_ytd": -0.3438,
+    "tickers": [
+      "CAMP",
+      "RNAZ"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203857"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "mrna_therapeutics",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 226703645,
+    "median_market_cap_eoy": 113351822,
+    "mean_market_cap_eoy": 113351822,
+    "sector_return_ytd": -0.0013,
+    "tickers": [
+      "CAMP",
+      "RNAZ"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203866"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "neurology",
+    "year": 2021,
+    "companies_listed_this_year": 2,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 4224638556,
+    "median_market_cap_eoy": 2112319278,
+    "mean_market_cap_eoy": 2112319278,
+    "sector_return_ytd": -0.5752,
+    "tickers": [
+      "SILO",
+      "SANA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203872"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "neurology",
+    "year": 2022,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 5157579094,
+    "median_market_cap_eoy": 1052146186,
+    "mean_market_cap_eoy": 1719193031,
+    "sector_return_ytd": -0.0655,
+    "tickers": [
+      "SILO",
+      "SANA",
+      "AMLX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203881"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "neurology",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 2723717728,
+    "median_market_cap_eoy": 1086773749,
+    "mean_market_cap_eoy": 907905909,
+    "sector_return_ytd": -0.3427,
+    "tickers": [
+      "SILO",
+      "SANA",
+      "AMLX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203888"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "neurology",
+    "year": 2024,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 4,
+    "total_market_cap_eoy": 1707411585,
+    "median_market_cap_eoy": 424647370,
+    "mean_market_cap_eoy": 426852896,
+    "sector_return_ytd": -0.4803,
+    "tickers": [
+      "SILO",
+      "SANA",
+      "RAPP",
+      "AMLX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203897"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "neurology",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 4,
+    "total_market_cap_eoy": 3861586114,
+    "median_market_cap_eoy": 1205365269,
+    "mean_market_cap_eoy": 965396528,
+    "sector_return_ytd": 0.891,
+    "tickers": [
+      "SILO",
+      "SANA",
+      "RAPP",
+      "AMLX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203906"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "neurology",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 4,
+    "total_market_cap_eoy": 3805973819,
+    "median_market_cap_eoy": 1140163052,
+    "mean_market_cap_eoy": 951493454,
+    "sector_return_ytd": 0.0027,
+    "tickers": [
+      "SILO",
+      "SANA",
+      "RAPP",
+      "AMLX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203915"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "oncology",
+    "year": 2018,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 3751569932,
+    "median_market_cap_eoy": 3751569932,
+    "mean_market_cap_eoy": 3751569932,
+    "sector_return_ytd": -0.4663,
+    "tickers": [
+      "TECX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203921"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "oncology",
+    "year": 2019,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 5006521192,
+    "median_market_cap_eoy": 2503260596,
+    "mean_market_cap_eoy": 2503260596,
+    "sector_return_ytd": 0.036,
+    "tickers": [
+      "TECX",
+      "BCYC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203929"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "oncology",
+    "year": 2020,
+    "companies_listed_this_year": 3,
+    "total_listed_companies_eoy": 5,
+    "total_market_cap_eoy": 20284428032,
+    "median_market_cap_eoy": 3140953974,
+    "mean_market_cap_eoy": 4056885606,
+    "sector_return_ytd": 0.1572,
+    "tickers": [
+      "TNGX",
+      "RLAY",
+      "BCYC",
+      "ROIV",
+      "TECX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203939"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "oncology",
+    "year": 2021,
+    "companies_listed_this_year": 9,
+    "total_listed_companies_eoy": 14,
+    "total_market_cap_eoy": 30467691985,
+    "median_market_cap_eoy": 1296794537,
+    "mean_market_cap_eoy": 2176263713,
+    "sector_return_ytd": -0.0587,
+    "tickers": [
+      "TNGX",
+      "TYRA",
+      "ERAS",
+      "RLAY",
+      "HCWB",
+      "BCYC",
+      "JANX",
+      "IMMX",
+      "XLO",
+      "ROIV",
+      "TECX",
+      "NUVL",
+      "DAWN",
+      "HOWL"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203957"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "oncology",
+    "year": 2022,
+    "companies_listed_this_year": 2,
+    "total_listed_companies_eoy": 16,
+    "total_market_cap_eoy": 19299213766,
+    "median_market_cap_eoy": 621073535,
+    "mean_market_cap_eoy": 1206200860,
+    "sector_return_ytd": -0.3797,
+    "tickers": [
+      "TNGX",
+      "TYRA",
+      "ERAS",
+      "RLAY",
+      "HCWB",
+      "BCYC",
+      "ACRV",
+      "JANX",
+      "IMMX",
+      "XLO",
+      "ROIV",
+      "TECX",
+      "NUVL",
+      "MAIA",
+      "DAWN",
+      "HOWL"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203974"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "oncology",
+    "year": 2023,
+    "companies_listed_this_year": 2,
+    "total_listed_companies_eoy": 18,
+    "total_market_cap_eoy": 54597289384,
+    "median_market_cap_eoy": 699311753,
+    "mean_market_cap_eoy": 3033182743,
+    "sector_return_ytd": 0.1493,
+    "tickers": [
+      "TNGX",
+      "AEON",
+      "TYRA",
+      "ERAS",
+      "RLAY",
+      "HCWB",
+      "BCYC",
+      "ACRV",
+      "JANX",
+      "IMMX",
+      "XLO",
+      "ROIV",
+      "TECX",
+      "NUVL",
+      "MAIA",
+      "DAWN",
+      "HOWL",
+      "BEIGF"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.203992"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "oncology",
+    "year": 2024,
+    "companies_listed_this_year": 4,
+    "total_listed_companies_eoy": 22,
+    "total_market_cap_eoy": 46929247601,
+    "median_market_cap_eoy": 739111226,
+    "mean_market_cap_eoy": 2133147618,
+    "sector_return_ytd": 0.0773,
+    "tickers": [
+      "TYRA",
+      "RLAY",
+      "BCYC",
+      "JANX",
+      "ROIV",
+      "CGON",
+      "HOWL",
+      "BEIGF",
+      "AEON",
+      "ERAS",
+      "NUVL",
+      "MAIA",
+      "DAWN",
+      "ACTU",
+      "TNGX",
+      "XLO",
+      "TECX",
+      "KAPA",
+      "HCWB",
+      "ACRV",
+      "IMMX",
+      "BCAX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204015"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "oncology",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 22,
+    "total_market_cap_eoy": 69451090255,
+    "median_market_cap_eoy": 615578646,
+    "mean_market_cap_eoy": 3156867738,
+    "sector_return_ytd": 0.0489,
+    "tickers": [
+      "TYRA",
+      "RLAY",
+      "BCYC",
+      "JANX",
+      "ROIV",
+      "CGON",
+      "HOWL",
+      "BEIGF",
+      "AEON",
+      "ERAS",
+      "NUVL",
+      "MAIA",
+      "DAWN",
+      "ACTU",
+      "TNGX",
+      "XLO",
+      "TECX",
+      "KAPA",
+      "HCWB",
+      "ACRV",
+      "IMMX",
+      "BCAX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204038"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "oncology",
+    "year": 2026,
+    "companies_listed_this_year": 4,
+    "total_listed_companies_eoy": 26,
+    "total_market_cap_eoy": 82412369260,
+    "median_market_cap_eoy": 757713841,
+    "mean_market_cap_eoy": 3433848719,
+    "sector_return_ytd": 0.2601,
+    "tickers": [
+      "TYRA",
+      "RLAY",
+      "BCYC",
+      "RNA",
+      "JANX",
+      "ROIV",
+      "CGON",
+      "HOWL",
+      "BEIGF",
+      "AEON",
+      "ERAS",
+      "LIMNW",
+      "TVGNW",
+      "NUVL",
+      "AKTS",
+      "DAWN",
+      "MAIA",
+      "ACTU",
+      "TNGX",
+      "XLO",
+      "TECX",
+      "KAPA",
+      "HCWB",
+      "ACRV",
+      "IMMX",
+      "BCAX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204064"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "point_of_care",
+    "year": 2021,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 704000336,
+    "median_market_cap_eoy": 704000336,
+    "mean_market_cap_eoy": 704000336,
+    "sector_return_ytd": -0.5434,
+    "tickers": [
+      "LUCD"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204071"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "point_of_care",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 178294318,
+    "median_market_cap_eoy": 178294318,
+    "mean_market_cap_eoy": 178294318,
+    "sector_return_ytd": -0.7405,
+    "tickers": [
+      "LUCD"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204077"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "point_of_care",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 184849250,
+    "median_market_cap_eoy": 184849250,
+    "mean_market_cap_eoy": 184849250,
+    "sector_return_ytd": 0.0144,
+    "tickers": [
+      "LUCD"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204084"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "point_of_care",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 107369886,
+    "median_market_cap_eoy": 107369886,
+    "mean_market_cap_eoy": 107369886,
+    "sector_return_ytd": -0.4101,
+    "tickers": [
+      "LUCD"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204092"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "point_of_care",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 142897654,
+    "median_market_cap_eoy": 142897654,
+    "mean_market_cap_eoy": 142897654,
+    "sector_return_ytd": 0.3797,
+    "tickers": [
+      "LUCD"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204099"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "point_of_care",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 183538263,
+    "median_market_cap_eoy": 183538263,
+    "mean_market_cap_eoy": 183538263,
+    "sector_return_ytd": 0.25,
+    "tickers": [
+      "LUCD"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204106"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "precision_medicine",
+    "year": 2024,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 5865121166,
+    "median_market_cap_eoy": 5865121166,
+    "mean_market_cap_eoy": 5865121166,
+    "sector_return_ytd": -0.1612,
+    "tickers": [
+      "TEM"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204113"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "precision_medicine",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 10258750521,
+    "median_market_cap_eoy": 10258750521,
+    "mean_market_cap_eoy": 10258750521,
+    "sector_return_ytd": 0.7241,
+    "tickers": [
+      "TEM"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204120"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "precision_medicine",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 9079124334,
+    "median_market_cap_eoy": 9079124334,
+    "mean_market_cap_eoy": 9079124334,
+    "sector_return_ytd": -0.162,
+    "tickers": [
+      "TEM"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204127"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "rare_disease",
+    "year": 2019,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 6794893480,
+    "median_market_cap_eoy": 6794893480,
+    "mean_market_cap_eoy": 6794893480,
+    "sector_return_ytd": 0.2722,
+    "tickers": [
+      "BBIO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204133"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "rare_disease",
+    "year": 2020,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 13785588875,
+    "median_market_cap_eoy": 13785588875,
+    "mean_market_cap_eoy": 13785588875,
+    "sector_return_ytd": 1.1406,
+    "tickers": [
+      "BBIO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204140"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "rare_disease",
+    "year": 2021,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 3233632747,
+    "median_market_cap_eoy": 3233632747,
+    "mean_market_cap_eoy": 3233632747,
+    "sector_return_ytd": -0.7379,
+    "tickers": [
+      "BBIO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204146"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "rare_disease",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1477235054,
+    "median_market_cap_eoy": 1477235054,
+    "mean_market_cap_eoy": 1477235054,
+    "sector_return_ytd": -0.5559,
+    "tickers": [
+      "BBIO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204153"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "rare_disease",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 7826243895,
+    "median_market_cap_eoy": 7826243895,
+    "mean_market_cap_eoy": 7826243895,
+    "sector_return_ytd": 4.6304,
+    "tickers": [
+      "BBIO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204164"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "rare_disease",
+    "year": 2024,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 5687959274,
+    "median_market_cap_eoy": 2843979637,
+    "mean_market_cap_eoy": 2843979637,
+    "sector_return_ytd": 0.3137,
+    "tickers": [
+      "BBIO",
+      "JUNS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204171"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "rare_disease",
+    "year": 2025,
+    "companies_listed_this_year": 2,
+    "total_listed_companies_eoy": 4,
+    "total_market_cap_eoy": 17143048243,
+    "median_market_cap_eoy": 1139681387,
+    "mean_market_cap_eoy": 4285762060,
+    "sector_return_ytd": 0.581,
+    "tickers": [
+      "MAZE",
+      "AARD",
+      "BBIO",
+      "JUNS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204181"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "rare_disease",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 4,
+    "total_market_cap_eoy": 14968768766,
+    "median_market_cap_eoy": 1142284200,
+    "mean_market_cap_eoy": 3742192191,
+    "sector_return_ytd": -0.3019,
+    "tickers": [
+      "MAZE",
+      "AARD",
+      "BBIO",
+      "JUNS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204191"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "regenerative_medicine",
+    "year": 2024,
+    "companies_listed_this_year": 2,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 864277054,
+    "median_market_cap_eoy": 432138527,
+    "mean_market_cap_eoy": 432138527,
+    "sector_return_ytd": -0.9543,
+    "tickers": [
+      "FBLG",
+      "ELAB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204200"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "regenerative_medicine",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 34441495,
+    "median_market_cap_eoy": 17220747,
+    "mean_market_cap_eoy": 17220747,
+    "sector_return_ytd": -0.9325,
+    "tickers": [
+      "FBLG",
+      "ELAB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204208"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "regenerative_medicine",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 31851647,
+    "median_market_cap_eoy": 15925823,
+    "mean_market_cap_eoy": 15925823,
+    "sector_return_ytd": -0.0173,
+    "tickers": [
+      "FBLG",
+      "ELAB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204215"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "vaccines",
+    "year": 2018,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 6030725185,
+    "median_market_cap_eoy": 6030725185,
+    "mean_market_cap_eoy": 6030725185,
+    "sector_return_ytd": -0.179,
+    "tickers": [
+      "MRNA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204223"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "vaccines",
+    "year": 2019,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 7725014922,
+    "median_market_cap_eoy": 7725014922,
+    "mean_market_cap_eoy": 7725014922,
+    "sector_return_ytd": 0.2759,
+    "tickers": [
+      "MRNA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204230"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "vaccines",
+    "year": 2020,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 41259322107,
+    "median_market_cap_eoy": 41259322107,
+    "mean_market_cap_eoy": 41259322107,
+    "sector_return_ytd": 4.4327,
+    "tickers": [
+      "MRNA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204236"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "vaccines",
+    "year": 2021,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 100306713220,
+    "median_market_cap_eoy": 100306713220,
+    "mean_market_cap_eoy": 100306713220,
+    "sector_return_ytd": 1.2732,
+    "tickers": [
+      "MRNA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204242"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "vaccines",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 70939017410,
+    "median_market_cap_eoy": 70939017410,
+    "mean_market_cap_eoy": 70939017410,
+    "sector_return_ytd": -0.2358,
+    "tickers": [
+      "MRNA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204248"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "vaccines",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 39276724511,
+    "median_market_cap_eoy": 39276724511,
+    "mean_market_cap_eoy": 39276724511,
+    "sector_return_ytd": -0.4444,
+    "tickers": [
+      "MRNA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204254"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "vaccines",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 16421581973,
+    "median_market_cap_eoy": 16421581973,
+    "mean_market_cap_eoy": 16421581973,
+    "sector_return_ytd": -0.6304,
+    "tickers": [
+      "MRNA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204260"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "vaccines",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 11646763523,
+    "median_market_cap_eoy": 11646763523,
+    "mean_market_cap_eoy": 11646763523,
+    "sector_return_ytd": -0.2979,
+    "tickers": [
+      "MRNA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204266"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "vaccines",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 20742218729,
+    "median_market_cap_eoy": 20742218729,
+    "mean_market_cap_eoy": 20742218729,
+    "sector_return_ytd": 0.7019,
+    "tickers": [
+      "MRNA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204272"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "veterinary_biotech",
+    "year": 2013,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 12500569661,
+    "median_market_cap_eoy": 12500569661,
+    "mean_market_cap_eoy": 12500569661,
+    "sector_return_ytd": 0.0605,
+    "tickers": [
+      "ZTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204278"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "veterinary_biotech",
+    "year": 2014,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 16600491315,
+    "median_market_cap_eoy": 16600491315,
+    "mean_market_cap_eoy": 16600491315,
+    "sector_return_ytd": 0.3419,
+    "tickers": [
+      "ZTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204284"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "veterinary_biotech",
+    "year": 2015,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 18621826430,
+    "median_market_cap_eoy": 18621826430,
+    "mean_market_cap_eoy": 18621826430,
+    "sector_return_ytd": 0.1145,
+    "tickers": [
+      "ZTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204290"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "veterinary_biotech",
+    "year": 2016,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 20976386785,
+    "median_market_cap_eoy": 20976386785,
+    "mean_market_cap_eoy": 20976386785,
+    "sector_return_ytd": 0.1418,
+    "tickers": [
+      "ZTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204296"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "veterinary_biotech",
+    "year": 2017,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 28433360106,
+    "median_market_cap_eoy": 28433360106,
+    "mean_market_cap_eoy": 28433360106,
+    "sector_return_ytd": 0.354,
+    "tickers": [
+      "ZTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204302"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "veterinary_biotech",
+    "year": 2018,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 33962881407,
+    "median_market_cap_eoy": 33962881407,
+    "mean_market_cap_eoy": 33962881407,
+    "sector_return_ytd": 0.1991,
+    "tickers": [
+      "ZTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204308"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "veterinary_biotech",
+    "year": 2019,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 52883237782,
+    "median_market_cap_eoy": 52883237782,
+    "mean_market_cap_eoy": 52883237782,
+    "sector_return_ytd": 0.5766,
+    "tickers": [
+      "ZTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204313"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "veterinary_biotech",
+    "year": 2020,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 66507870777,
+    "median_market_cap_eoy": 66507870777,
+    "mean_market_cap_eoy": 66507870777,
+    "sector_return_ytd": 0.2408,
+    "tickers": [
+      "ZTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204319"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "veterinary_biotech",
+    "year": 2021,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 98606310789,
+    "median_market_cap_eoy": 98606310789,
+    "mean_market_cap_eoy": 98606310789,
+    "sector_return_ytd": 0.4999,
+    "tickers": [
+      "ZTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204325"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "veterinary_biotech",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 59651599820,
+    "median_market_cap_eoy": 59651599820,
+    "mean_market_cap_eoy": 59651599820,
+    "sector_return_ytd": -0.3692,
+    "tickers": [
+      "ZTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204331"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "veterinary_biotech",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 81070149535,
+    "median_market_cap_eoy": 81070149535,
+    "mean_market_cap_eoy": 81070149535,
+    "sector_return_ytd": 0.3563,
+    "tickers": [
+      "ZTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204337"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "veterinary_biotech",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 67586674510,
+    "median_market_cap_eoy": 67586674510,
+    "mean_market_cap_eoy": 67586674510,
+    "sector_return_ytd": -0.1629,
+    "tickers": [
+      "ZTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204343"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "veterinary_biotech",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 52886281229,
+    "median_market_cap_eoy": 52886281229,
+    "mean_market_cap_eoy": 52886281229,
+    "sector_return_ytd": -0.216,
+    "tickers": [
+      "ZTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204349"
+    }
+  },
+  {
+    "sector": "bio",
+    "domain": "veterinary_biotech",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 51258967832,
+    "median_market_cap_eoy": 51258967832,
+    "mean_market_cap_eoy": 51258967832,
+    "sector_return_ytd": -0.0315,
+    "tickers": [
+      "ZTS"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.204355"
+    }
+  }
+]

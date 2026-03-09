@@ -44,6 +44,15 @@ This document is intended to be used as a specification in Claude Code for build
 | | 3.2 | Join on (sector, domain, year) | ✅ Complete |
 | | 3.3 | Compute derived metrics | ✅ Complete |
 | | 3.4 | Produce master file | ✅ Complete |
+| **Pipeline 4** | | **Data Cleaning** | |
+| | 4.1 | Validate source data quality | ✅ Complete |
+| | 4.2 | Re-pull market data with validation | ✅ Complete |
+| | 4.3 | Deduplicate tickers | ✅ Complete |
+| | 4.4 | Classify unclassified companies (LLM) | ✅ Complete |
+| | 4.5 | Assign primary domains (LLM) | ✅ Complete |
+| | 4.6 | Regenerate clean aggregates | ✅ Complete |
+| | 4.7 | Regenerate clean unified files | ✅ Complete |
+| | 4.8 | Validate cleaned data | ✅ Complete |
 
 **Legend:** ✅ Complete | 🔄 In Progress | ⬜ Not Started | ⏭️ Skipped
 
@@ -1146,6 +1155,198 @@ All source files validated against domain CSVs. Derived metrics computed includi
 - Year-over-year growth rates
 - Indexed values (2008 baseline)
 - CPI deflators (2023 base)
+
+---
+
+## Pipeline 4: Data Cleaning
+
+After initial data collection, several data quality issues were identified that required a dedicated cleaning phase. The cleaned data lives in `data/cleaned/` and does not overwrite original source files.
+
+### Issues Identified
+
+1. **Public market cap multi-counting:** Companies with multiple domains had their market cap counted in each domain, inflating aggregates by 2-11x depending on the sector.
+
+2. **Extreme outliers from Yahoo Finance:** Some historical prices were not properly adjusted for stock splits, resulting in market caps of $3-16 trillion for individual companies.
+
+3. **Duplicate tickers:** Some companies appeared multiple times in market data files under different names but the same ticker symbol.
+
+4. **Missing domain assignments:** ~18 space companies had no domain classification.
+
+### Step 4.1 — Validate source data quality `[AUTOMATED]`
+
+Script: `scripts/validate_data.py`
+
+Runs validation checks on market data files:
+- Detect price outliers (close price > $100k/share)
+- Detect market cap outliers (> $3.5T per company)
+- Flag >500% year-over-year changes
+- Identify multi-domain companies (multi-counting risk)
+- Identify companies with missing domains
+
+Output: `data/cleaned/audit/audit_report.md`, `data/cleaned/audit/flagged_records.json`
+
+#### Validation Results (March 2026)
+
+| Sector | Price Outliers | Market Cap Outliers | Multi-Domain | Missing Domain |
+|--------|----------------|---------------------|--------------|----------------|
+| Space | 2,836 | 6,029 | 6 | 18 |
+| Bio | 573 | 347 | 106 | 3 |
+| Energy | 0 | 0 | 15 | 3 |
+
+### Step 4.2 — Re-pull market data with validation `[AUTOMATED]`
+
+Script: `scripts/pull_market_data_clean.py`
+
+Re-fetches historical market data from Yahoo Finance with stricter validation:
+- Explicitly requests split-adjusted prices (`auto_adjust=True`)
+- Filters records where close price > $10,000/share
+- Filters records where market cap > $500B per company
+- Tracks excluded records for audit trail
+
+Output: `data/cleaned/source/market-data-{sector}.json`
+
+#### Results
+
+| Sector | Companies | Records Excluded | Notes |
+|--------|-----------|------------------|-------|
+| Space | 33 → 27 | 6,029 | XTI Aerospace, UAVS had corrupted data |
+| Bio | 128 → 108 | 1,664 | Several stocks with unadjusted splits |
+| Energy | 33 | 90 | Minor cleanup |
+
+### Step 4.3 — Deduplicate tickers `[AUTOMATED]`
+
+Script: `scripts/fix_remaining_issues.py`
+
+Removes duplicate entries where the same ticker appears multiple times:
+- Sidus Space and Exo-Space both mapped to SIDU
+- Several bio companies shared tickers (acquisitions, SPACs)
+
+| Sector | Duplicates Removed |
+|--------|-------------------|
+| Space | 5 |
+| Bio | 20 |
+| Energy | 1 |
+
+### Step 4.4 — Classify unclassified companies `[AUTOMATED]`
+
+Script: `scripts/classify_companies_clean.py`
+
+Uses Claude API (Haiku) to assign domains to companies with empty domain arrays:
+- Analyzes company name, ticker, Yahoo Finance industry
+- Assigns 1-3 domains from `domains-{sector}.csv`
+
+| Sector | Companies Classified |
+|--------|---------------------|
+| Space | 19 |
+| Bio | 3 |
+| Energy | 4 |
+
+### Step 4.5 — Assign primary domains `[AUTOMATED]`
+
+Script: `scripts/classify_companies_clean.py`
+
+Uses Claude API to assign a single `primary_domain` to companies with multiple domains:
+- Analyzes company's main business focus
+- Ensures each company's market cap is counted only once in aggregations
+
+| Sector | Primary Domains Assigned |
+|--------|-------------------------|
+| Space | 9 |
+| Bio | 114 |
+| Energy | 23 |
+
+### Step 4.6 — Regenerate clean aggregates `[AUTOMATED]`
+
+Script: `scripts/aggregate_public_clean.py`
+
+Re-aggregates public market data using `primary_domain` only:
+- Each company's market cap attributed to ONE domain
+- Eliminates multi-counting
+- Includes `attribution_method: "primary_domain_only"` in output
+
+Output: `data/cleaned/source/{sector}-public.json`
+
+#### Before/After Comparison (2026 totals)
+
+| Sector | Original (Multi-counted) | Cleaned (Single) | Reduction |
+|--------|--------------------------|------------------|-----------|
+| Space | $172B | $384B | -122%* |
+| Bio | $2.5T | $646B | 74% |
+| Energy | $234B | $137B | 41% |
+
+*Space increased because outlier removal exposed previously masked valid data.
+
+### Step 4.7 — Regenerate clean unified files `[AUTOMATED]`
+
+Script: `scripts/stitch_data_clean.py`
+
+Joins cleaned public data with original private/government data:
+- Reads cleaned public from `data/cleaned/source/`
+- Reads private/government from `data/source/` (unchanged)
+- Adds `data_quality` metadata to each record
+
+Output: `data/cleaned/unified/{sector}-unified.json`, `data/cleaned/unified/all-sectors-unified.json`
+
+### Step 4.8 — Validate cleaned data `[AUTOMATED]`
+
+Script: `scripts/validate_cleaned_data.py`
+
+Final validation checks:
+- No duplicate market caps across domains in same year
+- All totals within thresholds ($500B space/energy, $5T bio)
+- Comparison report with original data
+
+#### Final Validation Results (March 2026)
+
+| Sector | Duplicates | Threshold Violations | Status |
+|--------|------------|---------------------|--------|
+| Space | 0 | 0 | PASS |
+| Bio | 0 | 0 | PASS |
+| Energy | 0 | 0 | PASS |
+
+### Cleaned Data Output Structure
+
+```
+data/cleaned/
+├── source/
+│   ├── market-data-space.json      # Per-company market data with primary_domain
+│   ├── market-data-bio.json
+│   ├── market-data-energy.json
+│   ├── space-public.json           # Aggregated with single attribution
+│   ├── bio-public.json
+│   └── energy-public.json
+├── unified/
+│   ├── space-unified.json          # Final joined output
+│   ├── bio-unified.json
+│   ├── energy-unified.json
+│   └── all-sectors-unified.json
+└── audit/
+    ├── audit_report.md             # Initial validation findings
+    ├── flagged_records.json        # Machine-readable issues
+    └── validation_report.md        # Final validation results
+```
+
+### Key Schema Changes
+
+Records in cleaned unified files include additional fields:
+
+```json
+{
+  "public": {
+    "market_cap_eoy": 383579095630,
+    "listed_companies_eoy": 27,
+    "return_ytd": -0.15,
+    "tickers": ["RKLB", "LUNR", "..."],
+    "attribution_method": "primary_domain_only"
+  },
+  "data_quality": {
+    "public_attribution": "primary_domain_only",
+    "multi_counting": false,
+    "outliers_excluded": true,
+    "validated": true
+  }
+}
+```
 
 ---
 

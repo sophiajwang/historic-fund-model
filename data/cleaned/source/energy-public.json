@@ -1,0 +1,2461 @@
+[
+  {
+    "sector": "energy",
+    "domain": "advanced_nuclear",
+    "year": 2024,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1296611138,
+    "median_market_cap_eoy": 1296611138,
+    "mean_market_cap_eoy": 1296611138,
+    "sector_return_ytd": 3.7977,
+    "tickers": [
+      "NNE"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313248"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "advanced_nuclear",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1250517499,
+    "median_market_cap_eoy": 1250517499,
+    "mean_market_cap_eoy": 1250517499,
+    "sector_return_ytd": 0.0033,
+    "tickers": [
+      "NNE"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313264"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "advanced_nuclear",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1226038434,
+    "median_market_cap_eoy": 1226038434,
+    "mean_market_cap_eoy": 1226038434,
+    "sector_return_ytd": -0.1474,
+    "tickers": [
+      "NNE"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313272"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "battery_chemistry",
+    "year": 2026,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": null,
+    "median_market_cap_eoy": null,
+    "mean_market_cap_eoy": null,
+    "sector_return_ytd": null,
+    "tickers": [
+      "AIRJW"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313273"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "battery_manufacturing",
+    "year": 2021,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 207814341,
+    "median_market_cap_eoy": 207814341,
+    "mean_market_cap_eoy": 207814341,
+    "sector_return_ytd": -0.4417,
+    "tickers": [
+      "VRAR"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313281"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "battery_manufacturing",
+    "year": 2022,
+    "companies_listed_this_year": 2,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 6215845904,
+    "median_market_cap_eoy": 2221049970,
+    "mean_market_cap_eoy": 2071948634,
+    "sector_return_ytd": -0.4699,
+    "tickers": [
+      "STI",
+      "VRAR",
+      "XPON"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313293"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "battery_manufacturing",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 8210886727,
+    "median_market_cap_eoy": 2982087955,
+    "mean_market_cap_eoy": 2736962242,
+    "sector_return_ytd": 0.2281,
+    "tickers": [
+      "STI",
+      "VRAR",
+      "XPON"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313303"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "battery_manufacturing",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 345075617,
+    "median_market_cap_eoy": 52058970,
+    "mean_market_cap_eoy": 115025205,
+    "sector_return_ytd": -0.2493,
+    "tickers": [
+      "STI",
+      "VRAR",
+      "XPON"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313312"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "battery_manufacturing",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 80981005,
+    "median_market_cap_eoy": 19516844,
+    "mean_market_cap_eoy": 26993668,
+    "sector_return_ytd": -0.7168,
+    "tickers": [
+      "STI",
+      "VRAR",
+      "XPON"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313319"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "battery_manufacturing",
+    "year": 2026,
+    "companies_listed_this_year": 2,
+    "total_listed_companies_eoy": 5,
+    "total_market_cap_eoy": 49651171,
+    "median_market_cap_eoy": 12857722,
+    "mean_market_cap_eoy": 16550390,
+    "sector_return_ytd": -0.3325,
+    "tickers": [
+      "STI",
+      "XPON",
+      "VRAR",
+      "SDSTW",
+      "DFLIW"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313328"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "carbon_utilization",
+    "year": 2008,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 338497580,
+    "median_market_cap_eoy": 338497580,
+    "mean_market_cap_eoy": 338497580,
+    "sector_return_ytd": 4.7143,
+    "tickers": [
+      "SCWO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313335"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "carbon_utilization",
+    "year": 2009,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 67699516,
+    "median_market_cap_eoy": 67699516,
+    "mean_market_cap_eoy": 67699516,
+    "sector_return_ytd": -0.8,
+    "tickers": [
+      "SCWO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313341"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "carbon_utilization",
+    "year": 2010,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 93086834,
+    "median_market_cap_eoy": 93086834,
+    "mean_market_cap_eoy": 93086834,
+    "sector_return_ytd": 0.0784,
+    "tickers": [
+      "SCWO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313347"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "carbon_utilization",
+    "year": 2011,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 214945960,
+    "median_market_cap_eoy": 214945960,
+    "mean_market_cap_eoy": 214945960,
+    "sector_return_ytd": 1.1525,
+    "tickers": [
+      "SCWO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313352"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "carbon_utilization",
+    "year": 2012,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 66007029,
+    "median_market_cap_eoy": 66007029,
+    "mean_market_cap_eoy": 66007029,
+    "sector_return_ytd": -0.6929,
+    "tickers": [
+      "SCWO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313358"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "carbon_utilization",
+    "year": 2013,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 28772295,
+    "median_market_cap_eoy": 28772295,
+    "mean_market_cap_eoy": 28772295,
+    "sector_return_ytd": -0.575,
+    "tickers": [
+      "SCWO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313364"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "carbon_utilization",
+    "year": 2014,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 33849758,
+    "median_market_cap_eoy": 33849758,
+    "mean_market_cap_eoy": 33849758,
+    "sector_return_ytd": 0.3333,
+    "tickers": [
+      "SCWO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313373"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "carbon_utilization",
+    "year": 2015,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 20309855,
+    "median_market_cap_eoy": 20309855,
+    "mean_market_cap_eoy": 20309855,
+    "sector_return_ytd": -0.0769,
+    "tickers": [
+      "SCWO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313379"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "carbon_utilization",
+    "year": 2016,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 22002341,
+    "median_market_cap_eoy": 22002341,
+    "mean_market_cap_eoy": 22002341,
+    "sector_return_ytd": 0.0833,
+    "tickers": [
+      "SCWO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313385"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "carbon_utilization",
+    "year": 2017,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 20309855,
+    "median_market_cap_eoy": 20309855,
+    "mean_market_cap_eoy": 20309855,
+    "sector_return_ytd": -0.0769,
+    "tickers": [
+      "SCWO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313392"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "carbon_utilization",
+    "year": 2018,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 8462439,
+    "median_market_cap_eoy": 8462439,
+    "mean_market_cap_eoy": 8462439,
+    "sector_return_ytd": -0.6154,
+    "tickers": [
+      "SCWO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313397"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "carbon_utilization",
+    "year": 2019,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 15232390,
+    "median_market_cap_eoy": 15232390,
+    "mean_market_cap_eoy": 15232390,
+    "sector_return_ytd": 0.8,
+    "tickers": [
+      "SCWO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313405"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "carbon_utilization",
+    "year": 2020,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 142168977,
+    "median_market_cap_eoy": 142168977,
+    "mean_market_cap_eoy": 142168977,
+    "sector_return_ytd": 8.3333,
+    "tickers": [
+      "SCWO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313410"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "carbon_utilization",
+    "year": 2021,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 482359051,
+    "median_market_cap_eoy": 482359051,
+    "mean_market_cap_eoy": 482359051,
+    "sector_return_ytd": 2.5625,
+    "tickers": [
+      "SCWO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313417"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "carbon_utilization",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 484051545,
+    "median_market_cap_eoy": 484051545,
+    "mean_market_cap_eoy": 484051545,
+    "sector_return_ytd": 0.0712,
+    "tickers": [
+      "SCWO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313423"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "carbon_utilization",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 240333278,
+    "median_market_cap_eoy": 240333278,
+    "mean_market_cap_eoy": 240333278,
+    "sector_return_ytd": -0.5103,
+    "tickers": [
+      "SCWO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313429"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "carbon_utilization",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 115089180,
+    "median_market_cap_eoy": 115089180,
+    "mean_market_cap_eoy": 115089180,
+    "sector_return_ytd": -0.5467,
+    "tickers": [
+      "SCWO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313434"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "carbon_utilization",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 34526752,
+    "median_market_cap_eoy": 34526752,
+    "mean_market_cap_eoy": 34526752,
+    "sector_return_ytd": -0.7043,
+    "tickers": [
+      "SCWO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313440"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "carbon_utilization",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 42481446,
+    "median_market_cap_eoy": 42481446,
+    "mean_market_cap_eoy": 42481446,
+    "sector_return_ytd": 0.0121,
+    "tickers": [
+      "SCWO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313447"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "concentrated_solar",
+    "year": 2026,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": null,
+    "median_market_cap_eoy": null,
+    "mean_market_cap_eoy": null,
+    "sector_return_ytd": null,
+    "tickers": [
+      "ZEOWW"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313448"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "electric_vehicles",
+    "year": 2023,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 685974456,
+    "median_market_cap_eoy": 685974456,
+    "mean_market_cap_eoy": 685974456,
+    "sector_return_ytd": -0.5079,
+    "tickers": [
+      "SRFM"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313455"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "electric_vehicles",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 340774387,
+    "median_market_cap_eoy": 340774387,
+    "mean_market_cap_eoy": 340774387,
+    "sector_return_ytd": -0.4726,
+    "tickers": [
+      "SRFM"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313461"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "electric_vehicles",
+    "year": 2025,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 6343766482,
+    "median_market_cap_eoy": 3171883241,
+    "mean_market_cap_eoy": 3171883241,
+    "sector_return_ytd": -0.4441,
+    "tickers": [
+      "SRFM",
+      "BETA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313471"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "electric_vehicles",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 4368447252,
+    "median_market_cap_eoy": 2184223626,
+    "mean_market_cap_eoy": 2184223626,
+    "sector_return_ytd": -0.2541,
+    "tickers": [
+      "SRFM",
+      "BETA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313479"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_general",
+    "year": 2008,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 3885851491,
+    "median_market_cap_eoy": 3885851491,
+    "mean_market_cap_eoy": 3885851491,
+    "sector_return_ytd": -0.1002,
+    "tickers": [
+      "WEC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313486"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_general",
+    "year": 2009,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 4760561178,
+    "median_market_cap_eoy": 4760561178,
+    "mean_market_cap_eoy": 4760561178,
+    "sector_return_ytd": 0.2083,
+    "tickers": [
+      "WEC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313493"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_general",
+    "year": 2010,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 5793939524,
+    "median_market_cap_eoy": 5793939524,
+    "mean_market_cap_eoy": 5793939524,
+    "sector_return_ytd": 0.22,
+    "tickers": [
+      "WEC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313499"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_general",
+    "year": 2011,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 7120660751,
+    "median_market_cap_eoy": 7120660751,
+    "mean_market_cap_eoy": 7120660751,
+    "sector_return_ytd": 0.23,
+    "tickers": [
+      "WEC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313505"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_general",
+    "year": 2012,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 7755194446,
+    "median_market_cap_eoy": 7755194446,
+    "mean_market_cap_eoy": 7755194446,
+    "sector_return_ytd": 0.1018,
+    "tickers": [
+      "WEC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313512"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_general",
+    "year": 2013,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 24794325318,
+    "median_market_cap_eoy": 12397162659,
+    "mean_market_cap_eoy": 12397162659,
+    "sector_return_ytd": 0.5054,
+    "tickers": [
+      "PROP",
+      "WEC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313520"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_general",
+    "year": 2014,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 38206413875,
+    "median_market_cap_eoy": 19103206937,
+    "mean_market_cap_eoy": 19103206937,
+    "sector_return_ytd": 0.5034,
+    "tickers": [
+      "PROP",
+      "WEC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313528"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_general",
+    "year": 2015,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 26897144641,
+    "median_market_cap_eoy": 13448572320,
+    "mean_market_cap_eoy": 13448572320,
+    "sector_return_ytd": -0.2169,
+    "tickers": [
+      "PROP",
+      "WEC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313537"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_general",
+    "year": 2016,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 22128803785,
+    "median_market_cap_eoy": 11064401892,
+    "mean_market_cap_eoy": 11064401892,
+    "sector_return_ytd": -0.094,
+    "tickers": [
+      "PROP",
+      "WEC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313545"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_general",
+    "year": 2017,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 21850410652,
+    "median_market_cap_eoy": 10925205326,
+    "mean_market_cap_eoy": 10925205326,
+    "sector_return_ytd": -0.0378,
+    "tickers": [
+      "PROP",
+      "WEC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313553"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_general",
+    "year": 2018,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 25642282174,
+    "median_market_cap_eoy": 6771644520,
+    "mean_market_cap_eoy": 8547427391,
+    "sector_return_ytd": 0.1276,
+    "tickers": [
+      "NINEQ",
+      "PROP",
+      "WEC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313563"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_general",
+    "year": 2019,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 4,
+    "total_market_cap_eoy": 30475151490,
+    "median_market_cap_eoy": 2806496770,
+    "mean_market_cap_eoy": 7618787872,
+    "sector_return_ytd": -0.1536,
+    "tickers": [
+      "NOVAQ",
+      "NINEQ",
+      "PROP",
+      "WEC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313574"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_general",
+    "year": 2020,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 4,
+    "total_market_cap_eoy": 31993477325,
+    "median_market_cap_eoy": 3371147442,
+    "mean_market_cap_eoy": 7998369331,
+    "sector_return_ytd": 0.3794,
+    "tickers": [
+      "NOVAQ",
+      "NINEQ",
+      "PROP",
+      "WEC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313585"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_general",
+    "year": 2021,
+    "companies_listed_this_year": 2,
+    "total_listed_companies_eoy": 6,
+    "total_market_cap_eoy": 41031911814,
+    "median_market_cap_eoy": 3492449244,
+    "mean_market_cap_eoy": 6838651969,
+    "sector_return_ytd": 0.461,
+    "tickers": [
+      "SOC",
+      "NOVAQ",
+      "CRGY",
+      "WEC",
+      "PROP",
+      "NINEQ"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313600"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_general",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 6,
+    "total_market_cap_eoy": 35075684608,
+    "median_market_cap_eoy": 1871695066,
+    "mean_market_cap_eoy": 5845947434,
+    "sector_return_ytd": 1.654,
+    "tickers": [
+      "SOC",
+      "NOVAQ",
+      "CRGY",
+      "WEC",
+      "PROP",
+      "NINEQ"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313614"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_general",
+    "year": 2023,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 7,
+    "total_market_cap_eoy": 35477524302,
+    "median_market_cap_eoy": 1916696387,
+    "mean_market_cap_eoy": 5068217757,
+    "sector_return_ytd": 0.3993,
+    "tickers": [
+      "SOC",
+      "NOVAQ",
+      "CRGY",
+      "MNR",
+      "WEC",
+      "PROP",
+      "NINEQ"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313629"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_general",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 7,
+    "total_market_cap_eoy": 40597517038,
+    "median_market_cap_eoy": 2420921624,
+    "mean_market_cap_eoy": 5799645291,
+    "sector_return_ytd": 0.0091,
+    "tickers": [
+      "SOC",
+      "NOVAQ",
+      "CRGY",
+      "MNR",
+      "WEC",
+      "PROP",
+      "NINEQ"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313640"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_general",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 7,
+    "total_market_cap_eoy": 40025327048,
+    "median_market_cap_eoy": 1328141723,
+    "mean_market_cap_eoy": 5717903864,
+    "sector_return_ytd": -0.5112,
+    "tickers": [
+      "SOC",
+      "NOVAQ",
+      "CRGY",
+      "MNR",
+      "WEC",
+      "PROP",
+      "NINEQ"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313651"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_general",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 6,
+    "total_market_cap_eoy": 45986326079,
+    "median_market_cap_eoy": 2173749871,
+    "mean_market_cap_eoy": 7664387679,
+    "sector_return_ytd": -0.028,
+    "tickers": [
+      "SOC",
+      "CRGY",
+      "MNR",
+      "WEC",
+      "PROP",
+      "NINEQ"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313662"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_industrial_base",
+    "year": 2024,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1946765479,
+    "median_market_cap_eoy": 1946765479,
+    "mean_market_cap_eoy": 1946765479,
+    "sector_return_ytd": -0.1937,
+    "tickers": [
+      "CTRI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313669"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_industrial_base",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 2545615211,
+    "median_market_cap_eoy": 2545615211,
+    "mean_market_cap_eoy": 2545615211,
+    "sector_return_ytd": 0.3144,
+    "tickers": [
+      "CTRI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313676"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_industrial_base",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 2957954482,
+    "median_market_cap_eoy": 2957954482,
+    "mean_market_cap_eoy": 2957954482,
+    "sector_return_ytd": 0.1363,
+    "tickers": [
+      "CTRI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313683"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_storage_systems",
+    "year": 2013,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 641946537,
+    "median_market_cap_eoy": 641946537,
+    "mean_market_cap_eoy": 641946537,
+    "sector_return_ytd": -0.0075,
+    "tickers": [
+      "IPWR"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313690"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_storage_systems",
+    "year": 2014,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 877689622,
+    "median_market_cap_eoy": 877689622,
+    "mean_market_cap_eoy": 877689622,
+    "sector_return_ytd": 0.3224,
+    "tickers": [
+      "IPWR"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313697"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_storage_systems",
+    "year": 2015,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 967151120,
+    "median_market_cap_eoy": 967151120,
+    "mean_market_cap_eoy": 967151120,
+    "sector_return_ytd": 0.0929,
+    "tickers": [
+      "IPWR"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313703"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_storage_systems",
+    "year": 2016,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 398949837,
+    "median_market_cap_eoy": 398949837,
+    "mean_market_cap_eoy": 398949837,
+    "sector_return_ytd": -0.5844,
+    "tickers": [
+      "IPWR"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313710"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_storage_systems",
+    "year": 2017,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 171669321,
+    "median_market_cap_eoy": 171669321,
+    "mean_market_cap_eoy": 171669321,
+    "sector_return_ytd": -0.5492,
+    "tickers": [
+      "IPWR"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313718"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_storage_systems",
+    "year": 2018,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 29981684,
+    "median_market_cap_eoy": 29981684,
+    "mean_market_cap_eoy": 29981684,
+    "sector_return_ytd": -0.841,
+    "tickers": [
+      "IPWR"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313726"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_storage_systems",
+    "year": 2019,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 27805594,
+    "median_market_cap_eoy": 27805594,
+    "mean_market_cap_eoy": 27805594,
+    "sector_return_ytd": -0.1786,
+    "tickers": [
+      "IPWR"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313732"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_storage_systems",
+    "year": 2020,
+    "companies_listed_this_year": 2,
+    "total_listed_companies_eoy": 3,
+    "total_market_cap_eoy": 3397028829,
+    "median_market_cap_eoy": 367903922,
+    "mean_market_cap_eoy": 1132342943,
+    "sector_return_ytd": 2.0411,
+    "tickers": [
+      "HYLN",
+      "IPWR",
+      "FLUX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313742"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_storage_systems",
+    "year": 2021,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 4,
+    "total_market_cap_eoy": 6049213555,
+    "median_market_cap_eoy": 624118631,
+    "mean_market_cap_eoy": 1512303388,
+    "sector_return_ytd": -0.1999,
+    "tickers": [
+      "HYLN",
+      "IPWR",
+      "FLNC",
+      "FLUX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313751"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_storage_systems",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 4,
+    "total_market_cap_eoy": 2901437381,
+    "median_market_cap_eoy": 272719179,
+    "mean_market_cap_eoy": 725359345,
+    "sector_return_ytd": -0.3491,
+    "tickers": [
+      "HYLN",
+      "IPWR",
+      "FLNC",
+      "FLUX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313762"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_storage_systems",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 4,
+    "total_market_cap_eoy": 3484982627,
+    "median_market_cap_eoy": 119337080,
+    "mean_market_cap_eoy": 871245656,
+    "sector_return_ytd": -0.1176,
+    "tickers": [
+      "HYLN",
+      "IPWR",
+      "FLNC",
+      "FLUX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313772"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_storage_systems",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 4,
+    "total_market_cap_eoy": 2692168583,
+    "median_market_cap_eoy": 277683118,
+    "mean_market_cap_eoy": 673042145,
+    "sector_return_ytd": 0.2559,
+    "tickers": [
+      "HYLN",
+      "IPWR",
+      "FLNC",
+      "FLUX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313781"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_storage_systems",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 4,
+    "total_market_cap_eoy": 3011219422,
+    "median_market_cap_eoy": 182265869,
+    "mean_market_cap_eoy": 752804855,
+    "sector_return_ytd": -0.2459,
+    "tickers": [
+      "HYLN",
+      "IPWR",
+      "FLNC",
+      "FLUX"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313790"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "energy_storage_systems",
+    "year": 2026,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 5,
+    "total_market_cap_eoy": 2382766201,
+    "median_market_cap_eoy": 198062509,
+    "mean_market_cap_eoy": 595691550,
+    "sector_return_ytd": -0.0697,
+    "tickers": [
+      "NEOVW",
+      "FLUX",
+      "HYLN",
+      "IPWR",
+      "FLNC"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313800"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "ev_charging",
+    "year": 2026,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": null,
+    "median_market_cap_eoy": null,
+    "mean_market_cap_eoy": null,
+    "sector_return_ytd": null,
+    "tickers": [
+      "NVVEW"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313801"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "grid_software",
+    "year": 2026,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 3119025465,
+    "median_market_cap_eoy": 3119025465,
+    "mean_market_cap_eoy": 3119025465,
+    "sector_return_ytd": -0.1252,
+    "tickers": [
+      "MWH"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313808"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "hydrogen_production",
+    "year": 2008,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 2366350962,
+    "median_market_cap_eoy": 2366350962,
+    "mean_market_cap_eoy": 2366350962,
+    "sector_return_ytd": -0.1497,
+    "tickers": [
+      "EVRG"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313814"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "hydrogen_production",
+    "year": 2009,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 96992462385,
+    "median_market_cap_eoy": 48496231192,
+    "mean_market_cap_eoy": 48496231192,
+    "sector_return_ytd": -0.097,
+    "tickers": [
+      "EVRG",
+      "HNOI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313821"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "hydrogen_production",
+    "year": 2010,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 157608005934,
+    "median_market_cap_eoy": 78804002967,
+    "mean_market_cap_eoy": 78804002967,
+    "sector_return_ytd": 0.4257,
+    "tickers": [
+      "EVRG",
+      "HNOI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313829"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "hydrogen_production",
+    "year": 2011,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 4780743678,
+    "median_market_cap_eoy": 2390371839,
+    "mean_market_cap_eoy": 2390371839,
+    "sector_return_ytd": -0.4025,
+    "tickers": [
+      "EVRG",
+      "HNOI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313837"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "hydrogen_production",
+    "year": 2012,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 4836812362,
+    "median_market_cap_eoy": 2418406181,
+    "mean_market_cap_eoy": 2418406181,
+    "sector_return_ytd": -0.0336,
+    "tickers": [
+      "EVRG",
+      "HNOI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313844"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "hydrogen_production",
+    "year": 2013,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 5032888191,
+    "median_market_cap_eoy": 2516444095,
+    "mean_market_cap_eoy": 2516444095,
+    "sector_return_ytd": -0.2722,
+    "tickers": [
+      "EVRG",
+      "HNOI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313855"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "hydrogen_production",
+    "year": 2014,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 6497740210,
+    "median_market_cap_eoy": 3248870105,
+    "mean_market_cap_eoy": 3248870105,
+    "sector_return_ytd": -0.0982,
+    "tickers": [
+      "EVRG",
+      "HNOI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313862"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "hydrogen_production",
+    "year": 2015,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 6936565146,
+    "median_market_cap_eoy": 3468282573,
+    "mean_market_cap_eoy": 3468282573,
+    "sector_return_ytd": 0.0354,
+    "tickers": [
+      "EVRG",
+      "HNOI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313869"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "hydrogen_production",
+    "year": 2016,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 9353473106,
+    "median_market_cap_eoy": 4676736553,
+    "mean_market_cap_eoy": 4676736553,
+    "sector_return_ytd": -0.2654,
+    "tickers": [
+      "EVRG",
+      "HNOI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313876"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "hydrogen_production",
+    "year": 2017,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 9084485055,
+    "median_market_cap_eoy": 4542242527,
+    "mean_market_cap_eoy": 4542242527,
+    "sector_return_ytd": 2.484,
+    "tickers": [
+      "EVRG",
+      "HNOI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313883"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "hydrogen_production",
+    "year": 2018,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 10071572793,
+    "median_market_cap_eoy": 5035786396,
+    "mean_market_cap_eoy": 5035786396,
+    "sector_return_ytd": 0.0512,
+    "tickers": [
+      "EVRG",
+      "HNOI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313890"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "hydrogen_production",
+    "year": 2019,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 12564707702,
+    "median_market_cap_eoy": 6282353851,
+    "mean_market_cap_eoy": 6282353851,
+    "sector_return_ytd": 5.1846,
+    "tickers": [
+      "EVRG",
+      "HNOI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313897"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "hydrogen_production",
+    "year": 2020,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 11277594109,
+    "median_market_cap_eoy": 5638797054,
+    "mean_market_cap_eoy": 5638797054,
+    "sector_return_ytd": 0.1132,
+    "tickers": [
+      "EVRG",
+      "HNOI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313905"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "hydrogen_production",
+    "year": 2021,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 13634401487,
+    "median_market_cap_eoy": 6817200743,
+    "mean_market_cap_eoy": 6817200743,
+    "sector_return_ytd": -0.1985,
+    "tickers": [
+      "EVRG",
+      "HNOI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313911"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "hydrogen_production",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 12861300709,
+    "median_market_cap_eoy": 6430650354,
+    "mean_market_cap_eoy": 6430650354,
+    "sector_return_ytd": -0.2657,
+    "tickers": [
+      "EVRG",
+      "HNOI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313918"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "hydrogen_production",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 11171159556,
+    "median_market_cap_eoy": 5585579778,
+    "mean_market_cap_eoy": 5585579778,
+    "sector_return_ytd": -0.0621,
+    "tickers": [
+      "EVRG",
+      "HNOI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313925"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "hydrogen_production",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 13771471528,
+    "median_market_cap_eoy": 6885735764,
+    "mean_market_cap_eoy": 6885735764,
+    "sector_return_ytd": 0.1736,
+    "tickers": [
+      "EVRG",
+      "HNOI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313932"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "hydrogen_production",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 16737592201,
+    "median_market_cap_eoy": 8368796100,
+    "mean_market_cap_eoy": 8368796100,
+    "sector_return_ytd": -0.2379,
+    "tickers": [
+      "EVRG",
+      "HNOI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313939"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "hydrogen_production",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 2,
+    "total_market_cap_eoy": 19212479065,
+    "median_market_cap_eoy": 9606239532,
+    "mean_market_cap_eoy": 9606239532,
+    "sector_return_ytd": -0.2154,
+    "tickers": [
+      "EVRG",
+      "HNOI"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313946"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "mining_critical_minerals",
+    "year": 2024,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 28204965,
+    "median_market_cap_eoy": 28204965,
+    "mean_market_cap_eoy": 28204965,
+    "sector_return_ytd": -0.5327,
+    "tickers": [
+      "COBA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313952"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "mining_critical_minerals",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 138768429,
+    "median_market_cap_eoy": 138768429,
+    "mean_market_cap_eoy": 138768429,
+    "sector_return_ytd": 3.92,
+    "tickers": [
+      "COBA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313958"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "mining_critical_minerals",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 56409930,
+    "median_market_cap_eoy": 56409930,
+    "mean_market_cap_eoy": 56409930,
+    "sector_return_ytd": -0.6466,
+    "tickers": [
+      "COBA"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313964"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "oil_and_gas_equipment_services",
+    "year": 2024,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1783907948,
+    "median_market_cap_eoy": 1783907948,
+    "mean_market_cap_eoy": 1783907948,
+    "sector_return_ytd": 1.7946,
+    "tickers": [
+      "LB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313970"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "oil_and_gas_equipment_services",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1361596680,
+    "median_market_cap_eoy": 1361596680,
+    "mean_market_cap_eoy": 1361596680,
+    "sector_return_ytd": -0.2391,
+    "tickers": [
+      "LB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313976"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "oil_and_gas_equipment_services",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 2015207208,
+    "median_market_cap_eoy": 2015207208,
+    "mean_market_cap_eoy": 2015207208,
+    "sector_return_ytd": 0.4963,
+    "tickers": [
+      "LB"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313982"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "oil_and_gas_exploration_production",
+    "year": 2018,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 2750159575,
+    "median_market_cap_eoy": 2750159575,
+    "mean_market_cap_eoy": 2750159575,
+    "sector_return_ytd": -0.551,
+    "tickers": [
+      "TALO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313988"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "oil_and_gas_exploration_production",
+    "year": 2019,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 5080717628,
+    "median_market_cap_eoy": 5080717628,
+    "mean_market_cap_eoy": 5080717628,
+    "sector_return_ytd": 0.7378,
+    "tickers": [
+      "TALO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313994"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "oil_and_gas_exploration_production",
+    "year": 2020,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1388560949,
+    "median_market_cap_eoy": 1388560949,
+    "mean_market_cap_eoy": 1388560949,
+    "sector_return_ytd": -0.7254,
+    "tickers": [
+      "TALO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.313999"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "oil_and_gas_exploration_production",
+    "year": 2021,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1651443925,
+    "median_market_cap_eoy": 1651443925,
+    "mean_market_cap_eoy": 1651443925,
+    "sector_return_ytd": 0.1543,
+    "tickers": [
+      "TALO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.314006"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "oil_and_gas_exploration_production",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 3181557073,
+    "median_market_cap_eoy": 3181557073,
+    "mean_market_cap_eoy": 3181557073,
+    "sector_return_ytd": 0.8601,
+    "tickers": [
+      "TALO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.314017"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "oil_and_gas_exploration_production",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 2397963861,
+    "median_market_cap_eoy": 2397963861,
+    "mean_market_cap_eoy": 2397963861,
+    "sector_return_ytd": -0.2283,
+    "tickers": [
+      "TALO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.314023"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "oil_and_gas_exploration_production",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1636277578,
+    "median_market_cap_eoy": 1636277578,
+    "mean_market_cap_eoy": 1636277578,
+    "sector_return_ytd": -0.3257,
+    "tickers": [
+      "TALO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.314030"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "oil_and_gas_exploration_production",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 1857031883,
+    "median_market_cap_eoy": 1857031883,
+    "mean_market_cap_eoy": 1857031883,
+    "sector_return_ytd": 0.0943,
+    "tickers": [
+      "TALO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.314037"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "oil_and_gas_exploration_production",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 2236189920,
+    "median_market_cap_eoy": 2236189920,
+    "mean_market_cap_eoy": 2236189920,
+    "sector_return_ytd": 0.1796,
+    "tickers": [
+      "TALO"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.314043"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "power_markets",
+    "year": 2016,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 4492284510,
+    "median_market_cap_eoy": 4492284510,
+    "mean_market_cap_eoy": 4492284510,
+    "sector_return_ytd": 0.1662,
+    "tickers": [
+      "VST"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.314049"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "power_markets",
+    "year": 2017,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 5309588362,
+    "median_market_cap_eoy": 5309588362,
+    "mean_market_cap_eoy": 5309588362,
+    "sector_return_ytd": 0.1925,
+    "tickers": [
+      "VST"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.314056"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "power_markets",
+    "year": 2018,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 6634089973,
+    "median_market_cap_eoy": 6634089973,
+    "mean_market_cap_eoy": 6634089973,
+    "sector_return_ytd": 0.2424,
+    "tickers": [
+      "VST"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.314063"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "power_markets",
+    "year": 2019,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 6797475066,
+    "median_market_cap_eoy": 6797475066,
+    "mean_market_cap_eoy": 6797475066,
+    "sector_return_ytd": 0.0481,
+    "tickers": [
+      "VST"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.314069"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "power_markets",
+    "year": 2020,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 5990571773,
+    "median_market_cap_eoy": 5990571773,
+    "mean_market_cap_eoy": 5990571773,
+    "sector_return_ytd": -0.1129,
+    "tickers": [
+      "VST"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.314076"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "power_markets",
+    "year": 2021,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 7163171331,
+    "median_market_cap_eoy": 7163171331,
+    "mean_market_cap_eoy": 7163171331,
+    "sector_return_ytd": 0.2255,
+    "tickers": [
+      "VST"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.314083"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "power_markets",
+    "year": 2022,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 7526729128,
+    "median_market_cap_eoy": 7526729128,
+    "mean_market_cap_eoy": 7526729128,
+    "sector_return_ytd": 0.0521,
+    "tickers": [
+      "VST"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.314089"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "power_markets",
+    "year": 2023,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 12850803048,
+    "median_market_cap_eoy": 12850803048,
+    "mean_market_cap_eoy": 12850803048,
+    "sector_return_ytd": 0.7791,
+    "tickers": [
+      "VST"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.314096"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "power_markets",
+    "year": 2024,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 46459392799,
+    "median_market_cap_eoy": 46459392799,
+    "mean_market_cap_eoy": 46459392799,
+    "sector_return_ytd": 2.6585,
+    "tickers": [
+      "VST"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.314103"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "power_markets",
+    "year": 2025,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 54662716922,
+    "median_market_cap_eoy": 54662716922,
+    "mean_market_cap_eoy": 54662716922,
+    "sector_return_ytd": 0.0839,
+    "tickers": [
+      "VST"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.314109"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "power_markets",
+    "year": 2026,
+    "companies_listed_this_year": 0,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": 53754661920,
+    "median_market_cap_eoy": 53754661920,
+    "mean_market_cap_eoy": 53754661920,
+    "sector_return_ytd": -0.0398,
+    "tickers": [
+      "VST"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.314116"
+    }
+  },
+  {
+    "sector": "energy",
+    "domain": "solar_pv",
+    "year": 2026,
+    "companies_listed_this_year": 1,
+    "total_listed_companies_eoy": 1,
+    "total_market_cap_eoy": null,
+    "median_market_cap_eoy": null,
+    "mean_market_cap_eoy": null,
+    "sector_return_ytd": null,
+    "tickers": [
+      "SPWRW"
+    ],
+    "attribution_method": "primary_domain_only",
+    "data_quality": {
+      "validated": true,
+      "multi_counting": false,
+      "generated_at": "2026-03-09T12:14:56.314117"
+    }
+  }
+]
